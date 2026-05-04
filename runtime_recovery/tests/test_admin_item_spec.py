@@ -61,8 +61,10 @@ class AdminItemSpecTests(unittest.TestCase):
 @unittest.skipUnless(PACKAGE_ROOT.exists(), "legacy package is not available")
 class AdminItemSymbolSearchTests(unittest.TestCase):
     def test_symbol_search_finds_item_management_candidates(self):
-        hits = search_symbols(PACKAGE_ROOT, ["new_item", "move_to_bag", "cost_item", "wizardd"], limit=50)
-        hit_paths = {hit.path for hit in hits}
+        item_hits = search_symbols(PACKAGE_ROOT, ["new_item", "move_to_bag", "cost_item"], limit=50)
+        wizard_hits = search_symbols(PACKAGE_ROOT, ["wizardd"], limit=10)
+        item_hit_paths = {hit.path for hit in item_hits}
+        wizard_hit_paths = {hit.path for hit in wizard_hits}
 
-        self.assertTrue(any(path.endswith("carryd.o") for path in hit_paths))
-        self.assertTrue(any(path.endswith("wizardd.o") for path in hit_paths))
+        self.assertTrue(any(path.endswith("carryd.o") for path in item_hit_paths))
+        self.assertTrue(any(path.endswith("wizardd.o") for path in wizard_hit_paths))
