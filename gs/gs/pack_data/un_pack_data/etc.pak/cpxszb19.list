@@ -1,0 +1,33 @@
+#FORM2
+#jinnang.list
+#create by caijz 09/18/2006
+#奖励物品        概率
+
+[奖励等级]
+name$: 特等奖
+
+[特等奖]
+天下幡1  : 100
+
+[天下幡1]
+bonus$ : ({ 0, 0, 100, "属性道具", 1, 1, "一阶01"})
+bonus$ : ({ 0, 0, 100, "属性道具", 1, 1, "二阶01"})
+bonus$ : ({ 0, 0, 100, "属性道具", 1, 1, "三阶01"})
+bonus$ : ({ 0, 0, 100, "属性道具", 1, 1, "四阶01"})
+
+
+[一阶01]
+name      : 一阶引灵幡
+attribs      : ({ "add_pennant_skill", 173, "durability", 100000, "lianhun", 9999,  "max_lianhun", 9999,  "icon", 370001427,"prop/accurate",100, "color", 金色,"extra_desc",#B加持属性：#B准确100#r#R独家定制#Y一阶引灵幡#R叱咤风云})
+
+[二阶01]
+name      : 二阶引灵幡
+attribs      : ({ "add_pennant_skill", 173, "durability", 100000, "lianhun", 9999,  "max_lianhun", 9999,  "icon", 370001428,"prop/all_attrib",50, "color", 金色,"extra_desc",#B加持属性：#B所有属性50#r#R独家定制#Y二阶引灵幡#R叱咤风云})
+
+[三阶01]
+name      : 三阶引灵幡
+attribs      : ({ "add_pennant_skill", 173, "durability", 100000, "lianhun", 9999,  "max_lianhun", 9999,  "icon", 370001429,"prop/speed",1200, "color", 金色,"extra_desc",#B加持属性：#B速度1200#r#R独家定制#Y三阶引灵幡#R叱咤风云})
+
+[四阶01]
+name      : 四阶引灵幡
+attribs      : ({ "add_pennant_skill", 173, "durability", 100000, "lianhun", 9999,  "max_lianhun", 9999,  "icon", 370001430,"prop/all_polar",5, "color", 金色,"extra_desc",#B加持属性：#B所有相性5#r#R独家定制#Y四阶引灵幡#R叱咤风云})

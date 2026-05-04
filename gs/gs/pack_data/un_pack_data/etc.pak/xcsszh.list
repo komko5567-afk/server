@@ -1,0 +1,96 @@
+#FORM2
+
+#dujiachoujianghuodong.list
+#created by huangw2 Aug/25/2008
+#独家抽奖游戏活动
+
+[task_time]
+start_time : "2008-11-13-12:00:00"
+maf_time$ :  ({ "2008-11-13-12:00:00", "2028-11-13-12:00:00" })
+
+
+[S级仙元]
+rate : 1
+name$ : S级仙元
+log_to_db:  100
+free_pet:   ({ 1, "你携带的宠物数量已到最大，无法领取奖励。" })
+bonus$:  ({ 0, 0, 100, "宠物", 1, 1, "流光九尾", "炫彩九尾", "星空九尾", "夏荷九尾", "梦幻九尾" , "神机烛龙"  })
+bonus_times : -1
+
+[流光九尾]
+name$: ({流光九尾, 流光九尾})
+rank$: 精怪
+mount$: 御灵
+level: 60
+enchant_flag : 1
+life_effect: ({ 65, 65 })
+mana_effect: ({ 35, 35 })
+speed_effect: ({ 10, 10 })
+phy_effect: ({ -30, -30 })
+mag_effect: ({ 40, 40 })
+channel_rumor: "#Y$PLAYER#n在#R炫彩坐骑#n召唤中，得到了坐骑#Y$EX_PET#n奖励！"
+
+[炫彩九尾]
+name$: ({炫彩九尾, 炫彩九尾})
+rank$: 精怪
+mount$: 御灵
+level: 60
+enchant_flag : 1
+life_effect: ({ 65, 65 })
+mana_effect: ({ 35, 35 })
+speed_effect: ({ 10, 10 })
+phy_effect: ({ -30, -30 })
+mag_effect: ({ 40, 40 })
+channel_rumor: "#Y$PLAYER#n在#R炫彩坐骑#n召唤中，得到了坐骑#Y$EX_PET#n奖励！"
+
+[星空九尾]
+name$: ({星空九尾, 星空九尾})
+rank$: 精怪
+mount$: 御灵
+level: 60
+enchant_flag : 1
+life_effect: ({ 65, 65 })
+mana_effect: ({ 35, 35 })
+speed_effect: ({ 10, 10 })
+phy_effect: ({ -30, -30 })
+mag_effect: ({ 40, 40 })
+channel_rumor: "#Y$PLAYER#n在#R炫彩坐骑#n召唤中，得到了坐骑#Y$EX_PET#n奖励！"
+
+[夏荷九尾]
+name$: ({夏荷九尾, 夏荷九尾})
+rank$: 精怪
+mount$: 御灵
+level: 60
+enchant_flag : 1
+life_effect: ({ 65, 65 })
+mana_effect: ({ 35, 35 })
+speed_effect: ({ 10, 10 })
+phy_effect: ({ -30, -30 })
+mag_effect: ({ 40, 40 })
+channel_rumor: "#Y$PLAYER#n在#R炫彩坐骑#n召唤中，得到了坐骑#Y$EX_PET#n奖励！"
+ 
+[梦幻九尾]
+name$: ({梦幻九尾, 梦幻九尾})
+rank$: 精怪
+mount$: 御灵
+level: 60
+enchant_flag : 1
+life_effect: ({ 65, 65 })
+mana_effect: ({ 35, 35 })
+speed_effect: ({ 10, 10 })
+phy_effect: ({ -30, -30 })
+mag_effect: ({ 40, 40 })
+channel_rumor: "#Y$PLAYER#n在#R炫彩坐骑#n召唤中，得到了坐骑#Y$EX_PET#n奖励！"
+
+[神机烛龙]
+name$: ({神机烛龙, 神机烛龙})
+rank$: 精怪
+mount$: 御灵
+level: 60
+enchant_flag : 1
+life_effect: ({ 65, 65 })
+mana_effect: ({ 35, 35 })
+speed_effect: ({ 10, 10 })
+phy_effect: ({ -30, -30 })
+mag_effect: ({ 40, 40 })
+channel_rumor: "#Y$PLAYER#n在#R炫彩坐骑#n召唤中，得到了坐骑#Y$EX_PET#n奖励！"

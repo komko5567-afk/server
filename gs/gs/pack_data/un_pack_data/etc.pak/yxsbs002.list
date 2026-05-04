@@ -1,0 +1,37 @@
+#FORM2
+#wzhuang.list
+#creat
+#奖励物品        概率
+#create by caijz 09/18/2006
+
+[奖励等级]
+
+name$: 特等奖
+
+[特等奖]
+完美力系天书1 : 10
+
+
+[完美力系天书1]
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "惊雷a"})
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "烈炎c"})
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "碎石d"})
+
+[惊雷a]
+name      : 惊雷
+min_level : 1
+max_level : 1
+attribs      : ({ "prop_basic/phy_power", 200, "prop_basic/max_life", 200, "prop_basic/def", 200, "prop_basic/speed", 200, "prop_basic/stunt_rate", 30, "prop_extra/gb_zhang_1", 12, "level", 1, "nimbus", 28500, "icon", 9352, "color", 金色, "extra_desc",#R双倍属性天书 })
+
+[烈炎c]
+name      : 烈炎
+min_level : 1
+max_level : 1
+attribs      : ({ "prop_basic/phy_power", 200, "prop_basic/max_life", 200, "prop_basic/def", 200, "prop_basic/speed", 200, "prop_basic/stunt_rate", 30, "prop_extra/gb_lingh_1", 160, "level", 1, "nimbus", 28500, "icon", 9351, "color", 金色, "extra_desc",#R双倍属性天书 })
+
+[碎石d]
+name      : 碎石
+min_level : 1
+max_level : 1
+attribs      : ({ "prop_basic/phy_power", 200, "prop_basic/max_life", 200, "prop_basic/def", 200, "prop_basic/speed", 200, "prop_basic/stunt_rate", 30, "prop_extra/gb_shengg_1", 100, "level", 1, "nimbus", 28500, "icon", 9354, "color", 金色, "extra_desc",#R双倍属性天书 })
+

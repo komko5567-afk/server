@@ -1,0 +1,65 @@
+#FORM2
+#zhuangb.list
+#create by caijz 09/22/2706
+#奖励物品        概率
+
+
+[奖励等级]
+name$: 末等奖
+
+[末等奖]
+随机宠物 : 3000
+
+
+[随机宠物]
+bonus$:  ({ 0, 0, 100, "宠物", 1, 1, "云海鲸龙", "天机武威", "雷霆剑", "无极筋斗云" })
+
+[无极筋斗云]
+name$: ({无极筋斗云, 无极筋斗云})
+rank$: 精怪
+mount$: 御灵
+level: 60
+enchant_flag : 1
+life_effect: ({ 65, 65 })
+mana_effect: ({ 35, 35 })
+speed_effect: ({ 10, 10 })
+phy_effect: ({ -30, -30 })
+mag_effect: ({ 40, 40 })
+ 
+
+[天机武威]
+name$: ({天机武威, 天机武威})
+rank$: 精怪
+mount$: 御灵
+level: 60
+enchant_flag : 1
+life_effect: ({ 65, 65 })
+mana_effect: ({ 35, 35 })
+speed_effect: ({ 10, 10 })
+phy_effect: ({ -30, -30 })
+mag_effect: ({ 40, 40 })
+ 
+[雷霆剑]
+name$: ({雷霆剑, 雷霆剑})
+rank$: 精怪
+mount$: 御灵
+level: 60
+enchant_flag : 1
+life_effect: ({ 65, 65 })
+mana_effect: ({ 35, 35 })
+speed_effect: ({ 10, 10 })
+phy_effect: ({ -30, -30 })
+mag_effect: ({ 40, 40 })
+ 
+[云海鲸龙]
+name$: ({云海鲸龙, 云海鲸龙})
+rank$: 精怪
+mount$: 御灵
+level: 60
+enchant_flag : 1
+life_effect: ({ 65, 65 })
+mana_effect: ({ 35, 35 })
+speed_effect: ({ 10, 10 })
+phy_effect: ({ -30, -30 })
+mag_effect: ({ 40, 40 })
+ 

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="GB2312" ?>
+
+<Root>
+	<ValueUnit>
+		<ViewValue>网络异常</ViewValue>
+		<RealValue>-1</RealValue>
+	</ValueUnit>
+	<ValueUnit>
+		<ViewValue>URL错误</ViewValue>
+		<RealValue>-2</RealValue>
+	</ValueUnit>
+	<ValueUnit>
+		<ViewValue>操作超时</ViewValue>
+		<RealValue>-3</RealValue>
+	</ValueUnit>
+    <ValueUnit>
+	    <ViewValue>操作成功</ViewValue>
+	    <RealValue>0</RealValue>
+	</ValueUnit>
+    <ValueUnit>
+	    <ViewValue>卡密码错误</ViewValue>
+	    <RealValue>1</RealValue>
+	</ValueUnit>
+    <ValueUnit>
+	    <ViewValue>已使用的卡</ViewValue>
+	    <RealValue>2</RealValue>
+	</ValueUnit>
+    <ValueUnit>
+	    <ViewValue>充值失败</ViewValue>
+	    <RealValue>5</RealValue>
+	</ValueUnit>
+    <ValueUnit>
+	    <ViewValue>帐号未在该区激活</ViewValue>
+	    <RealValue>3</RealValue>
+	</ValueUnit>
+    <ValueUnit>
+	    <ViewValue>帐号不存在</ViewValue>
+	    <RealValue>4</RealValue>
+	</ValueUnit>
+    <ValueUnit>
+	    <ViewValue>充值失败</ViewValue>
+	    <RealValue>5</RealValue>
+	</ValueUnit>
+    <ValueUnit>
+	    <ViewValue>MD5校验失败 </ViewValue>
+	    <RealValue>6</RealValue>
+	</ValueUnit>
+    <ValueUnit>
+	    <ViewValue>参数不完整 </ViewValue>
+	    <RealValue>7</RealValue>
+	</ValueUnit>
+    <ValueUnit>
+	    <ViewValue>不存在的服务器名</ViewValue>
+	    <RealValue>8</RealValue>
+	</ValueUnit>
+    <ValueUnit>
+	    <ViewValue>定单号重复 </ViewValue>
+	    <RealValue>9</RealValue>
+	</ValueUnit>
+    <ValueUnit>
+	    <ViewValue>10 元面值的卡</ViewValue>
+	    <RealValue>10</RealValue>
+	</ValueUnit>
+    <ValueUnit>
+	    <ViewValue>IP错误</ViewValue>
+	    <RealValue>11</RealValue>
+	</ValueUnit>
+    <ValueUnit>
+	    <ViewValue>获取帐号信息失败</ViewValue>
+	    <RealValue>12</RealValue>
+	</ValueUnit>
+    <ValueUnit>
+	    <ViewValue>已封号的卡</ViewValue>
+	    <RealValue>13</RealValue>
+	</ValueUnit>
+    <ValueUnit>
+	    <ViewValue>写入充值日志失败</ViewValue>
+	    <RealValue>14</RealValue>
+	</ValueUnit>
+    <ValueUnit>
+	    <ViewValue>卡不存在或卡未激活</ViewValue>
+	    <RealValue>15</RealValue>
+	</ValueUnit>
+    <ValueUnit>
+	    <ViewValue>操作成功但发放元宝失败</ViewValue>
+	    <RealValue>16</RealValue>
+	</ValueUnit>
+    <ValueUnit>
+	    <ViewValue>面值不符</ViewValue>
+	    <RealValue>17</RealValue>
+	</ValueUnit>
+    <ValueUnit>
+	    <ViewValue>30 元面值的卡</ViewValue>
+	    <RealValue>30</RealValue>
+	</ValueUnit>
+</Root>

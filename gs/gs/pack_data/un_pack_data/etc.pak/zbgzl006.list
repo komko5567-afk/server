@@ -1,0 +1,32 @@
+#FORM2 
+#zhuangb.list
+#create by caijz 09/18/2006
+#奖励物品        概率
+
+
+
+[奖励等级]
+name$: 特等奖
+
+
+[特等奖]
+改造令奖励 : 100
+
+
+[改造令奖励]
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "武器改造令a" })
+bonus$:  ({ 0, 0, 100, "属性道具", 4, 4, "防具改造令a" })
+
+[防具改造令a]
+name      : 防具改造令
+min_level : 11
+max_level : 11
+attribs      : ({ "property_bind/attrib", 4 ,"color", 绿色, "rebuild_level", 11 })
+
+[武器改造令a]
+name      : 武器改造令
+min_level : 11
+max_level : 11
+attribs      : ({ "property_bind/attrib", 4 ,"color", 绿色, "rebuild_level", 11 })
+
+

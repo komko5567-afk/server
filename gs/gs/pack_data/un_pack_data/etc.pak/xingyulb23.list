@@ -1,0 +1,99 @@
+#FORM2
+#zhuangb.list
+#create by caijz 09/18/2006
+#奖励物品        概率
+
+
+[奖励等级]
+name$: 特等奖
+
+
+[特等奖]
+鞋子黑水 : 1000
+
+
+
+[鞋子黑水]
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "鞋子所属" })
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "鞋子防御" })
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "鞋子速度" })
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "鞋子力量" })
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "鞋子体质" })
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "鞋子灵力" })
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "鞋子敏捷" })
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "鞋子连击" })
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "鞋子反击" })
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "鞋子反震度" })
+
+
+[鞋子所属]
+name      : 超级黑水晶
+min_level : 180
+max_level : 180
+attribs      : ({ "prop/all_attrib", 36 })
+upgrade_type : 10
+
+[鞋子防御]
+name      : 超级黑水晶
+min_level : 180
+max_level : 180
+attribs      : ({ "prop/def", 2200 })
+upgrade_type : 10
+
+[鞋子速度]
+name      : 超级黑水晶
+min_level : 180
+max_level : 180
+attribs      : ({ "prop/speed", 240 })
+upgrade_type : 10
+
+[鞋子力量]
+name      : 超级黑水晶
+min_level : 180
+max_level : 180
+attribs      : ({ "prop/str", 43 })
+upgrade_type : 10
+
+[鞋子体质]
+name      : 超级黑水晶
+min_level : 180
+max_level : 180
+attribs      : ({ "prop/con", 43 })
+upgrade_type : 10
+
+[鞋子灵力]
+name      : 超级黑水晶
+min_level : 180
+max_level : 180
+attribs      : ({ "prop/wiz", 43 })
+upgrade_type : 10
+
+[鞋子敏捷]
+name      : 超级黑水晶
+min_level : 180
+max_level : 180
+attribs      : ({ "prop/dex", 43 })
+upgrade_type : 10
+
+[鞋子连击]
+name      : 超级黑水晶
+min_level : 180
+max_level : 180
+attribs      : ({ "prop/double_hit", 12 })
+upgrade_type : 10
+
+[鞋子反击]
+name      : 超级黑水晶
+min_level : 180
+max_level : 180
+attribs      : ({ "prop/counter_attack", 10 })
+upgrade_type : 10
+
+[鞋子反震度]
+name      : 超级黑水晶
+min_level : 180
+max_level : 180
+attribs      : ({ "prop/damage_sel", 30 })
+upgrade_type : 10
+
+

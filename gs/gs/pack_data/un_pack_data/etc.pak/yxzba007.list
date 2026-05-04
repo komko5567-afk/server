@@ -1,0 +1,653 @@
+#FORM2
+#zhuangb.list
+#create by caijz 09/22/2706
+#奖励物品        概率
+
+
+[奖励等级]
+name$: 特等奖
+
+
+[特等奖]
+金系装备奖励 : 100
+
+
+
+
+[金系装备奖励]
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "九霄烈焰冠2" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "九霄烈焰冠2" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "天衣2" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "霓裳羽衣2" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "踏云靴2" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "八宝叶圈2" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "鬼魅残影斧6" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "龙舌断魂弓6" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "戮仙双钩6" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "啼血爪6" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "风火游龙枪6" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "遮天降魔拳套6" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "乾坤日月刀6" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "乙木神剑6" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "五彩神焰扇6" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "加持杵6"})
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "九霄烈焰冠4" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "九霄烈焰冠4" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "天衣4" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "霓裳羽衣4" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "踏云靴4" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "八宝叶圈4" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "鬼魅残影斧8" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "五彩神焰扇8" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "戮仙双钩8" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "啼血爪8" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "风火游龙枪8" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "遮天降魔拳套8" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "乾坤日月刀8" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "乙木神剑8" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "龙舌断魂弓8" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "加持杵8"})
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "九霄烈焰冠3" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "九霄烈焰冠3" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "天衣3" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "霓裳羽衣3" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "踏云靴3" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "八宝叶圈3" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "鬼魅残影斧7" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "五彩神焰扇7" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "戮仙双钩7" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "啼血爪7" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "风火游龙枪7" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "遮天降魔拳套7" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "乾坤日月刀7" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "乙木神剑7" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "龙舌断魂弓7" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "加持杵7"})
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "九霄烈焰冠1" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "九霄烈焰冠1" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "天衣1" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "霓裳羽衣1" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "踏云靴1" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "八宝叶圈1" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "鬼魅残影斧1" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "龙舌断魂弓1" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "戮仙双钩1" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "啼血爪1" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "风火游龙枪1" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "遮天降魔拳套1" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "乾坤日月刀1" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "乙木神剑1" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "五彩神焰扇1" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "加持杵1"})
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "九霄烈焰冠11" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "九霄烈焰冠11" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "天衣11" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "霓裳羽衣11" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "踏云靴11" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "八宝叶圈11" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "鬼魅残影斧12" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "五彩神焰扇12" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "戮仙双钩12" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "啼血爪12" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "风火游龙枪12" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "遮天降魔拳套12" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "乾坤日月刀12" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "乙木神剑12" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "龙舌断魂弓12" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "加持杵12"})
+
+
+[加持杵6]
+name      : 加持杵
+min_level : 100
+max_level : 100
+attribs      : ({ "prop_seal_base/mstunt_rate",10, "seal_flag",1 })
+
+
+[鬼魅残影斧6]
+name      : 鬼魅残影斧
+min_level : 100
+max_level : 100
+attribs      : ({"prop_seal_base/mstunt_rate",10, "seal_flag",1})
+
+
+[五彩神焰扇6]
+name      : 五彩神焰扇
+min_level : 100
+max_level : 100
+attribs      : ({"prop_seal_base/mstunt_rate",10, "seal_flag",1})
+
+[龙舌断魂弓6]
+name      : 龙舌断魂弓
+min_level : 100
+max_level : 100
+attribs      : ({"prop_seal_base/mstunt_rate",10, "seal_flag",1})
+
+[乙木神剑6]
+name      : 乙木神剑
+min_level : 100
+max_level : 100
+attribs      : ({"prop_seal_base/mstunt_rate",10, "seal_flag",1})
+
+
+[戮仙双钩6]
+name      : 戮仙双钩
+min_level : 100
+max_level : 100
+attribs      : ({"prop_seal_base/mstunt_rate",10, "seal_flag",1})
+
+
+[啼血爪6]
+name      : 啼血爪
+min_level : 100
+max_level : 100
+attribs      : ({"prop_seal_base/mstunt_rate",10, "seal_flag",1})
+
+
+[风火游龙枪6]
+name      : 风火游龙枪
+min_level : 100
+max_level : 100
+attribs      : ({"prop_seal_base/mstunt_rate",10, "seal_flag",1})
+
+
+[遮天降魔拳套6]
+name      : 遮天降魔拳套
+min_level : 100
+max_level : 100
+attribs      : ({"prop_seal_base/mstunt_rate",10, "seal_flag",1})
+
+
+[乾坤日月刀6]
+name      : 乾坤日月刀
+min_level : 100
+max_level : 100
+attribs      : ({"prop_seal_base/mstunt_rate",10, "seal_flag",1})
+
+[九霄烈焰冠2]
+name      : 九霄烈焰冠
+min_level : 100
+max_level : 100
+attribs      : ({"prop_seal_base/mstunt_rate",10, "seal_flag",1})
+
+
+[踏云靴2]
+name      : 踏云靴
+min_level : 100
+max_level : 100
+attribs      : ({"prop_seal_base/mstunt_rate",10, "seal_flag",1})
+
+
+[九霄烈焰冠2]
+name      : 九霄烈焰冠
+min_level : 100
+max_level : 100
+attribs      : ({"prop_seal_base/mstunt_rate",10, "seal_flag",1})
+
+
+[八宝叶圈2]
+name      : 八宝叶圈
+min_level : 100
+max_level : 100
+attribs      : ({"prop_seal_base/mstunt_rate",10, "seal_flag",1})
+
+
+[天衣2]
+name      : 天衣
+min_level : 100
+max_level : 100
+attribs      : ({"prop_seal_base/mstunt_rate",10, "seal_flag",1})
+
+
+[霓裳羽衣2]
+name      : 霓裳羽衣
+min_level : 100
+max_level : 100
+attribs      : ({"prop_seal_base/mstunt_rate",10, "seal_flag",1})
+
+
+
+[加持杵7]
+name      : 加持杵
+min_level : 100
+max_level : 100
+attribs      : ({ "prop_seal/super_obstruct",15, "prop_seal_base/max_life", 2656, "seal_flag",1 })
+
+
+[鬼魅残影斧7]
+name      : 鬼魅残影斧
+min_level : 100
+max_level : 100
+attribs      : ({"prop_seal/super_obstruct",15, "prop_seal_base/max_life", 2656, "seal_flag",1})
+
+
+[五彩神焰扇7]
+name      : 五彩神焰扇
+min_level : 100
+max_level : 100
+attribs      : ({"prop_seal/super_obstruct",15, "prop_seal_base/max_life", 2656, "seal_flag",1})
+
+[龙舌断魂弓7]
+name      : 龙舌断魂弓
+min_level : 100
+max_level : 100
+attribs      : ({"prop_seal/super_obstruct",15, "prop_seal_base/max_life", 2656, "seal_flag",1})
+
+[乙木神剑7]
+name      : 乙木神剑
+min_level : 100
+max_level : 100
+attribs      : ({"prop_seal/super_obstruct",15, "prop_seal_base/max_life", 2656, "seal_flag",1})
+
+
+[戮仙双钩7]
+name      : 戮仙双钩
+min_level : 100
+max_level : 100
+attribs      : ({"prop_seal/super_obstruct",15, "prop_seal_base/max_life", 2656, "seal_flag",1})
+
+
+[啼血爪7]
+name      : 啼血爪
+min_level : 100
+max_level : 100
+attribs      : ({"prop_seal/super_obstruct",15, "prop_seal_base/max_life", 2656, "seal_flag",1})
+
+
+[风火游龙枪7]
+name      : 风火游龙枪
+min_level : 100
+max_level : 100
+attribs      : ({"prop_seal/super_obstruct",15, "prop_seal_base/max_life", 2656, "seal_flag",1})
+
+
+[遮天降魔拳套7]
+name      : 遮天降魔拳套
+min_level : 100
+max_level : 100
+attribs      : ({"prop_seal/super_obstruct",15, "prop_seal_base/max_life", 2656, "seal_flag",1})
+
+
+[乾坤日月刀7]
+name      : 乾坤日月刀
+min_level : 100
+max_level : 100
+attribs      : ({"prop_seal/super_obstruct",15, "prop_seal_base/max_life", 2656, "seal_flag",1})
+
+[九霄烈焰冠3]
+name      : 九霄烈焰冠
+min_level : 100
+max_level : 100
+attribs      : ({"prop_seal/super_obstruct",15, "prop_seal_base/max_life", 2656, "seal_flag",1})
+
+
+[踏云靴3]
+name      : 踏云靴
+min_level : 100
+max_level : 100
+attribs      : ({"prop_seal/super_obstruct",15, "prop_seal_base/max_life", 2656, "seal_flag",1})
+
+
+[九霄烈焰冠3]
+name      : 九霄烈焰冠
+min_level : 100
+max_level : 100
+attribs      : ({"prop_seal/super_obstruct",15, "prop_seal_base/max_life", 2656, "seal_flag",1})
+
+
+[八宝叶圈3]
+name      : 八宝叶圈
+min_level : 100
+max_level : 100
+attribs      : ({"prop_seal/super_obstruct",15, "prop_seal_base/max_life", 2656, "seal_flag",1})
+
+
+[天衣3]
+name      : 天衣
+min_level : 100
+max_level : 100
+attribs      : ({"prop_seal/super_obstruct",15, "prop_seal_base/max_life", 2656, "seal_flag",1})
+
+
+[霓裳羽衣3]
+name      : 霓裳羽衣
+min_level : 100
+max_level : 100
+attribs      : ({"prop_seal/super_obstruct",15, "prop_seal_base/max_life", 2656, "seal_flag",1})
+
+
+
+[加持杵8]
+name      : 加持杵
+min_level : 100
+max_level : 100
+attribs      : ({ "prop_seal_base/stunt_rate",10, "seal_flag",1 })
+
+
+[鬼魅残影斧8]
+name      : 鬼魅残影斧
+min_level : 100
+max_level : 100
+attribs      : ({"prop_seal_base/stunt_rate",10, "seal_flag",1})
+
+
+[五彩神焰扇8]
+name      : 五彩神焰扇
+min_level : 100
+max_level : 100
+attribs      : ({"prop_seal_base/stunt_rate",10, "seal_flag",1})
+
+[龙舌断魂弓8]
+name      : 龙舌断魂弓
+min_level : 100
+max_level : 100
+attribs      : ({"prop_seal_base/stunt_rate",10, "seal_flag",1})
+
+[乙木神剑8]
+name      : 乙木神剑
+min_level : 100
+max_level : 100
+attribs      : ({"prop_seal_base/stunt_rate",10, "seal_flag",1})
+
+
+[戮仙双钩8]
+name      : 戮仙双钩
+min_level : 100
+max_level : 100
+attribs      : ({"prop_seal_base/stunt_rate",10, "seal_flag",1})
+
+
+[啼血爪8]
+name      : 啼血爪
+min_level : 100
+max_level : 100
+attribs      : ({"prop_seal_base/stunt_rate",10, "seal_flag",1})
+
+
+[风火游龙枪8]
+name      : 风火游龙枪
+min_level : 100
+max_level : 100
+attribs      : ({"prop_seal_base/stunt_rate",10, "seal_flag",1})
+
+
+[遮天降魔拳套8]
+name      : 遮天降魔拳套
+min_level : 100
+max_level : 100
+attribs      : ({"prop_seal_base/stunt_rate",10, "seal_flag",1})
+
+
+[乾坤日月刀8]
+name      : 乾坤日月刀
+min_level : 100
+max_level : 100
+attribs      : ({"prop_seal_base/stunt_rate",10, "seal_flag",1})
+
+[九霄烈焰冠4]
+name      : 九霄烈焰冠
+min_level : 100
+max_level : 100
+attribs      : ({"prop_seal_base/stunt_rate",10, "seal_flag",1})
+
+
+[踏云靴4]
+name      : 踏云靴
+min_level : 100
+max_level : 100
+attribs      : ({"prop_seal_base/stunt_rate",10, "seal_flag",1})
+
+
+[九霄烈焰冠4]
+name      : 九霄烈焰冠
+min_level : 100
+max_level : 100
+attribs      : ({"prop_seal_base/stunt_rate",10, "seal_flag",1})
+
+
+[八宝叶圈4]
+name      : 八宝叶圈
+min_level : 100
+max_level : 100
+attribs      : ({"prop_seal_base/stunt_rate",10, "seal_flag",1})
+
+
+[天衣4]
+name      : 天衣
+min_level : 100
+max_level : 100
+attribs      : ({"prop_seal_base/stunt_rate",10, "seal_flag",1})
+
+
+[霓裳羽衣4]
+name      : 霓裳羽衣
+min_level : 100
+max_level : 100
+attribs      : ({"prop_seal_base/stunt_rate",10, "seal_flag",1})
+
+
+[加持杵1]
+name      : 加持杵
+min_level : 100
+max_level : 100
+attribs      : ({ "prop_seal_base/double_hit_rate",10, "seal_flag",1 })
+
+
+[鬼魅残影斧1]
+name      : 鬼魅残影斧
+min_level : 100
+max_level : 100
+attribs      : ({"prop_seal_base/double_hit_rate",10, "seal_flag",1})
+
+
+[五彩神焰扇1]
+name      : 五彩神焰扇
+min_level : 100
+max_level : 100
+attribs      : ({"prop_seal_base/double_hit_rate",10, "seal_flag",1})
+
+[龙舌断魂弓1]
+name      : 龙舌断魂弓
+min_level : 100
+max_level : 100
+attribs      : ({"prop_seal_base/double_hit_rate",10, "seal_flag",1})
+
+[乙木神剑1]
+name      : 乙木神剑
+min_level : 100
+max_level : 100
+attribs      : ({"prop_seal_base/double_hit_rate",10, "seal_flag",1})
+
+
+[戮仙双钩1]
+name      : 戮仙双钩
+min_level : 100
+max_level : 100
+attribs      : ({"prop_seal_base/double_hit_rate",10, "seal_flag",1})
+
+
+[啼血爪1]
+name      : 啼血爪
+min_level : 100
+max_level : 100
+attribs      : ({"prop_seal_base/double_hit_rate",10, "seal_flag",1})
+
+
+[风火游龙枪1]
+name      : 风火游龙枪
+min_level : 100
+max_level : 100
+attribs      : ({"prop_seal_base/double_hit_rate",10, "seal_flag",1})
+
+
+[遮天降魔拳套1]
+name      : 遮天降魔拳套
+min_level : 100
+max_level : 100
+attribs      : ({"prop_seal_base/double_hit_rate",10, "seal_flag",1})
+
+
+[乾坤日月刀1]
+name      : 乾坤日月刀
+min_level : 100
+max_level : 100
+attribs      : ({"prop_seal_base/double_hit_rate",10, "seal_flag",1})
+
+[九霄烈焰冠1]
+name      : 九霄烈焰冠
+min_level : 100
+max_level : 100
+attribs      : ({"prop_seal_base/double_hit_rate",10, "seal_flag",1})
+
+
+[踏云靴1]
+name      : 踏云靴
+min_level : 100
+max_level : 100
+attribs      : ({"prop_seal_base/double_hit_rate",10, "seal_flag",1})
+
+
+[九霄烈焰冠1]
+name      : 九霄烈焰冠
+min_level : 100
+max_level : 100
+attribs      : ({"prop_seal_base/double_hit_rate",10, "seal_flag",1})
+
+
+[八宝叶圈1]
+name      : 八宝叶圈
+min_level : 100
+max_level : 100
+attribs      : ({"prop_seal_base/double_hit_rate",10, "seal_flag",1})
+
+
+[天衣1]
+name      : 天衣
+min_level : 100
+max_level : 100
+attribs      : ({"prop_seal_base/double_hit_rate",10, "seal_flag",1})
+
+
+[霓裳羽衣1]
+name      : 霓裳羽衣
+min_level : 100
+max_level : 100
+attribs      : ({"prop_seal_base/double_hit_rate",10, "seal_flag",1})
+
+
+
+
+
+
+[加持杵12]
+name      : 加持杵
+min_level : 100
+max_level : 100
+attribs      : ({ "prop_seal_base/double_hit_rate",10, "seal_flag",1 })
+
+
+[鬼魅残影斧12]
+name      : 鬼魅残影斧
+min_level : 100
+max_level : 100
+attribs      : ({"prop_seal_base/double_hit_rate",10, "seal_flag",1})
+
+
+[五彩神焰扇12]
+name      : 五彩神焰扇
+min_level : 100
+max_level : 100
+attribs      : ({"prop_seal_base/double_hit_rate",10, "seal_flag",1})
+
+[龙舌断魂弓12]
+name      : 龙舌断魂弓
+min_level : 100
+max_level : 100
+attribs      : ({"prop_seal_base/double_hit_rate",10, "seal_flag",1})
+
+[乙木神剑12]
+name      : 乙木神剑
+min_level : 100
+max_level : 100
+attribs      : ({"prop_seal_base/double_hit_rate",10, "seal_flag",1})
+
+
+[戮仙双钩12]
+name      : 戮仙双钩
+min_level : 100
+max_level : 100
+attribs      : ({"prop_seal_base/double_hit_rate",10, "seal_flag",1})
+
+
+[啼血爪12]
+name      : 啼血爪
+min_level : 100
+max_level : 100
+attribs      : ({"prop_seal_base/double_hit_rate",10, "seal_flag",1})
+
+
+[风火游龙枪12]
+name      : 风火游龙枪
+min_level : 100
+max_level : 100
+attribs      : ({"prop_seal_base/double_hit_rate",10, "seal_flag",1})
+
+
+[遮天降魔拳套12]
+name      : 遮天降魔拳套
+min_level : 100
+max_level : 100
+attribs      : ({"prop_seal_base/double_hit_rate",10, "seal_flag",1})
+
+
+[乾坤日月刀12]
+name      : 乾坤日月刀
+min_level : 100
+max_level : 100
+attribs      : ({"prop_seal_base/double_hit_rate",10, "seal_flag",1})
+
+[九霄烈焰冠11]
+name      : 九霄烈焰冠
+min_level : 100
+max_level : 100
+attribs      : ({"prop_seal_base/double_hit_rate",10, "seal_flag",1})
+
+
+[踏云靴11]
+name      : 踏云靴
+min_level : 100
+max_level : 100
+attribs      : ({"prop_seal_base/double_hit_rate",10, "seal_flag",1})
+
+
+[九霄烈焰冠11]
+name      : 九霄烈焰冠
+min_level : 100
+max_level : 100
+attribs      : ({"prop_seal_base/double_hit_rate",10, "seal_flag",1})
+
+
+[八宝叶圈11]
+name      : 八宝叶圈
+min_level : 100
+max_level : 100
+attribs      : ({"prop_seal_base/double_hit_rate",10, "seal_flag",1})
+
+
+[天衣11]
+name      : 天衣
+min_level : 100
+max_level : 100
+attribs      : ({"prop_seal_base/double_hit_rate",10, "seal_flag",1})
+
+
+[霓裳羽衣11]
+name      : 霓裳羽衣
+min_level : 100
+max_level : 100
+attribs      : ({"prop_seal_base/double_hit_rate",10, "seal_flag",1})
+
+
+
+
+

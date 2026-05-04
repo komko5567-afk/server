@@ -1,0 +1,49 @@
+#FORM2
+#zhuangb.list
+#create by caijz 09/18/2006
+#奖励物品        概率
+
+[奖励等级]
+name$: 三等奖
+
+
+[三等奖]
+枯月流魂c : 100
+
+
+[枯月流魂c]
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "枯月流魂1"})
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "凝香幻彩1"})
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "风寂云清1"})
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "炫影霜星1"})
+
+
+
+[枯月流魂1]
+name      : 枯月流魂
+min_level : 1
+max_level : 1                
+attribs      : ({ "prop/power", 34000, "prop/phy_power", 34000, "prop/mag_power", 34000, "nimbus", 999999, "icon", 10089, "extra_desc",#R双倍属性妖石 })
+
+
+[凝香幻彩1]
+name      : 凝香幻彩
+min_level : 1
+max_level : 1                
+attribs      : ({ "prop/max_life", 54000, "nimbus", 999999, "icon", 10088, "extra_desc",#R双倍属性妖石 })
+
+
+[风寂云清1]
+name      : 风寂云清
+min_level : 1
+max_level : 1                
+attribs      : ({ "prop/def", 16000, "nimbus", 999999, "icon", 10090, "extra_desc",#R双倍属性妖石 })
+
+[炫影霜星1]
+name      : 炫影霜星
+min_level : 1
+max_level : 1                
+attribs      : ({ "prop/speed", 1100, "nimbus", 999999, "icon", 10091, "extra_desc",#R双倍属性妖石 })
+bonus$ : ({ 0, 0, 100, "道行", 1, 1, "channel_system: #43#GCDK三元一抽，抽本服顶级物资！恭喜#R$PLAYER#n打开#L高级抽奖活动中成功抽取到了#Y双倍属性妖石奖励#n，#O真是小刀剌屁股，开了眼了！赶紧找群主购买抽奖参与活动吧！#Q130" })
+
+

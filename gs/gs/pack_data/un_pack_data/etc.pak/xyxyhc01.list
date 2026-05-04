@@ -1,0 +1,81 @@
+#FORM2
+
+#dujiachoujianghuodong.list
+#created by huangw2 Aug/25/2008
+#独家抽奖游戏活动
+
+[task_time]
+start_time : "2008-11-13-12:00:00"
+maf_time$ :  ({ "2008-11-13-12:00:00", "2028-11-13-12:00:00" })
+
+
+[S级仙元]
+rate : 10
+name$ : S级仙元
+log_to_db:  100
+free_pet:   ({ 1, "你携带的宠物数量已到最大，无法领取奖励。" })
+bonus$:  ({ 0, 0, 100, "宠物", 1, 1, "竹熊遗裔", "龙人后裔", "大荒战神", "哪吒三太子", "玉兔余裔" })
+bonus_times : -1
+
+
+[竹熊遗裔]
+name$: ({竹熊遗裔, 竹熊遗裔})
+rank$: 仙元
+level: 60
+life_effect: ({ 125, 125 })
+mana_effect: ({ 10, 10 })
+speed_effect: ({ 45, 45 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 50, 50 })
+special_skill$: ({ 4, 游说之舌, 1, 如意圈, 1, 舍命一击, 1 ,天旋地转,1 })
+channel_msg : "#$PLAYER#n召唤#稀有仙元#n时得到了$EX_PET的奖励！真是鸿运当头啊！#R赶快行动来吧！"
+
+[龙人后裔]
+name$: ({龙人后裔, 龙人后裔})
+rank$: 仙元
+level: 60
+life_effect: ({ 85, 85 })
+mana_effect: ({ 15, 15 })
+speed_effect: ({ 40, 40 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 90, 90 })
+special_skill$: ({ 4, 舍命一击, 1, 如意圈, 1, 神圣之光, 1 ,大道无常,1})
+channel_msg : "#$PLAYER#n召唤#稀有仙元#n时得到了$EX_PET的奖励！真是鸿运当头啊！#R赶快行动来吧！"
+
+[大荒战神]
+name$: ({大荒战神, 大荒战神})
+rank$: 仙元
+level: 60
+life_effect: ({ 75, 75 })
+mana_effect: ({ -30, -30 })
+speed_effect: ({ 40, 40 })
+phy_effect: ({ 145, 145 })
+mag_effect: ({ -50, -50 })
+special_skill$: ({ 4, 游说之舌, 1, 如意圈, 1, 舍命一击, 1,仙云迷雾,1 })
+channel_msg : "#$PLAYER#n召唤#稀有仙元#n时得到了$EX_PET的奖励！真是鸿运当头啊！#R赶快行动来吧！"
+
+
+[哪吒三太子]
+name$: ({哪吒三太子, 哪吒三太子})
+rank$: 仙元
+level: 60
+life_effect: ({ 85, 85 })
+mana_effect: ({ -5, -5 })
+speed_effect: ({ 90, 90 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 60, 60 })
+special_skill$: ({ 4, 舍命一击, 1, 如意圈, 1, 神圣之光, 1,七十二变,1})
+channel_msg : "#$PLAYER#n召唤#稀有仙元#n时得到了$EX_PET的奖励！真是鸿运当头啊！#R赶快行动来吧！"
+
+[玉兔余裔]
+name$: ({玉兔余裔, 玉兔余裔})
+rank$: 仙元
+level: 60
+life_effect: ({ 105, 105 })
+mana_effect: ({ 10, 10 })
+speed_effect: ({ 65, 65 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 50, 50 })
+special_skill$: ({ 4, 游说之舌, 1, 神龙罩, 1, 舍命一击, 1 ,偷天换日,1 })
+channel_msg : "#$PLAYER#n召唤#稀有仙元#n时得到了$EX_PET的奖励！真是鸿运当头啊！#R赶快行动来吧！"
+

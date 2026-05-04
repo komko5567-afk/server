@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="GB2312" ?>
+
+<Root>
+	<ValueUnit>
+		<ViewValue>转存成功</ViewValue>
+		<RealValue>0</RealValue>
+	</ValueUnit>
+	<ValueUnit>
+		<ViewValue>道具已取出</ViewValue>
+		<RealValue>1</RealValue>
+	</ValueUnit>
+	<ValueUnit>
+		<ViewValue>该记录作废</ViewValue>
+		<RealValue>2</RealValue>
+	</ValueUnit>
+	<ValueUnit>
+		<ViewValue>该记录销毁</ViewValue>
+		<RealValue>3</RealValue>
+	</ValueUnit>
+</Root>

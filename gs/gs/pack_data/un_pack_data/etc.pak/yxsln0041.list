@@ -1,0 +1,33 @@
+#FORM2
+#zhuangb.list
+#create by caijz 09/22/2706
+#奖励物品        概率
+
+
+[奖励等级]
+name$: 末等奖
+
+[末等奖]
+指定变异 : 3000
+
+
+[指定变异]
+bonus$:  ({ 0, 0, 100, "宠物", 1, 1, "指定宠物"})
+
+
+[指定宠物]
+name$: ({斗战胜佛, 斗战胜佛})
+rank$: 仙元
+level: 60
+life_effect: ({ 85, 85 })
+mana_effect: ({ -5, -5 })
+speed_effect: ({ 70, 70 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 60, 60 })
+special_skill$: ({ 4, 舍命一击, 1, 如意圈, 1, 神圣之光, 1,七十二变,1})
+
+
+
+
+
+

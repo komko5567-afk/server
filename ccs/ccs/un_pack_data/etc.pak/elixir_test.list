@@ -1,0 +1,289 @@
+#FORM2
+
+[task_time]
+start_time : "2018-04-07-21:30:00"
+end_time   : "2022-04-13-23:59:59"
+
+[default]
+bonussp : ({ "疾风蚀日", "随机元灵", "齐天大圣", "至尊巨骨刺" })
+bonus0 : ({ "麒麟", "六合", "九尾狐", "400000银元宝", "全满金色天书（1/1）" })
+bonus1 : ({ "药兽", "雅尘狐", "80级所相4首饰", "100000银元宝", "特级羽化丹（2颗）", "特级心法宝典（3本）" })
+bonus2 : ({ "宠物经验丹", "宠物武学丹", "80级所相1首饰", "80级所相2首饰", "功能卷轴·一飞通天", "超级女娲石", "随机陨石道具", "随机满属装备", "变异精魄", "神兽精魄", "5000银元宝", "10000银元宝", "超级天书", "特级点化丹", "特级归元露" })
+bonus3 : ({ "随机162~270万游戏币", "功能卷轴·古道热肠", "特效仙风散", "超级灵宝丸", "500银元宝" })
+bonus4 : ({ "随机75~125万游戏币", "50银元宝" })
+
+view_url : "http://wd.gyyx.cn/huodong/ltjq/index_game.html"
+
+[quota_sp]
+疾风蚀日            : 3
+随机元灵            : 9
+齐天大圣            : 9
+至尊巨骨刺          : 15
+normal              : 0
+
+[quota_0]
+400000银元宝        : 15
+normal              : 84
+
+[quota_1]
+100000银元宝        : 15
+normal              : 290
+
+[quota_2]
+5000银元宝          : 1000
+10000银元宝         : 300
+normal              : 283000
+
+# 附加奖励
+[1000000银元宝]
+name : "1000000银元宝"
+class : 7
+
+[600000银元宝]
+name : "600000银元宝"
+class : 7
+
+[80级所相5首饰]
+name  : "80级所相5首饰"
+class : 4
+
+[80级所相3首饰]
+name  : "80级所相3首饰"
+class : 4
+
+# 至尊大奖
+[疾风蚀日]
+name : 疾风蚀日
+rate : 3
+class : 2
+value : 6000000
+extra : "1000000银元宝"
+
+[随机元灵]
+name : 随机元灵
+rate : 9
+class : 11
+value : 1600000
+extra : "600000银元宝"
+
+[齐天大圣]
+name : 齐天大圣
+rate : 9
+class : 1
+value : 1600000
+extra : "600000银元宝"
+
+[至尊巨骨刺]
+name : "至尊巨骨刺"
+rate : 15
+class : 2
+value : 1600000
+extra : "80级所相5首饰"
+
+# 特等奖
+[麒麟]
+name : 麒麟
+rate : 74
+class : 1
+value : 440000
+extra : "80级所相3首饰"
+
+[六合]
+name : 六合
+rate : 74
+class : 1
+value : 440000
+extra : "80级所相3首饰"
+
+[九尾狐]
+name : 九尾狐
+rate : 74
+class : 1
+value : 440000
+extra : "80级所相3首饰"
+
+[400000银元宝]
+name : "400000银元宝"
+rate : 45
+class : 7
+value : 1000000
+extra : "80级所相5首饰"
+
+[全满金色天书（1/1）]
+name : "全满金色天书（1/1）"
+rate : 30
+class : 4
+value : 750000
+
+# 一等奖
+[药兽]
+name : 药兽
+rate : 80
+class : 1
+value : 110000
+extra : "80级所相2首饰"
+
+[雅尘狐]
+name : 雅尘狐
+rate : 50
+class : 2
+value : 100000
+
+[80级所相4首饰]
+name : "80级所相4首饰"
+rate : 80
+class : 4
+value : 100000
+
+[100000银元宝]
+name : "100000银元宝"
+rate : 15
+class : 7
+value : 100000
+
+[特级羽化丹（2颗）]
+name : "特级羽化丹（2颗）"
+rate : 40
+class : 4
+value : 103600
+
+[特级心法宝典（3本）]
+name : "特级心法宝典（3本）"
+rate : 40
+class : 4
+value : 98400
+
+# 二等奖
+[宠物经验丹]
+name : 宠物经验丹
+rate : 12000
+class : 3
+value : 108
+
+[宠物武学丹]
+name : 宠物武学丹
+rate : 12000
+class : 3
+value : 108
+
+[80级所相1首饰]
+name : "80级所相1首饰"
+rate : 180
+class : 4
+value : 5000
+
+[80级所相2首饰]
+name : "80级所相2首饰"
+rate : 50
+class : 4
+value : 10000
+
+[功能卷轴·一飞通天]
+name : "功能卷轴·一飞通天"
+rate : 537
+class : 3
+value : 200
+
+[超级女娲石]
+name : 超级女娲石
+rate : 3000
+class : 3
+value : 1000
+
+[随机陨石道具]
+name  : 随机陨石道具
+rate  : 18000
+class : 4
+value : 500
+
+[随机满属装备]
+name : 随机满属装备
+rate : 3000
+class : 4
+value : 1000
+
+[变异精魄]
+name : 变异精魄
+rate : 30
+class : 3
+value : 8000
+
+[神兽精魄]
+name : 神兽精魄
+rate : 5
+class : 3
+value : 15000
+
+[5000银元宝]
+name : "5000银元宝"
+rate : 160
+class : 7
+value : 5000
+
+[10000银元宝]
+name : "10000银元宝"
+rate : 45
+class : 7
+value : 10000
+
+[超级天书]
+name : 超级天书
+rate : 1900
+class : 3
+value : 1800
+
+[特级点化丹]
+name : 特级点化丹
+rate : 33
+class : 3
+value : 21867
+
+[特级归元露]
+name : 特级归元露
+rate : 33
+class : 3
+value : 21600
+
+# 三等奖
+[随机162~270万游戏币]
+name : "随机162~270万游戏币"
+rate : 500
+class : 8
+value : 100
+
+[功能卷轴·古道热肠]
+name : "功能卷轴·古道热肠"
+rate : 500
+class : 3
+value : 100
+
+[特效仙风散]
+name : 特效仙风散
+rate : 40
+class : 3
+value : 328
+
+[超级灵宝丸]
+name : 超级灵宝丸
+rate : 55
+class : 3
+value : 500
+
+[500银元宝]
+name : "500银元宝"
+rate : 60
+class : 7
+value : 500
+
+# 四等奖
+[随机75~125万游戏币]
+name : "随机75~125万游戏币"
+rate : 200
+class : 8
+value : 50
+
+[50银元宝]
+name : "50银元宝"
+rate : 100
+class : 7
+value : 50

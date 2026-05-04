@@ -1,0 +1,653 @@
+#FORM2
+#zhuangb.list
+#create by caijz 09/22/2706
+#奖励物品        概率
+
+
+[奖励等级]
+name$: 特等奖
+
+
+[特等奖]
+金系装备奖励 : 100
+
+
+
+
+[金系装备奖励]
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "白玉星冠2" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "九彩玲珠冠2" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "天玄真神甲2" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "万霞霓罗裳2" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "雷弧闪2" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "三叉盘珠圈2" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "飞龙破天斧6" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "落日闭月弓6" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "蛟龙翻天戟6" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "红绫火毒爪6" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "赤眼神龙枪6" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "震臂罗刹拳套6" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "三苗九藜刀6" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "九天玄冥剑6" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "红云火霞扇6" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "玄黄破坚锤6"})
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "白玉星冠4" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "九彩玲珠冠4" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "天玄真神甲4" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "万霞霓罗裳4" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "雷弧闪4" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "三叉盘珠圈4" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "飞龙破天斧8" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "落日闭月弓8" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "蛟龙翻天戟8" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "红绫火毒爪8" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "赤眼神龙枪8" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "震臂罗刹拳套8" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "三苗九藜刀8" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "九天玄冥剑8" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "红云火霞扇8" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "玄黄破坚锤8"})
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "白玉星冠3" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "九彩玲珠冠3" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "天玄真神甲3" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "万霞霓罗裳3" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "雷弧闪3" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "三叉盘珠圈3" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "飞龙破天斧7" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "落日闭月弓7" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "蛟龙翻天戟7" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "红绫火毒爪7" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "赤眼神龙枪7" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "震臂罗刹拳套7" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "三苗九藜刀7" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "九天玄冥剑7" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "红云火霞扇7" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "玄黄破坚锤7"})
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "白玉星冠1" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "九彩玲珠冠1" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "天玄真神甲1" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "万霞霓罗裳1" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "雷弧闪1" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "三叉盘珠圈1" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "飞龙破天斧1" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "落日闭月弓1" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "蛟龙翻天戟1" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "红绫火毒爪1" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "赤眼神龙枪1" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "震臂罗刹拳套1" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "三苗九藜刀1" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "九天玄冥剑1" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "红云火霞扇1" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "玄黄破坚锤1"})
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "白玉星冠11" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "九彩玲珠冠11" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "天玄真神甲11" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "万霞霓罗裳11" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "雷弧闪11" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "三叉盘珠圈11" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "飞龙破天斧12" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "落日闭月弓12" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "蛟龙翻天戟12" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "红绫火毒爪12" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "赤眼神龙枪12" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "震臂罗刹拳套12" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "三苗九藜刀12" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "九天玄冥剑12" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "红云火霞扇12" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "玄黄破坚锤12"})
+
+
+[玄黄破坚锤6]
+name      : 玄黄破坚锤
+min_level : 130
+max_level : 130
+attribs      : ({ "prop_seal_base/mstunt_rate",10, "seal_flag",1 })
+
+
+[飞龙破天斧6]
+name      : 飞龙破天斧
+min_level : 130
+max_level : 130
+attribs      : ({"prop_seal_base/mstunt_rate",10, "seal_flag",1})
+
+
+[红云火霞扇6]
+name      : 红云火霞扇
+min_level : 130
+max_level : 130
+attribs      : ({"prop_seal_base/mstunt_rate",10, "seal_flag",1})
+
+[落日闭月弓6]
+name      : 落日闭月弓
+min_level : 130
+max_level : 130
+attribs      : ({"prop_seal_base/mstunt_rate",10, "seal_flag",1})
+
+[九天玄冥剑6]
+name      : 九天玄冥剑
+min_level : 130
+max_level : 130
+attribs      : ({"prop_seal_base/mstunt_rate",10, "seal_flag",1})
+
+
+[蛟龙翻天戟6]
+name      : 蛟龙翻天戟
+min_level : 130
+max_level : 130
+attribs      : ({"prop_seal_base/mstunt_rate",10, "seal_flag",1})
+
+
+[红绫火毒爪6]
+name      : 红绫火毒爪
+min_level : 130
+max_level : 130
+attribs      : ({"prop_seal_base/mstunt_rate",10, "seal_flag",1})
+
+
+[赤眼神龙枪6]
+name      : 赤眼神龙枪
+min_level : 130
+max_level : 130
+attribs      : ({"prop_seal_base/mstunt_rate",10, "seal_flag",1})
+
+
+[震臂罗刹拳套6]
+name      : 震臂罗刹拳套
+min_level : 130
+max_level : 130
+attribs      : ({"prop_seal_base/mstunt_rate",10, "seal_flag",1})
+
+
+[三苗九藜刀6]
+name      : 三苗九藜刀
+min_level : 130
+max_level : 130
+attribs      : ({"prop_seal_base/mstunt_rate",10, "seal_flag",1})
+
+[白玉星冠2]
+name      : 白玉星冠
+min_level : 130
+max_level : 130
+attribs      : ({"prop_seal_base/mstunt_rate",10, "seal_flag",1})
+
+
+[雷弧闪2]
+name      : 雷弧闪
+min_level : 130
+max_level : 130
+attribs      : ({"prop_seal_base/mstunt_rate",10, "seal_flag",1})
+
+
+[九彩玲珠冠2]
+name      : 九彩玲珠冠
+min_level : 130
+max_level : 130
+attribs      : ({"prop_seal_base/mstunt_rate",10, "seal_flag",1})
+
+
+[三叉盘珠圈2]
+name      : 三叉盘珠圈
+min_level : 130
+max_level : 130
+attribs      : ({"prop_seal_base/mstunt_rate",10, "seal_flag",1})
+
+
+[天玄真神甲2]
+name      : 天玄真神甲
+min_level : 130
+max_level : 130
+attribs      : ({"prop_seal_base/mstunt_rate",10, "seal_flag",1})
+
+
+[万霞霓罗裳2]
+name      : 万霞霓罗裳
+min_level : 130
+max_level : 130
+attribs      : ({"prop_seal_base/mstunt_rate",10, "seal_flag",1})
+
+
+
+[玄黄破坚锤7]
+name      : 玄黄破坚锤
+min_level : 130
+max_level : 130
+attribs      : ({ "prop_seal/super_obstruct",15, "prop_seal_base/max_life", 4103, "seal_flag",1 })
+
+
+[飞龙破天斧7]
+name      : 飞龙破天斧
+min_level : 130
+max_level : 130
+attribs      : ({"prop_seal/super_obstruct",15, "prop_seal_base/max_life", 4103, "seal_flag",1})
+
+
+[红云火霞扇7]
+name      : 红云火霞扇
+min_level : 130
+max_level : 130
+attribs      : ({"prop_seal/super_obstruct",15, "prop_seal_base/max_life", 4103, "seal_flag",1})
+
+[落日闭月弓7]
+name      : 落日闭月弓
+min_level : 130
+max_level : 130
+attribs      : ({"prop_seal/super_obstruct",15, "prop_seal_base/max_life", 4103, "seal_flag",1})
+
+[九天玄冥剑7]
+name      : 九天玄冥剑
+min_level : 130
+max_level : 130
+attribs      : ({"prop_seal/super_obstruct",15, "prop_seal_base/max_life", 4103, "seal_flag",1})
+
+
+[蛟龙翻天戟7]
+name      : 蛟龙翻天戟
+min_level : 130
+max_level : 130
+attribs      : ({"prop_seal/super_obstruct",15, "prop_seal_base/max_life", 4103, "seal_flag",1})
+
+
+[红绫火毒爪7]
+name      : 红绫火毒爪
+min_level : 130
+max_level : 130
+attribs      : ({"prop_seal/super_obstruct",15, "prop_seal_base/max_life", 4103, "seal_flag",1})
+
+
+[赤眼神龙枪7]
+name      : 赤眼神龙枪
+min_level : 130
+max_level : 130
+attribs      : ({"prop_seal/super_obstruct",15, "prop_seal_base/max_life", 4103, "seal_flag",1})
+
+
+[震臂罗刹拳套7]
+name      : 震臂罗刹拳套
+min_level : 130
+max_level : 130
+attribs      : ({"prop_seal/super_obstruct",15, "prop_seal_base/max_life", 4103, "seal_flag",1})
+
+
+[三苗九藜刀7]
+name      : 三苗九藜刀
+min_level : 130
+max_level : 130
+attribs      : ({"prop_seal/super_obstruct",15, "prop_seal_base/max_life", 4103, "seal_flag",1})
+
+[白玉星冠3]
+name      : 白玉星冠
+min_level : 130
+max_level : 130
+attribs      : ({"prop_seal/super_obstruct",15, "prop_seal_base/max_life", 4103, "seal_flag",1})
+
+
+[雷弧闪3]
+name      : 雷弧闪
+min_level : 130
+max_level : 130
+attribs      : ({"prop_seal/super_obstruct",15, "prop_seal_base/max_life", 4103, "seal_flag",1})
+
+
+[九彩玲珠冠3]
+name      : 九彩玲珠冠
+min_level : 130
+max_level : 130
+attribs      : ({"prop_seal/super_obstruct",15, "prop_seal_base/max_life", 4103, "seal_flag",1})
+
+
+[三叉盘珠圈3]
+name      : 三叉盘珠圈
+min_level : 130
+max_level : 130
+attribs      : ({"prop_seal/super_obstruct",15, "prop_seal_base/max_life", 4103, "seal_flag",1})
+
+
+[天玄真神甲3]
+name      : 天玄真神甲
+min_level : 130
+max_level : 130
+attribs      : ({"prop_seal/super_obstruct",15, "prop_seal_base/max_life", 4103, "seal_flag",1})
+
+
+[万霞霓罗裳3]
+name      : 万霞霓罗裳
+min_level : 130
+max_level : 130
+attribs      : ({"prop_seal/super_obstruct",15, "prop_seal_base/max_life", 4103, "seal_flag",1})
+
+
+
+[玄黄破坚锤8]
+name      : 玄黄破坚锤
+min_level : 130
+max_level : 130
+attribs      : ({ "prop_seal_base/stunt_rate",10, "seal_flag",1 })
+
+
+[飞龙破天斧8]
+name      : 飞龙破天斧
+min_level : 130
+max_level : 130
+attribs      : ({"prop_seal_base/stunt_rate",10, "seal_flag",1})
+
+
+[红云火霞扇8]
+name      : 红云火霞扇
+min_level : 130
+max_level : 130
+attribs      : ({"prop_seal_base/stunt_rate",10, "seal_flag",1})
+
+[落日闭月弓8]
+name      : 落日闭月弓
+min_level : 130
+max_level : 130
+attribs      : ({"prop_seal_base/stunt_rate",10, "seal_flag",1})
+
+[九天玄冥剑8]
+name      : 九天玄冥剑
+min_level : 130
+max_level : 130
+attribs      : ({"prop_seal_base/stunt_rate",10, "seal_flag",1})
+
+
+[蛟龙翻天戟8]
+name      : 蛟龙翻天戟
+min_level : 130
+max_level : 130
+attribs      : ({"prop_seal_base/stunt_rate",10, "seal_flag",1})
+
+
+[红绫火毒爪8]
+name      : 红绫火毒爪
+min_level : 130
+max_level : 130
+attribs      : ({"prop_seal_base/stunt_rate",10, "seal_flag",1})
+
+
+[赤眼神龙枪8]
+name      : 赤眼神龙枪
+min_level : 130
+max_level : 130
+attribs      : ({"prop_seal_base/stunt_rate",10, "seal_flag",1})
+
+
+[震臂罗刹拳套8]
+name      : 震臂罗刹拳套
+min_level : 130
+max_level : 130
+attribs      : ({"prop_seal_base/stunt_rate",10, "seal_flag",1})
+
+
+[三苗九藜刀8]
+name      : 三苗九藜刀
+min_level : 130
+max_level : 130
+attribs      : ({"prop_seal_base/stunt_rate",10, "seal_flag",1})
+
+[白玉星冠4]
+name      : 白玉星冠
+min_level : 130
+max_level : 130
+attribs      : ({"prop_seal_base/stunt_rate",10, "seal_flag",1})
+
+
+[雷弧闪4]
+name      : 雷弧闪
+min_level : 130
+max_level : 130
+attribs      : ({"prop_seal_base/stunt_rate",10, "seal_flag",1})
+
+
+[九彩玲珠冠4]
+name      : 九彩玲珠冠
+min_level : 130
+max_level : 130
+attribs      : ({"prop_seal_base/stunt_rate",10, "seal_flag",1})
+
+
+[三叉盘珠圈4]
+name      : 三叉盘珠圈
+min_level : 130
+max_level : 130
+attribs      : ({"prop_seal_base/stunt_rate",10, "seal_flag",1})
+
+
+[天玄真神甲4]
+name      : 天玄真神甲
+min_level : 130
+max_level : 130
+attribs      : ({"prop_seal_base/stunt_rate",10, "seal_flag",1})
+
+
+[万霞霓罗裳4]
+name      : 万霞霓罗裳
+min_level : 130
+max_level : 130
+attribs      : ({"prop_seal_base/stunt_rate",10, "seal_flag",1})
+
+
+[玄黄破坚锤1]
+name      : 玄黄破坚锤
+min_level : 130
+max_level : 130
+attribs      : ({ "prop_seal_base/double_hit_rate",10, "seal_flag",1 })
+
+
+[飞龙破天斧1]
+name      : 飞龙破天斧
+min_level : 130
+max_level : 130
+attribs      : ({"prop_seal_base/double_hit_rate",10, "seal_flag",1})
+
+
+[红云火霞扇1]
+name      : 红云火霞扇
+min_level : 130
+max_level : 130
+attribs      : ({"prop_seal_base/double_hit_rate",10, "seal_flag",1})
+
+[落日闭月弓1]
+name      : 落日闭月弓
+min_level : 130
+max_level : 130
+attribs      : ({"prop_seal_base/double_hit_rate",10, "seal_flag",1})
+
+[九天玄冥剑1]
+name      : 九天玄冥剑
+min_level : 130
+max_level : 130
+attribs      : ({"prop_seal_base/double_hit_rate",10, "seal_flag",1})
+
+
+[蛟龙翻天戟1]
+name      : 蛟龙翻天戟
+min_level : 130
+max_level : 130
+attribs      : ({"prop_seal_base/double_hit_rate",10, "seal_flag",1})
+
+
+[红绫火毒爪1]
+name      : 红绫火毒爪
+min_level : 130
+max_level : 130
+attribs      : ({"prop_seal_base/double_hit_rate",10, "seal_flag",1})
+
+
+[赤眼神龙枪1]
+name      : 赤眼神龙枪
+min_level : 130
+max_level : 130
+attribs      : ({"prop_seal_base/double_hit_rate",10, "seal_flag",1})
+
+
+[震臂罗刹拳套1]
+name      : 震臂罗刹拳套
+min_level : 130
+max_level : 130
+attribs      : ({"prop_seal_base/double_hit_rate",10, "seal_flag",1})
+
+
+[三苗九藜刀1]
+name      : 三苗九藜刀
+min_level : 130
+max_level : 130
+attribs      : ({"prop_seal_base/double_hit_rate",10, "seal_flag",1})
+
+[白玉星冠1]
+name      : 白玉星冠
+min_level : 130
+max_level : 130
+attribs      : ({"prop_seal_base/double_hit_rate",10, "seal_flag",1})
+
+
+[雷弧闪1]
+name      : 雷弧闪
+min_level : 130
+max_level : 130
+attribs      : ({"prop_seal_base/double_hit_rate",10, "seal_flag",1})
+
+
+[九彩玲珠冠1]
+name      : 九彩玲珠冠
+min_level : 130
+max_level : 130
+attribs      : ({"prop_seal_base/double_hit_rate",10, "seal_flag",1})
+
+
+[三叉盘珠圈1]
+name      : 三叉盘珠圈
+min_level : 130
+max_level : 130
+attribs      : ({"prop_seal_base/double_hit_rate",10, "seal_flag",1})
+
+
+[天玄真神甲1]
+name      : 天玄真神甲
+min_level : 130
+max_level : 130
+attribs      : ({"prop_seal_base/double_hit_rate",10, "seal_flag",1})
+
+
+[万霞霓罗裳1]
+name      : 万霞霓罗裳
+min_level : 130
+max_level : 130
+attribs      : ({"prop_seal_base/double_hit_rate",10, "seal_flag",1})
+
+
+
+
+
+
+[玄黄破坚锤12]
+name      : 玄黄破坚锤
+min_level : 130
+max_level : 130
+attribs      : ({ "prop_seal_base/double_hit_rate",10, "seal_flag",1 })
+
+
+[飞龙破天斧12]
+name      : 飞龙破天斧
+min_level : 130
+max_level : 130
+attribs      : ({"prop_seal_base/double_hit_rate",10, "seal_flag",1})
+
+
+[红云火霞扇12]
+name      : 红云火霞扇
+min_level : 130
+max_level : 130
+attribs      : ({"prop_seal_base/double_hit_rate",10, "seal_flag",1})
+
+[落日闭月弓12]
+name      : 落日闭月弓
+min_level : 130
+max_level : 130
+attribs      : ({"prop_seal_base/double_hit_rate",10, "seal_flag",1})
+
+[九天玄冥剑12]
+name      : 九天玄冥剑
+min_level : 130
+max_level : 130
+attribs      : ({"prop_seal_base/double_hit_rate",10, "seal_flag",1})
+
+
+[蛟龙翻天戟12]
+name      : 蛟龙翻天戟
+min_level : 130
+max_level : 130
+attribs      : ({"prop_seal_base/double_hit_rate",10, "seal_flag",1})
+
+
+[红绫火毒爪12]
+name      : 红绫火毒爪
+min_level : 130
+max_level : 130
+attribs      : ({"prop_seal_base/double_hit_rate",10, "seal_flag",1})
+
+
+[赤眼神龙枪12]
+name      : 赤眼神龙枪
+min_level : 130
+max_level : 130
+attribs      : ({"prop_seal_base/double_hit_rate",10, "seal_flag",1})
+
+
+[震臂罗刹拳套12]
+name      : 震臂罗刹拳套
+min_level : 130
+max_level : 130
+attribs      : ({"prop_seal_base/double_hit_rate",10, "seal_flag",1})
+
+
+[三苗九藜刀12]
+name      : 三苗九藜刀
+min_level : 130
+max_level : 130
+attribs      : ({"prop_seal_base/double_hit_rate",10, "seal_flag",1})
+
+[白玉星冠11]
+name      : 白玉星冠
+min_level : 130
+max_level : 130
+attribs      : ({"prop_seal_base/double_hit_rate",10, "seal_flag",1})
+
+
+[雷弧闪11]
+name      : 雷弧闪
+min_level : 130
+max_level : 130
+attribs      : ({"prop_seal_base/double_hit_rate",10, "seal_flag",1})
+
+
+[九彩玲珠冠11]
+name      : 九彩玲珠冠
+min_level : 130
+max_level : 130
+attribs      : ({"prop_seal_base/double_hit_rate",10, "seal_flag",1})
+
+
+[三叉盘珠圈11]
+name      : 三叉盘珠圈
+min_level : 130
+max_level : 130
+attribs      : ({"prop_seal_base/double_hit_rate",10, "seal_flag",1})
+
+
+[天玄真神甲11]
+name      : 天玄真神甲
+min_level : 130
+max_level : 130
+attribs      : ({"prop_seal_base/double_hit_rate",10, "seal_flag",1})
+
+
+[万霞霓罗裳11]
+name      : 万霞霓罗裳
+min_level : 130
+max_level : 130
+attribs      : ({"prop_seal_base/double_hit_rate",10, "seal_flag",1})
+
+
+
+
+

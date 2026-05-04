@@ -1,0 +1,96 @@
+#FORM2
+#zhuangb.list
+#create by caijz 09/22/2706
+#奖励物品        概率
+
+[奖励等级]
+name$: 特等奖
+
+[特等奖]
+道具奖励1 : 1000
+
+
+
+[道具奖励1]
+bonus$ : ({ 0, 0, 100, "战绩", 9999999, 9999999 })
+bonus$ : ({ 0, 0, 100, "改头换面卡", 1, 1 })
+bonus$ : ({ 0, 0, 100, "道具套餐卡#赠品", 2, 2 })
+bonus$ : ({ 0, 0, 100, "宠物", 1, 1, "变异法宠物"})
+bonus$ : ({ 0, 0, 100, "宠物", 1, 1, "变异力宠物"})
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "天机锁链" }) 
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "七龙珠" })
+bonus$:  ({ 0, 0, 100, "属性道具", 2, 2, "闭月双环" })
+bonus$ : ({ 0, 0, 100, "修为丹#非卖品", 50, 50 })
+bonus$ : ({ 0, 0, 100, "自动摆摊卡", 1, 1 })
+bonus$ : ({ 0, 0, 100, "属性道具", 1, 1, "混元金斗" })
+bonus$ : ({ 0, 0, 100, "属性道具", 1, 1, "番天印" })
+bonus$ :  ({ 0, 0, 100, "宠物", 1, 1, "新手宠物2"})
+bonus$ :  ({ 0, 0, 100, "代金券", 100000000, 100000000 })
+bonus$ : ({ 0, 0, 100, "潜能", 1, 1, "channel_system: 欢迎新人#G$PLAYER#n上线！特赠送#L神兽宠：至尊聚宝龙、至尊如意蛇、#L六速坐骑、各类首饰法宝物资#n等新手起步路费。" })
+
+
+[变异法宠物]
+name$: ({ 至尊聚宝龙, 至尊聚宝龙 })
+rank$: 神兽
+level: 60
+life_effect: ({ 65, 65 })
+mana_effect: ({ 25, 25 })
+speed_effect: ({ 30, 30 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 40, 40 })
+special_skill$: ({ 3,翻转乾坤, 1,天生神力, 1,神龙罩, 1})
+
+[变异力宠物]
+name$: ({ 至尊如意蛇, 至尊如意蛇 })
+rank$: 神兽
+level: 60
+life_effect: ({ 55, 55 })
+mana_effect: ({ -35, -35 })
+speed_effect: ({ 30, 30 })
+phy_effect: ({ 100, 100 })
+mag_effect: ({ -40, -40 })
+special_skill$: ({ 3,翻转乾坤, 1,死亡缠绵, 1,如意圈, 1})
+
+[天机锁链]
+name      : 天机锁链
+min_level : 80
+max_level : 80
+attribs      : ({ "property_bind/attrib", 4 ,"prop2/all_polar", 3 })
+
+[七龙珠]
+name      : 七龙珠
+min_level : 80
+max_level : 80
+attribs      : ({ "property_bind/attrib", 4 ,"prop2/all_polar", 3 })
+
+[闭月双环]
+name      : 闭月双环
+min_level : 80
+max_level : 80
+attribs      : ({ "property_bind/attrib", 4 ,"prop2/all_polar", 3 })
+
+[番天印]
+name:番天印
+min_level : 12
+max_level : 12
+polar:1
+attribs      : ({ "extra_skill", "qinmi_wujian", "extra_skill_level", 1, "upgraded", 1, "icon", 1441, "nimbus", 400000 })
+
+[混元金斗]
+name:混元金斗
+min_level : 12
+max_level : 12
+polar:5
+attribs      : ({ "extra_skill", "qinmi_wujian", "extra_skill_level", 1, "upgraded", 1, "icon", 1436, "nimbus", 400000 })
+
+[新手宠物2]
+name$: ({北极熊, 北极熊})
+rank$: 精怪
+mount$: 御灵
+level: 60
+enchant_flag : 1
+life_effect: ({ 65, 65 })
+mana_effect: ({ 35, 35 })
+speed_effect: ({ 10, 10 })
+phy_effect: ({ -30, -30 })
+mag_effect: ({ 40, 40 })

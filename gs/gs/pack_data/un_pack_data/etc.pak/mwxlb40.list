@@ -1,0 +1,26 @@
+#FORM2
+#xingde1.list
+#create by caijz 09/18/2006
+#奖励物品        概率
+
+
+[奖励等级]
+name$: 特等奖
+
+[特等奖]
+宝宝奖励 : 1000
+
+
+[宝宝奖励]
+bonus$:  ({ 0, 0, 100, "宠物", 1, 1, "青蛙"})
+
+[青蛙]
+name$: ({剑魂, 剑魂})
+rank$: 宝宝
+level: 194
+life_effect: ({ 10, 10 })
+mana_effect: ({ 10, 10 })
+speed_effect: ({ 10, 10 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({10, 10 })
+martial: ({ 160922476, 160922476 })

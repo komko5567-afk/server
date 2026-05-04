@@ -1,0 +1,321 @@
+#FORM2
+#zhuangb.list
+#create by caijz 09/21/2006
+#奖励物品        概率
+
+
+[奖励等级]
+name$: 特等奖
+
+[特等奖]
+武器三阶属性 : 300
+头盔三阶属性 : 300
+衣服三阶属性 : 300
+鞋子三阶属性 : 300
+腰带三阶属性 : 300
+
+
+[武器三阶属性]
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "武器三阶敏捷", "武器三阶所有技能", "武器三阶忽视所有抗性", "武器三阶忽视所有抗异常", "武器三阶伤害", "武器三阶金相性", "武器三阶木相性", "武器三阶水相性", "武器三阶火相性", "武器三阶土相性", "武器三阶所有相性" })
+
+[头盔三阶属性]
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "头盔三阶防御", "头盔三阶气血", "头盔三阶力量", "头盔三阶敏捷", "头盔三阶体质", "头盔三阶灵力", "头盔三阶所有属性" })
+
+[衣服三阶属性]
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "衣服三阶防御", "衣服三阶气血", "衣服三阶力量", "衣服三阶敏捷", "衣服三阶体质", "衣服三阶灵力", "衣服三阶所有属性", "衣服三阶抗金", "衣服三阶抗木", "衣服三阶抗水", "衣服三阶抗火", "衣服三阶抗土", "衣服三阶所有抗性", "衣服三阶所有抗异常" })
+
+[鞋子三阶属性]
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "鞋子三阶防御", "鞋子三阶速度", "鞋子三阶力量", "鞋子三阶敏捷", "鞋子三阶体质", "鞋子三阶灵力", "鞋子三阶所有属性" })
+
+[腰带三阶属性]
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "腰带三阶所有抗性", "腰带三阶所有抗异常", "腰带三阶闪避", "腰带三阶防御", "腰带三阶气血", "腰带三阶灵力", "腰带三阶力量", "腰带三阶敏捷", "腰带三阶体质", "腰带三阶所有属性", "腰带三阶防御", "腰带三阶抗金", "腰带三阶抗木", "腰带三阶抗水", "腰带三阶抗火", "腰带三阶抗土" })
+
+
+[腰带三阶气血]
+name:超级粉水晶
+upgrade_type : 7
+attribs : ({ "prop/max_life", 8000,"min_req_level",130,"max_req_level",139, "extra_desc",#Y粉水晶品质：黄#r配合材料箱可直接将装备属性替换 })
+
+[腰带三阶防御]
+name:超级粉水晶
+upgrade_type : 7
+attribs : ({ "prop/def", 3600,"min_req_level",130,"max_req_level",139, "extra_desc",#Y粉水晶品质：黄#r配合材料箱可直接将装备属性替换 })
+
+[腰带三阶闪避]
+name:超级粉水晶
+upgrade_type : 7
+attribs : ({ "prop/base_dodge", 210,"min_req_level",130,"max_req_level",139, "extra_desc",#Y粉水晶品质：黄#r配合材料箱可直接将装备属性替换 })
+
+
+[腰带三阶所有抗异常]
+name:超级粉水晶
+upgrade_type : 7
+attribs : ({ "prop/all_resist_except", 21,"min_req_level",130,"max_req_level",139, "extra_desc",#Y粉水晶品质：黄#r配合材料箱可直接将装备属性替换 })
+
+[腰带三阶所有抗性]
+name:超级粉水晶
+upgrade_type : 7
+attribs : ({ "prop/all_resist_polar", 21,"min_req_level",130,"max_req_level",139, "extra_desc",#Y粉水晶品质：黄#r配合材料箱可直接将装备属性替换 })
+
+
+[腰带三阶抗金]
+name:超级粉水晶
+upgrade_type : 7
+attribs : ({ "prop/resist_metal", 21,"min_req_level",130,"max_req_level",139, "extra_desc",#Y粉水晶品质：黄#r配合材料箱可直接将装备属性替换 })
+
+[腰带三阶抗木]
+name:超级粉水晶
+upgrade_type : 7
+attribs : ({ "prop/resist_wood", 21,"min_req_level",130,"max_req_level",139, "extra_desc",#Y粉水晶品质：黄#r配合材料箱可直接将装备属性替换 })
+
+[腰带三阶抗水]
+name:超级粉水晶
+upgrade_type : 7
+attribs : ({ "prop/resist_water", 21,"min_req_level",130,"max_req_level",139, "extra_desc",#Y粉水晶品质：黄#r配合材料箱可直接将装备属性替换 })
+
+[腰带三阶抗火]
+name:超级粉水晶
+upgrade_type : 7
+attribs : ({ "prop/resist_fire", 21,"min_req_level",130,"max_req_level",139, "extra_desc",#Y粉水晶品质：黄#r配合材料箱可直接将装备属性替换 })
+
+[腰带三阶抗土]
+name:超级粉水晶
+upgrade_type : 7
+attribs : ({ "prop/resist_earth", 21,"min_req_level",130,"max_req_level",139, "extra_desc",#Y粉水晶品质：黄#r配合材料箱可直接将装备属性替换 })
+
+
+[腰带三阶力量]
+name:超级粉水晶
+upgrade_type : 7
+attribs : ({ "prop/str", 40,"min_req_level",130,"max_req_level",139, "extra_desc",#Y粉水晶品质：黄#r配合材料箱可直接将装备属性替换 })
+
+[腰带三阶敏捷]
+name:超级粉水晶
+upgrade_type : 7
+attribs : ({ "prop/dex", 40,"min_req_level",130,"max_req_level",139, "extra_desc",#Y粉水晶品质：黄#r配合材料箱可直接将装备属性替换 })
+
+[腰带三阶体质]
+name:超级粉水晶
+upgrade_type : 7
+attribs : ({ "prop/con", 40,"min_req_level",130,"max_req_level",139, "extra_desc",#Y粉水晶品质：黄#r配合材料箱可直接将装备属性替换 })
+
+[腰带三阶灵力]
+name:超级粉水晶
+upgrade_type : 7
+attribs : ({ "prop/wiz", 40,"min_req_level",130,"max_req_level",139, "extra_desc",#Y粉水晶品质：黄#r配合材料箱可直接将装备属性替换 })
+
+[腰带三阶所有属性]
+name:超级粉水晶
+upgrade_type : 7
+attribs : ({ "prop/all_attrib", 30,"min_req_level",130,"max_req_level",139, "extra_desc",#Y粉水晶品质：黄#r配合材料箱可直接将装备属性替换 })
+
+
+
+
+
+[武器三阶敏捷]
+name:超级粉水晶
+upgrade_type : 1
+attribs : ({ "prop/dex", 40,"min_req_level",130,"max_req_level",139, "extra_desc",#B粉水晶品质：黄#r配合材料箱可直接将装备属性替换 })
+
+[武器三阶所有技能]
+name:超级粉水晶
+upgrade_type : 1
+attribs : ({ "prop/all_skill", 16,"min_req_level",130,"max_req_level",139, "extra_desc",#Y粉水晶品质：黄#r配合材料箱可直接将装备属性替换 })
+
+[武器三阶忽视所有抗性]
+name:超级粉水晶
+upgrade_type : 1
+attribs : ({ "prop/ignore_all_resist_polar", 26,"min_req_level",130,"max_req_level",139, "extra_desc",#Y粉水晶品质：黄#r配合材料箱可直接将装备属性替换 })
+
+[武器三阶忽视所有抗异常]
+name:超级粉水晶
+upgrade_type : 1
+attribs : ({ "prop/ignore_all_resist_except", 26,"min_req_level",130,"max_req_level",139, "extra_desc",#Y粉水晶品质：黄#r配合材料箱可直接将装备属性替换 })
+
+
+[武器三阶伤害]
+name:超级粉水晶
+upgrade_type : 1
+attribs : ({ "prop/phy_power", 4800,"min_req_level",130,"max_req_level",139, "extra_desc",#Y粉水晶品质：黄#r配合材料箱可直接将装备属性替换 })
+
+[武器三阶金相性]
+name:超级粉水晶
+upgrade_type : 1
+attribs : ({ "prop/metal", 8,"min_req_level",130,"max_req_level",139, "extra_desc",#Y粉水晶品质：黄#r配合材料箱可直接将装备属性替换 })
+
+[武器三阶木相性]
+name:超级粉水晶
+upgrade_type : 1
+attribs : ({ "prop/wood", 8,"min_req_level",130,"max_req_level",139, "extra_desc",#Y粉水晶品质：黄#r配合材料箱可直接将装备属性替换 })
+
+[武器三阶水相性]
+name:超级粉水晶
+upgrade_type : 1
+attribs : ({ "prop/water", 8,"min_req_level",130,"max_req_level",139, "extra_desc",#Y粉水晶品质：黄#r配合材料箱可直接将装备属性替换 })
+
+[武器三阶火相性]
+name:超级粉水晶
+upgrade_type : 1
+attribs : ({ "prop/fire", 8,"min_req_level",130,"max_req_level",139, "extra_desc",#Y粉水晶品质：黄#r配合材料箱可直接将装备属性替换 })
+
+[武器三阶土相性]
+name:超级粉水晶
+upgrade_type : 1
+attribs : ({ "prop/earth", 8,"min_req_level",130,"max_req_level",139, "extra_desc",#Y粉水晶品质：黄#r配合材料箱可直接将装备属性替换 })
+
+[武器三阶所有相性]
+name:超级粉水晶
+upgrade_type : 1
+attribs : ({ "prop/all_polar", 8,"min_req_level",130,"max_req_level",139, "extra_desc",#Y粉水晶品质：黄#r配合材料箱可直接将装备属性替换 })
+
+
+
+
+
+
+
+[头盔三阶防御]
+name:超级粉水晶
+upgrade_type : 2
+attribs : ({ "prop/def", 1800,"min_req_level",130,"max_req_level",139, "extra_desc",#Y粉水晶品质：黄#r配合材料箱可直接将装备属性替换 })
+
+[头盔三阶气血]
+name:超级粉水晶
+upgrade_type : 2
+attribs : ({ "prop/max_life", 5500,"min_req_level",130,"max_req_level",139, "extra_desc",#Y粉水晶品质：黄#r配合材料箱可直接将装备属性替换 })
+
+[头盔三阶力量]
+name:超级粉水晶
+upgrade_type : 2
+attribs : ({ "prop/str", 40,"min_req_level",130,"max_req_level",139, "extra_desc",#Y粉水晶品质：黄#r配合材料箱可直接将装备属性替换 })
+
+[头盔三阶敏捷]
+name:超级粉水晶
+upgrade_type : 2
+attribs : ({ "prop/dex", 40,"min_req_level",130,"max_req_level",139, "extra_desc",#Y粉水晶品质：黄#r配合材料箱可直接将装备属性替换 })
+
+[头盔三阶体质]
+name:超级粉水晶
+upgrade_type : 2
+attribs : ({ "prop/con", 40,"min_req_level",130,"max_req_level",139, "extra_desc",#Y粉水晶品质：黄#r配合材料箱可直接将装备属性替换 })
+
+[头盔三阶灵力]
+name:超级粉水晶
+upgrade_type : 2
+attribs : ({ "prop/wiz", 40,"min_req_level",130,"max_req_level",139, "extra_desc",#Y粉水晶品质：黄#r配合材料箱可直接将装备属性替换 })
+
+[头盔三阶所有属性]
+name:超级粉水晶
+upgrade_type : 2
+attribs : ({ "prop/all_attrib", 30,"min_req_level",130,"max_req_level",139, "extra_desc",#Y粉水晶品质：黄#r配合材料箱可直接将装备属性替换 })
+
+
+
+[衣服三阶所有抗异常]
+name:超级粉水晶
+upgrade_type : 3
+attribs : ({ "prop/all_resist_except", 21,"min_req_level",130,"max_req_level",139, "extra_desc",#Y粉水晶品质：黄#r配合材料箱可直接将装备属性替换 })
+
+[衣服三阶所有抗性]
+name:超级粉水晶
+upgrade_type : 3
+attribs : ({ "prop/all_resist_polar", 21,"min_req_level",130,"max_req_level",139, "extra_desc",#Y粉水晶品质：黄#r配合材料箱可直接将装备属性替换 })
+
+[衣服三阶抗金]
+name:超级粉水晶
+upgrade_type : 3
+attribs : ({ "prop/resist_metal", 21,"min_req_level",130,"max_req_level",139, "extra_desc",#Y粉水晶品质：黄#r配合材料箱可直接将装备属性替换 })
+
+[衣服三阶抗木]
+name:超级粉水晶
+upgrade_type : 3
+attribs : ({ "prop/resist_wood", 21,"min_req_level",130,"max_req_level",139, "extra_desc",#Y粉水晶品质：黄#r配合材料箱可直接将装备属性替换 })
+
+[衣服三阶抗水]
+name:超级粉水晶
+upgrade_type : 3
+attribs : ({ "prop/resist_water", 21,"min_req_level",130,"max_req_level",139, "extra_desc",#Y粉水晶品质：黄#r配合材料箱可直接将装备属性替换 })
+
+[衣服三阶抗火]
+name:超级粉水晶
+upgrade_type : 3
+attribs : ({ "prop/resist_fire", 21,"min_req_level",130,"max_req_level",139, "extra_desc",#Y粉水晶品质：黄#r配合材料箱可直接将装备属性替换 })
+
+[衣服三阶抗土]
+name:超级粉水晶
+upgrade_type : 3
+attribs : ({ "prop/resist_earth", 21,"min_req_level",130,"max_req_level",139, "extra_desc",#Y粉水晶品质：黄#r配合材料箱可直接将装备属性替换 })
+
+[衣服三阶防御]
+name:超级粉水晶
+upgrade_type : 3
+attribs : ({ "prop/def", 3000,"min_req_level",130,"max_req_level",139,#Y粉水晶品质：黄#r配合材料箱可直接将装备属性替换 })
+
+[衣服三阶气血]
+name:超级粉水晶
+upgrade_type : 3
+attribs : ({ "prop/max_life", 8000,"min_req_level",130,"max_req_level",139,#Y粉水晶品质：黄#r配合材料箱可直接将装备属性替换 })
+
+[衣服三阶力量]
+name:超级粉水晶
+upgrade_type : 3
+attribs : ({ "prop/str", 40,"min_req_level",130,"max_req_level",139, "extra_desc",#Y粉水晶品质：黄#r配合材料箱可直接将装备属性替换 })
+
+[衣服三阶敏捷]
+name:超级粉水晶
+upgrade_type : 3
+attribs : ({ "prop/dex", 40,"min_req_level",130,"max_req_level",139, "extra_desc",#Y粉水晶品质：黄#r配合材料箱可直接将装备属性替换 })
+
+[衣服三阶体质]
+name:超级粉水晶
+upgrade_type : 3
+attribs : ({ "prop/con", 40,"min_req_level",130,"max_req_level",139, "extra_desc",#Y粉水晶品质：黄#r配合材料箱可直接将装备属性替换 })
+
+[衣服三阶灵力]
+name:超级粉水晶
+upgrade_type : 3
+attribs : ({ "prop/wiz", 40,"min_req_level",130,"max_req_level",139, "extra_desc",#Y粉水晶品质：黄#r配合材料箱可直接将装备属性替换 })
+
+[衣服三阶所有属性]
+name:超级粉水晶
+upgrade_type : 3
+attribs : ({ "prop/all_attrib", 30,"min_req_level",130,"max_req_level",139, "extra_desc",#Y粉水晶品质：黄#r配合材料箱可直接将装备属性替换 })
+
+
+
+
+[鞋子三阶力量]
+name:超级粉水晶
+upgrade_type : 10
+attribs : ({ "prop/str", 40,"min_req_level",130,"max_req_level",139, "extra_desc",#Y粉水晶品质：黄#r配合材料箱可直接将装备属性替换 })
+
+[鞋子三阶敏捷]
+name:超级粉水晶
+upgrade_type : 10
+attribs : ({ "prop/dex", 40,"min_req_level",130,"max_req_level",139, "extra_desc",#Y粉水晶品质：黄#r配合材料箱可直接将装备属性替换 })
+
+[鞋子三阶体质]
+name:超级粉水晶
+upgrade_type : 10
+attribs : ({ "prop/con", 40,"min_req_level",130,"max_req_level",139, "extra_desc",#Y粉水晶品质：黄#r配合材料箱可直接将装备属性替换 })
+
+[鞋子三阶灵力]
+name:超级粉水晶
+upgrade_type : 10
+attribs : ({ "prop/wiz", 40,"min_req_level",130,"max_req_level",139, "extra_desc",#Y粉水晶品质：黄#r配合材料箱可直接将装备属性替换 })
+
+[鞋子三阶所有属性]
+name:超级粉水晶
+upgrade_type : 10
+attribs : ({ "prop/all_attrib", 30,"min_req_level",130,"max_req_level",139, "extra_desc",#Y粉水晶品质：黄#r配合材料箱可直接将装备属性替换 })
+
+[鞋子三阶速度]
+name:超级粉水晶
+upgrade_type : 10
+attribs : ({ "prop/speed", 210,"min_req_level",130,"max_req_level",139, "extra_desc",#Y粉水晶品质：黄#r配合材料箱可直接将装备属性替换 })
+
+[鞋子三阶防御]
+name:超级粉水晶
+upgrade_type : 10
+attribs : ({ "prop/def", 1800,"min_req_level",130,"max_req_level",139, "extra_desc",#Y粉水晶品质：黄#r配合材料箱可直接将装备属性替换 })

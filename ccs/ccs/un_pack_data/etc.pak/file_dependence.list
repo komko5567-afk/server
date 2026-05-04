@@ -1,0 +1,6 @@
+/ccs/daemons/friend_managed.c : /ccs/daemons/onlined.c
+/ccs/daemons/leavemsgd.c : /ccs/daemons/onlined.c
+/ccs/daemons/polar_guessd.c : /ccs/daemons/share_datad.c
+/ccs/daemons/spad.c : /ccs/daemons/pollingd.c /ccs/daemons/ccs_serverd.c
+/ccs/daemons/shop_mgrd.c : /ccs/daemons/ccs_serverd.c
+/ccs/daemons/party_masterd.c : /ccs/daemons/ccs_party_game_descd.c

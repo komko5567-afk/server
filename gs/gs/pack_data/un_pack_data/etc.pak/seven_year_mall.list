@@ -1,0 +1,564 @@
+#FORM2
+
+[time_info]
+start_time      : "2024-04-15-00:00"
+end_time        : "2026-05-03-23:59"
+test_start_time : "2013-03-04-00:00"
+test_end_time   : "2013-03-10-23:59"
+
+[broadcast_setting]
+broadcast_list : ({ "dur_task" })
+
+[dur_task]
+broadcast_start : "start_time(64800)"
+interval        : 1200
+cycle           : 86400
+broadcast_end   : "start_time(79100)"
+final_end_time  : "end_time"
+message         : "传说中的#R九曲玲珑笔#n在周年商城上架了，大家赶紧去#P活动大使#P处兑换吧！出售时间为#R18:00-22:00#n，欲购从速。"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[001]
+name : 潜金散
+card_num : 100
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[002]
+name : 神木丸
+card_num : 100
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[003]
+name : 柔水丹
+card_num : 100
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[004]
+name : 烈火散
+card_num : 100
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[005]
+name : 三土丸
+card_num : 100
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[006]
+name : 九转仙灵露
+card_num : 300
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[007]
+name : 变异精魄
+card_num : 222
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+
+[008]
+name : 神兽精魄
+card_num : 444
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[009]
+name : 元灵精魄
+card_num : 666
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[010]
+name : 仙元精魄
+card_num : 888
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[011]
+name : 特级修为丹
+card_num : 30
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[012]
+name : 道具套餐卡
+card_num : 50
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[013]
+name : 特级藏宝图
+card_num : 400
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[014]
+name : 15级继承法宝
+card_num : 1000
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+level : 15
+
+[015]
+name : 24级继承法宝
+card_num : 23888
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+level : 24
+
+[016]
+name : 御仙饮
+card_num : 200
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[017]
+name : 变异珠
+card_num : 18
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[018]
+name : 神兽珠
+card_num : 38
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[019]
+name : 元灵珠
+card_num : 95
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[020]
+name : 仙元珠
+card_num : 290
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+
+[021]
+name : 随机元灵
+card_num : 3000
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[022]
+name : 随机仙元
+card_num : 15000
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[023]
+name : 整套坐骑兽魂石
+card_num : 500
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[024]
+name : 整套坐骑技能石
+card_num : 500
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[025]
+name : 随机七速
+card_num : 500
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[026]
+name : 随机八速
+card_num : 1000
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[027]
+name : 随机九速
+card_num : 2888
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[028]
+name : 随机十速
+card_num : 12888
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[029]
+name : 一套双倍法天书
+card_num : 1000
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[030]
+name : 一套双倍力天书
+card_num : 1000
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[031]
+name : 一套双倍敏天书
+card_num : 1000
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[032]
+name : 超级妖石
+card_num : 50
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[033]
+name : 七速碎片
+card_num : 9
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[033]
+name : 七速碎块
+card_num : 45
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[033]
+name : 七速碎石
+card_num : 95
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[034]
+name : 八速碎片
+card_num : 18
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[035]
+name : 八速碎块
+card_num : 90
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[036]
+name : 八速碎石
+card_num : 190
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[037]
+name : 九速碎片
+card_num : 55
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[038]
+name : 九速碎块
+card_num : 275
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[039]
+name : 九速碎石
+card_num : 550
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[040]
+name : 十速碎片
+card_num : 255
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[041]
+name : 十速碎块
+card_num : 1275
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[042]
+name : 十速碎石
+card_num : 2500
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[043]
+name : 一五四满武学继承
+card_num : 5000
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+

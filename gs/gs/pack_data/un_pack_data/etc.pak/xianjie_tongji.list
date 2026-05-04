@@ -1,0 +1,105 @@
+#FORM2
+
+# xianjie-tongji.list - ÏÉ½çÍ¨¼©ÈÎÎñÅäÖÃ±í
+# Created by hongjs Oct/28/2008
+
+[task_rooms]
+# µØÍ¼id                           : µÈ¼¶ÒªÇó
+tianyongcheng/tianyongcheng.c        : 130
+
+
+[monster_names]
+prefix_names  : ({ ÃğÊÀ, »ÃÊÀ, ÊÉÉ±, ÑªÅÛ, Íò¹Ç, °Ù±ä, ÖÁĞ°, ³àµØ, ³ãÒí, ÇæÌì, ÓùÉ· })
+middle_names  : ({ Ñı»Ê, Ä§×ğ })
+suffix_names  : ({ Ú¤Ìì, °¢¹ÅÕæ, ³£Óà, ÆëÁú, Ğ°èÉ, ¶ñâ², Òõ¹Â, âª })
+assist_names  : ({ ÊÉÊÀºÚÉ·, ÊÈÑª³àÉ·, Éã»êÇàÉ·, ·ÙÊÀ½ğÉ·, ÷ÈÉñ×ÏÉ·, ÑªËéÂÌÉ· })
+
+[Ñı»Ê]
+raw_name          : Ñı»Ê
+icon              : 06259
+portrait          : 06259
+polar             : -1
+mag_absorb        : 0
+speed_effect      : 40
+accurate          : 200
+tao_effect        : 0
+all_resist_except : 60
+sp_skills         : ({ ÈçÒâÈ¦, ÉñÁúÕÖ })
+
+[Ä§×ğ]
+raw_name          : Ä§×ğ
+icon              : 06258
+portrait          : 06258
+polar             : -1
+mag_absorb        : 0
+speed_effect      : 40
+accurate          : 200
+tao_effect        : 0
+all_resist_except : 60
+sp_skills         : ({ ÈçÒâÈ¦, ÉñÁúÕÖ })
+
+[ÊÉÊÀºÚÉ·]
+name              : ÊÉÊÀºÚÉ·
+icon              : 06228
+portrait          : 06228
+polar             : 1
+resist_metal      : 90
+phy_absorb        : 0
+mag_absorb        : 0
+speed_effect      : 0
+phy_attack_rate   : 20
+
+[ÊÈÑª³àÉ·]
+name              : ÊÈÑª³àÉ·
+icon              : 06221
+portrait          : 06221
+polar             : 3
+resist_water      : 90
+phy_absorb        : 0
+mag_absorb        : 0
+speed_effect      : 0
+phy_attack_rate   : 20
+
+[Éã»êÇàÉ·]
+name              : Éã»êÇàÉ·
+icon              : 06140
+portrait          : 06140
+polar             : 2
+resist_wood       : 90
+phy_absorb        : 0
+mag_absorb        : 0
+speed_effect      : 0
+phy_attack_rate   : 20
+
+[·ÙÊÀ½ğÉ·]
+name              : ·ÙÊÀ½ğÉ·
+icon              : 06153
+portrait          : 06153
+polar             : 4
+resist_fire       : 90
+phy_absorb        : 0
+mag_absorb        : 0
+speed_effect      : 0
+phy_attack_rate   : 20
+
+[÷ÈÉñ×ÏÉ·]
+name              : ÷ÈÉñ×ÏÉ·
+icon              : 06206
+portrait          : 06206
+polar             : 5
+resist_earth      : 90
+phy_absorb        : 0
+mag_absorb        : 0
+speed_effect      : 0
+phy_attack_rate   : 20
+
+[ÑªËéÂÌÉ·]
+name              : ÑªËéÂÌÉ·
+icon              : 06150
+portrait          : 06150
+polar             : -1
+phy_absorb        : -50
+mag_absorb        : 0
+speed_effect      : -10
+stunt_rate        : 100
+phy_attack_rate   : 100

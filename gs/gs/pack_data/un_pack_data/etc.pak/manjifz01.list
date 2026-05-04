@@ -1,0 +1,38 @@
+#FORM2
+#zhuangb.list
+#create by caijz 09/22/2706
+#奖励物品        概率
+
+
+[奖励等级]
+
+name$: 特等奖
+
+[特等奖]
+引灵幡  : 1000
+
+[引灵幡]
+bonus$ : ({ 0, 0, 100, "属性道具", 1, 1, "一阶引灵幡2"})
+bonus$ : ({ 0, 0, 100, "属性道具", 1, 1, "二阶引灵幡2"})
+bonus$ : ({ 0, 0, 100, "属性道具", 1, 1, "三阶引灵幡2"})
+bonus$ : ({ 0, 0, 100, "属性道具", 1, 1, "四阶引灵幡2"})
+
+
+[一阶引灵幡2]
+name      : 一阶引灵幡
+attribs      : ({ "add_pennant_skill", 173, "durability", 100000, "lianhun", 9999,  "max_lianhun", 9999,  "icon", 1427})
+
+
+[二阶引灵幡2]
+name      : 二阶引灵幡
+attribs      : ({ "add_pennant_skill", 173, "durability", 100000, "lianhun", 9999,  "max_lianhun", 9999,  "icon", 1428})
+
+
+[三阶引灵幡2]
+name      : 三阶引灵幡
+attribs      : ({ "add_pennant_skill", 173, "durability", 100000, "lianhun", 9999,  "max_lianhun", 9999,  "icon", 1429})
+
+
+[四阶引灵幡2]
+name      : 四阶引灵幡
+attribs      : ({ "add_pennant_skill", 173, "durability", 100000, "lianhun", 9999,  "max_lianhun", 9999,  "icon", 1430})

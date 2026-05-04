@@ -1,0 +1,93 @@
+#FORM2
+
+[basic]
+destroy_action : ({ "chus", "qig", "chongwdq" })
+multi_branch_action : ({ "zhuangbcf", "tians", "inherit_zhuangbcf", "inherit_tians" })
+
+[log_exchange]
+zhuangbcf            :    1
+zhuangbcz            :    1
+fenzblh              :    1
+zhuangbqh            :    1
+chailan              :    1
+zhuangbgz            :    1
+zhuangbfy            :    1
+jinglsj              :    2
+shiwhc               :    2
+lvzbtz               :    1
+fenzj                :    1
+chongwqh             :    1
+liany                :    1
+tians                :    1
+chongwdh             :    1
+zhuanhsx             :    1
+qicrh                :    1
+zhaohjg              :    2
+chongwjh             :    1
+chus                 :    1
+qig                  :    1
+chongwdq             :    1
+roll_back            :    1
+gm_roll_back         :    1
+inherit_zhuangbcf    :    1
+inherit_zhuangbcz    :    1
+inherit_fenzblh      :    1
+inherit_zhuangbqh    :    1
+inherit_chailan      :    1
+inherit_zhuangbgz    :    1
+inherit_zhuangbfy    :    1
+inherit_jinglsj      :    2
+inherit_shiwhc       :    2
+inherit_lvzbtz       :    1
+inherit_fenzj        :    1
+inherit_chongwqh     :    1
+inherit_liany        :    1
+inherit_tians        :    1
+inherit_chongwdh     :    1
+inherit_qicrh        :    1
+inherit_zhuanhsx     :    1
+inherit_chongwjh     :    1
+inherit_zhaohjg      :    2
+
+[log_replace]
+zhuangbcf            :  "装备拆分"
+zhuangbcz            :  "装备重组"
+fenzblh              :  "装备炼化"
+zhuangbqh            :  "装备强化"
+chailan              :  "装备改造"
+zhuangbgz            :  "装备改造"
+zhuangbfy            :  "装备封印"
+jinglsj              :  "精炼水晶"
+shiwhc               :  "饰物合成"
+lvzbtz               :  "合成套装"
+fenzj                :  "装备粉转金"
+chongwqh             :  "宠物强化"
+liany                :  "炼妖"
+tians                :  "天书系统"
+chongwdh             :  "宠物点化"
+qicrh                :  "骑宠融合"
+zhuanhsx             :  "转换属性限制"
+chongwjh             :  "宠物进化"
+chus                 :  "出售给NPC"
+qig                  :  "提交给乞丐"
+chongwdq             :  "宠物丢弃"
+zhaohjg              :  "召唤精怪"
+inherit_zhuangbcf    :  "装备拆分"
+inherit_zhuangbcz    :  "装备重组"
+inherit_fenzblh      :  "装备炼化"
+inherit_zhuangbqh    :  "装备强化"
+inherit_chailan      :  "装备改造"
+inherit_zhuangbgz    :  "装备改造"
+inherit_zhuangbfy    :  "装备封印"
+inherit_jinglsj      :  "精炼水晶"
+inherit_shiwhc       :  "饰物合成"
+inherit_lvzbtz       :  "合成套装"
+inherit_fenzj        :  "装备粉转金"
+inherit_chongwqh     :  "宠物强化"
+inherit_liany        :  "炼妖"
+inherit_tians        :  "天书系统"
+inherit_chongwdh     :  "宠物点化"
+inherit_qicrh        :  "骑宠融合"
+inherit_zhuanhsx     :  "转换属性限制"
+inherit_chongwjh     :  "宠物进化"
+inherit_zhaohjg      :  "召唤精怪"

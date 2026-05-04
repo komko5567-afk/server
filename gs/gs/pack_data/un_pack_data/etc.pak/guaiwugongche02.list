@@ -1,0 +1,72 @@
+#FORM2
+#怪物攻城配置文件（公测区）
+#
+
+[活动时间]
+time_list$ : ({ "2019-07-01-00:00:00", "EVERY_HOUR(2)", "EVERY_DAY(1)", "2028-05-30-23:59:59" })
+time_list$ : ({ "2019-07-01-02:00:00", "EVERY_HOUR(2)", "EVERY_DAY(1)", "2028-05-30-23:59:59" })
+time_list$ : ({ "2019-07-01-04:00:00", "EVERY_HOUR(2)", "EVERY_DAY(1)", "2028-05-30-23:59:59" })
+time_list$ : ({ "2019-07-01-06:00:00", "EVERY_HOUR(2)", "EVERY_DAY(1)", "2028-05-30-23:59:59" })
+time_list$ : ({ "2019-07-01-08:00:00", "EVERY_HOUR(2)", "EVERY_DAY(1)", "2028-05-30-23:59:59" })
+time_list$ : ({ "2019-07-01-10:00:00", "EVERY_HOUR(2)", "EVERY_DAY(1)", "2028-05-30-23:59:59" })
+time_list$ : ({ "2019-07-01-12:00:00", "EVERY_HOUR(2)", "EVERY_DAY(1)", "2028-05-30-23:59:59" })
+time_list$ : ({ "2019-07-01-14:00:00", "EVERY_HOUR(2)", "EVERY_DAY(1)", "2028-05-30-23:59:59" })
+time_list$ : ({ "2019-07-01-16:00:00", "EVERY_HOUR(2)", "EVERY_DAY(1)", "2028-05-30-23:59:59" })
+time_list$ : ({ "2019-07-01-18:00:00", "EVERY_HOUR(2)", "EVERY_DAY(1)", "2028-05-30-23:59:59" })
+time_list$ : ({ "2019-07-01-22:00:00", "EVERY_HOUR(2)", "EVERY_DAY(1)", "2028-05-30-23:59:59" })
+
+[活动相关]
+default_duration : 7200
+
+#刷新怪物的间隔
+#活动中怪物刷新广播
+msg_fill_monster: "#G杜千殇#n对#R#Z富甲钱庄#Z#n发动了第$ROUND轮的攻击，请道友速去消灭它们吧。"
+time_fill_monster: 7200
+interval_fill_monster: 7200
+duration_fill_monster: 6700
+
+#活动开始前广播
+msg_prev_start: "#G杜千殇入侵#n活动将于#R$ST#n开放。"
+time_prev_start: 1800
+interval_prev_start: 180
+
+#活动开始时广播
+msg_start: "#G杜千殇#n对#R#Z富甲钱庄#Z#n发动了第$ROUND轮的攻击，请道友速去消灭它们吧。"
+
+#活动中广播
+msg_in_festival: "#G杜千殇#n对#R#Z富甲钱庄#Z#n发动了第$ROUND轮的攻击，请道友速去消灭它们吧。"
+interval_in_festival: 1200
+time_in_festival: 7200
+
+#活动刷新怪物停止时的广播
+msg_stop_fill: "#G杜千殇#n已有撤退之意，大家要加油了！#n"
+interval_stop_fill: 7200
+
+#活动停止时广播
+msg_stop: "#G杜千殇#n已经撤退了！感谢勇士们共同守护中洲大陆。#n"
+
+#活动正常停止时广播
+msg_normal_stop: "#G杜千殇#n已经全部被消灭了！感谢勇士们共同守护中洲大陆。#n"
+
+#强制终止战斗的提示
+msg_retreat: "杜千殇#n已经撤退了！"
+
+
+#怪物生成区域
+rooms$: 富甲钱庄
+
+
+
+[富甲钱庄]
+monster_list$: 富甲钱庄BOSS1
+monster_list$: 富甲钱庄BOSS2
+
+[富甲钱庄BOSS1]
+num : 1
+name$: 杜千殇
+type: "boss_monster"
+
+[富甲钱庄BOSS2]
+num : 5
+name$: 水德星君
+type: "boss_monster"

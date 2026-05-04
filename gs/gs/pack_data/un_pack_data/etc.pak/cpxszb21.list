@@ -1,0 +1,21 @@
+#FORM2
+#zhuangb.list
+#create by caijz 09/22/2706
+#奖励物品        概率
+
+[奖励等级]
+name$: 特等奖
+
+[特等奖]
+时装 : 100
+
+
+[时装]
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "时装01"})
+
+
+[时装01]
+name      : 透明·时装
+min_level : 10
+max_level : 10
+attribs      : ({ "prop/all_polar", 5, "prop/enhanced_metal", 10, "prop/enhanced_wood", 10, "prop/enhanced_water", 10, "prop/enhanced_fire", 10, "prop/enhanced_earth", 10, "prop/enhanced_phy", 10, "prop/base_dodge", 100,"source", 独家, "extra_desc", #G顶级时装#r#Y推荐指数：★★★★★★#n#r#R注意：该类时装不可给宠物穿戴 })

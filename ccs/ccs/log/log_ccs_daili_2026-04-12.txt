@@ -1,0 +1,580 @@
+Sun Apr 12 04:22:44 2026 Error: Bad type(undefined) to index.
+Sun Apr 12 04:22:44 2026 Object: /ccs/daemons/lottery_ticketd.c
+Sun Apr 12 04:22:44 2026 Current thread: "t2"(1)
+Sun Apr 12 04:22:44 2026 At /ccs/daemons/lottery_ticketd.c:451(get_bonus_desc) in /ccs/daemons/lottery_ticketd.c
+Sun Apr 12 04:22:44 2026 Argument bonus_arr = ({ /* sizeof() == 4 */
+    "北极熊",
+    "溜溜马",
+    "80级所相4首饰",
+    "10000银元宝",
+})
+Sun Apr 12 04:22:44 2026 
+Sun Apr 12 04:22:44 2026 Variable <loop_1> = <LoopCtrl>
+Sun Apr 12 04:22:44 2026 
+Sun Apr 12 04:22:44 2026 Variable name = "10000银元宝"
+Sun Apr 12 04:22:44 2026 
+Sun Apr 12 04:22:44 2026 Variable desc_arr = ({ /* sizeof() == 3 */
+    "北极熊",
+    "溜溜马",
+    "80级所相4首饰",
+})
+Sun Apr 12 04:22:44 2026 
+Sun Apr 12 04:22:44 2026 /ccs/daemons/lottery_ticketd.c::form_value = ([ /* sizeof() == 35 */
+    "quota_2" : ([ /* sizeof() == 3 */
+        "1000银元宝" : 250,
+        "500银元宝" : 1000,
+        "normal" : 298750,
+    ]),
+    "随机陨石道具" : ([ /* sizeof() == 3 */
+        "rate" : 18000,
+        "class" : 4,
+        "name" : "随机陨石道具",
+    ]),
+    "100000银元宝" : ([ /* sizeof() == 3 */
+        "rate" : 200,
+        "class" : 7,
+        "name" : "100000银元宝",
+    ]),
+    "祝融" : ([ /* sizeof() == 4 */
+        "rate" : 100,
+        "class" : 1,
+        "name" : "祝融",
+        "extra" : "80级所相3首饰",
+    ]),
+    "勾陈" : ([ /* sizeof() == 4 */
+        "rate" : 100,
+        "class" : 1,
+        "name" : "勾陈",
+        "extra" : "80级所相3首饰",
+    ]),
+    "400000银元宝" : ([ /* sizeof() == 4 */
+        "rate" : 150,
+        "class" : 7,
+        "name" : "400000银元宝",
+        "extra" : "80级所相5首饰",
+    ]),
+    "task_time" : ([ /* sizeof() == 2 */
+        "end_time" : "2017-12-26-23:59:59",
+        "start_time" : "2017-12-23-11:00:00",
+    ]),
+    "超级神兽丹" : ([ /* sizeof() == 3 */
+        "rate" : 518,
+        "class" : 3,
+        "name" : "超级神兽丹",
+    ]),
+    "500银元宝" : ([ /* sizeof() == 3 */
+        "rate" : 180,
+        "class" : 7,
+        "name" : "500银元宝",
+    ]),
+    "1000银元宝" : ([ /* sizeof() == 3 */
+        "rate" : 50,
+        "class" : 7,
+        "name" : "1000银元宝",
+    ]),
+    "quota_sp" : ([ /* sizeof() == 4 */
+        "太极熊" : 10,
+        "九尾仙狐" : 1,
+        "随机元灵" : 10,
+        "normal" : 0,
+    ]),
+    "功能卷轴·古道热肠" : ([ /* sizeof() == 3 */
+        "rate" : 52,
+        "class" : 3,
+        "name" : "功能卷轴·古道热肠",
+    ]),
+    "50银元宝" : ([ /* sizeof() == 3 */
+        "rate" : 100,
+        "class" : 7,
+        "name" : "50银元宝",
+    ]),
+    "10银元宝" : ([ /* sizeof() == 3 */
+        "rate" : 50,
+        "class" : 7,
+        "name" : "10银元宝",
+    ]),
+    "神兽精魄" : ([ /* sizeof() == 3 */
+        "rate" : 7,
+        "class" : 3,
+        "name" : "神兽精
+Sun Apr 12 04:22:44 2026 
+Sun Apr 12 04:22:44 2026 At /ccs/daemons/lottery_ticketd.c:379(do_init) in /ccs/daemons/lottery_ticketd.c
+Sun Apr 12 04:22:44 2026 Variable str = "#FORM2
+
+[task_time]
+start_time : "2017-12-23-11:00:00"
+end_time   : "2017-12-26-23:59:59"
+
+[default]
+bonussp : ({ "九尾仙狐", "随机元灵", "太极熊" })
+bonus0 : ({ "祝融", "勾陈", "六合", "100000银元宝" })
+bonus1 : ({ "北极熊", "溜溜马", "80级所相4首饰", "10000银元宝" })
+bonus2 : ({ "宠物经验丹", "宠物武学丹", "超级女娲石", "随机陨石道具", "随机满属装备", "变异精魄", "神兽精魄", "1000银元宝", "500银元宝" })
+bonus3 : ({ "100银元宝", "超级神兽丹", "功能卷轴·古道热肠", "特效仙风散", "50银元宝" })
+bonus4 : ({ "锦囊", "50银元宝" })
+
+view_url : "http://www.baidu.com/"
+
+[quota_sp]
+九尾仙狐       : 1
+随机元灵       : 10
+太极熊         : 10
+normal         : 0
+
+[quota_0]
+100000银元宝   : 15
+normal         : 65
+
+[quota_1]
+10000银元宝   : 120
+normal         : 150
+
+[quota_2]
+500银元宝     : 1000
+1000银元宝    : 250
+normal         : 298750
+
+# 附加奖励
+[100000银元宝]
+name : "100000银元宝"
+class : 7
+
+[60000银元宝]
+name : "60000银元宝"
+class : 7
+
+[80级所相5首饰]
+name  : "80级所相5首饰"
+class : 4
+
+[80级所相3首饰]
+name  : "80级所相3首饰"
+class : 4
+
+# 至尊大奖
+[九尾仙狐]
+name : 九尾仙狐
+rate : 1
+class : 2
+extra : "1000000银元宝"
+
+[随机元灵]
+name : 随机元灵
+rate : 10
+class : 4
+extra : "600000银元宝"
+
+[太极熊]
+name : "太极熊"
+rate : 10
+class : 2
+extra : "80级所相5首饰"
+
+# 特等奖
+[祝融]
+name : 祝融
+rate : 100
+class : 1
+extra : "80级所相3首饰"
+
+[勾陈]
+name : 勾陈
+rate : 100
+class : 1
+extra : "80级所相3首饰"
+
+[六合]
+name : 六合
+rate : 100
+class : 1
+extra : "80级所相3首饰"
+
+[400000银元宝]
+name : "400000银元宝"
+rate : 150
+class : 7
+extra : "80级所相5首饰"
+
+# 一等奖
+[北极熊]
+name : "北极熊"
+rate : 50
+class : 2
+
+[溜溜马]
+name : 溜溜马
+rate : 50
+class : 1
+
+[80级所相4首饰]
+name : "80级所相4首饰"
+rate : 50
+class : 4
+
+[100000银元宝]
+name : "100000银元宝"
+rate : 200
+class : 7
+
+# 二等奖
+[宠物经验丹]
+name : "宠物经验丹"
+rate : 11800
+class : 3
+
+[宠物武学丹]
+name : "宠物武学丹"
+rate : 11800
+class : 3
+
+[超级女娲石]
+name : 超级女娲石
+rate : 5000
+class : 3
+
+[随机陨石道具]
+name  : 随机陨石道具
+rate  : 18000
+class : 4
+
+[随机满属装备]
+name 
+Sun Apr 12 04:22:44 2026 
+Sun Apr 12 04:22:44 2026 Variable arr = ({ /* sizeof() == 200 */
+    "#FORM2",
+    "",
+    "[task_time]",
+    "start_time : "2017-12-23-11:00:00"",
+    "end_time   : "2017-12-26-23:59:59"",
+    "",
+    "[default]",
+    "bonussp : ({ "九尾仙狐", "随机元灵", "太极熊" })",
+    "bonus0 : ({ "祝融", "勾陈", "六合", "100000银元宝" })",
+    "bonus1 : ({ "北极熊", "溜溜马", "80级所相4首饰", "10000银元宝" })",
+    "bonus2 : ({ "宠物经验丹", "宠物武学丹", "超级女娲石", "随机陨石道具", "随机满属装备", "变异精魄", "神兽精魄", "1000银元宝", "500银元宝" })",
+    "bonus3 : ({ "100银元宝", "超级神兽丹", "功能卷轴·古道热肠", "特效仙风散", "50银元宝" })",
+    "bonus4 : ({ "锦囊", "50银元宝" })",
+    "",
+    "view_url : "http://www.baidu.com/"",
+    "",
+    "[quota_sp]",
+    "九尾仙狐       : 1",
+    "随机元灵       : 10",
+    "太极熊         : 10",
+    "normal         : 0",
+    "",
+    "[quota_0]",
+    "100000银元宝   : 15",
+    "normal         : 65",
+    "",
+    "[quota_1]",
+    "10000银元宝   : 120",
+    "normal         : 150",
+    "",
+    "[quota_2]",
+    "500银元宝     : 1000",
+    "1000银元宝    : 250",
+    "normal         : 298750",
+    "",
+    "# 附加奖励",
+    "[100000银元宝]",
+    "name : "100000银元宝"",
+    "class : 7",
+    "",
+    "[60000银元宝]",
+    "name : "60000银元宝"",
+    "class : 7",
+    "",
+    "[80级所相5首饰]",
+    "name  : "80级所相5首饰"",
+    "class : 4",
+    "",
+    "[80级所相3首饰]",
+    "name  : "80级所相3首饰"",
+    "class : 4",
+    "",
+    "# 至尊大奖",
+    "[九尾仙狐]",
+    "name : 九尾仙狐",
+    "rate : 1",
+    "class : 2",
+    "extra : "1000000银元宝"",
+    "",
+    "[随机元灵]",
+    "name : 随机元灵",
+    "rate : 10",
+    "class : 4",
+    "extra : "600000银元宝"",
+    "",
+    "[太极熊]",
+    "name : "太极熊"",
+    "rate : 10",
+    "class : 2",
+    "extra : "80级所相5首饰"",
+    "",
+    "# 特等奖",
+    "[祝融]",
+    "name : 祝融",
+    "rate : 100",
+    "class : 1",
+    "extra : "80级所相3首饰"",
+    "",
+    "[勾陈]",
+    "name : 勾陈",
+    "rate : 100",
+    "class : 1",
+    "extra : "80级所相3首饰"",
+    "",
+    "[六合]"
+Sun Apr 12 04:22:44 2026 
+Sun Apr 12 04:22:44 2026 /ccs/daemons/lottery_ticketd.c::form_value = ([ /* sizeof() == 35 */
+    "quota_2" : ([ /* sizeof() == 3 */
+        "1000银元宝" : 250,
+        "500银元宝" : 1000,
+        "normal" : 298750,
+    ]),
+    "随机陨石道具" : ([ /* sizeof() == 3 */
+        "rate" : 18000,
+        "class" : 4,
+        "name" : "随机陨石道具",
+    ]),
+    "100000银元宝" : ([ /* sizeof() == 3 */
+        "rate" : 200,
+        "class" : 7,
+        "name" : "100000银元宝",
+    ]),
+    "祝融" : ([ /* sizeof() == 4 */
+        "rate" : 100,
+        "class" : 1,
+        "name" : "祝融",
+        "extra" : "80级所相3首饰",
+    ]),
+    "勾陈" : ([ /* sizeof() == 4 */
+        "rate" : 100,
+        "class" : 1,
+        "name" : "勾陈",
+        "extra" : "80级所相3首饰",
+    ]),
+    "400000银元宝" : ([ /* sizeof() == 4 */
+        "rate" : 150,
+        "class" : 7,
+        "name" : "400000银元宝",
+        "extra" : "80级所相5首饰",
+    ]),
+    "task_time" : ([ /* sizeof() == 2 */
+        "end_time" : "2017-12-26-23:59:59",
+        "start_time" : "2017-12-23-11:00:00",
+    ]),
+    "超级神兽丹" : ([ /* sizeof() == 3 */
+        "rate" : 518,
+        "class" : 3,
+        "name" : "超级神兽丹",
+    ]),
+    "500银元宝" : ([ /* sizeof() == 3 */
+        "rate" : 180,
+        "class" : 7,
+        "name" : "500银元宝",
+    ]),
+    "1000银元宝" : ([ /* sizeof() == 3 */
+        "rate" : 50,
+        "class" : 7,
+        "name" : "1000银元宝",
+    ]),
+    "quota_sp" : ([ /* sizeof() == 4 */
+        "太极熊" : 10,
+        "九尾仙狐" : 1,
+        "随机元灵" : 10,
+        "normal" : 0,
+    ]),
+    "功能卷轴·古道热肠" : ([ /* sizeof() == 3 */
+        "rate" : 52,
+        "class" : 3,
+        "name" : "功能卷轴·古道热肠",
+    ]),
+    "50银元宝" : ([ /* sizeof() == 3 */
+        "rate" : 100,
+        "class" : 7,
+        "name" : "50银元宝",
+    ]),
+    "10银元宝" : ([ /* sizeof() == 3 */
+        "rate" : 50,
+        "class" : 7,
+        "name" : "10银元宝",
+    ]),
+    "神兽精魄" : ([ /* sizeof() == 3 */
+        "rate" : 7,
+        "class" : 3,
+        "name" : "神兽精
+Sun Apr 12 04:22:44 2026 
+Sun Apr 12 04:22:44 2026 /ccs/daemons/lottery_ticketd.c::form_index = ({ /* sizeof() == 35 */
+    "quota_2",
+    "随机陨石道具",
+    "100000银元宝",
+    "祝融",
+    "勾陈",
+    "400000银元宝",
+    "task_time",
+    "超级神兽丹",
+    "500银元宝",
+    "1000银元宝",
+    "quota_sp",
+    "功能卷轴·古道热肠",
+    "50银元宝",
+    "10银元宝",
+    "神兽精魄",
+    "宠物武学丹",
+    "溜溜马",
+    "default",
+    "80级所相4首饰",
+    "六合",
+    "变异精魄",
+    "九尾仙狐",
+    "特效仙风散",
+    "60000银元宝",
+    "80级所相5首饰",
+    "宠物经验丹",
+    "北极熊",
+    "超级女娲石",
+    "太极熊",
+    "quota_1",
+    "随机元灵",
+    "80级所相3首饰",
+    "锦囊",
+    "随机满属装备",
+    "quota_0",
+})
+Sun Apr 12 04:22:44 2026 
+Sun Apr 12 04:22:44 2026 /ccs/daemons/lottery_ticketd.c::all_item_info = ([ /* sizeof() == 6 */
+    0 : ({ }),
+    1 : ({ /* sizeof() == 3 */
+        ([ /* sizeof() == 4 */
+            "rate" : 100,
+            "class" : 1,
+            "name" : "祝融",
+            "extra" : "80级所相3首饰",
+        ]),
+        ([ /* sizeof() == 4 */
+            "rate" : 100,
+            "class" : 1,
+            "name" : "勾陈",
+            "extra" : "80级所相3首饰",
+        ]),
+        ([ /* sizeof() == 4 */
+            "rate" : 100,
+            "class" : 1,
+            "name" : "六合",
+            "extra" : "80级所相3首饰",
+        ]),
+    }),
+    2 : ({ /* sizeof() == 3 */
+        ([ /* sizeof() == 3 */
+            "rate" : 50,
+            "class" : 2,
+            "name" : "北极熊",
+        ]),
+        ([ /* sizeof() == 3 */
+            "rate" : 50,
+            "class" : 1,
+            "name" : "溜溜马",
+        ]),
+        ([ /* sizeof() == 3 */
+            "rate" : 50,
+            "class" : 4,
+            "name" : "80级所相4首饰",
+        ]),
+    }),
+    3 : ({ /* sizeof() == 7 */
+        ([ /* sizeof() == 3 */
+            "rate" : 11800,
+            "class" : 3,
+            "name" : "宠物经验丹",
+        ]),
+        ([ /* sizeof() == 3 */
+            "rate" : 11800,
+            "class" : 3,
+            "name" : "宠物武学丹",
+        ]),
+        ([ /* sizeof() == 3 */
+            "rate" : 5000,
+            "class" : 3,
+            "name" : "超级女娲石",
+        ]),
+        ([ /* sizeof() == 3 */
+            "rate" : 18000,
+            "class" : 4,
+            "name" : "随机陨石道具",
+        ]),
+        ([ /* sizeof() == 3 */
+            "rate" : 5345,
+            "class" : 4,
+            "name" : "随机满属装备",
+        ]),
+        ([ /* sizeof() == 3 */
+            "rate" : 31,
+            "class" : 3,
+            "name" : "变异精魄",
+        ]),
+        ([ /* sizeof() == 3 */
+            "rate" : 7,
+            "class" : 3,
+            "name" : "神兽精魄",
+        ]),
+    }),
+    4 : ({ /* sizeof() == 4 */
+        ([ /* sizeof() == 3 */
+         
+Sun Apr 12 04:22:44 2026 
+Sun Apr 12 04:22:44 2026 /ccs/daemons/lottery_ticketd.c::bonus_name_revise = (undefined)
+Sun Apr 12 04:22:44 2026 
+Sun Apr 12 04:22:44 2026 /ccs/daemons/lottery_ticketd.c::bonus_name_sp_menu_revise = (undefined)
+Sun Apr 12 04:22:44 2026 
+Sun Apr 12 04:22:44 2026 /ccs/daemons/lottery_ticketd.c::view_url = (undefined)
+Sun Apr 12 04:22:44 2026 
+Sun Apr 12 04:22:44 2026 At /util/global_init.c:233(post_init) in global
+Sun Apr 12 04:22:44 2026 Variable <loop_1> = <LoopCtrl>
+Sun Apr 12 04:22:44 2026 
+Sun Apr 12 04:22:44 2026 Variable funcs = ({ /* sizeof() == 69 */
+    (: do_init_after_loaded@/feature/common/module_maintain.c :),
+    (: do_init@/ccs/cmds/ma/set_doubt_account.c :),
+    (: timer_update_server_list@/daemons/rpcd.c :),
+    (: do_init@/daemons/sorterrord.c :),
+    (: do_init@/daemons/system_monitord.c :),
+    (: init@/daemons/ctacommandd.c :),
+    (: save_server_time@/daemons/servertimed.c :),
+    (: init@/daemons/scheduled.c :),
+    (: do_init_after_loaded@/daemons/mmd.c :),
+    (: init@/daemons/logd.c :),
+    (: do_init@/ccs/daemons/onlined.c :),
+    (: init@/ccs/daemons/leavemsgd.c :),
+    (: do_init@/ccs/daemons/ccs_questiond.c :),
+    (: do_init@/ccs/daemons/ccs_card_gamed.c :),
+    (: do_init@/ccs/daemons/ccs_cityward.c :),
+    (: do_init@/ccs/daemons/xinfu_chongbang_2016d.c :),
+    (: do_init@/ccs/daemons/mid_autumn_2011d.c :),
+    (: do_init@/ccs/daemons/lottery_ticketd.c :),
+    (: do_init@/ccs/daemons/haoyun_choufantiand.c :),
+    (: do_init@/ccs/daemons/merge_traced.c :),
+    (: do_init@/ccs/daemons/ccs_passpodd.c :),
+    (: do_init@/ccs/daemons/task_utild.c :),
+    (: call_other@/ccs/daemons/friend_managed.c, "/ccs/daemons/onlined.c", "register_func", "login", (: do_login@/ccs/daemons/friend_managed.c :) :),
+    (: call_other@/ccs/daemons/friend_managed.c, "/ccs/daemons/onlined.c", "register_func", "logout", (: do_logout@/ccs/daemons/friend_managed.c :) :),
+    (: do_init@/ccs/daemons/melt_elixir_nsd.c :),
+    (: do_init@/ccs/daemons/ccs_party_anniversary.c :),
+    (: do_init@/ccs/daemons/share_sortd.c :),
+    (: do_init@/ccs/daemons/get_icon_infod.c :),
+    (: do_init@/ccs/daemons/ccs_topd.c :),
+    (: do_init@/ccs/daemons/ccs_vendued.c :),
+    (: do_init@/ccs/daemons/melt_elixird.c :),
+    (: do_init@/ccs/daemons/cross_server/citywar.c :),
+    (: do_init@/ccs/daemons/cross_server/activity.c :),
+    (: do_init@/ccs/daemons/cross_server/partywar.c :),
+    (: do_init@/ccs/daemons/cross_server/arena.c :),
+    (: do_init@/ccs/daemons/cross_server/league.c :),
+    (: do_init@/ccs/daemons/cross_server/draft.c :),
+Sun Apr 12 04:22:44 2026 
+Sun Apr 12 04:22:44 2026 Variable f = (: do_init@/ccs/daemons/lottery_ticketd.c :)
+Sun Apr 12 04:22:44 2026 
+Sun Apr 12 04:22:44 2026 global::_post_init_funcs = ({ })
+Sun Apr 12 04:22:44 2026 
+Sun Apr 12 04:22:44 2026 Call from /ccs/start_ccs.c:148
+Sun Apr 12 04:22:53 2026 Driver startup

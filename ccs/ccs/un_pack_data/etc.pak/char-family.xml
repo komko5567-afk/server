@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="GB2312" ?>
+
+<Root>
+	<ValueUnit>
+		<ViewValue>五龙山云霄洞（旧）</ViewValue>
+		<RealValue>10</RealValue>
+	</ValueUnit>
+	<ValueUnit>
+		<ViewValue>五龙山云霄洞（新）</ViewValue>
+		<RealValue>11</RealValue>
+	</ValueUnit>
+	<ValueUnit>
+		<ViewValue>终南山玉柱洞（旧）</ViewValue>
+		<RealValue>20</RealValue>
+	</ValueUnit>
+	<ValueUnit>
+		<ViewValue>终南山玉柱洞（新）</ViewValue>
+		<RealValue>21</RealValue>
+	</ValueUnit>
+	<ValueUnit>
+		<ViewValue>凤凰山斗阙宫（旧）</ViewValue>
+		<RealValue>30</RealValue>
+	</ValueUnit>
+	<ValueUnit>
+		<ViewValue>凤凰山斗阙宫（新）</ViewValue>
+		<RealValue>31</RealValue>
+	</ValueUnit>
+	<ValueUnit>
+		<ViewValue>乾元山金光洞（旧）</ViewValue>
+		<RealValue>40</RealValue>
+	</ValueUnit>
+	<ValueUnit>
+		<ViewValue>乾元山金光洞（新）</ViewValue>
+		<RealValue>41</RealValue>
+	</ValueUnit>
+	<ValueUnit>
+		<ViewValue>骷髅山白骨洞（旧）</ViewValue>
+		<RealValue>50</RealValue>
+	</ValueUnit>
+	<ValueUnit>
+		<ViewValue>骷髅山白骨洞（新）</ViewValue>
+		<RealValue>51</RealValue>
+	</ValueUnit>
+</Root>

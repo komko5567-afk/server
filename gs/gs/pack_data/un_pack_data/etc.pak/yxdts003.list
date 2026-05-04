@@ -1,0 +1,35 @@
+#FORM2
+#wzhuang.list
+#creat
+#奖励物品        概率
+#create by caijz 09/18/2006
+
+[奖励等级]
+
+name$: 特等奖
+
+[特等奖]
+完美辅系天书 : 10
+
+[完美辅系天书]
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "云体d"})
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "仙风f"})
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "尽忠a"})
+
+[云体d]
+name      : 云体
+min_level : 1
+max_level : 1
+attribs      : ({ "prop_basic/max_life", 100, "prop_basic/def", 100, "prop_basic/speed", 100, "prop_basic/resist_metal", 15, "prop_basic/resist_wood", 15, "prop_extra/gb_lingh_1", 160, "level", 1, "nimbus", 28500, "icon", 9361, "color", 金色 })
+
+[仙风f]
+name      : 仙风
+min_level : 1
+max_level : 1
+attribs      : ({ "prop_basic/max_life", 100, "prop_basic/def", 100, "prop_basic/speed", 100, "prop_basic/resist_metal", 15, "prop_basic/resist_wood", 15, "prop_extra/gb_shengg_1", 100, "level", 1, "nimbus", 28500, "icon", 9362, "color", 金色 })
+
+[尽忠a]
+name      : 尽忠
+min_level : 1
+max_level : 1
+attribs      : ({ "prop_basic/max_life", 100, "prop_basic/def", 100, "prop_basic/speed", 100, "prop_basic/resist_metal", 15, "prop_basic/resist_wood", 15, "prop_extra/gb_jis_1", 12, "level", 1, "nimbus", 28500, "icon", 9363, "color", 金色 })

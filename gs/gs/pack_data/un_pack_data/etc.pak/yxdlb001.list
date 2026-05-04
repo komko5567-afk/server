@@ -1,0 +1,76 @@
+#FORM2
+#zhuangb.list
+#create by caijz 09/22/2706
+#½±ÀøÎïÆ·        ¸ÅÂÊ
+
+
+[½±ÀøµÈ¼¶]
+name$: Ä©µÈ½±
+
+[Ä©µÈ½±]
+Ëæ»ú³èÎï : 3000
+
+
+[Ëæ»ú³èÎï]
+bonus$:  ({ 0, 0, 100, "³èÎï", 1, 1, "ÔÀÂ´½£", "¹ÅÂ¹", "ÔÆ±ª", "±±¼«ĞÜ", "ôä´äºùÂ«" })
+
+[±±¼«ĞÜ]
+name$: ({±±¼«ĞÜ, ±±¼«ĞÜ})
+rank$: ¾«¹Ö
+mount$: ÓùÁé
+level: 60
+enchant_flag : 1
+life_effect: ({ 65, 65 })
+mana_effect: ({ 35, 35 })
+speed_effect: ({ 10, 10 })
+phy_effect: ({ -30, -30 })
+mag_effect: ({ 40, 40 })
+ 
+[ôä´äºùÂ«]
+name$: ({ôä´äºùÂ«, ôä´äºùÂ«})
+rank$: ¾«¹Ö
+mount$: ÓùÁé
+level: 60
+enchant_flag : 1
+life_effect: ({ 65, 65 })
+mana_effect: ({ 35, 35 })
+speed_effect: ({ 10, 10 })
+phy_effect: ({ -30, -30 })
+mag_effect: ({ 40, 40 })
+ 
+[¹ÅÂ¹]
+name$: ({¹ÅÂ¹, ¹ÅÂ¹})
+rank$: ¾«¹Ö
+mount$: ÓùÁé
+level: 60
+enchant_flag : 1
+life_effect: ({ 65, 65 })
+mana_effect: ({ 35, 35 })
+speed_effect: ({ 10, 10 })
+phy_effect: ({ -30, -30 })
+mag_effect: ({ 40, 40 })
+ 
+[ÔÆ±ª]
+name$: ({ÔÆ±ª, ÔÆ±ª})
+rank$: ¾«¹Ö
+mount$: ÓùÁé
+level: 60
+enchant_flag : 1
+life_effect: ({ 65, 65 })
+mana_effect: ({ 35, 35 })
+speed_effect: ({ 10, 10 })
+phy_effect: ({ -30, -30 })
+mag_effect: ({ 40, 40 })
+ 
+[ÔÀÂ´½£]
+name$: ({ÔÀÂ´½£, ÔÀÂ´½£})
+rank$: ¾«¹Ö
+mount$: ÓùÁé
+level: 60
+enchant_flag : 1
+life_effect: ({ 65, 65 })
+mana_effect: ({ 35, 35 })
+speed_effect: ({ 10, 10 })
+phy_effect: ({ -30, -30 })
+mag_effect: ({ 40, 40 })
+ 

@@ -1,0 +1,40 @@
+#FORM2
+#shoushi.list
+#create by caijz 09/18/2006
+#奖励物品        概率
+
+[奖励等级]
+name$: 特等奖
+
+
+[特等奖]
+首饰160 : 2000
+
+
+
+[首饰160]
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "游火灵焰_力" })
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "千彩流光_力" })
+bonus$: ({ 0, 0, 100, "属性道具", 2, 2, "岚金火链_力" })
+
+
+[游火灵焰_力]
+name      : 游火灵焰
+min_level : 130
+max_level : 130
+upgrade_type : 6
+attribs      : ({ "prop/all_polar", 10, "prop/con", 32,"prop/dex", 32, "prop2/con", 32, "prop2/dex", 32, "prop/all_skill", 10  })
+
+[千彩流光_力]
+name      : 千彩流光
+min_level : 130
+max_level : 130
+upgrade_type : 6
+attribs      : ({ "prop/all_polar", 10, "prop/con", 32,"prop/dex", 32, "prop2/con", 32, "prop2/dex", 32, "prop/all_skill", 10 })
+
+[岚金火链_力]
+name      : 岚金火链
+min_level : 130
+max_level : 130
+upgrade_type : 6
+attribs      : ({ "prop/all_polar", 10, "prop/con", 32,"prop/dex", 32, "prop2/con", 32, "prop2/dex", 32, "prop/all_skill", 10 })

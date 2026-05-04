@@ -1,0 +1,51 @@
+#FORM2
+#zhuangb.list
+#create by caijz 09/22/2706
+#奖励物品        概率
+
+
+[奖励等级]
+name$: 特等奖
+
+
+[特等奖]
+仙器1 : 100
+
+
+
+
+
+[仙器1]
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "成品仙器1" })
+bonus_msg : #R仙器成功打破九界枷锁，仙器品质上升至#n白色品质#n#64
+
+
+[成品仙器1]
+name      : 龙虎如意①
+min_level : 80
+max_level : 80
+attribs      : ({ "prop/all_polar", 1,"prop/fire", 1, "prop/dex", 5, "prop/ignore_all_resist_except", 4, "prop/all_skill", 2, "prop/base_dodge", 20,"color", 白色,"suit_polar", 8,"rebuild_level", 1,"prop_rebuild/all_attrib", 2,"suit_level", 80,"suit_name", 80级火系套装})
+
+[成品仙器2]
+name      : 龙虎如意②
+min_level : 80
+max_level : 80
+attribs      : ({ "prop/all_polar", 2,"prop/fire", 2, "prop/dex", 10, "prop/ignore_all_resist_except", 8, "prop/all_skill", 4, "prop/base_dodge", 40,"color", 蓝色,"suit_polar", 8,"rebuild_level", 2,"prop_rebuild/all_attrib", 4,"suit_level", 80,"suit_name", 80级火系套装})
+
+[成品仙器3]
+name      : 龙虎如意③
+min_level : 80
+max_level : 80
+attribs      : ({ "prop/all_polar", 3,"prop/fire", 3, "prop/dex", 15, "prop/ignore_all_resist_except", 12, "prop/all_skill", 6, "prop/base_dodge", 60,"color", 粉色,"suit_polar", 8,"rebuild_level", 3,"prop_rebuild/all_attrib", 8,"suit_level", 80,"suit_name", 80级火系套装})
+
+[成品仙器4]
+name      : 龙虎如意④
+min_level : 80
+max_level : 80
+attribs      : ({ "prop/all_polar", 4,"prop/fire", 4, "prop/dex", 20, "prop/ignore_all_resist_except", 16, "prop/all_skill", 8, "prop/base_dodge", 80,"color", 金色,"suit_polar", 8,"rebuild_level", 4,"prop_rebuild/all_attrib", 16,"suit_level", 80,"suit_name", 80级火系套装})
+
+[成品仙器5]
+name      : 龙虎如意⑤
+min_level : 80
+max_level : 80
+attribs      : ({ "prop/all_polar", 5,"prop/fire", 5, "prop/dex", 32, "prop/ignore_all_resist_except", 20, "prop/all_skill", 10, "prop/base_dodge", 100,"color", 绿色,"suit_polar", 8,"rebuild_level", 5,"prop_rebuild/all_attrib", 32,"suit_level", 80,"suit_name", 80级火系套装})

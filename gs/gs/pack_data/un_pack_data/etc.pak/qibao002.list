@@ -1,0 +1,58 @@
+#FORM2
+#zhuangb.list
+#create by caijz 09/22/2706
+#奖励物品        概率
+
+
+[奖励等级]
+name$: 特等奖
+
+
+[特等奖]
+仙器1 : 50
+仙器2 : 50
+
+
+
+
+
+[仙器1]
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "成品仙器1" })
+bonus_msg : #R仙器未打破九界枷锁，坠入六道轮回，仙器保留原品质#52
+
+
+[仙器2]
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "成品仙器2" })
+bonus_msg : #R仙器成功打破九界枷锁，仙器品质上升至#B蓝色品质#64
+
+
+
+[成品仙器1]
+name      : 七宝金莲①
+min_level : 80
+max_level : 80
+attribs      : ({ "prop/all_polar", 1,"prop/metal", 1, "prop/wiz", 5, "prop/mstunt_rate", 10, "prop/all_skill", 2, "prop/accurate", 20,"color", 白色,"suit_polar", 1,"rebuild_level", 1,"prop_rebuild/all_attrib", 2,"suit_level", 80,"suit_name", 80级金系套装})
+
+[成品仙器2]
+name      : 七宝金莲②
+min_level : 80
+max_level : 80
+attribs      : ({ "prop/all_polar", 2,"prop/metal", 2, "prop/wiz", 10, "prop/mstunt_rate", 20, "prop/all_skill", 4, "prop/accurate", 40,"color", 蓝色,"suit_polar", 1,"rebuild_level", 2,"prop_rebuild/all_attrib", 4,"suit_level", 80,"suit_name", 80级金系套装})
+
+[成品仙器3]
+name      : 七宝金莲③
+min_level : 80
+max_level : 80
+attribs      : ({ "prop/all_polar", 3,"prop/metal", 3, "prop/wiz", 15, "prop/mstunt_rate", 30, "prop/all_skill", 6, "prop/accurate", 60,"color", 粉色,"suit_polar", 1,"rebuild_level", 3,"prop_rebuild/all_attrib", 8,"suit_level", 80,"suit_name", 80级金系套装})
+
+[成品仙器4]
+name      : 七宝金莲④
+min_level : 80
+max_level : 80
+attribs      : ({ "prop/all_polar", 4,"prop/metal", 4, "prop/wiz", 20, "prop/mstunt_rate", 40, "prop/all_skill", 8, "prop/accurate", 80,"color", 金色,"suit_polar", 1,"rebuild_level", 4,"prop_rebuild/all_attrib", 16,"suit_level", 80,"suit_name", 80级金系套装})
+
+[成品仙器5]
+name      : 七宝金莲⑤
+min_level : 80
+max_level : 80
+attribs      : ({ "prop/all_polar", 5,"prop/metal", 5, "prop/wiz", 32, "prop/mstunt_rate", 50, "prop/all_skill", 10, "prop/accurate", 100,"color", 绿色,"suit_polar", 1,"rebuild_level", 5,"prop_rebuild/all_attrib", 32,"suit_level", 80,"suit_name", 80级金系套装})

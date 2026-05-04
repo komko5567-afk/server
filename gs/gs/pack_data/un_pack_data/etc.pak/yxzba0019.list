@@ -1,0 +1,666 @@
+#FORM2
+#bashuid.list
+#create by caijz 09/18/2006
+#奖励物品        概率
+
+[奖励等级]
+name$: 特等奖
+
+[特等奖]
+武器黑水 : 1000
+
+
+
+[腰带黑水]
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "腰带所属" })
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "腰带防御" })
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "腰带气血" })
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "腰带法力" })
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "腰带闪避" })
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "腰带力量" })
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "腰带体质" })
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "腰带灵力" })
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "腰带敏捷" })
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "腰带抗性" })
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "腰带异常" })
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "腰带抗中毒" })
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "腰带抗冰冻" })
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "腰带抗昏睡" })
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "腰带抗遗忘" })
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "腰带抗混乱" })
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "腰带抗镇魂" })
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "腰带抗化功" })
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "腰带抗水牢" })
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "腰带抗锁灵" })
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "腰带抗迷心" })
+
+[腰带抗镇魂]
+name      : 超级黑水晶
+min_level : 100
+max_level : 100
+attribs      : ({ "prop/resist_repress", 20 })
+upgrade_type : 7
+
+[腰带抗化功]
+name      : 超级黑水晶
+min_level : 100
+max_level : 100
+attribs      : ({ "prop/resist_melt", 20 })
+upgrade_type : 7
+
+[腰带抗水牢]
+name      : 超级黑水晶
+min_level : 100
+max_level : 100
+attribs      : ({ "prop/resist_cage", 20 })
+upgrade_type : 7
+
+[腰带抗锁灵]
+name      : 超级黑水晶
+min_level : 100
+max_level : 100
+attribs      : ({ "prop/resist_lock", 20 })
+upgrade_type : 7
+
+[腰带抗迷心]
+name      : 超级黑水晶
+min_level : 100
+max_level : 100
+attribs      : ({ "prop/resist_lost", 20 })
+upgrade_type : 7
+
+
+[腰带抗中毒]
+name      : 超级黑水晶
+min_level : 100
+max_level : 100
+attribs      : ({ "prop/resist_poison", 20 })
+upgrade_type : 7
+
+[腰带抗冰冻]
+name      : 超级黑水晶
+min_level : 100
+max_level : 100
+attribs      : ({ "prop/resist_frozen", 20 })
+upgrade_type : 7
+
+[腰带抗昏睡]
+name      : 超级黑水晶
+min_level : 100
+max_level : 100
+attribs      : ({ "prop/resist_sleep", 20 })
+upgrade_type : 7
+
+[腰带抗遗忘]
+name      : 超级黑水晶
+min_level : 100
+max_level : 100
+attribs      : ({ "prop/resist_forgotten", 20 })
+upgrade_type : 7
+
+[腰带抗混乱]
+name      : 超级黑水晶
+min_level : 100
+max_level : 100
+attribs      : ({ "prop/resist_confusion", 20 })
+upgrade_type : 7
+
+
+
+[腰带所属]
+name      : 超级黑水晶
+min_level : 100
+max_level : 100
+attribs      : ({ "prop/all_attrib", 20 })
+upgrade_type : 7
+
+[腰带防御]
+name      : 超级黑水晶
+min_level : 100
+max_level : 100
+attribs      : ({ "prop/def", 850 })
+upgrade_type : 7
+
+[腰带气血]
+name      : 超级黑水晶
+min_level : 100
+max_level : 100
+attribs      : ({ "prop/max_life", 2400 })
+upgrade_type : 7
+
+[腰带法力]
+name      : 超级黑水晶
+min_level : 100
+max_level : 100
+attribs      : ({ "prop/max_mana", 7500 })
+upgrade_type : 7
+
+[腰带闪避]
+name      : 超级黑水晶
+min_level : 100
+max_level : 100
+attribs      : ({ "prop/base_dodge", 130 })
+upgrade_type : 7
+
+[腰带力量]
+name      : 超级黑水晶
+min_level : 100
+max_level : 100
+attribs      : ({ "prop/str", 25 })
+upgrade_type : 7
+
+[腰带体质]
+name      : 超级黑水晶
+min_level : 100
+max_level : 100
+attribs      : ({ "prop/con", 25 })
+upgrade_type : 7
+
+[腰带灵力]
+name      : 超级黑水晶
+min_level : 100
+max_level : 100
+attribs      : ({ "prop/wiz", 25 })
+upgrade_type : 7
+
+[腰带敏捷]
+name      : 超级黑水晶
+min_level : 100
+max_level : 100
+attribs      : ({ "prop/dex", 25 })
+upgrade_type : 7
+
+[腰带抗性]
+name      : 超级黑水晶
+min_level : 100
+max_level : 100
+attribs      : ({ "prop/all_resist_polar", 15 })
+upgrade_type : 7
+
+[腰带异常]
+name      : 超级黑水晶
+min_level : 100
+max_level : 100
+attribs      : ({ "prop/all_resist_except", 15 })
+upgrade_type : 7
+
+[武器黑水]
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "武器忽视所有抗性" })
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "武器忽视所有抗异常" })
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "连击率" })
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "必杀率" })
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "反击率" })
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "准确率" })
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "武器伤害" })
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "所有技能" })
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "所有相性" })
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "金相性" })
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "木相性" })
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "水相性" })
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "火相性" })
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "土相性" })
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "武器敏捷" })
+
+[武器敏捷]
+name      : 超级黑水晶
+min_level : 100
+max_level : 100
+attribs      : ({ "prop/dex", 25 })
+upgrade_type : 1
+
+[武器忽视所有抗性]
+name      : 超级黑水晶
+min_level : 100
+max_level : 100
+attribs      : ({ "prop/ignore_all_resist_polar", 20 })
+upgrade_type : 1
+
+[武器忽视所有抗异常]
+name      : 超级黑水晶
+min_level : 100
+max_level : 100
+attribs      : ({ "prop/ignore_all_resist_except", 20 })
+upgrade_type : 1
+
+[连击率]
+name      : 超级黑水晶
+min_level : 100
+max_level : 100
+attribs      : ({ "prop/double_hit_rate", 30 })
+upgrade_type : 1
+
+[必杀率]
+name      : 超级黑水晶
+min_level : 100
+max_level : 100
+attribs      : ({ "prop/stunt_rate", 30 })
+upgrade_type : 1
+
+[反击率]
+name      : 超级黑水晶
+min_level : 100
+max_level : 100
+attribs      : ({ "prop/counter_attack_rate", 30 })
+upgrade_type : 1
+
+[准确率]
+name      : 超级黑水晶
+min_level : 100
+max_level : 100
+attribs      : ({ "prop/accurate", 40 })
+upgrade_type : 1
+
+
+[武器伤害]
+name      : 超级黑水晶
+min_level : 100
+max_level : 100
+attribs      : ({ "prop/phy_power", 2400 })
+upgrade_type : 1
+
+[所有技能]
+name      : 超级黑水晶
+min_level : 100
+max_level : 100
+attribs      : ({ "prop/all_skill", 10 })
+upgrade_type : 1
+
+[所有相性]
+name      : 超级黑水晶
+min_level : 100
+max_level : 100
+attribs      : ({ "prop/all_polar", 5 })
+upgrade_type : 1
+
+[金相性]
+name      : 超级黑水晶
+min_level : 100
+max_level : 100
+attribs      : ({ "prop/metal", 5 })
+upgrade_type : 1
+
+[木相性]
+name      : 超级黑水晶
+min_level : 100
+max_level : 100
+attribs      : ({ "prop/wood", 5 })
+upgrade_type : 1
+
+[水相性]
+name      : 超级黑水晶
+min_level : 100
+max_level : 100
+attribs      : ({ "prop/water", 5 })
+upgrade_type : 1
+
+[火相性]
+name      : 超级黑水晶
+min_level : 100
+max_level : 100
+attribs      : ({ "prop/fire", 5 })
+upgrade_type : 1
+
+[土相性]
+name      : 超级黑水晶
+min_level : 100
+max_level : 100
+attribs      : ({ "prop/earth", 5 })
+upgrade_type : 1
+
+
+
+
+[头盔黑水]
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "头盔所属" })
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "头盔防御" })
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "头盔气血" })
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "头盔法力" })
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "头盔力量" })
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "头盔体质" })
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "头盔灵力" })
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "头盔敏捷" })
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "头盔连击" })
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "头盔反击" })
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "头盔反震度" })
+
+
+[头盔所属]
+name      : 超级黑水晶
+min_level : 100
+max_level : 100
+attribs      : ({ "prop/all_attrib", 20 })
+upgrade_type : 2
+
+[头盔防御]
+name      : 超级黑水晶
+min_level : 100
+max_level : 100
+attribs      : ({ "prop/def", 440 })
+upgrade_type : 2
+
+[头盔气血]
+name      : 超级黑水晶
+min_level : 100
+max_level : 100
+attribs      : ({ "prop/max_life", 1300 })
+upgrade_type : 2
+
+[头盔法力]
+name      : 超级黑水晶
+min_level : 100
+max_level : 100
+attribs      : ({ "prop/max_mana", 4400 })
+upgrade_type : 2
+
+[头盔力量]
+name      : 超级黑水晶
+min_level : 100
+max_level : 100
+attribs      : ({ "prop/str", 25 })
+upgrade_type : 2
+
+[头盔体质]
+name      : 超级黑水晶
+min_level : 100
+max_level : 100
+attribs      : ({ "prop/con", 25 })
+upgrade_type : 2
+
+[头盔灵力]
+name      : 超级黑水晶
+min_level : 100
+max_level : 100
+attribs      : ({ "prop/wiz", 25 })
+upgrade_type : 2
+
+[头盔敏捷]
+name      : 超级黑水晶
+min_level : 100
+max_level : 100
+attribs      : ({ "prop/dex", 25 })
+upgrade_type : 2
+
+[头盔连击]
+name      : 超级黑水晶
+min_level : 100
+max_level : 100
+attribs      : ({ "prop/double_hit", 12 })
+upgrade_type : 2
+
+[头盔反击]
+name      : 超级黑水晶
+min_level : 100
+max_level : 100
+attribs      : ({ "prop/counter_attack", 10 })
+upgrade_type : 2
+
+[头盔反震度]
+name      : 超级黑水晶
+min_level : 100
+max_level : 100
+attribs      : ({ "prop/damage_sel", 30 })
+upgrade_type : 2
+
+
+
+
+[衣服黑水]
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "衣服所属" })
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "衣服防御" })
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "衣服气血" })
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "衣服法力" })
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "衣服力量" })
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "衣服体质" })
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "衣服灵力" })
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "衣服敏捷" })
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "衣服反震率" })
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "衣服所有抗性" })
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "衣服抗所有异常" })
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "衣服抗中毒" })
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "衣服抗冰冻" })
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "衣服抗昏睡" })
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "衣服抗遗忘" })
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "衣服抗混乱" })
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "衣服抗镇魂" })
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "衣服抗化功" })
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "衣服抗水牢" })
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "衣服抗锁灵" })
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "衣服抗迷心" })
+
+[衣服抗镇魂]
+name      : 超级黑水晶
+min_level : 100
+max_level : 100
+attribs      : ({ "prop/resist_repress", 20 })
+upgrade_type : 3
+
+[衣服抗化功]
+name      : 超级黑水晶
+min_level : 100
+max_level : 100
+attribs      : ({ "prop/resist_melt", 20 })
+upgrade_type : 3
+
+[衣服抗水牢]
+name      : 超级黑水晶
+min_level : 100
+max_level : 100
+attribs      : ({ "prop/resist_cage", 20 })
+upgrade_type : 3
+
+[衣服抗锁灵]
+name      : 超级黑水晶
+min_level : 100
+max_level : 100
+attribs      : ({ "prop/resist_lock", 20 })
+upgrade_type : 3
+
+[衣服抗迷心]
+name      : 超级黑水晶
+min_level : 100
+max_level : 100
+attribs      : ({ "prop/resist_lost", 20 })
+upgrade_type : 3
+
+
+[衣服抗中毒]
+name      : 超级黑水晶
+min_level : 100
+max_level : 100
+attribs      : ({ "prop/resist_poison", 20 })
+upgrade_type : 3
+
+[衣服抗冰冻]
+name      : 超级黑水晶
+min_level : 100
+max_level : 100
+attribs      : ({ "prop/resist_frozen", 20 })
+upgrade_type : 3
+
+[衣服抗昏睡]
+name      : 超级黑水晶
+min_level : 100
+max_level : 100
+attribs      : ({ "prop/resist_sleep", 20 })
+upgrade_type : 3
+
+[衣服抗遗忘]
+name      : 超级黑水晶
+min_level : 100
+max_level : 100
+attribs      : ({ "prop/resist_forgotten", 20 })
+upgrade_type : 3
+
+[衣服抗混乱]
+name      : 超级黑水晶
+min_level : 100
+max_level : 100
+attribs      : ({ "prop/resist_confusion", 20 })
+upgrade_type : 3
+
+
+
+
+[衣服所属]
+name      : 超级黑水晶
+min_level : 100
+max_level : 100
+attribs      : ({ "prop/all_attrib", 20 })
+upgrade_type : 3
+
+[衣服防御]
+name      : 超级黑水晶
+min_level : 100
+max_level : 100
+attribs      : ({ "prop/def", 850 })
+upgrade_type : 3
+
+[衣服气血]
+name      : 超级黑水晶
+min_level : 100
+max_level : 100
+attribs      : ({ "prop/max_life", 2400 })
+upgrade_type : 3
+
+[衣服法力]
+name      : 超级黑水晶
+min_level : 100
+max_level : 100
+attribs      : ({ "prop/max_mana", 7500 })
+upgrade_type : 3
+
+[衣服力量]
+name      : 超级黑水晶
+min_level : 100
+max_level : 100
+attribs      : ({ "prop/str", 25 })
+upgrade_type : 3
+
+[衣服体质]
+name      : 超级黑水晶
+min_level : 100
+max_level : 100
+attribs      : ({ "prop/con", 25 })
+upgrade_type : 3
+
+[衣服灵力]
+name      : 超级黑水晶
+min_level : 100
+max_level : 100
+attribs      : ({ "prop/wiz", 25 })
+upgrade_type : 3
+
+[衣服敏捷]
+name      : 超级黑水晶
+min_level : 100
+max_level : 100
+attribs      : ({ "prop/dex", 25 })
+upgrade_type : 3
+
+[衣服反震率]
+name      : 超级黑水晶
+min_level : 100
+max_level : 100
+attribs      : ({ "prop/damage_sel_rate", 30 })
+upgrade_type : 3
+
+[衣服所有抗性]
+name      : 超级黑水晶
+min_level : 100
+max_level : 100
+attribs      : ({ "prop/all_resist_polar", 15 })
+upgrade_type : 3
+
+[衣服抗所有异常]
+name      : 超级黑水晶
+min_level : 100
+max_level : 100
+attribs      : ({ "prop/all_resist_except", 15 })
+upgrade_type : 3
+
+
+
+[鞋子黑水]
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "鞋子所属" })
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "鞋子防御" })
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "鞋子速度" })
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "鞋子力量" })
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "鞋子体质" })
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "鞋子灵力" })
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "鞋子敏捷" })
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "鞋子连击" })
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "鞋子反击" })
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "鞋子反震度" })
+
+
+[鞋子所属]
+name      : 超级黑水晶
+min_level : 100
+max_level : 100
+attribs      : ({ "prop/all_attrib", 20 })
+upgrade_type : 10
+
+[鞋子防御]
+name      : 超级黑水晶
+min_level : 100
+max_level : 100
+attribs      : ({ "prop/def", 440 })
+upgrade_type : 10
+
+[鞋子速度]
+name      : 超级黑水晶
+min_level : 100
+max_level : 100
+attribs      : ({ "prop/speed", 130 })
+upgrade_type : 10
+
+[鞋子力量]
+name      : 超级黑水晶
+min_level : 100
+max_level : 100
+attribs      : ({ "prop/str", 25 })
+upgrade_type : 10
+
+[鞋子体质]
+name      : 超级黑水晶
+min_level : 100
+max_level : 100
+attribs      : ({ "prop/con", 25 })
+upgrade_type : 10
+
+[鞋子灵力]
+name      : 超级黑水晶
+min_level : 100
+max_level : 100
+attribs      : ({ "prop/wiz", 25 })
+upgrade_type : 10
+
+[鞋子敏捷]
+name      : 超级黑水晶
+min_level : 100
+max_level : 100
+attribs      : ({ "prop/dex", 25 })
+upgrade_type : 10
+
+[鞋子连击]
+name      : 超级黑水晶
+min_level : 100
+max_level : 100
+attribs      : ({ "prop/double_hit", 12 })
+upgrade_type : 10
+
+[鞋子反击]
+name      : 超级黑水晶
+min_level : 100
+max_level : 100
+attribs      : ({ "prop/counter_attack", 10 })
+upgrade_type : 10
+
+[鞋子反震度]
+name      : 超级黑水晶
+min_level : 100
+max_level : 100
+attribs      : ({ "prop/damage_sel", 30 })
+upgrade_type : 10
+
+

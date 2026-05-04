@@ -1,0 +1,20 @@
+#FORM2
+#zhuangb.list
+#create by caijz 09/22/2706
+#奖励物品        概率
+
+[奖励等级]
+name$: 特等奖
+
+[特等奖]
+御天梭01 : 1000
+
+
+[御天梭01]
+bonus$ : ({ 0, 0, 100, "属性道具", 1, 1, "便携盘子" })
+
+[便携盘子]
+name:御天梭
+min_level : 1
+max_level : 1
+attribs      : ({"color", 金色, "durability", 10000, "open_nimbus", 1 })

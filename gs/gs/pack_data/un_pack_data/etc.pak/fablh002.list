@@ -1,0 +1,67 @@
+#FORM2
+#zhuangb.list
+#create by caijz 09/22/2706
+#奖励物品        概率
+
+[奖励等级]
+name$: 特等奖
+
+
+[特等奖]
+法宝1 : 1400
+法宝2 : 500
+法宝3 : 100
+法宝4 : 5
+法宝5 : 1
+
+[法宝1]
+bonus$ : ({ 0, 0, 100, "属性道具", 1, 1, "属性法宝1" })
+
+[法宝2]
+bonus$ : ({ 0, 0, 100, "属性道具", 1, 1, "属性法宝2" })
+
+[法宝3]
+bonus$ : ({ 0, 0, 100, "属性道具", 1, 1, "属性法宝3" })
+
+[法宝4]
+bonus$ : ({ 0, 0, 100, "属性道具", 1, 1, "属性法宝4" })
+
+[法宝5]
+bonus$ : ({ 0, 0, 100, "属性道具", 1, 1, "属性法宝5" })
+
+
+
+[属性法宝1]
+name:番天印
+min_level : 1
+max_level : 1
+polar:1
+attribs      : ({"extra_desc", #O炼魂属性：#O炼魂属性：所有相性1/1增加#r#O仙魔点10/50增加#r#n法宝品质：白, "prop/all_polar", 1,"prop/upgrade_immortal", 10, "prop/upgrade_magic", 10, "extra_skill", "qinmi_wujian", "extra_skill_level", 1, "upgraded", 1, "icon", 1441, "nimbus", 400000 })
+
+[属性法宝2]
+name:番天印
+min_level : 1
+max_level : 1
+polar:1
+attribs      : ({"extra_desc", #O炼魂属性：所有相性2/5增加#r#O仙魔点20/50增加#r#B法宝品质：蓝, "prop/all_polar", 2,"prop/upgrade_immortal", 20, "prop/upgrade_magic", 20, "extra_skill", "qinmi_wujian", "extra_skill_level", 1, "upgraded", 1, "icon", 1441, "nimbus", 400000 })
+
+[属性法宝3]
+name:番天印
+min_level : 1
+max_level : 1
+polar:1
+attribs      : ({"extra_desc", #O炼魂属性：所有相性3/5增加#r#O仙魔点30/50增加#r#O法宝品质：粉, "prop/all_polar", 3,"prop/upgrade_immortal", 30, "prop/upgrade_magic", 30, "extra_skill", "qinmi_wujian", "extra_skill_level", 1, "upgraded", 1, "icon", 1441, "nimbus", 400000 })
+
+[属性法宝4]
+name:番天印
+min_level : 1
+max_level : 1
+polar:1
+attribs      : ({"extra_desc", #O炼魂属性：所有相性4/5增加#r#O仙魔点40/50增加#r#Y法宝品质：黄, "prop/all_polar", 4,"prop/upgrade_immortal", 40, "prop/upgrade_magic", 40, "extra_skill", "qinmi_wujian", "extra_skill_level", 1, "upgraded", 1, "icon", 1441, "nimbus", 400000 })
+
+[属性法宝5]
+name:番天印
+min_level : 1
+max_level : 1
+polar:1
+attribs      : ({"extra_desc", #O炼魂属性：所有相性5/5增加#r#O仙魔点50/50增加#r#G法宝品质：绿, "prop/all_polar", 5,"prop/upgrade_immortal", 50, "prop/upgrade_magic", 50, "extra_skill", "qinmi_wujian", "extra_skill_level", 1, "upgraded", 1, "icon", 1441, "nimbus", 400000 })

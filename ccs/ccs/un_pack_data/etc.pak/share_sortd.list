@@ -1,0 +1,54 @@
+#FORM2
+
+# 注该表用于活动排名，clean_time后，活动信息不再保存
+# [活动key]
+# start_time : 开始排名时间
+# end_time   : 结束排名时间
+# clean_time : 清除数据时间
+# max_sort   : 最大排名个数
+# gs_daemons : gs回调模块
+
+# 选择性配置
+# sort_type : 默认为DESCENDING（升序或者降序）
+
+[spring_festival_2012]
+start_time : "2012-01-21-00:00:00"
+end_time   : "2012-01-28-18:59:59"
+clean_time : "2012-01-29-23:59:59"
+max_sort   : 10
+gs_daemons : "/gs/daemons/tasks/spring_festival_2012/spring_festival_2012.c"
+
+[valentine_day_2012]
+start_time : "2012-02-14-00:00:00"
+end_time   : "2012-02-14-23:59:59"
+clean_time : "2012-02-15-23:59:59"
+max_sort   : 10
+gs_daemons : "/gs/daemons/tasks/valentine_day_2012/valentine_day_2012.c"
+
+[shenshou_baifu]
+start_time : "2012-04-20-12:00:00"
+end_time   : "2012-04-27-00:00:00"
+clean_time : "2012-04-29-23:59:59"
+max_sort   : 10
+gs_daemons : "/gs/daemons/tasks/six_anniversary/shenshou_baifu.c"
+
+[april_fool_2012]
+start_time : "2012-04-01-00:00:00"
+end_time   : "2012-04-01-23:59:00"
+clean_time : "2012-04-01-23:59:00"
+max_sort   : 10
+gs_daemons : "/gs/daemons/tasks/april_fool_2012/april_fool_2012.c"
+
+[resume_asktao]
+start_time : "2012-06-15-12:00:00"
+end_time   : "2012-07-14-23:59:59"
+clean_time : "2012-07-21-23:59:59"
+max_sort   : 15
+gs_daemons : "/gs/daemons/tasks/resume_asktao.c"
+
+[guixiang_jinqiu2012]
+start_time : "2012-09-28-00:00:00"
+end_time   : "2012-10-07-23:59:59"
+clean_time : "2012-10-09-23:59:59"
+max_sort   : 10
+gs_daemons : "/gs/daemons/tasks/mid_autumn_festival_2012/guixiang_jinqiu.c"

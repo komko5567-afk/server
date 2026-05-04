@@ -1,0 +1,268 @@
+#FORM2
+#yblmslh.list
+#create by caijz 09/18/2206
+#奖励物品        概率
+
+[奖励等级]
+name$: 特等奖
+
+[特等奖]
+奖励 : 100
+
+[奖励]
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "160所有相1"})
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "160木相1"})
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "160金相1"})
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "160火相1"})
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "160水相1"})
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "160土相1"})
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "160伤害1"})
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "160武器敏捷1"})
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "160武器灵1"})
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "160武器体1"})
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "160武器力1"})
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "160衣力1"})
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "160衣所有1"})
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "160衣体1"})
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "160衣敏1"})
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "160衣灵1"})
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "160头所有1"})
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "160头力1"})
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "160头体1"})
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "160头敏1"})
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "160头灵1"})
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "160鞋所有1"})
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "160鞋体1"})
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "160鞋敏1"})
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "160鞋灵1"})
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "160鞋力1"})
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "160鞋速度1"})
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "160腰带所有1"})
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "160腰带灵1"})
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "160腰带敏1"})
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "160腰带体1"})
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "160腰带力1"})
+
+[160武器敏捷1]
+name      : 超级黑水晶
+min_level : 160
+max_level : 160
+upgrade_type : 1
+attribs      : ({ "prop/dex", 38 })
+
+[160武器灵1]
+name      : 超级黑水晶
+min_level : 160
+max_level : 160
+upgrade_type : 1
+attribs      : ({ "prop/wiz", 38 })
+
+[160武器体1]
+name      : 超级黑水晶
+min_level : 160
+max_level : 160
+upgrade_type : 1
+attribs      : ({ "prop/con", 38 })
+
+[160武器力1]
+name      : 超级黑水晶
+min_level : 160
+max_level : 160
+upgrade_type : 1
+attribs      : ({ "prop/str", 38 })
+
+[160所有相1]
+name      : 超级黑水晶
+min_level : 160
+max_level : 160
+upgrade_type : 1
+attribs      : ({ "prop/all_polar", 5 })
+
+[160木相1]
+name      : 超级黑水晶
+min_level : 160
+max_level : 160
+upgrade_type : 1
+attribs      : ({ "prop/wood", 5 })
+
+[160金相1]
+name      : 超级黑水晶
+min_level : 160
+max_level : 160
+upgrade_type : 1
+attribs      : ({ "prop/metal", 5 })
+
+[160水相1]
+name      : 超级黑水晶
+min_level : 160
+max_level : 160
+upgrade_type : 1
+attribs      : ({ "prop/water", 5 })
+
+[160土相1]
+name      : 超级黑水晶
+min_level : 160
+max_level : 160
+upgrade_type : 1
+attribs      : ({ "prop/earth", 5 })
+
+[160火相1]
+name      : 超级黑水晶
+min_level : 160
+max_level : 160
+upgrade_type : 1
+attribs      : ({ "prop/fire", 5 })
+
+[160伤害1]
+name      : 超级黑水晶
+min_level : 160
+max_level : 160
+upgrade_type : 1
+attribs      : ({ "prop/mag_power", 5400, "prop/phy_power", 5400 })
+
+[160衣所有1]
+name      : 超级黑水晶
+min_level : 160
+max_level : 160
+upgrade_type : 3
+attribs      : ({ "prop/all_attrib", 31 })
+
+[160衣力1]
+name      : 超级黑水晶
+min_level : 160
+max_level : 160
+upgrade_type : 3
+attribs      : ({ "prop/str", 38 })
+
+[160衣体1]
+name      : 超级黑水晶
+min_level : 160
+max_level : 160
+upgrade_type : 3
+attribs      : ({ "prop/con", 38 })
+
+[160衣敏1]
+name      : 超级黑水晶
+min_level : 160
+max_level : 160
+upgrade_type : 3
+attribs      : ({ "prop/dex", 38 })
+
+[160衣灵1]
+name      : 超级黑水晶
+min_level : 160
+max_level : 160
+upgrade_type : 3
+attribs      : ({ "prop/wiz", 38 })
+
+[160头所有1]
+name      : 超级黑水晶
+min_level : 160
+max_level : 160
+upgrade_type : 2
+attribs      : ({ "prop/all_attrib", 31 })
+
+[160头力1]
+name      : 超级黑水晶
+min_level : 160
+max_level : 160
+upgrade_type : 2
+attribs      : ({ "prop/str", 38 })
+
+[160头体1]
+name      : 超级黑水晶
+min_level : 160
+max_level : 160
+upgrade_type : 2
+attribs      : ({ "prop/con", 38 })
+
+[160头敏1]
+name      : 超级黑水晶
+min_level : 160
+max_level : 160
+upgrade_type : 2
+attribs      : ({ "prop/dex", 38 })
+
+[160头灵1]
+name      : 超级黑水晶
+min_level : 160
+max_level : 160
+upgrade_type : 2
+attribs      : ({ "prop/wiz", 38 })
+
+[160腰带所有1]
+name      : 超级黑水晶
+min_level : 160
+max_level : 160
+upgrade_type : 7
+attribs      : ({ "prop/all_attrib", 31 })
+
+[160腰带力1]
+name      : 超级黑水晶
+min_level : 160
+max_level : 160
+upgrade_type : 7
+attribs      : ({ "prop/str", 38 })
+
+[160腰带体1]
+name      : 超级黑水晶
+min_level : 160
+max_level : 160
+upgrade_type : 7
+attribs      : ({ "prop/con", 38 })
+
+[160腰带敏1]
+name      : 超级黑水晶
+min_level : 160
+max_level : 160
+upgrade_type : 7
+attribs      : ({ "prop/dex", 38 })
+
+[160腰带灵1]
+name      : 超级黑水晶
+min_level : 160
+max_level : 160
+upgrade_type : 7
+attribs      : ({ "prop/wiz", 38 })
+
+[160鞋所有1]
+name      : 超级黑水晶
+min_level : 160
+max_level : 160
+upgrade_type : 10
+attribs      : ({ "prop/all_attrib", 31 })
+
+[160鞋力1]
+name      : 超级黑水晶
+min_level : 160
+max_level : 160
+upgrade_type : 10
+attribs      : ({ "prop/str", 38 })
+
+[160鞋体1]
+name      : 超级黑水晶
+min_level : 160
+max_level : 160
+upgrade_type : 10
+attribs      : ({ "prop/con", 38 })
+
+[160鞋敏1]
+name      : 超级黑水晶
+min_level : 160
+max_level : 160
+upgrade_type : 10
+attribs      : ({ "prop/dex", 38 })
+
+[160鞋灵1]
+name      : 超级黑水晶
+min_level : 160
+max_level : 160
+upgrade_type : 10
+attribs      : ({ "prop/wiz", 38 })
+
+[160鞋速度1]
+name      : 超级黑水晶
+min_level : 160
+max_level : 160
+upgrade_type : 10
+attribs      : ({ "prop/speed", 200 })

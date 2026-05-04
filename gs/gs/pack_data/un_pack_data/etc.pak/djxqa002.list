@@ -1,0 +1,50 @@
+#FORM2
+#zhuangb.list
+#create by caijz 09/22/2706
+#奖励物品        概率
+
+
+[奖励等级]
+name$: 特等奖
+
+
+[特等奖]
+仙器1 : 100
+
+
+
+
+
+[仙器1]
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "成品仙器5" })
+
+
+[成品仙器1]
+name      : 乾坤尺①
+min_level : 80
+max_level : 80
+attribs      : ({ "prop/all_polar", 1,"prop/wood", 1, "prop/con", 5, "prop/all_resist_except", 4, "prop/all_skill", 2, "prop/base_dodge", 20,"color", 白色,"suit_polar", 2,"rebuild_level", 1,"prop_rebuild/all_attrib", 2,"suit_level", 80,"suit_name", 80级木系套装})
+
+[成品仙器2]
+name      : 乾坤尺②
+min_level : 80
+max_level : 80
+attribs      : ({ "prop/all_polar", 2,"prop/wood", 2, "prop/con", 10, "prop/all_resist_except", 8, "prop/all_skill", 4, "prop/base_dodge", 40,"color", 蓝色,"suit_polar", 2,"rebuild_level", 2,"prop_rebuild/all_attrib", 4,"suit_level", 80,"suit_name", 80级木系套装})
+
+[成品仙器3]
+name      : 乾坤尺③
+min_level : 80
+max_level : 80
+attribs      : ({ "prop/all_polar", 3,"prop/wood", 3, "prop/con", 15, "prop/all_resist_except", 12, "prop/all_skill", 6, "prop/base_dodge", 60,"color", 粉色,"suit_polar", 2,"rebuild_level", 3,"prop_rebuild/all_attrib", 8,"suit_level", 80,"suit_name", 80级木系套装})
+
+[成品仙器4]
+name      : 乾坤尺④
+min_level : 80
+max_level : 80
+attribs      : ({ "prop/all_polar", 4,"prop/wood", 4, "prop/con", 20, "prop/all_resist_except", 16, "prop/all_skill", 8, "prop/base_dodge", 80,"color", 金色,"suit_polar", 2,"rebuild_level", 4,"prop_rebuild/all_attrib", 16,"suit_level", 80,"suit_name", 80级木系套装})
+
+[成品仙器5]
+name      : 乾坤尺⑤
+min_level : 80
+max_level : 80
+attribs      : ({ "prop/all_polar", 5,"prop/wood", 5, "prop/con", 32, "prop/all_resist_except", 20, "prop/all_skill", 10, "prop/base_dodge", 100,"color", 绿色,"suit_polar", 2,"rebuild_level", 5,"prop_rebuild/all_attrib", 32,"suit_level", 80,"suit_name", 80级木系套装})

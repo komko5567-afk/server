@@ -1,0 +1,53 @@
+#FORM2
+#zhuangb.list
+#create by caijz 09/22/2706
+#奖励物品        概率
+
+[奖励等级]
+name$: 特等奖
+
+
+[特等奖]
+时装1 : 1000
+时装2 : 300
+时装3 : 100
+时装4 : 5
+时装5 : 1
+
+
+
+[时装1]
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "一星时装1" })
+
+[时装2]
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "一星时装2" })
+
+[时装3]
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "一星时装3" })
+
+[时装4]
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "一星时装4" })
+
+[时装5]
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "一星时装5" })
+
+[一星时装1]
+name      : 皇帝的新装
+attribs      : ({ "prop2/all_polar", 1,"prop2/all_attrib", 5,"prop2_color",1,"color", 白色,"extra_desc",#n时装品质：白#r, "durability", 10000})
+
+[一星时装2]
+name      : 皇帝的新装
+attribs      : ({ "prop2/all_polar", 2,"prop2/all_attrib", 10,"prop2_color",1,"color", 蓝色,"extra_desc",#B时装品质：蓝#r, "durability", 10000})
+
+[一星时装3]
+name      : 皇帝的新装
+attribs      : ({ "prop2/all_polar", 3,"prop2/all_attrib", 15,"prop2_color",1,"color", 粉色,"extra_desc",#O时装品质：粉#r, "durability", 10000})
+
+[一星时装4]
+name      : 皇帝的新装
+attribs      : ({ "prop2/all_polar", 4,"prop2/all_attrib", 20,"prop2_color",1,"color", 蓝色,"extra_desc",#Y时装品质：黄#r, "durability", 10000})
+
+[一星时装5]
+name      : 皇帝的新装
+attribs      : ({ "prop2/all_polar", 5,"prop2/all_attrib", 32,"prop2_color",1,"color", 绿色,"extra_desc",#G时装品质：绿#r, "durability", 10000})
+

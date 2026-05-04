@@ -1,0 +1,27 @@
+#FORM2
+#zhuangb.list
+#create by caijz 09/22/2706
+#奖励物品        概率
+
+
+[奖励等级]
+name$: 末等奖
+
+[末等奖]
+指定变异 : 3000
+
+
+[指定变异]
+bonus$:  ({ 0, 0, 100, "宠物", 1, 1, "指定宠物"})
+
+
+[指定宠物]
+name$: ({ 句芒, 句芒 })
+rank$: 神兽
+level: 60
+life_effect: ({ 80, 80 })
+mana_effect: ({ 20, 20 })
+speed_effect: ({ 35, 35 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 25, 25 })
+special_skill$: ({ 3,翻转乾坤, 1,如意圈, 1,十万火急, 1})

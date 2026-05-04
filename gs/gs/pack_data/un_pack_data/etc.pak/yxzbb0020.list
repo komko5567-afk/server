@@ -1,0 +1,144 @@
+#FORM2
+#zhuangb.list
+#create by caijz 09/26/3206
+#奖励物品        概率
+
+[奖励等级]
+name$: 特等奖
+
+
+[特等奖]
+金系装备奖励 : 130
+
+
+
+
+[金系装备奖励]
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "龙冠2" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "凤冠2" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "连环甲2" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "蛟皮袄2" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "无影靴2" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "飞龙圈2" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "撼地锤5"})
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "蔽日扇5" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "无影弓5" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "九黎剑5" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "邪灵绝钩5" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "噬魂魔爪5" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "冰雪残月刀5" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "云龙枪5" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "刺骨玄冥拳套5" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "玄冥寒冰斧5" })
+
+[撼地锤5]
+name      : 玄黄破坚锤
+min_level : 130
+max_level : 130
+attribs      : ({ "prop/all_polar", 5, "prop/earth", 5, "prop/phy_power", 3800, "prop/phy_power", 3800, "prop2/all_polar", 5,"prop2_color",1, "prop_seal_base/stunt_rate",10, "seal_flag",1, "prop4/phy_power", 3800, "prop4/phy_power", 3800,"color", 金色 })
+
+
+[玄冥寒冰斧5]
+name      : 飞龙破天斧
+min_level : 130
+max_level : 130
+attribs      : ({ "prop/all_polar", 5, "prop/earth", 5, "prop/phy_power", 3800, "prop/phy_power", 3800, "prop2/all_polar", 5,"prop2_color",1, "prop_seal_base/stunt_rate",10, "seal_flag",1, "prop4/phy_power", 3800, "prop4/phy_power", 3800,"color", 金色 })
+
+
+[蔽日扇5]
+name      : 红云火霞扇
+min_level : 130
+max_level : 130
+attribs      : ({ "prop/all_polar", 5, "prop/earth", 5, "prop/phy_power", 3800, "prop/phy_power", 3800, "prop2/all_polar", 5,"prop2_color",1, "prop_seal_base/stunt_rate",10, "seal_flag",1, "prop4/phy_power", 3800, "prop4/phy_power", 3800,"color", 金色 })
+
+
+[无影弓5]
+name      : 落日闭月弓
+min_level : 130
+max_level : 130
+attribs      : ({ "prop/all_polar", 5, "prop/earth", 5, "prop/phy_power", 3800, "prop/phy_power", 3800, "prop2/all_polar", 5,"prop2_color",1, "prop_seal_base/stunt_rate",10, "seal_flag",1, "prop4/phy_power", 3800, "prop4/phy_power", 3800,"color", 金色 })
+
+
+[九黎剑5]
+name      : 九天玄冥剑
+min_level : 130
+max_level : 130
+attribs      : ({ "prop/all_polar", 5, "prop/earth", 5, "prop/phy_power", 3800, "prop/phy_power", 3800, "prop2/all_polar", 5,"prop2_color",1, "prop_seal_base/stunt_rate",10, "seal_flag",1, "prop4/phy_power", 3800, "prop4/phy_power", 3800,"color", 金色 })
+
+
+[邪灵绝钩5]
+name      : 蛟龙翻天戟
+min_level : 130
+max_level : 130
+attribs      : ({ "prop/all_polar", 5, "prop/earth", 5, "prop/phy_power", 3800, "prop/phy_power", 3800, "prop2/all_polar", 5,"prop2_color",1, "prop_seal_base/stunt_rate",10, "seal_flag",1, "prop4/phy_power", 3800, "prop4/phy_power", 3800,"color", 金色 })
+
+
+[噬魂魔爪5]
+name      : 红绫火毒爪
+min_level : 130
+max_level : 130
+attribs      : ({ "prop/all_polar", 5, "prop/earth", 5, "prop/phy_power", 3800, "prop/phy_power", 3800, "prop2/all_polar", 5,"prop2_color",1, "prop_seal_base/stunt_rate",10, "seal_flag",1, "prop4/phy_power", 3800, "prop4/phy_power", 3800,"color", 金色 })
+
+
+[云龙枪5]
+name      : 赤眼神龙枪
+min_level : 130
+max_level : 130
+attribs      : ({ "prop/all_polar", 5, "prop/earth", 5, "prop/phy_power", 3800, "prop/phy_power", 3800, "prop2/all_polar", 5,"prop2_color",1, "prop_seal_base/stunt_rate",10, "seal_flag",1, "prop4/phy_power", 3800, "prop4/phy_power", 3800,"color", 金色 })
+
+
+[刺骨玄冥拳套5]
+name      : 震臂罗刹拳套
+min_level : 130
+max_level : 130
+attribs      : ({ "prop/all_polar", 5, "prop/earth", 5, "prop/phy_power", 3800, "prop/phy_power", 3800, "prop2/all_polar", 5,"prop2_color",1, "prop_seal_base/stunt_rate",10, "seal_flag",1, "prop4/phy_power", 3800, "prop4/phy_power", 3800,"color", 金色 })
+
+
+[冰雪残月刀5]
+name      : 三苗九藜刀
+min_level : 130
+max_level : 130
+attribs      : ({ "prop/all_polar", 5, "prop/earth", 5, "prop/phy_power", 3800, "prop/phy_power", 3800, "prop2/all_polar", 5,"prop2_color",1, "prop_seal_base/stunt_rate",10, "seal_flag",1, "prop4/phy_power", 3800, "prop4/phy_power", 3800,"color", 金色 })
+
+[龙冠2]
+name      : 白玉星冠
+min_level : 130
+max_level : 130
+attribs      : ({ "prop/all_attrib", 26, "prop/str", 32, "prop/dex", 32, "prop2/all_attrib", 26,"prop2_color",1, "prop_seal_base/stunt_rate",10, "seal_flag",1, "prop4/str", 32,"color", 金色 })
+
+
+[无影靴2]
+name      : 雷弧闪
+min_level : 130
+max_level : 130
+attribs      : ({ "prop/all_attrib", 26, "prop/str", 32, "prop/speed", 170, "prop2/all_attrib", 26,"prop2_color",1, "prop_seal_base/stunt_rate",10, "seal_flag",1, "prop4/str", 32,"color", 金色 })
+
+
+[凤冠2]
+name      : 九彩玲珠冠
+min_level : 130
+max_level : 130
+attribs      : ({ "prop/all_attrib", 26, "prop/str", 32, "prop/dex", 32, "prop2/all_attrib", 26,"prop2_color",1, "prop_seal_base/stunt_rate",10, "seal_flag",1, "prop4/str", 32,"color", 金色 })
+
+
+[飞龙圈2]
+name      : 三叉盘珠圈
+min_level : 130
+max_level : 130
+attribs      : ({ "prop/all_attrib", 26, "prop/str", 32, "prop/dex", 32, "prop2/all_attrib", 26,"prop2_color",1, "prop_seal_base/stunt_rate",10, "seal_flag",1, "prop4/str", 32,"color", 金色 })
+
+
+[连环甲2]
+name      : 天玄真神甲
+min_level : 130
+max_level : 130
+attribs      : ({ "prop/all_attrib", 26, "prop/str", 32, "prop/dex", 32, "prop2/all_attrib", 26,"prop2_color",1, "prop_seal_base/stunt_rate",10, "seal_flag",1, "prop4/str", 32,"color", 金色 })
+
+
+[蛟皮袄2]
+name      : 万霞霓罗裳
+min_level : 130
+max_level : 130
+attribs      : ({ "prop/all_attrib", 26, "prop/str", 32, "prop/dex", 32, "prop2/all_attrib", 26,"prop2_color",1, "prop_seal_base/stunt_rate",10, "seal_flag",1, "prop4/str", 32,"color", 金色 })
+
+

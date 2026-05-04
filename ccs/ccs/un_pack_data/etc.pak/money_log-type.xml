@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="GB2312" ?>
+
+<Root>
+	<ValueUnit>
+		<ViewValue>获得金钱</ViewValue>
+		<RealValue>0</RealValue>
+	</ValueUnit>
+	<ValueUnit>
+		<ViewValue>消耗金钱</ViewValue>
+		<RealValue>1</RealValue>
+	</ValueUnit>
+	<ValueUnit>
+		<ViewValue>存储场所取出到身上</ViewValue>
+		<RealValue>2</RealValue>
+	</ValueUnit>
+	<ValueUnit>
+		<ViewValue>将身上金钱存储</ViewValue>
+		<RealValue>3</RealValue>
+	</ValueUnit>
+	<ValueUnit>
+		<ViewValue>两个玩家之间的操作</ViewValue>
+		<RealValue>4</RealValue>
+	</ValueUnit>
+</Root>

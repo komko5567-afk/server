@@ -1,0 +1,51 @@
+#FORM2
+#zhuangb.list
+#create by caijz 09/22/2706
+#奖励物品        概率
+
+[奖励等级]
+name$: 特等奖
+
+[特等奖]
+引1灵幡1  : 1000
+引1灵幡2  : 300
+引1灵幡3  : 100
+引1灵幡4  : 5
+引1灵幡5  : 1
+
+[引1灵幡1]
+bonus$ : ({ 0, 0, 100, "属性道具", 1, 1, "引灵幡1"})
+
+[引1灵幡2]
+bonus$ : ({ 0, 0, 100, "属性道具", 1, 1, "引灵幡2"})
+
+[引1灵幡3]
+bonus$ : ({ 0, 0, 100, "属性道具", 1, 1, "引灵幡3"})
+
+[引1灵幡4]
+bonus$ : ({ 0, 0, 100, "属性道具", 1, 1, "引灵幡4"})
+
+[引1灵幡5]
+bonus$ : ({ 0, 0, 100, "属性道具", 1, 1, "引灵幡5"})
+
+
+
+[引灵幡1]
+name      : 二阶引灵幡
+attribs      : ({ "prop3/all_attrib",5,"add_pennant_skill", 173, "durability", 100000, "lianhun", 1,  "max_lianhun", 300,  "icon", 1428, "extra_desc",#O所有属性 5/32 增加#r#n引灵幡品质：白 })
+
+[引灵幡2]
+name      : 二阶引灵幡
+attribs      : ({ "prop3/all_attrib",10,"add_pennant_skill", 173, "durability", 100000, "lianhun", 1,  "max_lianhun", 300,  "icon", 1428, "extra_desc",#O所有属性 10/32 增加#r#B引灵幡品质：蓝 })
+
+[引灵幡3]
+name      : 二阶引灵幡
+attribs      : ({ "prop3/all_attrib",15,"add_pennant_skill", 173, "durability", 100000, "lianhun", 1,  "max_lianhun", 300,  "icon", 1428, "extra_desc",#O所有属性 15/32 增加#r#O引灵幡品质：粉 })
+
+[引灵幡4]
+name      : 二阶引灵幡
+attribs      : ({ "prop3/all_attrib",20,"add_pennant_skill", 173, "durability", 100000, "lianhun", 1,  "max_lianhun", 300,  "icon", 1428, "extra_desc",#O所有属性 20/32 增加#r#Y引灵幡品质：黄 })
+
+[引灵幡5]
+name      : 二阶引灵幡
+attribs      : ({ "prop3/all_attrib",32,"add_pennant_skill", 173, "durability", 100000, "lianhun", 1,  "max_lianhun", 300,  "icon", 1428, "extra_desc",#O所有属性 32/32 增加#r#G引灵幡品质：绿 })

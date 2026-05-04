@@ -1,0 +1,9 @@
+[project]
+name = "runtime-recovery"
+version = "0.1.0"
+description = "Clean recovery runtime for self-owned server script assets"
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]

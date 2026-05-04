@@ -1,0 +1,157 @@
+#FORM2
+#zhuangb.list
+#create by caijz 09/18/2006
+#奖励物品        概率
+
+[奖励等级]
+name$: 二等奖
+
+
+[二等奖]
+随机神兽 : 20
+
+
+[随机神兽]
+bonus$:  ({ 0, 0, 100, "宠物", 1, 1, "九尾狐", "朱雀", "玄武", "东山神灵", "疆良", "玄冥", "祝融", "蓐收", "句芒", "后土", "姑射仙子", "嫦娥"})
+
+
+[嫦娥]
+name$: ({ 嫦娥, 嫦娥 })
+rank$: 神兽
+level: 60
+life_effect: ({ 70, 70 })
+mana_effect: ({ 15, 15 })
+speed_effect: ({ 25, 25 })
+phy_effect: ({ -35, -35 })
+mag_effect: ({ 45, 45 })
+special_skill$: ({ 3,如意圈, 1,游说之舌, 1,漫天血舞, 1})
+
+[句芒]
+name$: ({ 句芒, 句芒 })
+rank$: 神兽
+level: 60
+life_effect: ({ 80, 80 })
+mana_effect: ({ 20, 20 })
+speed_effect: ({ 35, 35 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 25, 25 })
+special_skill$: ({ 3,翻转乾坤, 1,如意圈, 1,十万火急, 1})
+
+[姑射仙子]
+name$: ({ 姑射仙子, 姑射仙子 })
+rank$: 神兽
+level: 60
+life_effect: ({ 45, 45 })
+mana_effect: ({ -40, -40 })
+speed_effect: ({ 45, 45 })
+phy_effect: ({ 100, 100 })
+mag_effect: ({ -40, -40 })
+special_skill$: ({ 3,神圣之光, 1,游说之舌, 1,死亡缠绵, 1})
+
+[后土]
+name$: ({ 后土, 后土 })
+rank$: 神兽
+level: 60
+life_effect: ({ 70, 70 })
+mana_effect: ({ 25, 25 })
+speed_effect: ({ 35, 35 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 30, 30 })
+special_skill$: ({ 3,神龙罩, 1,舍命一击, 1,死亡缠绵, 1})
+
+[九尾狐]
+name$: ({ 九尾狐, 九尾狐 })
+rank$: 神兽
+level: 60
+life_effect: ({ 55, 55 })
+mana_effect: ({ 25, 25 })
+speed_effect: ({ 45, 45 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 35, 35 })
+special_skill$: ({ 3,翻转乾坤, 1,游说之舌, 1,乾坤罩, 1})
+
+
+
+[朱雀]
+name$: ({ 朱雀, 朱雀 })
+rank$: 神兽
+level: 60
+life_effect: ({ 55, 55 })
+mana_effect: ({ 20, 20 })
+speed_effect: ({ 40, 40 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 45, 45 })
+special_skill$: ({ 3,如意圈, 1,神圣之光, 1,游说之舌, 1})
+
+
+[玄武]
+name$: ({ 玄武, 玄武 })
+rank$: 神兽
+level: 60
+life_effect: ({ 80, 80 })
+mana_effect: ({ 30, 30 })
+speed_effect: ({ 20, 20 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 30, 30 })
+special_skill$: ({ 3,扭转乾坤, 1,漫天血舞, 1,神龙罩, 1})
+
+
+[东山神灵]
+name$: ({ 东山神灵, 东山神灵 })
+rank$: 神兽
+level: 60
+life_effect: ({ 65, 65 })
+mana_effect: ({ 20, 20 })
+speed_effect: ({ 35, 35 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 40, 40 })
+special_skill$: ({ 3,漫天血舞, 1,神圣之光, 1,神龙罩, 1})
+
+
+[疆良]
+name$: ({ 疆良, 疆良 })
+rank$: 神兽
+level: 60
+life_effect: ({ 55, 55 })
+mana_effect: ({ -35, -35 })
+speed_effect: ({ 30, 30 })
+phy_effect: ({ 100, 100 })
+mag_effect: ({ -40, -40 })
+special_skill$: ({ 3,翻转乾坤, 1,死亡缠绵, 1,如意圈, 1})
+
+
+[蓐收]
+name$: ({ 蓐收, 蓐收 })
+rank$: 神兽
+level: 60
+life_effect: ({ 65, 65 })
+mana_effect: ({ 25, 25 })
+speed_effect: ({ 30, 30 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 40, 40 })
+special_skill$: ({ 3,翻转乾坤, 1,死亡缠绵, 1,乾坤罩, 1})
+
+
+[玄冥]
+name$: ({ 玄冥, 玄冥 })
+rank$: 神兽
+level: 60
+life_effect: ({ 75, 75 })
+mana_effect: ({ 20, 20 })
+speed_effect: ({ 20, 20 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 45, 45 })
+special_skill$: ({ 3,神圣之光, 1,游说之舌, 1,神龙罩, 1})
+
+
+[祝融]
+name$: ({ 祝融, 祝融 })
+rank$: 神兽
+level: 60
+life_effect: ({ 65, 65 })
+mana_effect: ({ 25, 25 })
+speed_effect: ({ 45, 45 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 25, 25 })
+special_skill$: ({ 3,漫天血舞, 1,神圣之光, 1,如意圈, 1})
+

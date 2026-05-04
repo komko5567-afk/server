@@ -1,0 +1,172 @@
+#FORM2
+
+#dujiachoujianghuodong.list
+#created by huangw2 Aug/25/2008
+#独家抽奖游戏活动
+#自己兑换自己想要的东西，我只加了个神兽估计都懂
+
+[task_time]
+start_time : "2008-11-13-12:00:00"
+maf_time$ :  ({ "2008-11-13-12:00:00", "2023-08-23-12:00:00" })
+
+
+[兑换奖励]
+rate : 1
+name$ : 兑换奖励
+log_to_db:  100
+free_pet:   ({ 1, "你携带的宠物数量已到最大，无法领取奖励。" })
+bonus$:  ({ 0, 0, 100, "宠物", 1, 1, "九尾狐", "朱雀", "玄武", "东山神灵", "疆良", "玄冥", "祝融", "蓐收", "句芒", "后土", "姑射仙子", "嫦娥"})
+bonus_times : -1
+
+[嫦娥]
+name$: ({ 嫦娥, 嫦娥 })
+rank$: 神兽
+level: 60
+life_effect: ({ 70, 70 })
+mana_effect: ({ 15, 15 })
+speed_effect: ({ 25, 25 })
+phy_effect: ({ -35, -35 })
+mag_effect: ({ 45, 45 })
+special_skill$: ({ 3,如意圈, 1,游说之舌, 1,漫天血舞, 1})
+channel_msg : "#G$PLAYER#n集齐了#R20颗神兽珠#n后在#Y#P神兽召唤大使#P#n处召唤到了$EX_PET的奖励，快去#P宠物尊者#P#n处参与吧！"
+
+[句芒]
+name$: ({ 句芒, 句芒 })
+rank$: 神兽
+level: 60
+life_effect: ({ 80, 80 })
+mana_effect: ({ 20, 20 })
+speed_effect: ({ 35, 35 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 25, 25 })
+special_skill$: ({ 3,翻转乾坤, 1,如意圈, 1,十万火急, 1})
+channel_msg : "#G$PLAYER#n集齐了#R20颗神兽珠#n后在#Y#P神兽召唤大使#P#n处召唤到了$EX_PET的奖励，快去#P宠物尊者#P#n处参与吧！"
+
+[姑射仙子]
+name$: ({ 姑射仙子, 姑射仙子 })
+rank$: 神兽
+level: 60
+life_effect: ({ 45, 45 })
+mana_effect: ({ -40, -40 })
+speed_effect: ({ 45, 45 })
+phy_effect: ({ 100, 100 })
+mag_effect: ({ -40, -40 })
+special_skill$: ({ 3,神圣之光, 1,游说之舌, 1,死亡缠绵, 1})
+channel_msg : "#G$PLAYER#n集齐了#R20颗神兽珠#n后在#Y#P神兽召唤大使#P#n处召唤到了$EX_PET的奖励，快去#P宠物尊者#P#n处参与吧！"
+
+[后土]
+name$: ({ 后土, 后土 })
+rank$: 神兽
+level: 60
+life_effect: ({ 70, 70 })
+mana_effect: ({ 25, 25 })
+speed_effect: ({ 35, 35 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 30, 30 })
+special_skill$: ({ 3,神龙罩, 1,舍命一击, 1,死亡缠绵, 1})
+channel_msg : "#G$PLAYER#n集齐了#R20颗神兽珠#n后在#Y#P神兽召唤大使#P#n处召唤到了$EX_PET的奖励，快去#P宠物尊者#P#n处参与吧！"
+
+[九尾狐]
+name$: ({ 九尾狐, 九尾狐 })
+rank$: 神兽
+level: 60
+life_effect: ({ 55, 55 })
+mana_effect: ({ 25, 25 })
+speed_effect: ({ 45, 45 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 35, 35 })
+special_skill$: ({ 3,翻转乾坤, 1,游说之舌, 1,乾坤罩, 1})
+channel_msg : "#G$PLAYER#n集齐了#R20颗神兽珠#n后在#Y#P神兽召唤大使#P#n处召唤到了$EX_PET的奖励，快去#P宠物尊者#P#n处参与吧！"
+
+
+
+[朱雀]
+name$: ({ 朱雀, 朱雀 })
+rank$: 神兽
+level: 60
+life_effect: ({ 55, 55 })
+mana_effect: ({ 20, 20 })
+speed_effect: ({ 40, 40 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 45, 45 })
+special_skill$: ({ 3,如意圈, 1,神圣之光, 1,游说之舌, 1})
+channel_msg : "#G$PLAYER#n集齐了#R20颗神兽珠#n后在#Y#P神兽召唤大使#P#n处召唤到了$EX_PET的奖励，快去#P宠物尊者#P#n处参与吧！"
+
+
+[玄武]
+name$: ({ 玄武, 玄武 })
+rank$: 神兽
+level: 60
+life_effect: ({ 80, 80 })
+mana_effect: ({ 30, 30 })
+speed_effect: ({ 20, 20 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 30, 30 })
+special_skill$: ({ 3,扭转乾坤, 1,漫天血舞, 1,神龙罩, 1})
+channel_msg : "#G$PLAYER#n集齐了#R20颗神兽珠#n后在#Y#P神兽召唤大使#P#n处召唤到了$EX_PET的奖励，快去#P宠物尊者#P#n处参与吧！"
+
+
+[东山神灵]
+name$: ({ 东山神灵, 东山神灵 })
+rank$: 神兽
+level: 60
+life_effect: ({ 65, 65 })
+mana_effect: ({ 20, 20 })
+speed_effect: ({ 35, 35 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 40, 40 })
+special_skill$: ({ 3,漫天血舞, 1,神圣之光, 1,神龙罩, 1})
+channel_msg : "#G$PLAYER#n集齐了#R20颗神兽珠#n后在#Y#P神兽召唤大使#P#n处召唤到了$EX_PET的奖励，快去#P宠物尊者#P#n处参与吧！"
+
+
+[疆良]
+name$: ({ 疆良, 疆良 })
+rank$: 神兽
+level: 60
+life_effect: ({ 55, 55 })
+mana_effect: ({ -35, -35 })
+speed_effect: ({ 30, 30 })
+phy_effect: ({ 100, 100 })
+mag_effect: ({ -40, -40 })
+special_skill$: ({ 3,翻转乾坤, 1,死亡缠绵, 1,如意圈, 1})
+channel_msg : "#G$PLAYER#n集齐了#R20颗神兽珠#n后在#Y#P神兽召唤大使#P#n处召唤到了$EX_PET的奖励，快去#P宠物尊者#P#n处参与吧！"
+
+
+[蓐收]
+name$: ({ 蓐收, 蓐收 })
+rank$: 神兽
+level: 60
+life_effect: ({ 65, 65 })
+mana_effect: ({ 25, 25 })
+speed_effect: ({ 30, 30 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 40, 40 })
+special_skill$: ({ 3,翻转乾坤, 1,死亡缠绵, 1,乾坤罩, 1})
+channel_msg : "#G$PLAYER#n集齐了#R20颗神兽珠#n后在#Y#P神兽召唤大使#P#n处召唤到了$EX_PET的奖励，快去#P宠物尊者#P#n处参与吧！"
+
+
+[玄冥]
+name$: ({ 玄冥, 玄冥 })
+rank$: 神兽
+level: 60
+life_effect: ({ 75, 75 })
+mana_effect: ({ 20, 20 })
+speed_effect: ({ 20, 20 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 45, 45 })
+special_skill$: ({ 3,神圣之光, 1,游说之舌, 1,神龙罩, 1})
+channel_msg : "#G$PLAYER#n集齐了#R20颗神兽珠#n后在#Y#P神兽召唤大使#P#n处召唤到了$EX_PET的奖励，快去#P宠物尊者#P#n处参与吧！"
+
+
+[祝融]
+name$: ({ 祝融, 祝融 })
+rank$: 神兽
+level: 60
+life_effect: ({ 65, 65 })
+mana_effect: ({ 25, 25 })
+speed_effect: ({ 45, 45 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 25, 25 })
+special_skill$: ({ 3,漫天血舞, 1,神圣之光, 1,如意圈, 1})
+channel_msg : "#G$PLAYER#n集齐了#R20颗神兽珠#n后在#Y#P神兽召唤大使#P#n处召唤到了$EX_PET的奖励，快去#P宠物尊者#P#n处参与吧！"
+

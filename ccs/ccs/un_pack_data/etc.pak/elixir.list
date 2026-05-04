@@ -1,0 +1,346 @@
+#FORM2
+
+[task_time]
+start_time : "2022-08-18-00:00:00"
+end_time   : "2022-10-19-23:59:59"
+
+[basic]
+all_elixir_num    : 3000000
+all_bonus_sp_num  : 36
+all_bonus0_num    : 99
+all_bonus1_num    : 305
+all_bonus2_num    : 282185
+all_bonus3_num    : 524202
+all_bonus4_num    : 881100
+all_bonus5_num    : 1312073
+bonus0_start      : ({ 15555, 17777 })
+bonus0_range      : 22222
+bonus1_start      : ({ 6885, 7868 })
+bonus1_range      : 9836
+bonus0_to_sp      : 250
+bonus0_to_sp_base : 100
+
+[default]
+bonussp : ({ "北斗天蓬","苍穹","随机元灵","净坛使者","碧霄","罴九","齐天大圣", "黑凤金凰", "至尊巨骨刺", "至尊太极熊" })
+bonus0 : ({ "朱雀", "圣诞球球", "疆良", "100000银元宝", "全满金色天书（1/1）" })
+bonus1 : ({ "貔貅", "北极熊","玄曜鲲", "80级所相4首饰", "5000银元宝", "20000银元宝", "10000银元宝" })
+bonus2 : ({ "六级镶嵌令", "丹药盒", "80级所相1首饰", "超级女娲石", "随机陨石道具", "随机满属装备", "变异精魄", "神兽精魄", "500银元宝", "500银元宝", "超级天书", "8000银元宝", "6000银元宝" })
+bonus3 : ({ "随机5~20万游戏币", "功能卷轴·古道热肠", "超级神兽丹", "御灵粮袋", "50银元宝" })
+bonus4 : ({ "随机1~5万游戏币", "50银元宝" })
+
+view_url : "https://www.fr71.com/"
+
+[quota_sp]
+北斗天蓬            : 2
+苍穹 	            : 3
+随机元灵            : 5
+净坛使者            : 1
+碧霄            	: 1
+罴九				: 1
+黑凤金凰			: 1
+齐天大圣            : 5
+至尊巨骨刺          : 9
+至尊太极熊 			: 8
+normal              : 0
+
+[quota_0]
+100000银元宝        : 40
+normal              : 59
+
+[quota_1]
+100000银元宝        : 15
+normal              : 290
+
+[quota_2]
+500银元宝          : 100000
+500银元宝         : 30000
+normal              : 28300000
+
+附加奖励]
+[10000银元宝]
+name : "10000银元宝"
+class : 7
+
+[6000银元宝]
+name : "6000银元宝"
+class : 7
+
+[80级所相5首饰]
+name  : "80级所相5首饰"
+class : 4
+
+[80级所相3首饰]
+name  : "80级所相3首饰"
+class : 4
+
+[至尊大奖]
+
+[北斗天蓬]
+name : 北斗天蓬
+rate : 3
+class : 2
+value : 6000000
+
+
+[苍穹]
+name : 苍穹
+rate : 3
+class : 1
+value : 9000000
+
+
+[随机元灵]
+name : 随机元灵
+rate : 7
+class : 11
+value : 3600000
+
+[净坛使者]
+name : 净坛使者
+rate : 6
+class : 1
+value : 1600000
+
+[碧霄]
+name : 碧霄
+rate : 6
+class : 1
+value : 6000000
+
+
+[罴九]
+name : 罴九
+rate : 6
+class : 1
+value : 1600000
+
+[黑凤金凰]
+name : 黑凤金凰
+rate : 3
+class : 2
+value : 1600000
+
+[齐天大圣]
+name : 齐天大圣
+rate : 6
+class : 1
+value : 1600000
+
+
+[至尊巨骨刺]
+name : "至尊巨骨刺"
+rate : 17
+class : 2
+value : 1600000
+extra : "80级所相5首饰"
+
+[至尊太极熊]
+name : "至尊太极熊"
+rate : 8
+class : 2
+value : 1600000
+extra : "80级所相5首饰"
+
+[特等奖]
+[朱雀]
+name : 朱雀
+rate : 55
+class : 1
+value : 440000
+extra : "80级所相5首饰"
+
+[圣诞球球]
+name : 圣诞球球
+rate : 74
+class : 1
+value : 440000
+extra : "80级所相3首饰"
+
+[疆良]
+name : 疆良
+rate : 50
+class : 1
+value : 500000
+extra : "80级所相5首饰"
+
+
+[100000银元宝]
+name : "100000银元宝"
+rate : 45
+class : 7
+value : 1000000
+extra : "80级所相5首饰"
+
+[全满金色天书（1/1）]
+name : "全满金色天书（1/1）"
+rate : 30
+class : 4
+value : 750000
+
+[一等奖]
+[貔貅]
+name : 貔貅
+rate : 30
+class : 1
+value : 110000
+extra : "80级所相5首饰"
+
+[北极熊]
+name : 北极熊
+rate : 30
+class : 2
+value : 100000
+
+[玄曜鲲]
+name : 玄曜鲲
+rate : 30
+class : 2
+value : 100000
+
+[80级所相4首饰]
+name : "80级所相5首饰"
+rate : 50
+class : 4
+value : 100000
+
+[5000银元宝]
+name : "5000银元宝"
+rate : 105
+class : 7
+value : 100000
+
+[20000银元宝]
+name : "20000银元宝"
+rate : 20
+class : 7
+value : 1000000
+
+[10000银元宝]
+name : "10000银元宝"
+rate : 20
+class : 7
+value : 100000
+
+# 二等奖
+[六级镶嵌令]
+name : 六级镶嵌令
+rate : 80
+class : 3
+value : 108
+
+[丹药盒]
+name : 丹药盒
+rate : 12000
+class : 3
+value : 108
+
+[80级所相1首饰]
+name : "80级所相5首饰"
+rate : 80
+class : 4
+value : 5000
+
+[超级女娲石]
+name : 超级女娲石
+rate : 3000
+class : 3
+value : 1000
+
+[随机陨石道具]
+name  : 随机陨石道具
+rate  : 18000
+class : 4
+value : 500
+
+[随机满属装备]
+name : 随机满属装备
+rate : 3000
+class : 4
+value : 1000
+
+[变异精魄]
+name : 变异精魄
+rate : 20
+class : 3
+value : 8000
+
+[神兽精魄]
+name : 神兽精魄
+rate : 5
+class : 3
+value : 15000
+
+[500银元宝]
+name : "500银元宝"
+rate : 160
+class : 7
+value : 5000
+
+[500银元宝]
+name : "500银元宝"
+rate : 45
+class : 7
+value : 10000
+
+[超级天书]
+name : 超级天书
+rate : 1900
+class : 3
+value : 1800
+
+[8000银元宝]
+name : 8000银元宝
+rate : 33
+class : 7
+value : 21867
+
+[6000银元宝]
+name : 6000银元宝
+rate : 33
+class : 7
+value : 21600
+
+[三等奖]
+[随机5~20万游戏币]
+name : "随机5~20万游戏币"
+rate : 500
+class : 8
+value : 100
+
+[功能卷轴·古道热肠]
+name : "功能卷轴·古道热肠"
+rate : 500
+class : 3
+value : 100
+
+[超级神兽丹]
+name : 超级神兽丹
+rate : 30
+class : 3
+value : 500
+
+[御灵粮袋]
+name : 御灵粮袋
+rate : 55
+class : 3
+value : 500
+
+[50银元宝]
+name : "50银元宝"
+rate : 60
+class : 7
+value : 328
+
+
+[四等奖]
+[随机1~5万游戏币]
+name : "随机1~5万游戏币"
+rate : 200
+class : 8
+value : 50
+
+[50银元宝]
+name : "50银元宝"
+rate : 100
+class : 7
+value : 50

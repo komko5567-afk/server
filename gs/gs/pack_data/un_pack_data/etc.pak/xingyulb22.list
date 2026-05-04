@@ -1,0 +1,233 @@
+#FORM2
+#zhuangb.list
+#create by caijz 09/18/2006
+#奖励物品        概率
+
+
+[奖励等级]
+name$: 特等奖
+
+
+[特等奖]
+衣服黑水 : 1000
+
+[衣服黑水]
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "衣服所属" })
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "衣服防御" })
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "衣服气血" })
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "衣服法力" })
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "衣服力量" })
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "衣服体质" })
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "衣服灵力" })
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "衣服敏捷" })
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "衣服反震率" })
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "衣服所有抗性" })
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "衣服抗所有异常" })
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "衣服抗中毒" })
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "衣服抗冰冻" })
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "衣服抗昏睡" })
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "衣服抗遗忘" })
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "衣服抗混乱" })
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "衣服抗镇魂" })
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "衣服抗化功" })
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "衣服抗水牢" })
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "衣服抗锁灵" })
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "衣服抗迷心" })
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "衣服抗金" })
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "衣服抗木" })
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "衣服抗水" })
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "衣服抗火" })
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "衣服抗土" })
+
+
+
+[衣服抗金]
+name      : 超级黑水晶
+min_level : 180
+max_level : 180
+attribs      : ({ "prop/resist_metal", 15 })
+upgrade_type : 3
+
+
+[衣服抗木]
+name      : 超级黑水晶
+min_level : 180
+max_level : 180
+attribs      : ({ "prop/resist_wood", 15 })
+upgrade_type : 3
+
+
+[衣服抗水]
+name      : 超级黑水晶
+min_level : 180
+max_level : 180
+attribs      : ({ "prop/resist_water", 15 })
+upgrade_type : 3
+
+
+[衣服抗火]
+name      : 超级黑水晶
+min_level : 180
+max_level : 180
+attribs      : ({ "prop/resist_fire", 15 })
+upgrade_type : 3
+
+
+[衣服抗土]
+name      : 超级黑水晶
+min_level : 180
+max_level : 180
+attribs      : ({ "prop/resist_earth", 15 })
+upgrade_type : 3
+
+
+[衣服抗镇魂]
+name      : 超级黑水晶
+min_level : 180
+max_level : 180
+attribs      : ({ "prop/resist_repress", 20 })
+upgrade_type : 3
+
+[衣服抗化功]
+name      : 超级黑水晶
+min_level : 180
+max_level : 180
+attribs      : ({ "prop/resist_melt", 20 })
+upgrade_type : 3
+
+[衣服抗水牢]
+name      : 超级黑水晶
+min_level : 180
+max_level : 180
+attribs      : ({ "prop/resist_cage", 20 })
+upgrade_type : 3
+
+[衣服抗锁灵]
+name      : 超级黑水晶
+min_level : 180
+max_level : 180
+attribs      : ({ "prop/resist_lock", 20 })
+upgrade_type : 3
+
+[衣服抗迷心]
+name      : 超级黑水晶
+min_level : 180
+max_level : 180
+attribs      : ({ "prop/resist_lost", 20 })
+upgrade_type : 3
+
+
+[衣服抗中毒]
+name      : 超级黑水晶
+min_level : 180
+max_level : 180
+attribs      : ({ "prop/resist_poison", 20 })
+upgrade_type : 3
+
+[衣服抗冰冻]
+name      : 超级黑水晶
+min_level : 180
+max_level : 180
+attribs      : ({ "prop/resist_frozen", 20 })
+upgrade_type : 3
+
+[衣服抗昏睡]
+name      : 超级黑水晶
+min_level : 180
+max_level : 180
+attribs      : ({ "prop/resist_sleep", 20 })
+upgrade_type : 3
+
+[衣服抗遗忘]
+name      : 超级黑水晶
+min_level : 180
+max_level : 180
+attribs      : ({ "prop/resist_forgotten", 20 })
+upgrade_type : 3
+
+[衣服抗混乱]
+name      : 超级黑水晶
+min_level : 180
+max_level : 180
+attribs      : ({ "prop/resist_confusion", 20 })
+upgrade_type : 3
+
+
+
+
+[衣服所属]
+name      : 超级黑水晶
+min_level : 180
+max_level : 180
+attribs      : ({ "prop/all_attrib", 36 })
+upgrade_type : 3
+
+[衣服防御]
+name      : 超级黑水晶
+min_level : 180
+max_level : 180
+attribs      : ({ "prop/def", 4400 })
+upgrade_type : 3
+
+[衣服气血]
+name      : 超级黑水晶
+min_level : 180
+max_level : 180
+attribs      : ({ "prop/max_life", 12000 })
+upgrade_type : 3
+
+[衣服法力]
+name      : 超级黑水晶
+min_level : 180
+max_level : 180
+attribs      : ({ "prop/max_mana", 20000 })
+upgrade_type : 3
+
+[衣服力量]
+name      : 超级黑水晶
+min_level : 180
+max_level : 180
+attribs      : ({ "prop/str", 43 })
+upgrade_type : 3
+
+[衣服体质]
+name      : 超级黑水晶
+min_level : 180
+max_level : 180
+attribs      : ({ "prop/con", 43 })
+upgrade_type : 3
+
+[衣服灵力]
+name      : 超级黑水晶
+min_level : 180
+max_level : 180
+attribs      : ({ "prop/wiz", 43 })
+upgrade_type : 3
+
+[衣服敏捷]
+name      : 超级黑水晶
+min_level : 180
+max_level : 180
+attribs      : ({ "prop/dex", 43 })
+upgrade_type : 3
+
+[衣服反震率]
+name      : 超级黑水晶
+min_level : 180
+max_level : 180
+attribs      : ({ "prop/damage_sel_rate", 30 })
+upgrade_type : 3
+
+[衣服所有抗性]
+name      : 超级黑水晶
+min_level : 180
+max_level : 180
+attribs      : ({ "prop/all_resist_polar", 15 })
+upgrade_type : 3
+
+[衣服抗所有异常]
+name      : 超级黑水晶
+min_level : 180
+max_level : 180
+attribs      : ({ "prop/all_resist_except", 15 })
+upgrade_type : 3

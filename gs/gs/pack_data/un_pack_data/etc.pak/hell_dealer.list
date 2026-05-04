@@ -1,0 +1,32 @@
+#FORM2
+
+[goods_info]
+goods_list : ({ 八级镶嵌令, 80级X5整套首饰, 80级X6整套首饰, 80级X7整套首饰, 80级X8整套首饰, 80级X9整套首饰, 80级X10整套首饰 })
+
+[八级镶嵌令]
+guilingzh1 : 5
+merit      : 0
+
+[80级X5整套首饰]
+guilingzh1 : 500
+merit      : 0
+
+[80级X6整套首饰]
+guilingzh1 : 1000
+merit      : 0
+
+[80级X7整套首饰]
+guilingzh1 : 1500
+merit      : 0
+
+[80级X8整套首饰]
+guilingzh1 : 3000
+merit      : 0
+
+[80级X9整套首饰]
+guilingzh1 : 3500
+merit      : 0
+
+[80级X10整套首饰]
+guilingzh1 : 4000
+merit      : 0

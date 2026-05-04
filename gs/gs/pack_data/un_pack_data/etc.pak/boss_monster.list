@@ -1,0 +1,483 @@
+#FORM2
+
+[羊头怪]
+icon                : 6215
+portrait            : 6215
+level               : 20
+life_effect         : 4900
+mana_effect         : 4900
+tao_effect          : 20
+speed_effect        : 150
+mag_absorb          : -25
+phy_absorb          : -35
+phy_effect          : 150
+mag_effect          : 150
+double_hit          : 5
+double_hit_rate     : 40
+resist_frozen       : 75
+resist_sleep        : 75
+resist_forgotten    : 100
+resist_confusion    : 100
+resist_poison       : 75
+resist_repress      : 100
+resist_melt         : 75
+resist_cage         : 75
+resist_lock         : 75
+resist_lost         : 100
+accurate            : 100
+obstacle_rate       : 0
+assist_max_count    : 9
+assist_init_name    : "松鼠"
+assist_init_level   : 20
+assist_data         : ({ "tao_effect:-20", "mag_absorb:-40", "phy_absorb:-40", "life_effect:300", "phy_effect:80", "mag_effect:100" })
+bonus_item$         : ({ 1, "60% baldric & wrist & necklace(level = 20)" })
+bonus_item$         : ({ 1, "helmet & weapon & boot & armor & belt(level = 30 color = GOLDEN)" })
+bonus_item$         : ({ 1, "藏宝图" })
+
+[牛头怪]
+icon                : 6214
+portrait            : 6214
+level               : 30
+life_effect         : 4900
+mana_effect         : 4900
+tao_effect          : 20
+speed_effect        : 150
+mag_absorb          : -25
+phy_absorb          : -35
+phy_effect          : 200
+mag_effect          : 200
+double_hit          : 5
+double_hit_rate     : 40
+resist_frozen       : 75
+resist_sleep        : 75
+resist_forgotten    : 100
+resist_confusion    : 100
+resist_poison       : 75
+resist_repress      : 100
+resist_melt         : 75
+resist_cage         : 75
+resist_lock         : 75
+resist_lost         : 100
+accurate            : 100
+obstacle_rate       : 0
+assist_max_count    : 9
+assist_init_name    : "蛇"
+assist_init_level   : 30
+assist_data         : ({ "tao_effect:-20", "mag_absorb:-40", "phy_absorb:-40", "life_effect:300", "phy_effect:80", "mag_effect:100" })
+bonus_item$         : ({ 1, "80% baldric & wrist & necklace(level = 20)" })
+bonus_item$         : ({ 1, "helmet & weapon & boot & armor & belt(level = 40 color = GOLDEN)" })
+bonus_item$         : ({ 1, "藏宝图" })
+bonus_item$         : ({ 1, "20% 藏宝图" })
+
+[百年黑熊精]
+icon                : 6203
+portrait            : 6203
+level               : 40
+life_effect         : 5900
+mana_effect         : 5900
+tao_effect          : 20
+speed_effect        : 150
+mag_absorb          : -20
+phy_absorb          : -30
+phy_effect          : 250
+mag_effect          : 250
+stunt_rate          : 40
+resist_frozen       : 75
+resist_sleep        : 75
+resist_forgotten    : 100
+resist_confusion    : 100
+resist_poison       : 75
+resist_repress      : 100
+resist_melt         : 75
+resist_cage         : 75
+resist_lock         : 75
+resist_lost         : 100
+accurate            : 100
+obstacle_rate       : 0
+assist_max_count    : 9
+assist_init_name    : "猴子"
+assist_init_level   : 40
+assist_data         : ({ "tao_effect:-20", "mag_absorb:-40", "phy_absorb:-40", "life_effect:200", "phy_effect:80", "mag_effect:100" })
+bonus_item$         : ({ 1, "baldric & wrist & necklace(level = 20)" })
+bonus_item$         : ({ 1, "20% baldric & wrist & necklace(level = 20)" })
+bonus_item$         : ({ 1, "helmet & weapon & boot & armor & belt(level = 50 color = GOLDEN)" })
+bonus_item$         : ({ 1, "藏宝图" })
+bonus_item$         : ({ 1, "40% 藏宝图" })
+bonus_item$         : ({ 1, "50% 五色灵石", "50% 五色晶石" })
+
+[百年狂狮怪]
+icon                : 6209
+portrait            : 6209
+level               : 50
+life_effect         : 5900
+mana_effect         : 5900
+tao_effect          : 20
+mag_absorb          : -25
+phy_absorb          : -35
+speed_effect        : 150
+phy_effect          : 250
+mag_effect          : 250
+double_hit          : 5
+double_hit_rate     : 40
+resist_frozen       : 75
+resist_sleep        : 75
+resist_forgotten    : 100
+resist_confusion    : 100
+resist_poison       : 75
+resist_repress      : 100
+resist_melt         : 75
+resist_cage         : 75
+resist_lock         : 75
+resist_lost         : 100
+accurate            : 100
+obstacle_rate       : 0
+assist_max_count    : 9
+assist_init_name    : "白猿"
+assist_init_level   : 50
+assist_data         : ({ "tao_effect:-20", "mag_absorb:-40", "phy_absorb:-40", "life_effect:300", "phy_effect:80", "mag_effect:100" })
+bonus_item$         : ({ 1,  "baldric & wrist & necklace(level = 20)"  })
+bonus_item$         : ({ 1,  "60% baldric & wrist & necklace(level = 20)"  })
+bonus_item$         : ({ 1,  "helmet & weapon & boot & armor & belt(level = 60 color = GOLDEN)" })
+bonus_item$         : ({ 1,  "藏宝图" })
+bonus_item$         : ({ 1,  "60% 藏宝图" })
+bonus_item$         : ({ 2,  "50% 五色灵石", "50% 五色晶石" })
+
+[百年刺猬精]
+icon                : 6210
+portrait            : 6210
+level               : 60
+life_effect         : 5900
+mana_effect         : 5900
+tao_effect          : 20
+mag_absorb          : -30
+phy_absorb          : -40
+speed_effect        : 150
+phy_effect          : 250
+mag_effect          : 250
+double_hit          : 5
+double_hit_rate     : 40
+resist_frozen       : 75
+resist_sleep        : 75
+resist_forgotten    : 100
+resist_confusion    : 100
+resist_poison       : 75
+resist_repress      : 100
+resist_melt         : 75
+resist_cage         : 75
+resist_lock         : 75
+resist_lost         : 100
+accurate            : 100
+obstacle_rate       : 0
+assist_max_count    : 9
+assist_init_name    : "狼"
+assist_init_level   : 60
+assist_data         : ({ "tao_effect:-20", "mag_absorb:-40", "phy_absorb:-40", "life_effect:300", "phy_effect:80", "mag_effect:100" })
+bonus_item$         : ({ 2,  "baldric & wrist & necklace(level = 20)" })
+bonus_item$         : ({ 1,  "40% baldric & wrist & necklace(level = 20)" })
+bonus_item$         : ({ 1,  "helmet & weapon & boot & armor & belt(level = 70 color = GOLDEN)" })
+bonus_item$         : ({ 1,  "藏宝图" })
+bonus_item$         : ({ 1,  "80% 藏宝图" })
+bonus_item$         : ({ 3,  "50% 五色灵石", "50% 五色晶石" })
+
+[百年猪妖]
+icon                : 6208
+portrait            : 6208
+level               : 70
+life_effect         : 5900
+mana_effect         : 5900
+tao_effect          : 20
+mag_absorb          : -30
+phy_absorb          : -40
+speed_effect        : 150
+phy_effect          : 250
+mag_effect          : 250
+double_hit          : 5
+double_hit_rate     : 40
+resist_frozen       : 75
+resist_sleep        : 75
+resist_forgotten    : 100
+resist_confusion    : 100
+resist_poison       : 75
+resist_repress      : 100
+resist_melt         : 75
+resist_cage         : 75
+resist_lock         : 75
+resist_lost         : 100
+accurate            : 100
+obstacle_rate       : 0
+assist_max_count    : 9
+assist_init_name    : "老虎"
+assist_init_level   : 70
+assist_data         : ({ "tao_effect:-20", "mag_absorb:-40", "phy_absorb:-40", "life_effect:350", "phy_effect:80", "mag_effect:100" })
+bonus_item$         : ({ 3,  "baldric & wrist & necklace(level = 20)" })
+bonus_item$         : ({ 1,  "60% baldric & wrist & necklace(level = 20)" })
+bonus_item$         : ({ 1,  "helmet & weapon & boot & armor & belt(level = 80 color = GOLDEN)" })
+bonus_item$         : ({ 2,  "藏宝图" })
+bonus_item$         : ({ 4,  "50% 五色灵石", "50% 五色晶石" })
+
+[百年象精]
+icon                : 6207
+portrait            : 6207
+level               : 100
+bonus_item$         : ({ 1,  "50% 赐福蛋糕"})
+bonus_item$         : ({ 1,  "5% 七周年纪念卡"})
+bonus_item$         : ({ 1,  "20% 超级藏宝图"})
+bonus_item$         : ({ 1,  "6% 祭酒"})
+bonus_item$         : ({ 1,  "10% 娃娃亲密丹"})
+bonus_item$         : ({ 1,  "10% 超级神兽丹"})
+bonus_item$         : ({ 1,  "20% 修为丹"})
+bonus_item$         : ({ 1,  "15% 60级首饰盲盒"})
+bonus_item$         : ({ 1,  "30% 2000银元宝"})
+
+[百花羞]
+icon                : 6241
+portrait            : 6241
+level               : 110
+bonus_item$         : ({ 1,  "50% 赐福蛋糕"})
+bonus_item$         : ({ 1,  "20% 赐福蛋糕"})
+bonus_item$         : ({ 1,  "10% 七周年纪念卡"})
+bonus_item$         : ({ 1,  "25% 超级藏宝图"})
+bonus_item$         : ({ 1,  "10% 祭酒"})
+bonus_item$         : ({ 1,  "50% 2000银元宝"})
+bonus_item$         : ({ 1,  "5% 娃娃亲密丹"})
+bonus_item$         : ({ 1,  "20% 超级神兽丹"})
+bonus_item$         : ({ 1,  "20% 修为丹"})
+bonus_item$         : ({ 1,  "20% 60级首饰盲盒"})
+
+[牛魔王]
+icon                : 6259
+portrait            : 6259
+level               : 120
+bonus_item$         : ({ 1,  "50% 赐福蛋糕"})
+bonus_item$         : ({ 1,  "40% 赐福蛋糕"})
+bonus_item$         : ({ 1,  "15% 七周年纪念卡"})
+bonus_item$         : ({ 1,  "30% 超级藏宝图"})
+bonus_item$         : ({ 1,  "15% 祭酒"})
+bonus_item$         : ({ 1,  "10% 娃娃亲密丹"})
+bonus_item$         : ({ 1,  "30% 超级神兽丹"})
+bonus_item$         : ({ 1,  "70% 2000银元宝"})
+bonus_item$         : ({ 1,  "30% 修为丹"})
+bonus_item$         : ({ 1,  "30% 60级首饰盲盒"})
+
+[夜叉王]
+icon                : 6277
+portrait            : 6277
+level               : 130
+bonus_item$         : ({ 1,  "100% 赐福蛋糕"})
+bonus_item$         : ({ 1,  "50% 赐福蛋糕"})
+bonus_item$         : ({ 1,  "30% 七周年纪念卡"})
+bonus_item$         : ({ 1,  "35% 超级藏宝图",  "1% 特级藏宝图【叠加】"})
+bonus_item$         : ({ 1,  "100% 珍珠"})
+bonus_item$         : ({ 1,  "10% 宠物武学丹"})
+bonus_item$         : ({ 1,  "25% 娃娃亲密丹"})
+bonus_item$         : ({ 1,  "25% 超级神兽丹"})
+bonus_item$         : ({ 2,  "100% 修为丹"})
+bonus_item$         : ({ 1,  "30% 5000银元宝"})
+bonus_item$         : ({ 1,  "15% 70级首饰盲盒"})
+bonus_item$         : ({ 1,  "10% 超级女娲石（叠加）"})
+bonus_item$         : ({ 1,  "10% 超级灵宝丸（叠加）"})
+bonus_item$         : ({ 1,  "15% 祭酒",  "3% 御灵粮袋"})
+bonus_item$         : ({ 1,  "3% 随机坐骑兽魂石",  "3% 随机坐骑技能石"})
+bonus_item$         : ({ 1,  "5% 随机娃娃秘籍"})
+
+[罗刹王]
+name                : 罗刹王
+icon                : 6278
+portrait            : 6278
+level               : 140
+bonus_item$         : ({ 1,  "100% 赐福蛋糕"})
+bonus_item$         : ({ 1,  "50% 赐福蛋糕"})
+bonus_item$         : ({ 1,  "30% 赐福蛋糕"})
+bonus_item$         : ({ 1,  "30% 七周年纪念卡"})
+bonus_item$         : ({ 1,  "100% 珍珠"})
+bonus_item$         : ({ 1,  "50% 超级藏宝图",  "3% 特级藏宝图【叠加】"})
+bonus_item$         : ({ 1,  "15% 宠物武学丹"})
+bonus_item$         : ({ 1,  "30% 娃娃亲密丹"})
+bonus_item$         : ({ 1,  "30% 超级神兽丹"})
+bonus_item$         : ({ 2,  "100% 修为丹"})
+bonus_item$         : ({ 1,  "30% 70级首饰盲盒"})
+bonus_item$         : ({ 1,  "15% 超级女娲石（叠加）"})
+bonus_item$         : ({ 1,  "15% 超级灵宝丸（叠加）"})
+bonus_item$         : ({ 1,  "20% 祭酒",  "5% 御灵粮袋"})
+bonus_item$         : ({ 1,  "5% 随机坐骑兽魂石",  "5% 随机坐骑技能石"})
+bonus_item$         : ({ 1,  "10% 随机娃娃秘籍"})
+bonus_item$         : ({ 1,  "50% 5000银元宝"})
+
+
+[白骨精]
+name                : 白骨精
+icon                : 6280
+portrait            : 6280
+level               : 150
+bonus_item$         : ({ 2,  "100% 赐福蛋糕"})
+bonus_item$         : ({ 1,  "50% 赐福蛋糕"})
+bonus_item$         : ({ 1,  "50% 七周年纪念卡"})
+bonus_item$         : ({ 1,  "60% 超级藏宝图",  "5% 特级藏宝图【叠加】"})
+bonus_item$         : ({ 1,  "100% 珍珠"})
+bonus_item$         : ({ 1,  "10% 云珍珠"})
+bonus_item$         : ({ 1,  "5% 道具套餐卡（叠加）"})
+bonus_item$         : ({ 3,  "100% 修为丹"})
+bonus_item$         : ({ 1,  "10% 80级相性首饰盲盒"})
+bonus_item$         : ({ 1,  "80% 5000银元宝"})
+bonus_item$         : ({ 1,  "30% 祭酒"})
+bonus_item$         : ({ 1,  "1% 七级镶嵌令"})
+bonus_item$         : ({ 1,  "10% 御灵粮袋"})
+bonus_item$         : ({ 1,  "3% 修为丹",  "2% 御仙饮",  "3% 变异珠",  "5% 1级相性法宝",  "3% 九转仙灵露"})
+bonus_item$         : ({ 1,  "50% 宠物武学丹"})
+bonus_item$         : ({ 1,  "2% 熔铸晶石",  "2% 仙器升品丹"})
+
+
+
+[孔雀妖姬]
+name                : 孔雀妖姬
+icon                : 6287
+portrait            : 6287
+level               : 160
+bonus_item$         : ({ 3,  "100% 赐福蛋糕"})
+bonus_item$         : ({ 1,  "50% 赐福蛋糕"})
+bonus_item$         : ({ 1,  "100% 七周年纪念卡"})
+bonus_item$         : ({ 1,  "70% 超级藏宝图",  "10% 特级藏宝图【叠加】"})
+bonus_item$         : ({ 1,  "100% 珍珠"})
+bonus_item$         : ({ 1,  "50% 10000银元宝"})
+bonus_item$         : ({ 1,  "20% 云珍珠"})
+bonus_item$         : ({ 1,  "10% 道具套餐卡（叠加）"})
+bonus_item$         : ({ 5,  "100% 修为丹"})
+bonus_item$         : ({ 1,  "30% 80级相性首饰盲盒"})
+bonus_item$         : ({ 1,  "40% 祭酒"})
+bonus_item$         : ({ 1,  "2% 七级镶嵌令"})
+bonus_item$         : ({ 1,  "30% 御灵粮袋"})
+bonus_item$         : ({ 1,  "2% 御仙饮",  "5% 变异珠",  "10% 1级相性法宝",  "5% 九转仙灵露"})
+bonus_item$         : ({ 1,  "100% 宠物武学丹"})
+bonus_item$         : ({ 1,  "3% 熔铸晶石",  "3% 仙器升品丹"})
+
+[阎摩罗王]
+name                : 阎摩罗王
+icon                : 20051
+portrait            : 20051
+level               : 170
+bonus_item$         : ({ 4,  "100% 赐福蛋糕"})
+bonus_item$         : ({ 1,  "50% 赐福蛋糕"})
+bonus_item$         : ({ 2,  "100% 七周年纪念卡"})
+bonus_item$         : ({ 1,  "20% 七周年纪念卡"})
+bonus_item$         : ({ 1,  "100% 超级藏宝图"})
+bonus_item$         : ({ 1,  "20% 道具套餐卡（叠加）"})
+bonus_item$         : ({ 1,  "100% 御灵粮袋"})
+bonus_item$         : ({ 10,  "100% 修为丹"})
+bonus_item$         : ({ 1,  "80% 10000银元宝"})
+bonus_item$         : ({ 1,  "50% 80级相性首饰盲盒"})
+bonus_item$         : ({ 1,  "20% 变异珠",  "5% 神兽珠",  "5% 元灵珠"})
+bonus_item$         : ({ 1,  "10% 七级镶嵌令"})
+bonus_item$         : ({ 1,  "5% 御仙饮",  "10% 九转仙灵露"})
+bonus_item$         : ({ 1,  "5% 幻化宠物",  "15% 特级藏宝图【叠加】"})
+bonus_item$         : ({ 2,  "100% 宠物武学丹"})
+bonus_item$         : ({ 1,  "5% 熔铸晶石",  "5% 仙器升品丹"})
+
+[金角大仙]
+name                : 金角大仙
+icon                : 6337
+portrait            : 6337
+level               : 180
+bonus_item$         : ({ 5,  "100% 赐福蛋糕"})
+bonus_item$         : ({ 1,  "50% 赐福蛋糕"})
+bonus_item$         : ({ 2,  "100% 七周年纪念卡"})
+bonus_item$         : ({ 1,  "70% 七周年纪念卡"})
+bonus_item$         : ({ 2,  "100% 超级藏宝图"})
+bonus_item$         : ({ 1,  "50% 道具套餐卡（叠加）"})
+bonus_item$         : ({ 2,  "100% 御灵粮袋"})
+bonus_item$         : ({ 10,  "100% 修为丹"})
+bonus_item$         : ({ 1,  "100% 80级相性首饰盲盒"})
+bonus_item$         : ({ 1,  "30% 变异珠",  "10% 神兽珠",  "10% 元灵珠"})
+bonus_item$         : ({ 1,  "20% 七级镶嵌令"})
+bonus_item$         : ({ 1,  "10% 御仙饮",  "30% 九转仙灵露"})
+bonus_item$         : ({ 1,  "10% 幻化宠物",  "30% 特级藏宝图【叠加】"})
+bonus_item$         : ({ 3,  "100% 宠物武学丹"})
+bonus_item$         : ({ 1,  "100% 20000银元宝"})
+bonus_item$         : ({ 1,  "10% 熔铸晶石",  "10% 仙器升品丹"})
+
+
+[玄秘宝箱]
+name                : 玄秘宝箱
+icon                : 20038
+portrait            : 20038
+level               : 180
+bonus_item$         : ({ 1,  "100% 玄秘宝盒"})
+bonus_item$         : ({ 1,  "100% 七周年纪念卡"})
+
+
+[杜千殇]
+name                : 杜千殇
+icon                : 6715
+portrait            : 6715
+level               : 189
+bonus_item$         : ({ 1,  "100% 杜千殇至宝" })
+
+
+
+[升木轩]
+name                : 升木轩
+icon                : 851802
+portrait            : 851802
+level               : 180
+bonus_item$         : ({ 2,  "100% 赐福蛋糕"})
+bonus_item$         : ({ 1,  "70% 赐福蛋糕"})
+bonus_item$         : ({ 1,  "10% 赐福蛋糕"})
+bonus_item$         : ({ 1,  "20% 赐福蛋糕"})
+bonus_item$         : ({ 1,  "10% 赐福蛋糕"})
+
+[上古妖皇]
+name                : 上古妖皇
+icon                : 370006239
+portrait            : 370006239
+level               : 180
+bonus_item$         : ({ 1,  "100% 180加强粉水晶·随机"})
+bonus_item$         : ({ 1,  "100% 180加强黄水晶·随机"})
+bonus_item$         : ({ 1,  "50% 宠物武学丹"})
+bonus_item$         : ({ 1,  "50% 珍珠"})
+bonus_item$         : ({ 1,  "50% 娃娃亲密丹"})
+bonus_item$         : ({ 1,  "50% 修为丹"})
+bonus_item$         : ({ 1,  "50% 超级神兽丹"})
+bonus_item$         : ({ 1,  "50% 超级灵宝丸（叠加）"})
+bonus_item$         : ({ 1,  "50% 超级女娲石（叠加）"})
+bonus_item$         : ({ 3,  "30% 修为丹"})
+bonus_item$         : ({ 1,  "10% 熔铸晶石",  "10% 仙器升品丹"})
+
+
+[海盗之主]
+name                : 海盗之主
+icon                : 370006230
+portrait            : 370006230
+level               : 180
+bonus_item$         : ({ 5,  "100% 藏宝图"})
+bonus_item$         : ({ 1,  "100% 超级藏宝图"})
+bonus_item$         : ({ 1,  "100% 珍珠"})
+bonus_item$         : ({ 1,  "10% 虹珍珠"})
+bonus_item$         : ({ 1,  "5% 特级藏宝图【叠加】"})
+
+
+[水德星君]
+name                : 水德星君
+icon                : 6701
+portrait            : 6701
+level               : 180
+bonus_item$         : ({ 1,  "100% 水德至宝"})
+
+[经验妖灵]
+name                : 经验妖灵
+icon                : 31718
+portrait            : 31718
+level               : 140
+bonus_item$         : ({ 1,  "100% 低级经验礼包"})
+
+[经验魔灵]
+name                : 经验魔灵
+icon                : 31719
+portrait            : 31719
+level               : 160
+bonus_item$         : ({ 1,  "100% 高级经验礼包"})
+
+[经验神灵]
+name                : 经验神灵
+icon                : 31720
+portrait            : 31720
+level               : 180
+bonus_item$         : ({ 1,  "100% 超级经验礼包"})

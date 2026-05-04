@@ -1,0 +1,89 @@
+#FORM2
+#jinnang.list
+#create by caijz 09/18/2006
+#奖励物品        概率
+
+
+[奖励等级]
+name$: 特等奖
+
+
+[特等奖]
+首饰2 : 100
+
+
+
+
+[首饰2]
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "岚金火链5"})
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "岚金火链6"})
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "岚金火链7"})
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "岚金火链8"})
+
+
+
+[岚金火链5]
+name      :负阴抱阳
+min_level :180
+max_level :180
+upgrade_type : 8
+attribs      : ({ "prop2/all_polar", 10, "prop2/wiz", 45,"prop2/dex", 45, "prop4/wiz", 45, "prop4/dex", 45,"prop2/all_skill", 10})
+
+
+[岚金火链6]
+name      :上善若水
+min_level :180
+max_level :180
+upgrade_type : 8
+attribs      : ({ "prop2/all_polar", 10, "prop2/wiz", 45,"prop2/dex", 45, "prop4/wiz", 45, "prop4/dex", 45,"prop2/all_skill", 10})
+
+
+[岚金火链7]
+name      :玄晖吐兰
+min_level :180
+max_level :180
+upgrade_type : 8
+attribs      : ({ "prop2/all_polar", 10, "prop2/wiz", 45,"prop2/dex", 45, "prop4/wiz", 45, "prop4/dex", 45,"prop2/all_skill", 10})
+
+
+[岚金火链8]
+name      :玄晖吐兰
+min_level :180
+max_level :180
+upgrade_type : 8
+attribs      : ({ "prop2/all_polar", 10, "prop2/wiz", 45,"prop2/dex", 45, "prop4/wiz", 45, "prop4/dex", 45,"prop2/all_skill", 10})
+
+
+
+
+
+[岚金火链1]
+name      : 景云烛日
+min_level : 170
+max_level : 170
+upgrade_type : 7
+attribs      : ({ "prop2/all_polar", 10, "prop2/str", 45,"prop2/dex", 45, "prop4/str", 45, "prop4/dex", 45,"prop2/all_skill", 10})
+
+
+[岚金火链2]
+name      : 和光同尘
+min_level : 170
+max_level : 170
+upgrade_type : 7
+attribs      : ({ "prop2/all_polar", 10, "prop2/str", 45,"prop2/dex", 45, "prop4/str", 45, "prop4/dex", 45,"prop2/all_skill", 10})
+
+
+[岚金火链3]
+name      : 九霞朝真
+min_level : 170
+max_level : 170
+upgrade_type : 7
+attribs      : ({ "prop2/all_polar", 10, "prop2/str", 45,"prop2/dex", 45, "prop4/str", 45, "prop4/dex", 45,"prop2/all_skill", 10})
+
+
+[岚金火链4]
+name      : 九霞朝真
+min_level : 170
+max_level : 170
+upgrade_type : 7
+attribs      : ({ "prop2/all_polar", 10, "prop2/str", 45,"prop2/dex", 45, "prop4/str", 45, "prop4/dex", 45,"prop2/all_skill", 10})

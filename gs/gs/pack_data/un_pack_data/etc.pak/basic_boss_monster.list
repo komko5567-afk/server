@@ -1,0 +1,43 @@
+#名称       file_id
+key_name,   file_id
+羊头怪,     "yangtouguai"
+牛头怪,     "niutouguai"
+牛魔王,     "niumowang"
+夜叉王,     "yechawang"
+罗刹王,     "luochawang"
+百年猪妖,   "bainian-zhuyao"
+百年象精,   "bainian-xiangjing"
+百年狂狮怪, "bainian-shiguai"
+百年黑熊精, "bainian-heixiongjing"
+百年刺猬精, "bainian-ciweijing"
+百花羞,     "baihuaxiu"
+白骨精,     "baigujing"
+孔雀妖姬,   "kongkue-yaoji"
+阎摩罗王,   "yanluo-wang"
+金角大仙,   "jinjiao-daxian"
+
+
+
+
+###宝箱怪###
+玄秘宝箱,   "yixiu_xing5"
+
+###福利顶级怪###
+杜千殇,     "yixiu_dunqs"
+
+#活跃怪#
+海盗之主,     "yixiu_xing4"
+
+#材料怪#
+上古妖皇,     "yixiu_xing3"
+
+#切糕怪#
+升木轩,       "yixiu_xing2"
+
+
+#新加#
+水德星君,       "yixiu_xing11"
+
+经验妖灵,       "yixiu_xing12"
+经验魔灵,       "yixiu_xing13"
+经验神灵,       "yixiu_xing14"

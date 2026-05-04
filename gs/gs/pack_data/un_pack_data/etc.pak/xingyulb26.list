@@ -1,0 +1,38 @@
+#FORM2
+#jinnang.list
+#create by caijz 09/18/2006
+#奖励物品        概率
+
+[奖励等级]
+name$: 特等奖
+
+
+[特等奖]
+娃娃装备180  :1000
+
+
+
+[娃娃装备180]
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "雾雨乾坤镯1" })
+bonus$:  ({ 0, 0, 100, "属性道具", 2, 2, "青耕夺月环1" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "太乙混绫兜1" })
+
+
+
+[雾雨乾坤镯1]
+name      : 雾雨乾坤镯
+min_level : 180
+max_level : 180
+attribs      : ({ "prop/child_all_attrib", 36, "prop/child_str", 54, "prop/child_phy_damage", 11000 })
+
+[太乙混绫兜1]
+name      : 太乙混绫兜
+min_level : 180
+max_level : 180
+attribs      : ({ "prop/child_all_attrib", 36, "prop/child_str", 54, "prop/child_ignore_def", 20 })
+
+[青耕夺月环1]
+name      : 青耕夺月环
+min_level : 180
+max_level : 180
+attribs      : ({ "prop/child_all_attrib", 36, "prop/child_str", 54, "prop/child_phy_damage", 11000 })

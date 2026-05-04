@@ -1,0 +1,40 @@
+key_name, no_float, log_action, file_id,                icon, unit, value, wedding_effect
+鸾凤宝玉, 1,        "zhuangb",  "wedding_baldric/lfby", 3336, 枚,   500,   7011
+
+
+七宝金莲, 1,      "zhuangb",  "wedding_baldric/lfbw", 10114, 个,   0,   10114
+乾坤尺, 1,        "zhuangb",  "wedding_baldric/yvq1", 10115, 个,   0,   10115
+清净琉璃瓶, 1,    "zhuangb",  "wedding_baldric/yvq2", 10116, 个,   0,   10116
+龙虎如意, 1,      "zhuangb",  "wedding_baldric/yvq3", 10117, 个,   0,   10117
+混元幡, 1,        "zhuangb",  "wedding_baldric/yvq4", 10118, 个,   0,   10118
+
+
+七宝金莲①, 1,      "zhuangb",  "wedding_baldric/lfbw1", 20111, 个,   0,   20111
+乾坤尺①, 1,        "zhuangb",  "wedding_baldric/yvq11", 20116, 个,   0,   20116
+清净琉璃瓶①, 1,    "zhuangb",  "wedding_baldric/yvq21", 20121, 个,   0,   20121
+龙虎如意①, 1,      "zhuangb",  "wedding_baldric/yvq31", 20126, 个,   0,   20126
+混元幡①, 1,        "zhuangb",  "wedding_baldric/yvq41", 20131, 个,   0,   20131
+
+七宝金莲②, 1,      "zhuangb",  "wedding_baldric/lfbw2", 20112, 个,   0,   20112
+乾坤尺②, 1,        "zhuangb",  "wedding_baldric/yvq12", 20117, 个,   0,   20117
+清净琉璃瓶②, 1,    "zhuangb",  "wedding_baldric/yvq22", 20122, 个,   0,   20122
+龙虎如意②, 1,      "zhuangb",  "wedding_baldric/yvq32", 20127, 个,   0,   20127
+混元幡②, 1,        "zhuangb",  "wedding_baldric/yvq42", 20132, 个,   0,   20132
+
+七宝金莲③, 1,      "zhuangb",  "wedding_baldric/lfbw3", 20113, 个,   0,   20113
+乾坤尺③, 1,        "zhuangb",  "wedding_baldric/yvq13", 20118, 个,   0,   20118
+清净琉璃瓶③, 1,    "zhuangb",  "wedding_baldric/yvq23", 20123, 个,   0,   20123
+龙虎如意③, 1,      "zhuangb",  "wedding_baldric/yvq33", 20128, 个,   0,   20128
+混元幡③, 1,        "zhuangb",  "wedding_baldric/yvq43", 20133, 个,   0,   20133
+
+七宝金莲④, 1,      "zhuangb",  "wedding_baldric/lfbw4", 20114, 个,   0,   20114
+乾坤尺④, 1,        "zhuangb",  "wedding_baldric/yvq14", 20119, 个,   0,   20119
+清净琉璃瓶④, 1,    "zhuangb",  "wedding_baldric/yvq24", 20124, 个,   0,   20124
+龙虎如意④, 1,      "zhuangb",  "wedding_baldric/yvq34", 20129, 个,   0,   20129
+混元幡④, 1,        "zhuangb",  "wedding_baldric/yvq44", 20134, 个,   0,   20134
+
+七宝金莲⑤, 1,      "zhuangb",  "wedding_baldric/lfbw5", 20115, 个,   0,   20115
+乾坤尺⑤, 1,        "zhuangb",  "wedding_baldric/yvq15", 20120, 个,   0,   20120
+清净琉璃瓶⑤, 1,    "zhuangb",  "wedding_baldric/yvq25", 20125, 个,   0,   20125
+龙虎如意⑤, 1,      "zhuangb",  "wedding_baldric/yvq35", 20130, 个,   0,   20130
+混元幡⑤, 1,        "zhuangb",  "wedding_baldric/yvq45", 20135, 个,   0,   20135

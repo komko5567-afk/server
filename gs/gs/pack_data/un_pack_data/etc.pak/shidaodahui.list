@@ -1,0 +1,53 @@
+#FORM2
+
+#shidaodahui.list
+#Created by llch 8/3/2006
+#试道大会配置文件
+
+[传送坐标]
+#回天墉城: ({ X坐标, Y坐标 })
+回天墉城: ({ 223, 131 })
+
+#去试道场: ({ X坐标, Y坐标, 半径 })
+去试道场: ({ 101, 76, 15  })
+
+[match_list]
+match$: "139-189"
+
+
+#[XX]: XX为比赛分组
+#broadcast:             比赛开始广播到开始报名的间隔时间（秒）
+#signup:                比赛开始报名到比赛开始的间隔时间（秒）
+#monster_rate:          怪物数量对参赛人数的比率（基于100）
+#initial_monster_rate:  初始怪物数量对参赛人数的比率（基于100）
+#stage1_player_minimum: 挑战元魔最少人数
+#stage2_player_minimum: 颠峰对决最少人数
+#start_time:            比赛开始时间
+#stage1_duration:       挑战元魔活动持续时间
+#stage2_duration:       颠峰对决活动持续时间
+#stage2_init_score:     颠峰对决初始化积分
+#protect_time:          保护时间
+#broadcast_change_state:第二阶段开始前广播时间
+#broadcast_stop:        比赛结束前广播到比赛结束的间隔时间（秒）
+#title:                 获得比赛胜利后的头衔
+#new_dist_coin_bonus:   新区前三名银元宝奖励
+#level:                 指定比赛要求的玩家级别范围
+
+[139-189]
+level: ({ 139, 189 })
+broadcast:              1800
+signup:                 600
+monster_rate:           200
+initial_monster_rate:   50
+stage1_player_minimum:  5
+stage2_player_minimum:  0
+start_time$:            "周2-20:50:00"
+start_time$:            "周6-20:50:00"
+stage1_duration:        300
+stage2_duration:        7200
+stage2_init_score:      4
+protect_time:           10
+broadcast_change_state: 300
+broadcast_stop:         600
+new_dist_coin_bonus:    ({ 30000, 20000, 10000 })
+title:                  试道王者

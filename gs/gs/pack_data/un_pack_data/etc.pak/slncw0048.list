@@ -1,0 +1,38 @@
+#FORM2
+#zhuangb.list
+#create by caijz 09/22/2706
+#奖励物品        概率
+
+
+[奖励等级]
+name$: 末等奖
+
+[末等奖]
+随机宠物 : 3000
+
+
+[随机宠物]
+bonus$:  ({ 0, 0, 100, "宠物", 1, 1, "一休宠物"})
+
+[一休宠物]
+name$: ({古鹿, 古鹿})
+rank$: 精怪
+mount$: 御灵
+level: 1
+enchant_flag : 1
+life_effect: ({ 60, 60 })
+mana_effect: ({ 35, 35 })
+speed_effect: ({ 25, 25 })
+phy_effect: ({ -30, -30 })
+mag_effect: ({ 30, 30 })
+ 
+ 
+ 
+
+
+
+
+
+
+
+

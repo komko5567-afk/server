@@ -1,0 +1,210 @@
+#FORM2
+#怪物攻城配置文件（公测区）
+#
+
+[活动时间]
+time_list$ : ({ "2018-04-01-00:00:00", "EVERY_HOUR(1)", "EVERY_DAY(1)", "2029-05-30-23:59:59" })
+time_list$ : ({ "2018-04-01-01:00:00", "EVERY_HOUR(1)", "EVERY_DAY(1)", "2029-05-30-23:59:59" })
+time_list$ : ({ "2018-04-01-02:00:00", "EVERY_HOUR(1)", "EVERY_DAY(1)", "2029-05-30-23:59:59" })
+time_list$ : ({ "2018-04-01-03:00:00", "EVERY_HOUR(1)", "EVERY_DAY(1)", "2029-05-30-23:59:59" })
+time_list$ : ({ "2018-04-01-04:00:00", "EVERY_HOUR(1)", "EVERY_DAY(1)", "2029-05-30-23:59:59" })
+time_list$ : ({ "2018-04-01-05:00:00", "EVERY_HOUR(1)", "EVERY_DAY(1)", "2029-05-30-23:59:59" })
+time_list$ : ({ "2018-04-01-06:00:00", "EVERY_HOUR(1)", "EVERY_DAY(1)", "2029-05-30-23:59:59" })
+time_list$ : ({ "2018-04-01-07:00:00", "EVERY_HOUR(1)", "EVERY_DAY(1)", "2029-05-30-23:59:59" })
+time_list$ : ({ "2018-04-01-08:00:00", "EVERY_HOUR(1)", "EVERY_DAY(1)", "2029-05-30-23:59:59" })
+time_list$ : ({ "2018-04-01-09:00:00", "EVERY_HOUR(1)", "EVERY_DAY(1)", "2029-05-30-23:59:59" })
+time_list$ : ({ "2018-04-01-10:00:00", "EVERY_HOUR(1)", "EVERY_DAY(1)", "2029-05-30-23:59:59" })
+time_list$ : ({ "2018-04-01-11:00:00", "EVERY_HOUR(1)", "EVERY_DAY(1)", "2029-05-30-23:59:59" })
+time_list$ : ({ "2018-04-01-12:00:00", "EVERY_HOUR(1)", "EVERY_DAY(1)", "2029-05-30-23:59:59" })
+time_list$ : ({ "2018-04-01-13:00:00", "EVERY_HOUR(1)", "EVERY_DAY(1)", "2029-05-30-23:59:59" })
+time_list$ : ({ "2018-04-01-14:00:00", "EVERY_HOUR(1)", "EVERY_DAY(1)", "2029-05-30-23:59:59" })
+time_list$ : ({ "2018-04-01-15:00:00", "EVERY_HOUR(1)", "EVERY_DAY(1)", "2029-05-30-23:59:59" })
+time_list$ : ({ "2018-04-01-16:00:00", "EVERY_HOUR(1)", "EVERY_DAY(1)", "2029-05-30-23:59:59" })
+time_list$ : ({ "2018-04-01-17:00:00", "EVERY_HOUR(1)", "EVERY_DAY(1)", "2029-05-30-23:59:59" })
+time_list$ : ({ "2018-04-01-18:00:00", "EVERY_HOUR(1)", "EVERY_DAY(1)", "2029-05-30-23:59:59" })
+time_list$ : ({ "2018-04-01-19:00:00", "EVERY_HOUR(1)", "EVERY_DAY(1)", "2029-05-30-23:59:59" })
+time_list$ : ({ "2018-04-01-20:00:00", "EVERY_HOUR(1)", "EVERY_DAY(1)", "2029-05-30-23:59:59" })
+time_list$ : ({ "2018-04-01-21:00:00", "EVERY_HOUR(1)", "EVERY_DAY(1)", "2029-05-30-23:59:59" })
+time_list$ : ({ "2018-04-01-22:00:00", "EVERY_HOUR(1)", "EVERY_DAY(1)", "2029-05-30-23:59:59" })
+time_list$ : ({ "2018-04-01-23:00:00", "EVERY_HOUR(1)", "EVERY_DAY(1)", "2029-05-30-23:59:59" })
+
+[活动相关]
+default_duration : 7200
+
+#刷新怪物的间隔
+#活动中怪物刷新广播
+msg_fill_monster: "妖魔大军对#R中洲大陆#n发动了第$ROUND轮的攻击，请侠义之士迅速赶到$ROOM击杀妖魔。击杀BOSS类妖魔有几率获得珍稀的#R百年黑熊#n。"
+time_fill_monster: 3600
+interval_fill_monster: 3600
+duration_fill_monster: 6700
+
+#活动开始前广播
+msg_prev_start: "#R为感谢大家对#Y《问道》#R的支持，我们将于#Y今天$ST#R开放怪物攻城活动，欢迎大家参加。"
+time_prev_start: 1800
+interval_prev_start: 180
+
+#活动开始时广播
+msg_start: "大批的妖魔集结在一起，对#R中洲大陆#n发动了攻击，请侠义之士迅速赶到$ROOM击杀妖魔。击杀BOSS类妖魔有几率获得珍稀的#R百年黑熊#n。"
+
+#活动中广播
+msg_in_festival: "妖魔大军对#R中洲大陆#n发动了攻击，请侠义之士迅速赶到$ROOM击杀妖魔。击杀BOSS类妖魔有几率获得珍稀的#R百年黑熊#n。"
+interval_in_festival: 1200
+time_in_festival: 600
+
+#活动刷新怪物停止时的广播
+msg_stop_fill: "#R妖魔大军已有撤退之意，大家要加油了！#n"
+interval_stop_fill: 600
+
+#活动停止时广播
+msg_stop: "#R妖魔大军已经撤退了！感谢勇士们共同守护中洲大陆。#n"
+
+#活动正常停止时广播
+msg_normal_stop: "#R妖魔大军已经全部被消灭了！感谢勇士们共同守护中洲大陆。#n"
+
+#强制终止战斗的提示
+msg_retreat: "妖魔大军已经撤退了！"
+
+#怪物生成区域
+rooms$: 低阶怪物之地
+rooms$: 中阶怪物之地
+rooms$: 高阶怪物之地
+rooms$: 顶级怪物之地
+rooms$: 富甲钱庄
+rooms$: 单人地图
+rooms$: 金币地图
+rooms$: 材料地图
+rooms$: 切糕地图
+rooms$: 经验之地
+
+
+[低阶怪物之地]
+monster_list$: 低阶怪物之地BOSS1
+monster_list$: 低阶怪物之地BOSS2
+monster_list$: 低阶怪物之地BOSS3
+
+
+[中阶怪物之地]
+monster_list$: 中阶怪物之地BOSS1
+monster_list$: 中阶怪物之地BOSS2
+
+[高阶怪物之地]
+monster_list$: 高阶怪物之地BOSS1
+monster_list$: 高阶怪物之地BOSS2
+
+[顶级怪物之地]
+monster_list$: 顶级怪物之地BOSS1
+monster_list$: 顶级怪物之地BOSS2
+
+[单人地图]
+monster_list$: 单人地图BOSS1
+
+[金币地图]
+monster_list$: 金币地图BOSS1
+
+[材料地图]
+monster_list$: 材料地图BOSS1
+
+[切糕地图]
+monster_list$: 切糕地图BOSS1
+
+[富甲钱庄]
+monster_list$: 富甲钱庄BOSS1
+
+[经验之地]
+monster_list$: 经验之地BOSS1
+monster_list$: 经验之地BOSS2
+monster_list$: 经验之地BOSS3
+
+[经验之地BOSS1]
+num : 100
+name$: 经验妖灵
+type: "boss_monster"
+
+[经验之地BOSS2]
+num : 100
+name$: 经验魔灵
+type: "boss_monster"
+
+[经验之地BOSS3]
+num : 100
+name$: 经验神灵
+type: "boss_monster"
+
+
+[材料地图BOSS1]
+num : 40
+name$: 上古妖皇
+type: "boss_monster"
+
+[切糕地图BOSS1]
+num : 40
+name$: 升木轩
+type: "boss_monster"
+
+[金币地图BOSS1]
+num : 30
+name$: 海盗之主
+type: "boss_monster"
+
+[单人地图BOSS1]
+num: 70
+type: "shihun"
+level$: 140
+level$: 150
+
+[低阶怪物之地BOSS1]
+num : 60
+name$: 百年象精
+type: "boss_monster"
+
+[低阶怪物之地BOSS2]
+num : 50
+name$: 百花羞
+type: "boss_monster"
+
+[低阶怪物之地BOSS3]
+num : 40
+name$: 牛魔王
+type: "boss_monster"
+
+
+
+[中阶怪物之地BOSS1]
+num : 60
+name$: 夜叉王
+type: "boss_monster"
+
+[中阶怪物之地BOSS2]
+num : 40
+name$: 罗刹王
+type: "boss_monster"
+
+
+[高阶怪物之地BOSS1]
+num : 50
+name$: 白骨精
+type: "boss_monster"
+
+[高阶怪物之地BOSS2]
+num : 30
+name$: 孔雀妖姬
+type: "boss_monster"
+
+
+[顶级怪物之地BOSS1]
+num : 20
+name$: 阎摩罗王
+type: "boss_monster"
+
+[顶级怪物之地BOSS2]
+num : 10
+name$: 金角大仙
+type: "boss_monster"
+
+[富甲钱庄BOSS1]
+type: "super_boss"
+num : 1
+name$ : 黑熊妖皇
+name$ : 天煞狂狮
+name$ : 灭天血刺
+name$ : 血炼魔猪

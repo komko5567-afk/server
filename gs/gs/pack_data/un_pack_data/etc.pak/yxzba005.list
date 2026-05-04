@@ -1,0 +1,653 @@
+#FORM2
+#zhuangb.list
+#create by caijz 09/22/2706
+#奖励物品        概率
+
+
+[奖励等级]
+name$: 特等奖
+
+
+[特等奖]
+金系装备奖励 : 100
+
+
+
+
+[金系装备奖励]
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "白玉冠2" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "凤尾钗2" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "金丝甲2" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "水合袍2" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "亮银靴2" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "锁紫圈2" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "黑煞斧6" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "鬼符寒弓6" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "断首双戟6" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "骷髅爪6" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "寒风枪6" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "玄冥拳套6" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "毒匕寒月刃6" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "昆吾剑6" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "百花扇6" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "霹雳锤6"})
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "白玉冠4" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "凤尾钗4" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "金丝甲4" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "水合袍4" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "亮银靴4" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "锁紫圈4" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "黑煞斧8" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "鬼符寒弓8" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "断首双戟8" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "骷髅爪8" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "寒风枪8" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "玄冥拳套8" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "毒匕寒月刃8" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "昆吾剑8" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "百花扇8" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "霹雳锤8"})
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "白玉冠3" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "凤尾钗3" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "金丝甲3" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "水合袍3" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "亮银靴3" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "锁紫圈3" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "黑煞斧7" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "鬼符寒弓7" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "断首双戟7" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "骷髅爪7" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "寒风枪7" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "玄冥拳套7" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "毒匕寒月刃7" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "昆吾剑7" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "百花扇7" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "霹雳锤7"})
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "白玉冠1" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "凤尾钗1" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "金丝甲1" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "水合袍1" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "亮银靴1" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "锁紫圈1" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "黑煞斧1" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "鬼符寒弓1" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "断首双戟1" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "骷髅爪1" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "寒风枪1" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "玄冥拳套1" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "毒匕寒月刃1" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "昆吾剑1" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "百花扇1" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "霹雳锤1"})
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "白玉冠11" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "凤尾钗11" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "金丝甲11" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "水合袍11" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "亮银靴11" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "锁紫圈11" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "黑煞斧12" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "鬼符寒弓12" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "断首双戟12" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "骷髅爪12" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "寒风枪12" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "玄冥拳套12" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "毒匕寒月刃12" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "昆吾剑12" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "百花扇12" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "霹雳锤12"})
+
+
+[霹雳锤6]
+name      : 霹雳锤
+min_level : 60
+max_level : 60
+attribs      : ({ "prop_seal_base/mstunt_rate",10, "seal_flag",1 })
+
+
+[黑煞斧6]
+name      : 黑煞斧
+min_level : 60
+max_level : 60
+attribs      : ({"prop_seal_base/mstunt_rate",10, "seal_flag",1})
+
+
+[百花扇6]
+name      : 百花扇
+min_level : 60
+max_level : 60
+attribs      : ({"prop_seal_base/mstunt_rate",10, "seal_flag",1})
+
+[鬼符寒弓6]
+name      : 鬼符寒弓
+min_level : 60
+max_level : 60
+attribs      : ({"prop_seal_base/mstunt_rate",10, "seal_flag",1})
+
+[昆吾剑6]
+name      : 昆吾剑
+min_level : 60
+max_level : 60
+attribs      : ({"prop_seal_base/mstunt_rate",10, "seal_flag",1})
+
+
+[断首双戟6]
+name      : 断首双戟
+min_level : 60
+max_level : 60
+attribs      : ({"prop_seal_base/mstunt_rate",10, "seal_flag",1})
+
+
+[骷髅爪6]
+name      : 骷髅爪
+min_level : 60
+max_level : 60
+attribs      : ({"prop_seal_base/mstunt_rate",10, "seal_flag",1})
+
+
+[寒风枪6]
+name      : 寒风枪
+min_level : 60
+max_level : 60
+attribs      : ({"prop_seal_base/mstunt_rate",10, "seal_flag",1})
+
+
+[玄冥拳套6]
+name      : 玄冥拳套
+min_level : 60
+max_level : 60
+attribs      : ({"prop_seal_base/mstunt_rate",10, "seal_flag",1})
+
+
+[毒匕寒月刃6]
+name      : 毒匕寒月刃
+min_level : 60
+max_level : 60
+attribs      : ({"prop_seal_base/mstunt_rate",10, "seal_flag",1})
+
+[白玉冠2]
+name      : 白玉冠
+min_level : 60
+max_level : 60
+attribs      : ({"prop_seal_base/mstunt_rate",10, "seal_flag",1})
+
+
+[亮银靴2]
+name      : 亮银靴
+min_level : 60
+max_level : 60
+attribs      : ({"prop_seal_base/mstunt_rate",10, "seal_flag",1})
+
+
+[凤尾钗2]
+name      : 凤尾钗
+min_level : 60
+max_level : 60
+attribs      : ({"prop_seal_base/mstunt_rate",10, "seal_flag",1})
+
+
+[锁紫圈2]
+name      : 锁紫圈
+min_level : 60
+max_level : 60
+attribs      : ({"prop_seal_base/mstunt_rate",10, "seal_flag",1})
+
+
+[金丝甲2]
+name      : 金丝甲
+min_level : 60
+max_level : 60
+attribs      : ({"prop_seal_base/mstunt_rate",10, "seal_flag",1})
+
+
+[水合袍2]
+name      : 水合袍
+min_level : 60
+max_level : 60
+attribs      : ({"prop_seal_base/mstunt_rate",10, "seal_flag",1})
+
+
+
+[霹雳锤7]
+name      : 霹雳锤
+min_level : 60
+max_level : 60
+attribs      : ({ "prop_seal/super_obstruct",15, "prop_seal_base/max_life", 1194, "seal_flag",1 })
+
+
+[黑煞斧7]
+name      : 黑煞斧
+min_level : 60
+max_level : 60
+attribs      : ({"prop_seal/super_obstruct",15, "prop_seal_base/max_life", 1194, "seal_flag",1})
+
+
+[百花扇7]
+name      : 百花扇
+min_level : 60
+max_level : 60
+attribs      : ({"prop_seal/super_obstruct",15, "prop_seal_base/max_life", 1194, "seal_flag",1})
+
+[鬼符寒弓7]
+name      : 鬼符寒弓
+min_level : 60
+max_level : 60
+attribs      : ({"prop_seal/super_obstruct",15, "prop_seal_base/max_life", 1194, "seal_flag",1})
+
+[昆吾剑7]
+name      : 昆吾剑
+min_level : 60
+max_level : 60
+attribs      : ({"prop_seal/super_obstruct",15, "prop_seal_base/max_life", 1194, "seal_flag",1})
+
+
+[断首双戟7]
+name      : 断首双戟
+min_level : 60
+max_level : 60
+attribs      : ({"prop_seal/super_obstruct",15, "prop_seal_base/max_life", 1194, "seal_flag",1})
+
+
+[骷髅爪7]
+name      : 骷髅爪
+min_level : 60
+max_level : 60
+attribs      : ({"prop_seal/super_obstruct",15, "prop_seal_base/max_life", 1194, "seal_flag",1})
+
+
+[寒风枪7]
+name      : 寒风枪
+min_level : 60
+max_level : 60
+attribs      : ({"prop_seal/super_obstruct",15, "prop_seal_base/max_life", 1194, "seal_flag",1})
+
+
+[玄冥拳套7]
+name      : 玄冥拳套
+min_level : 60
+max_level : 60
+attribs      : ({"prop_seal/super_obstruct",15, "prop_seal_base/max_life", 1194, "seal_flag",1})
+
+
+[毒匕寒月刃7]
+name      : 毒匕寒月刃
+min_level : 60
+max_level : 60
+attribs      : ({"prop_seal/super_obstruct",15, "prop_seal_base/max_life", 1194, "seal_flag",1})
+
+[白玉冠3]
+name      : 白玉冠
+min_level : 60
+max_level : 60
+attribs      : ({"prop_seal/super_obstruct",15, "prop_seal_base/max_life", 1194, "seal_flag",1})
+
+
+[亮银靴3]
+name      : 亮银靴
+min_level : 60
+max_level : 60
+attribs      : ({"prop_seal/super_obstruct",15, "prop_seal_base/max_life", 1194, "seal_flag",1})
+
+
+[凤尾钗3]
+name      : 凤尾钗
+min_level : 60
+max_level : 60
+attribs      : ({"prop_seal/super_obstruct",15, "prop_seal_base/max_life", 1194, "seal_flag",1})
+
+
+[锁紫圈3]
+name      : 锁紫圈
+min_level : 60
+max_level : 60
+attribs      : ({"prop_seal/super_obstruct",15, "prop_seal_base/max_life", 1194, "seal_flag",1})
+
+
+[金丝甲3]
+name      : 金丝甲
+min_level : 60
+max_level : 60
+attribs      : ({"prop_seal/super_obstruct",15, "prop_seal_base/max_life", 1194, "seal_flag",1})
+
+
+[水合袍3]
+name      : 水合袍
+min_level : 60
+max_level : 60
+attribs      : ({"prop_seal/super_obstruct",15, "prop_seal_base/max_life", 1194, "seal_flag",1})
+
+
+
+[霹雳锤8]
+name      : 霹雳锤
+min_level : 60
+max_level : 60
+attribs      : ({ "prop_seal_base/stunt_rate",10, "seal_flag",1 })
+
+
+[黑煞斧8]
+name      : 黑煞斧
+min_level : 60
+max_level : 60
+attribs      : ({"prop_seal_base/stunt_rate",10, "seal_flag",1})
+
+
+[百花扇8]
+name      : 百花扇
+min_level : 60
+max_level : 60
+attribs      : ({"prop_seal_base/stunt_rate",10, "seal_flag",1})
+
+[鬼符寒弓8]
+name      : 鬼符寒弓
+min_level : 60
+max_level : 60
+attribs      : ({"prop_seal_base/stunt_rate",10, "seal_flag",1})
+
+[昆吾剑8]
+name      : 昆吾剑
+min_level : 60
+max_level : 60
+attribs      : ({"prop_seal_base/stunt_rate",10, "seal_flag",1})
+
+
+[断首双戟8]
+name      : 断首双戟
+min_level : 60
+max_level : 60
+attribs      : ({"prop_seal_base/stunt_rate",10, "seal_flag",1})
+
+
+[骷髅爪8]
+name      : 骷髅爪
+min_level : 60
+max_level : 60
+attribs      : ({"prop_seal_base/stunt_rate",10, "seal_flag",1})
+
+
+[寒风枪8]
+name      : 寒风枪
+min_level : 60
+max_level : 60
+attribs      : ({"prop_seal_base/stunt_rate",10, "seal_flag",1})
+
+
+[玄冥拳套8]
+name      : 玄冥拳套
+min_level : 60
+max_level : 60
+attribs      : ({"prop_seal_base/stunt_rate",10, "seal_flag",1})
+
+
+[毒匕寒月刃8]
+name      : 毒匕寒月刃
+min_level : 60
+max_level : 60
+attribs      : ({"prop_seal_base/stunt_rate",10, "seal_flag",1})
+
+[白玉冠4]
+name      : 白玉冠
+min_level : 60
+max_level : 60
+attribs      : ({"prop_seal_base/stunt_rate",10, "seal_flag",1})
+
+
+[亮银靴4]
+name      : 亮银靴
+min_level : 60
+max_level : 60
+attribs      : ({"prop_seal_base/stunt_rate",10, "seal_flag",1})
+
+
+[凤尾钗4]
+name      : 凤尾钗
+min_level : 60
+max_level : 60
+attribs      : ({"prop_seal_base/stunt_rate",10, "seal_flag",1})
+
+
+[锁紫圈4]
+name      : 锁紫圈
+min_level : 60
+max_level : 60
+attribs      : ({"prop_seal_base/stunt_rate",10, "seal_flag",1})
+
+
+[金丝甲4]
+name      : 金丝甲
+min_level : 60
+max_level : 60
+attribs      : ({"prop_seal_base/stunt_rate",10, "seal_flag",1})
+
+
+[水合袍4]
+name      : 水合袍
+min_level : 60
+max_level : 60
+attribs      : ({"prop_seal_base/stunt_rate",10, "seal_flag",1})
+
+
+[霹雳锤1]
+name      : 霹雳锤
+min_level : 60
+max_level : 60
+attribs      : ({ "prop_seal_base/double_hit_rate",10, "seal_flag",1 })
+
+
+[黑煞斧1]
+name      : 黑煞斧
+min_level : 60
+max_level : 60
+attribs      : ({"prop_seal_base/double_hit_rate",10, "seal_flag",1})
+
+
+[百花扇1]
+name      : 百花扇
+min_level : 60
+max_level : 60
+attribs      : ({"prop_seal_base/double_hit_rate",10, "seal_flag",1})
+
+[鬼符寒弓1]
+name      : 鬼符寒弓
+min_level : 60
+max_level : 60
+attribs      : ({"prop_seal_base/double_hit_rate",10, "seal_flag",1})
+
+[昆吾剑1]
+name      : 昆吾剑
+min_level : 60
+max_level : 60
+attribs      : ({"prop_seal_base/double_hit_rate",10, "seal_flag",1})
+
+
+[断首双戟1]
+name      : 断首双戟
+min_level : 60
+max_level : 60
+attribs      : ({"prop_seal_base/double_hit_rate",10, "seal_flag",1})
+
+
+[骷髅爪1]
+name      : 骷髅爪
+min_level : 60
+max_level : 60
+attribs      : ({"prop_seal_base/double_hit_rate",10, "seal_flag",1})
+
+
+[寒风枪1]
+name      : 寒风枪
+min_level : 60
+max_level : 60
+attribs      : ({"prop_seal_base/double_hit_rate",10, "seal_flag",1})
+
+
+[玄冥拳套1]
+name      : 玄冥拳套
+min_level : 60
+max_level : 60
+attribs      : ({"prop_seal_base/double_hit_rate",10, "seal_flag",1})
+
+
+[毒匕寒月刃1]
+name      : 毒匕寒月刃
+min_level : 60
+max_level : 60
+attribs      : ({"prop_seal_base/double_hit_rate",10, "seal_flag",1})
+
+[白玉冠1]
+name      : 白玉冠
+min_level : 60
+max_level : 60
+attribs      : ({"prop_seal_base/double_hit_rate",10, "seal_flag",1})
+
+
+[亮银靴1]
+name      : 亮银靴
+min_level : 60
+max_level : 60
+attribs      : ({"prop_seal_base/double_hit_rate",10, "seal_flag",1})
+
+
+[凤尾钗1]
+name      : 凤尾钗
+min_level : 60
+max_level : 60
+attribs      : ({"prop_seal_base/double_hit_rate",10, "seal_flag",1})
+
+
+[锁紫圈1]
+name      : 锁紫圈
+min_level : 60
+max_level : 60
+attribs      : ({"prop_seal_base/double_hit_rate",10, "seal_flag",1})
+
+
+[金丝甲1]
+name      : 金丝甲
+min_level : 60
+max_level : 60
+attribs      : ({"prop_seal_base/double_hit_rate",10, "seal_flag",1})
+
+
+[水合袍1]
+name      : 水合袍
+min_level : 60
+max_level : 60
+attribs      : ({"prop_seal_base/double_hit_rate",10, "seal_flag",1})
+
+
+
+
+
+
+[霹雳锤12]
+name      : 霹雳锤
+min_level : 60
+max_level : 60
+attribs      : ({ "prop_seal_base/double_hit_rate",10, "seal_flag",1 })
+
+
+[黑煞斧12]
+name      : 黑煞斧
+min_level : 60
+max_level : 60
+attribs      : ({"prop_seal_base/double_hit_rate",10, "seal_flag",1})
+
+
+[百花扇12]
+name      : 百花扇
+min_level : 60
+max_level : 60
+attribs      : ({"prop_seal_base/double_hit_rate",10, "seal_flag",1})
+
+[鬼符寒弓12]
+name      : 鬼符寒弓
+min_level : 60
+max_level : 60
+attribs      : ({"prop_seal_base/double_hit_rate",10, "seal_flag",1})
+
+[昆吾剑12]
+name      : 昆吾剑
+min_level : 60
+max_level : 60
+attribs      : ({"prop_seal_base/double_hit_rate",10, "seal_flag",1})
+
+
+[断首双戟12]
+name      : 断首双戟
+min_level : 60
+max_level : 60
+attribs      : ({"prop_seal_base/double_hit_rate",10, "seal_flag",1})
+
+
+[骷髅爪12]
+name      : 骷髅爪
+min_level : 60
+max_level : 60
+attribs      : ({"prop_seal_base/double_hit_rate",10, "seal_flag",1})
+
+
+[寒风枪12]
+name      : 寒风枪
+min_level : 60
+max_level : 60
+attribs      : ({"prop_seal_base/double_hit_rate",10, "seal_flag",1})
+
+
+[玄冥拳套12]
+name      : 玄冥拳套
+min_level : 60
+max_level : 60
+attribs      : ({"prop_seal_base/double_hit_rate",10, "seal_flag",1})
+
+
+[毒匕寒月刃12]
+name      : 毒匕寒月刃
+min_level : 60
+max_level : 60
+attribs      : ({"prop_seal_base/double_hit_rate",10, "seal_flag",1})
+
+[白玉冠11]
+name      : 白玉冠
+min_level : 60
+max_level : 60
+attribs      : ({"prop_seal_base/double_hit_rate",10, "seal_flag",1})
+
+
+[亮银靴11]
+name      : 亮银靴
+min_level : 60
+max_level : 60
+attribs      : ({"prop_seal_base/double_hit_rate",10, "seal_flag",1})
+
+
+[凤尾钗11]
+name      : 凤尾钗
+min_level : 60
+max_level : 60
+attribs      : ({"prop_seal_base/double_hit_rate",10, "seal_flag",1})
+
+
+[锁紫圈11]
+name      : 锁紫圈
+min_level : 60
+max_level : 60
+attribs      : ({"prop_seal_base/double_hit_rate",10, "seal_flag",1})
+
+
+[金丝甲11]
+name      : 金丝甲
+min_level : 60
+max_level : 60
+attribs      : ({"prop_seal_base/double_hit_rate",10, "seal_flag",1})
+
+
+[水合袍11]
+name      : 水合袍
+min_level : 60
+max_level : 60
+attribs      : ({"prop_seal_base/double_hit_rate",10, "seal_flag",1})
+
+
+
+
+

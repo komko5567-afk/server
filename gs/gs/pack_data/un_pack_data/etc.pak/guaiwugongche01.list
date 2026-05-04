@@ -1,0 +1,56 @@
+#FORM2
+#怪物攻城配置文件（公测区）
+#
+
+[活动时间]
+time_list$ : ({ "2016-03-03-18:00:00", "EVERY_HOUR(2)", "EVERY_DAY(1)", "2016-03-06-20:00:00" })
+time_list$ : ({ "2016-03-03-22:00:00", "EVERY_HOUR(2)", "EVERY_DAY(1)", "2016-03-06-20:00:00" })
+
+
+[活动相关]
+default_duration : 7200
+
+#刷新怪物的间隔
+#活动中怪物刷新广播
+msg_fill_monster: "妖魔大军对#R中洲大陆#n发动了第$ROUND轮的攻击，请侠义之士迅速赶到$ROOM击杀妖魔。击杀BOSS类妖魔有几率获得#R稀有道具#n。"
+time_fill_monster: 6700
+interval_fill_monster: 6700
+duration_fill_monster: 6700
+
+#活动开始前广播
+msg_prev_start: "#R为感谢大家对#Y《问道》#R的支持，我们将于#Y今天$ST#R开放怪物攻城活动，欢迎大家参加。"
+time_prev_start: 1800
+interval_prev_start: 180
+
+#活动开始时广播
+msg_start: "大批的妖魔集结在一起，对#R中洲大陆#n发动了攻击，请侠义之士迅速赶到$ROOM击杀妖魔。击杀BOSS类妖魔有几率获得#R稀有道具#n。"
+
+#活动中广播
+msg_in_festival: "妖魔大军对#R中洲大陆#n发动了攻击，请侠义之士迅速赶到$ROOM击杀妖魔。击杀BOSS类妖魔有几率获得#R稀有道具#n。"
+interval_in_festival: 1200
+time_in_festival: 6700
+
+#活动刷新怪物停止时的广播
+msg_stop_fill: "#R妖魔大军已有撤退之意，大家要加油了！#n"
+interval_stop_fill: 600
+
+#活动停止时广播
+msg_stop: "#R妖魔大军已经撤退了！感谢勇士们共同守护中洲大陆。#n"
+
+#活动正常停止时广播
+msg_normal_stop: "#R妖魔大军已经全部被消灭了！感谢勇士们共同守护中洲大陆。#n"
+
+#强制终止战斗的提示
+msg_retreat: "妖魔大军已经撤退了！"
+
+#怪物生成区域
+rooms$: 揽仙镇
+
+[揽仙镇]
+monster_list$: 揽仙镇BOSS
+
+
+[揽仙镇BOSS]
+num : 10
+name$: 水德星君
+type: "boss_monster"

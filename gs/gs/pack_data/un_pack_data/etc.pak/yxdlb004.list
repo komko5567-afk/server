@@ -1,0 +1,76 @@
+#FORM2
+#zhuangb.list
+#create by caijz 09/22/2706
+#奖励物品        概率
+
+
+[奖励等级]
+name$: 末等奖
+
+[末等奖]
+随机宠物 : 3000
+
+
+[随机宠物]
+bonus$:  ({ 0, 0, 100, "宠物", 1, 1, "至尊太极熊", "混世大荒", "风火轮", "摇光吞天兽", "星河巨骨刺" })
+
+[摇光吞天兽]
+name$: ({摇光吞天兽, 摇光吞天兽})
+rank$: 精怪
+mount$: 御灵
+level: 60
+enchant_flag : 1
+life_effect: ({ 65, 65 })
+mana_effect: ({ 35, 35 })
+speed_effect: ({ 10, 10 })
+phy_effect: ({ -30, -30 })
+mag_effect: ({ 40, 40 })
+ 
+[星河巨骨刺]
+name$: ({星河巨骨刺, 星河巨骨刺})
+rank$: 精怪
+mount$: 御灵
+level: 60
+enchant_flag : 1
+life_effect: ({ 65, 65 })
+mana_effect: ({ 35, 35 })
+speed_effect: ({ 10, 10 })
+phy_effect: ({ -30, -30 })
+mag_effect: ({ 40, 40 })
+ 
+[混世大荒]
+name$: ({混世大荒, 混世大荒})
+rank$: 精怪
+mount$: 御灵
+level: 60
+enchant_flag : 1
+life_effect: ({ 65, 65 })
+mana_effect: ({ 35, 35 })
+speed_effect: ({ 10, 10 })
+phy_effect: ({ -30, -30 })
+mag_effect: ({ 40, 40 })
+ 
+[风火轮]
+name$: ({风火轮, 风火轮})
+rank$: 精怪
+mount$: 御灵
+level: 60
+enchant_flag : 1
+life_effect: ({ 65, 65 })
+mana_effect: ({ 35, 35 })
+speed_effect: ({ 10, 10 })
+phy_effect: ({ -30, -30 })
+mag_effect: ({ 40, 40 })
+ 
+[至尊太极熊]
+name$: ({至尊太极熊, 至尊太极熊})
+rank$: 精怪
+mount$: 御灵
+level: 60
+enchant_flag : 1
+life_effect: ({ 65, 65 })
+mana_effect: ({ 35, 35 })
+speed_effect: ({ 10, 10 })
+phy_effect: ({ -30, -30 })
+mag_effect: ({ 40, 40 })
+ 

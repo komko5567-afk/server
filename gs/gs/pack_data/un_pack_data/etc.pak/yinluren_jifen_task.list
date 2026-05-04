@@ -1,0 +1,1304 @@
+#FORM2
+
+
+[001]
+type : 道具
+name : 特级修为丹
+score : 0
+give_num :1
+nosale_item : 0
+free_bag : 1
+
+
+[002]
+type : 道具
+name : 特级藏宝图
+score : 0
+give_num :1
+nosale_item : 0
+free_bag : 1
+
+
+[003]
+type : 道具
+name : 熔铸晶石
+score : 0
+give_num :1
+nosale_item : 0
+free_bag : 1
+
+
+[004]
+type : 道具
+name : 仙器升品丹
+score : 0
+give_num :1
+nosale_item : 0
+free_bag : 1
+
+
+[005]
+type : 道具
+name : 变异珠
+score : 0
+give_num :1
+nosale_item : 0
+free_bag : 1
+
+
+
+[006]
+type : 道具
+name : 神兽珠
+score : 0
+give_num :1
+nosale_item : 0
+free_bag : 1
+
+
+[007]
+type : 道具
+name : 元灵珠
+score : 0
+give_num :1
+nosale_item : 0
+free_bag : 1
+
+
+[008]
+type : 道具
+name : 仙元珠
+score : 0
+give_num :1
+nosale_item : 0
+free_bag : 1
+
+
+[009]
+type : 道具
+name : 180加强粉水晶·红
+score : 0
+give_num :1
+nosale_item : 0
+free_bag : 1
+
+
+[010]
+type : 道具
+name : 180加强黄水晶·红
+score : 0
+give_num :1
+nosale_item : 0
+free_bag : 1
+
+
+
+[011]
+type : 道具
+name : 10级装备改造令
+score : 0
+give_num :1
+nosale_item : 0
+free_bag : 1
+
+
+[012]
+type : 道具
+name : 11级装备改造令
+score : 0
+give_num :1
+nosale_item : 0
+free_bag : 1
+
+
+[013]
+type : 道具
+name : 12级装备改造令
+score : 0
+give_num :1
+nosale_item : 0
+free_bag : 1
+
+
+[014]
+type : 道具
+name : 15级继承法宝
+score : 0
+give_num :1
+nosale_item : 0
+free_bag : 1
+
+
+
+[015]
+type : 道具
+name : 20级继承法宝
+score : 0
+give_num :1
+nosale_item : 0
+free_bag : 1
+
+
+[016]
+type : 道具
+name : 24级继承法宝
+score : 0
+give_num :1
+nosale_item : 0
+free_bag : 1
+
+
+[017]
+type : 道具
+name : 随机变异
+score : 0
+give_num :1
+nosale_item : 0
+free_bag : 1
+
+
+[018]
+type : 道具
+name : 随机神兽
+score : 0
+give_num :1
+nosale_item : 0
+free_bag : 1
+
+
+
+[019]
+type : 道具
+name : 随机元灵
+score : 0
+give_num :1
+nosale_item : 0
+free_bag : 1
+
+
+[020]
+type : 道具
+name : 随机仙元
+score : 0
+give_num :1
+nosale_item : 0
+free_bag : 1
+
+
+
+[021]
+type : 道具
+name : 随机稀有仙元
+score : 0
+give_num :1
+nosale_item : 0
+free_bag : 1
+
+
+
+[022]
+type : 道具
+name : 随机六速
+score : 0
+give_num :1
+nosale_item : 0
+free_bag : 1
+
+
+[023]
+type : 道具
+name : 随机七速
+score : 0
+give_num :1
+nosale_item : 0
+free_bag : 1
+
+
+[024]
+type : 道具
+name : 随机八速
+score : 0
+give_num :1
+nosale_item : 0
+free_bag : 1
+
+
+[025]
+type : 道具
+name : 随机九速
+score : 0
+give_num :1
+nosale_item : 0
+free_bag : 1
+
+[026]
+type : 道具
+name : 随机十速
+score : 0
+give_num :1
+nosale_item : 0
+free_bag : 1
+
+
+[027]
+type : 道具
+name : 随机稀有十速
+score : 0
+give_num :1
+nosale_item : 0
+free_bag : 1
+
+
+[028]
+type : 道具
+name : 炫彩坐骑随机
+score : 0
+give_num :1
+nosale_item : 0
+free_bag : 1
+
+
+[029]
+type : 道具
+name : 珍珠
+score : 0
+give_num :1
+nosale_item : 0
+free_bag : 1
+
+
+[030]
+type : 道具
+name : 云珍珠
+score : 0
+give_num :1
+nosale_item : 0
+free_bag : 1
+
+
+[031]
+type : 道具
+name : 虹珍珠
+score : 0
+give_num :1
+nosale_item : 0
+free_bag : 1
+
+
+[032]
+type : 道具
+name : 玉盘
+score : 0
+give_num :1
+nosale_item : 0
+free_bag : 1
+
+[033]
+type : 道具
+name : 琼玉盘
+score : 0
+give_num :1
+nosale_item : 0
+free_bag : 1
+
+
+[034]
+type : 道具
+name : 玄玉盘
+score : 0
+give_num :1
+nosale_item : 0
+free_bag : 1
+
+
+[035]
+type : 道具
+name : 金樽
+score : 0
+give_num :1
+nosale_item : 0
+free_bag : 1
+
+
+
+[036]
+type : 道具
+name : 金龙樽
+score : 0
+give_num :1
+nosale_item : 0
+free_bag : 1
+
+
+[037]
+type : 道具
+name : 金凤樽
+score : 0
+give_num :1
+nosale_item : 0
+free_bag : 1
+
+
+[038]
+type : 道具
+name : 紫晶
+score : 0
+give_num :1
+nosale_item : 0
+free_bag : 1
+
+
+[039]
+type : 道具
+name : 紫皇晶
+score : 0
+give_num :1
+nosale_item : 0
+free_bag : 1
+
+
+[040]
+type : 道具
+name : 紫帝晶
+score : 0
+give_num :1
+nosale_item : 0
+free_bag : 1
+
+
+[041]
+type : 道具
+name : 幻化宠物
+score : 0
+give_num :1
+nosale_item : 0
+free_bag : 1
+
+
+[042]
+type : 道具
+name : 10只幻化宠物
+score : 0
+give_num :1
+nosale_item : 0
+free_bag : 1
+
+[043]
+type : 道具
+name : 整套坐骑技能石
+score : 0
+give_num :1
+nosale_item : 0
+free_bag : 1
+
+
+[044]
+type : 道具
+name : 整套坐骑兽魂石
+score : 0
+give_num :1
+nosale_item : 0
+free_bag : 1
+
+
+[045]
+type : 道具
+name : 娃娃亲密丹
+score : 0
+give_num :1
+nosale_item : 0
+free_bag : 1
+
+
+[046]
+type : 道具
+name : 80级X5整套首饰
+score : 0
+give_num :1
+nosale_item : 0
+free_bag : 1
+
+[047]
+type : 道具
+name : 80级X6整套首饰
+score : 0
+give_num :1
+nosale_item : 0
+free_bag : 1
+
+[048]
+type : 道具
+name : 80级X7整套首饰
+score : 0
+give_num :1
+nosale_item : 0
+free_bag : 1
+
+[049]
+type : 道具
+name : 80级X8整套首饰
+score : 0
+give_num :1
+nosale_item : 0
+free_bag : 1
+
+[050]
+type : 道具
+name : 80级X9整套首饰
+score : 0
+give_num :1
+nosale_item : 0
+free_bag : 1
+
+[051]
+type : 道具
+name : 80级X10整套首饰
+score : 0
+give_num :1
+nosale_item : 0
+free_bag : 1
+
+[052]
+type : 道具
+name : 80级高相首饰盲盒
+score : 0
+give_num :1
+nosale_item : 0
+free_bag : 1
+
+[053]
+type : 道具
+name : 70级首饰盲盒
+score : 0
+give_num :1
+nosale_item : 0
+free_bag : 1
+
+[054]
+type : 道具
+name : 60级首饰盲盒
+score : 0
+give_num :1
+nosale_item : 0
+free_bag : 1
+
+
+[055]
+type : 道具
+name : 道具套餐卡（叠加）
+score : 0
+give_num :1
+nosale_item : 0
+free_bag : 1
+
+
+[056]
+type : 道具
+name : 超级灵宝丸（叠加）
+score : 0
+give_num :1
+nosale_item : 0
+free_bag : 1
+
+
+[057]
+type : 道具
+name : 超级女娲石（叠加）
+score : 0
+give_num :1
+nosale_item : 0
+free_bag : 1
+
+
+[058]
+type : 道具
+name : 祭酒称谓
+score : 0
+give_num :1
+nosale_item : 0
+free_bag : 1
+
+
+[059]
+type : 道具
+name : 青铜会员·称谓
+score : 0
+give_num :1
+nosale_item : 0
+free_bag : 1
+
+
+[060]
+type : 道具
+name : 白银会员·称谓
+score : 0
+give_num :1
+nosale_item : 0
+free_bag : 1
+
+
+[061]
+type : 道具
+name : 黄金会员·称谓
+score : 0
+give_num :1
+nosale_item : 0
+free_bag : 1
+
+
+[062]
+type : 道具
+name : 钻石会员·称谓
+score : 0
+give_num :1
+nosale_item : 0
+free_bag : 1
+
+
+[063]
+type : 道具
+name : 星耀会员·称谓
+score : 0
+give_num :1
+nosale_item : 0
+free_bag : 1
+
+
+[064]
+type : 道具
+name : 超级妖石
+score : 0
+give_num :1
+nosale_item : 0
+free_bag : 1
+
+[065]
+type : 道具
+name : 一套双倍法天书
+score : 0
+give_num :1
+nosale_item : 0
+free_bag : 1
+
+
+[066]
+type : 道具
+name : 一套双倍力天书
+score : 0
+give_num :1
+nosale_item : 0
+free_bag : 1
+
+
+[067]
+type : 道具
+name : 一套双倍敏天书
+score : 0
+give_num :1
+nosale_item : 0
+free_bag : 1
+
+
+[068]
+type : 道具
+name : 天空石（叠加）
+score : 0
+give_num :1
+nosale_item : 0
+free_bag : 1
+
+
+[069]
+type : 道具
+name : 满级引灵幡
+score : 0
+give_num :1
+nosale_item : 0
+free_bag : 1
+
+[070]
+type : 道具
+name : （顶级）皇帝的新装
+score : 0
+give_num :1
+nosale_item : 0
+free_bag : 1
+
+
+[071]
+type : 道具
+name : （顶级）巫火燎燃铭牌
+score : 0
+give_num :1
+nosale_item : 0
+free_bag : 1
+
+[072]
+type : 道具
+name : （顶级）鱼戏莲间铭牌
+score : 0
+give_num :1
+nosale_item : 0
+free_bag : 1
+
+[073]
+type : 道具
+name : （顶级）青春礼赞铭牌
+score : 0
+give_num :1
+nosale_item : 0
+free_bag : 1
+
+
+[074]
+type : 道具
+name : （顶级）烽火燃金戈铭牌
+score : 0
+give_num :1
+nosale_item : 0
+free_bag : 1
+
+
+[075]
+type : 道具
+name : （顶级）龙吟四海铭牌
+score : 0
+give_num :1
+nosale_item : 0
+free_bag : 1
+
+
+[076]
+type : 道具
+name : （顶级）御天梭
+score : 0
+give_num :1
+nosale_item : 0
+free_bag : 1
+
+
+[077]
+type : 道具
+name : （顶级）一阶引灵幡
+score : 0
+give_num :1
+nosale_item : 0
+free_bag : 1
+
+
+[078]
+type : 道具
+name : （顶级）二阶引灵幡
+score : 0
+give_num :1
+nosale_item : 0
+free_bag : 1
+
+
+[079]
+type : 道具
+name : （顶级）三阶引灵幡
+score : 0
+give_num :1
+nosale_item : 0
+free_bag : 1
+
+
+[080]
+type : 道具
+name : （顶级）四阶引灵幡
+score : 0
+give_num :1
+nosale_item : 0
+free_bag : 1
+
+
+[081]
+type : 道具
+name : （顶级）定海珠
+score : 0
+give_num :1
+nosale_item : 0
+free_bag : 1
+
+
+[082]
+type : 道具
+name : （顶级）番天印
+score : 0
+give_num :1
+nosale_item : 0
+free_bag : 1
+
+
+[083]
+type : 道具
+name : （顶级）混元金斗
+score : 0
+give_num :1
+nosale_item : 0
+free_bag : 1
+
+
+[084]
+type : 道具
+name : （顶级）阴阳镜
+score : 0
+give_num :1
+nosale_item : 0
+free_bag : 1
+
+
+[085]
+type : 道具
+name : （顶级）九龙神火罩
+score : 0
+give_num :1
+nosale_item : 0
+free_bag : 1
+
+
+[086]
+type : 道具
+name : （顶级）金蛟剪
+score : 0
+give_num :1
+nosale_item : 0
+free_bag : 1
+
+
+[087]
+type : 道具
+name : （顶级）卸甲金葫
+score : 0
+give_num :1
+nosale_item : 0
+free_bag : 1
+
+
+[088]
+type : 道具
+name : （顶级）七宝妙树
+score : 0
+give_num :1
+nosale_item : 0
+free_bag : 1
+
+[089]
+type : 道具
+name : （顶级）混沌钟
+score : 0
+give_num :1
+nosale_item : 0
+free_bag : 1
+
+[090]
+type : 道具
+name : （顶级）十二品莲台
+score : 0
+give_num :1
+nosale_item : 0
+free_bag : 1
+
+[091]
+type : 道具
+name : （顶级）爱心·番天印
+score : 0
+give_num :1
+nosale_item : 0
+free_bag : 1
+
+[092]
+type : 道具
+name : （顶级）邪恶·番天印
+score : 0
+give_num :1
+nosale_item : 0
+free_bag : 1
+
+[093]
+type : 道具
+name : 顶级七宝金莲
+score : 0
+give_num :1
+nosale_item : 0
+free_bag : 1
+
+[094]
+type : 道具
+name : 顶级乾坤尺
+score : 0
+give_num :1
+nosale_item : 0
+free_bag : 1
+
+
+[095]
+type : 道具
+name : 顶级清净琉璃瓶
+score : 0
+give_num :1
+nosale_item : 0
+free_bag : 1
+
+
+[096]
+type : 道具
+name : 顶级龙虎如意
+score : 0
+give_num :1
+nosale_item : 0
+free_bag : 1
+
+
+[097]
+type : 道具
+name : 顶级混元幡
+score : 0
+give_num :1
+nosale_item : 0
+free_bag : 1
+
+[098]
+type : 道具
+name : 180娃娃法装
+score : 0
+give_num :1
+nosale_item : 0
+free_bag : 1
+
+[099]
+type : 道具
+name : 180娃娃力装
+score : 0
+give_num :1
+nosale_item : 0
+free_bag : 1
+
+[100]
+type : 道具
+name : 180娃娃体装
+score : 0
+give_num :1
+nosale_item : 0
+free_bag : 1
+
+[101]
+type : 道具
+name : 特级神兽丹1
+score : 0
+give_num :1
+nosale_item : 0
+free_bag : 1
+
+[102]
+type : 道具
+name : 九转仙灵露
+score : 0
+give_num :1
+nosale_item : 0
+free_bag : 1
+
+[103]
+type : 道具
+name : 神木丸
+score : 0
+give_num :1
+nosale_item : 0
+free_bag : 1
+
+[104]
+type : 道具
+name : 一亿金币储存袋
+score : 0
+give_num :1
+nosale_item : 0
+free_bag : 1
+
+[105]
+type : 道具
+name : 五亿金币储存袋
+score : 0
+give_num :1
+nosale_item : 0
+free_bag : 1
+
+[106]
+type : 道具
+name : 十亿金币储存袋
+score : 0
+give_num :1
+nosale_item : 0
+free_bag : 1
+
+[107]
+type : 道具
+name : 测试礼包
+score : 0
+give_num :1
+nosale_item : 0
+free_bag : 1
+
+[108]
+type : 道具
+name : 【CDK】随机双倍天书
+score : 0
+give_num :1
+nosale_item : 0
+free_bag : 1
+
+[109]
+type : 道具
+name : 【CDK】熔铸时装
+score : 0
+give_num :1
+nosale_item : 0
+free_bag : 1
+
+[110]
+type : 道具
+name : 【CDK】随机熔铸飞行
+score : 0
+give_num :1
+nosale_item : 0
+free_bag : 1
+
+[111]
+type : 道具
+name : 【CDK】随机熔铸幡子
+score : 0
+give_num :1
+nosale_item : 0
+free_bag : 1
+
+[112]
+type : 道具
+name : 【CDK】随机熔铸法宝
+score : 0
+give_num :1
+nosale_item : 0
+free_bag : 1
+
+
+[113]
+type : 道具
+name : 【CDK】随机首饰套
+score : 0
+give_num :1
+nosale_item : 0
+free_bag : 1
+
+[114]
+type : 道具
+name : 【CDK】熔铸七宝金莲
+score : 0
+give_num :1
+nosale_item : 0
+free_bag : 1
+
+[115]
+type : 道具
+name : 【CDK】熔铸乾坤尺
+score : 0
+give_num :1
+nosale_item : 0
+free_bag : 1
+
+[116]
+type : 道具
+name : 【CDK】熔铸清净琉璃瓶
+score : 0
+give_num :1
+nosale_item : 0
+free_bag : 1
+
+[117]
+type : 道具
+name : 【CDK】熔铸龙虎如意
+score : 0
+give_num :1
+nosale_item : 0
+free_bag : 1
+
+[118]
+type : 道具
+name : 【CDK】熔铸混元幡
+score : 0
+give_num :1
+nosale_item : 0
+free_bag : 1
+
+[119]
+type : 道具
+name : 【CDK】随机熔铸铭牌
+score : 0
+give_num :1
+nosale_item : 0
+free_bag : 1
+
+[120]
+type : 道具
+name : 【CDK】顶级时装
+score : 0
+give_num :1
+nosale_item : 0
+free_bag : 1
+
+
+[121]
+type : 道具
+name : 【CDK】随机顶级铭牌
+score : 0
+give_num :1
+nosale_item : 0
+free_bag : 1
+
+[122]
+type : 道具
+name : 【CDK】随机顶级飞行
+score : 0
+give_num :1
+nosale_item : 0
+free_bag : 1
+
+
+[123]
+type : 道具
+name : 【CDK】随机顶级幡子
+score : 0
+give_num :1
+nosale_item : 0
+free_bag : 1
+
+[124]
+type : 道具
+name : 【CDK】随机顶级法宝
+score : 0
+give_num :1
+nosale_item : 0
+free_bag : 1
+
+[125]
+type : 道具
+name : 【CDK】随机顶级仙器
+score : 0
+give_num :1
+nosale_item : 0
+free_bag : 1
+
+[126]
+type : 道具
+name : 【CDK】随机加强水晶
+score : 0
+give_num :1
+nosale_item : 0
+free_bag : 1
+
+[127]
+type : 道具
+name : 【CDK】天空石
+score : 0
+give_num :1
+nosale_item : 0
+free_bag : 1
+
+[128]
+type : 道具
+name : 【CDK】超级妖石
+score : 0
+give_num :1
+nosale_item : 0
+free_bag : 1
+
+[129]
+type : 道具
+name : 【CDK】1000000银元宝
+score : 0
+give_num :1
+nosale_item : 0
+free_bag : 1
+
+[130]
+type : 道具
+name : 【CDK】2000000银元宝
+score : 0
+give_num :1
+nosale_item : 0
+free_bag : 1
+
+
+[131]
+type : 道具
+name : 【CDK】5000000银元宝
+score : 0
+give_num :1
+nosale_item : 0
+free_bag : 1
+
+[132]
+type : 道具
+name : 【CDK】20级继承法宝
+score : 0
+give_num :1
+nosale_item : 0
+free_bag : 1
+
+[133]
+type : 道具
+name : 【CDK】24级继承法宝
+score : 0
+give_num :1
+nosale_item : 0
+free_bag : 1
+
+[134]
+type : 道具
+name : 【CDK】幻化宠物
+score : 0
+give_num :1
+nosale_item : 0
+free_bag : 1
+
+[135]
+type : 道具
+name : 【CDK】随机元灵
+score : 0
+give_num :1
+nosale_item : 0
+free_bag : 1
+
+[136]
+type : 道具
+name : 【CDK】随机仙元
+score : 0
+give_num :1
+nosale_item : 0
+free_bag : 1
+
+[137]
+type : 道具
+name : 【CDK】随机稀有仙元
+score : 0
+give_num :1
+nosale_item : 0
+free_bag : 1
+
+[138]
+type : 道具
+name : 【CDK】随机九速
+score : 0
+give_num :1
+nosale_item : 0
+free_bag : 1
+
+[139]
+type : 道具
+name : 【CDK】随机十速
+score : 0
+give_num :1
+nosale_item : 0
+free_bag : 1
+
+[140]
+type : 道具
+name : 【CDK】随机稀有十速
+score : 0
+give_num :1
+nosale_item : 0
+free_bag : 1
+
+[141]
+type : 道具
+name : 【CDK】炫彩坐骑随机
+score : 0
+give_num :1
+nosale_item : 0
+free_bag : 1
+
+[142]
+type : 道具
+name : 【CDK】随机称号
+score : 0
+give_num :1
+nosale_item : 0
+free_bag : 1
+
+[143]
+type : 道具
+name : 【CDK】154满武学继承
+score : 0
+give_num :1
+nosale_item : 0
+free_bag : 1
+
+[144]
+type : 道具
+name : 【CDK】164满武学继承
+score : 0
+give_num :1
+nosale_item : 0
+free_bag : 1
+
+[145]
+type : 道具
+name : 【CDK】174满武学继承
+score : 0
+give_num :1
+nosale_item : 0
+free_bag : 1
+
+[146]
+type : 道具
+name : 【CDK】184满武学继承
+score : 0
+give_num :1
+nosale_item : 0
+free_bag : 1
+
+[147]
+type : 道具
+name : 【CDK】194满武学继承
+score : 0
+give_num :1
+nosale_item : 0
+free_bag : 1
+
+[148]
+type : 道具
+name : 【CDK】204满武学继承
+score : 0
+give_num :1
+nosale_item : 0
+free_bag : 1
+
+[149]
+type : 道具
+name : 低级经验礼包
+score : 0
+give_num :1
+nosale_item : 0
+free_bag : 1
+
+[150]
+type : 道具
+name : 高级经验礼包
+score : 0
+give_num :1
+nosale_item : 0
+free_bag : 1
+
+[151]
+type : 道具
+name : 超级经验礼包
+score : 0
+give_num :1
+nosale_item : 0
+free_bag : 1
+
+[152]
+type : 道具
+name : 十级镶嵌令
+score : 0
+give_num :1
+nosale_item : 0
+free_bag : 1

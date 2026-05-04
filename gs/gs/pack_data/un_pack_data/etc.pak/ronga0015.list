@@ -1,0 +1,47 @@
+#FORM2
+#zhuangb.list
+#create by caijz 09/22/2706
+#奖励物品        概率
+
+[奖励等级]
+name$: 特等奖
+
+[特等奖]
+梭子一星5 : 1
+
+[梭子一星1]
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "梭子1" })
+
+[梭子一星2]
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "梭子2" })
+
+[梭子一星3]
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "梭子3" })
+
+[梭子一星4]
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "梭子4" })
+
+[梭子一星5]
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "梭子5" })
+
+
+[梭子1]
+name       : 御天梭
+attribs    : ({ "extra_desc", #O所有相性 1/5 增加#r#O速度 100/500 增加#r#n御魂品质：白, "prop2/all_polar", 1,"prop2/speed", 100,"color", 金色, "durability", 10000,"open_nimbus", 1 })
+
+[梭子2]
+name       : 御天梭
+attribs    : ({ "extra_desc", #O所有相性 2/5 增加#r#O速度 200/500 增加#r#B御魂品质：蓝, "prop2/all_polar", 2,"prop2/speed", 200,"color", 金色, "durability", 10000,"open_nimbus", 1 })
+
+[梭子3]
+name       : 御天梭
+attribs    : ({ "extra_desc", #O所有相性 3/5 增加#r#O速度 300/500 增加#r#O御魂品质：粉, "prop2/all_polar", 3,"prop2/speed", 300,"color", 金色, "durability", 10000,"open_nimbus", 1 })
+
+[梭子4]
+name       : 御天梭
+attribs    : ({ "extra_desc", #O所有相性 4/5 增加#r#O速度 400/500 增加#r#Y御魂品质：黄, "prop2/all_polar", 4,"prop2/speed", 400,"color", 金色, "durability", 10000,"open_nimbus", 1 })
+
+[梭子5]
+name       : 御天梭
+attribs    : ({ "extra_desc", #O所有相性 5/5 增加#r#O速度 500/500 增加#r#G御魂品质：绿, "prop2/all_polar", 5,"prop2/speed", 500,"color", 金色, "durability", 10000,"open_nimbus", 1 })
+

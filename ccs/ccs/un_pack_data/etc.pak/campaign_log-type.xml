@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="GB2312" ?>
+
+<Root>
+	<ValueUnit>
+		<ViewValue>正常奖励</ViewValue>
+		<RealValue>1</RealValue>
+	</ValueUnit>
+	<ValueUnit>
+		<ViewValue>支线奖励</ViewValue>
+		<RealValue>2</RealValue>
+	</ValueUnit>
+	<ValueUnit>
+		<ViewValue>特殊奖励</ViewValue>
+		<RealValue>3</RealValue>
+	</ValueUnit>
+	<ValueUnit>
+		<ViewValue>随机一条正常奖励</ViewValue>
+		<RealValue>11</RealValue>
+	</ValueUnit>
+	<ValueUnit>
+		<ViewValue>随机一条支线奖励</ViewValue>
+		<RealValue>12</RealValue>
+	</ValueUnit>
+	<ValueUnit>
+		<ViewValue>随机一条额外奖励</ViewValue>
+		<RealValue>13</RealValue>
+	</ValueUnit>
+	<ValueUnit>
+		<ViewValue>挑战/奖励成功</ViewValue>
+		<RealValue>101</RealValue>
+	</ValueUnit>
+	<ValueUnit>
+		<ViewValue>挑战/奖励失败</ViewValue>
+		<RealValue>102</RealValue>
+	</ValueUnit>
+	<ValueUnit>
+		<ViewValue>提交物品</ViewValue>
+		<RealValue>105</RealValue>
+	</ValueUnit>
+	<ValueUnit>
+		<ViewValue>异常数据或老数据</ViewValue>
+		<RealValue>127</RealValue>
+	</ValueUnit>
+</Root>

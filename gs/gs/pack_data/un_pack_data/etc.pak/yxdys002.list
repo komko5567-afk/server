@@ -1,0 +1,46 @@
+#FORM2
+#zhuangb.list
+#create by caijz 09/18/2006
+#奖励物品        概率
+
+[奖励等级]
+name$: 三等奖
+
+
+[三等奖]
+枯月流魂c : 100
+
+
+[枯月流魂c]
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "凝香幻彩1", "枯月流魂1", "风寂云清1", "炫影霜星1", "冰落残阳1" })
+
+
+[枯月流魂1]
+name      : 枯月流魂
+min_level : 1
+max_level : 1                
+attribs      : ({ "prop/power", 34000, "prop/phy_power", 34000, "prop/mag_power", 34000, "nimbus", 999999, "icon", 10089, "extra_desc",#R双倍属性妖石 })
+
+[凝香幻彩1]
+name      : 凝香幻彩
+min_level : 1
+max_level : 1                
+attribs      : ({ "prop/max_life", 54000, "nimbus", 999999, "icon", 10088, "extra_desc",#R双倍属性妖石 })
+
+[风寂云清1]
+name      : 风寂云清
+min_level : 1
+max_level : 1                
+attribs      : ({ "prop/def", 16000, "nimbus", 999999, "icon", 10090, "extra_desc",#R双倍属性妖石 })
+
+[炫影霜星1]
+name      : 炫影霜星
+min_level : 1
+max_level : 1                
+attribs      : ({ "prop/speed", 1100, "nimbus", 999999, "icon", 10091, "extra_desc",#R双倍属性妖石 })
+
+[冰落残阳1]
+name      : 冰落残阳
+min_level : 1
+max_level : 1
+attribs      : ({ "prop/max_mana", 34000, "nimbus", 999999, "icon", 10092, "extra_desc",#R双倍属性妖石 })

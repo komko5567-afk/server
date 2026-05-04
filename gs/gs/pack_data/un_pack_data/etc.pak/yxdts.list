@@ -1,0 +1,36 @@
+#FORM2
+#wzhuang.list
+#creat
+#奖励物品        概率
+#create by caijz 09/18/2006
+
+[奖励等级]
+
+name$: 特等奖
+
+[特等奖]
+完美法天书 : 10
+
+[完美法天书]
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "修罗术c"})
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "怒击a"})
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "降魔斩d"})
+
+
+[修罗术c]
+name      : 修罗术
+min_level : 1
+max_level : 1
+attribs      : ({ "prop_basic/max_life", 100, "prop_basic/def", 100, "prop_basic/speed", 100, "prop_basic/mag_power", 100, "prop_basic/mstunt_rate", 20, "prop_extra/gb_lingh_1", 160, "level", 1, "nimbus", 28500, "icon", 9360, "color", 金色 })
+
+[怒击a]
+name      : 怒击
+min_level : 1
+max_level : 1
+attribs      : ({ "prop_basic/max_life", 100, "prop_basic/def", 100, "prop_basic/speed", 100, "prop_basic/mag_power", 100, "prop_basic/mstunt_rate", 20, "prop_extra/gb_qiangj_1", 12, "level", 1, "nimbus", 28500, "icon", 9358, "color", 金色 })
+
+[降魔斩d]
+name      : 降魔斩
+min_level : 1
+max_level : 1
+attribs      : ({ "prop_basic/max_life", 100, "prop_basic/def", 100, "prop_basic/speed", 100, "prop_basic/mag_power", 100, "prop_basic/mstunt_rate", 20, "prop_extra/gb_shengg_1", 100, "level", 1, "nimbus", 28500, "icon", 9359, "color", 金色 })

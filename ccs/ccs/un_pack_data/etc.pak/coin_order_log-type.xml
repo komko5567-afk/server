@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="GB2312" ?>
+
+<Root>
+	<ValueUnit>
+		<ViewValue>发布寄售元宝订单</ViewValue>
+		<RealValue>0</RealValue>
+	</ValueUnit>
+	<ValueUnit>
+		<ViewValue>发布求购元宝订单</ViewValue>
+		<RealValue>1</RealValue>
+	</ValueUnit>
+	<ValueUnit>
+		<ViewValue>从寄售订单购买元宝</ViewValue>
+		<RealValue>2</RealValue>
+	</ValueUnit>
+	<ValueUnit>
+		<ViewValue>向求购订单出售元宝</ViewValue>
+		<RealValue>3</RealValue>
+	</ValueUnit>
+	<ValueUnit>
+		<ViewValue>撤销订单</ViewValue>
+		<RealValue>4</RealValue>
+	</ValueUnit>
+	<ValueUnit>
+		<ViewValue>订单超时</ViewValue>
+		<RealValue>5</RealValue>
+	</ValueUnit>
+	<ValueUnit>
+		<ViewValue>从元宝交易账户中取出元宝</ViewValue>
+		<RealValue>6</RealValue>
+	</ValueUnit>
+	<ValueUnit>
+		<ViewValue>从元宝交易账户中取出金钱</ViewValue>
+		<RealValue>7</RealValue>
+	</ValueUnit>
+	<ValueUnit>
+		<ViewValue>寄售订单成功交易</ViewValue>
+		<RealValue>8</RealValue>
+	</ValueUnit>
+	<ValueUnit>
+		<ViewValue>求购订单成功交易</ViewValue>
+		<RealValue>9</RealValue>
+	</ValueUnit>
+</Root>

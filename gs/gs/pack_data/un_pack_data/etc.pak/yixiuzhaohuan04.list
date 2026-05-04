@@ -1,0 +1,107 @@
+#FORM2
+
+#dujiachoujianghuodong.list
+#created by huangw2 Aug/25/2008
+#独家抽奖游戏活动
+#自己兑换自己想要的东西，我只加了个神兽估计都懂
+
+[task_time]
+start_time : "2008-11-13-12:00:00"
+maf_time$ :  ({ "2008-11-13-12:00:00", "2023-08-23-12:00:00" })
+
+
+[兑换奖励]
+rate : 1
+name$ : 兑换奖励
+log_to_db:  100
+free_pet:   ({ 1, "你携带的宠物数量已到最大，无法领取奖励。" })
+bonus$:  ({ 0, 0, 100, "宠物", 1, 1, "净瓶", "巨力", "昆仑", "无名", "斗战胜佛", "苍穹", "逐鹿"})
+bonus_times : -1
+
+
+[净瓶]
+name$: ({净瓶, 净瓶})
+rank$: 仙元
+level: 60
+life_effect: ({ 105, 105 })
+mana_effect: ({ 10, 10 })
+speed_effect: ({ 45, 45 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 50, 50 })
+special_skill$: ({ 4, 游说之舌, 1, 如意圈, 1, 舍命一击, 1 ,天旋地转,1 })
+channel_msg : "#G$PLAYER#n集齐了#R50颗仙元珠#n后在#Y#P仙元召唤大使#P#n处召唤到了$EX_PET的奖励，快去#P宠物尊者#P#n处参与吧！"
+
+[巨力]
+name$: ({巨力, 巨力})
+rank$: 仙元
+level: 60
+life_effect: ({ 85, 85 })
+mana_effect: ({ 15, 15 })
+speed_effect: ({ 40, 40 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 70, 70 })
+special_skill$: ({ 4, 舍命一击, 1, 如意圈, 1, 神圣之光, 1 ,大道无常,1})
+channel_msg : "#G$PLAYER#n集齐了#R50颗仙元珠#n后在#Y#P仙元召唤大使#P#n处召唤到了$EX_PET的奖励，快去#P宠物尊者#P#n处参与吧！"
+
+[昆仑]
+name$: ({昆仑, 昆仑})
+rank$: 仙元
+level: 60
+life_effect: ({ 75, 75 })
+mana_effect: ({ -30, -30 })
+speed_effect: ({ 40, 40 })
+phy_effect: ({ 125, 125 })
+mag_effect: ({ -50, -50 })
+special_skill$: ({ 4, 游说之舌, 1, 如意圈, 1, 舍命一击, 1,仙云迷雾,1 })
+channel_msg : "#G$PLAYER#n集齐了#R50颗仙元珠#n后在#Y#P仙元召唤大使#P#n处召唤到了$EX_PET的奖励，快去#P宠物尊者#P#n处参与吧！"
+
+[无名]
+name$: ({无名, 无名})
+rank$: 仙元
+level: 60
+life_effect: ({ 75, 75 })
+mana_effect: ({ 20, 20 })
+speed_effect: ({ 50, 50 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 65, 65 })
+special_skill$: ({ 4, 游说之舌, 1, 乾坤罩, 1, 舍命一击, 1 ,神圣驱散,1 })
+channel_msg : "#G$PLAYER#n集齐了#R50颗仙元珠#n后在#Y#P仙元召唤大使#P#n处召唤到了$EX_PET的奖励，快去#P宠物尊者#P#n处参与吧！"
+
+[斗战胜佛]
+name$: ({斗战胜佛, 斗战胜佛})
+rank$: 仙元
+level: 60
+life_effect: ({ 85, 85 })
+mana_effect: ({ -5, -5 })
+speed_effect: ({ 70, 70 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 60, 60 })
+special_skill$: ({ 4, 舍命一击, 1, 如意圈, 1, 神圣之光, 1,七十二变,1})
+channel_msg : "#G$PLAYER#n集齐了#R50颗仙元珠#n后在#Y#P仙元召唤大使#P#n处召唤到了$EX_PET的奖励，快去#P宠物尊者#P#n处参与吧！"
+
+[苍穹]
+name$: ({苍穹, 苍穹})
+rank$: 仙元
+level: 60
+life_effect: ({ 80, 80 })
+mana_effect: ({ 15, 15 })
+speed_effect: ({ 70, 70 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 45, 45 })
+special_skill$: ({ 4, 游说之舌, 1, 乾坤罩, 1, 舍命一击, 1 ,缥缈虚幻,1 })
+channel_msg : "#G$PLAYER#n集齐了#R50颗仙元珠#n后在#Y#P仙元召唤大使#P#n处召唤到了$EX_PET的奖励，快去#P宠物尊者#P#n处参与吧！"
+
+[逐鹿]
+name$: ({逐鹿, 逐鹿})
+rank$: 仙元
+level: 60
+life_effect: ({ 95, 95 })
+mana_effect: ({ 10, 10 })
+speed_effect: ({ 55, 55 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 50, 50 })
+special_skill$: ({ 4, 游说之舌, 1, 神龙罩, 1, 舍命一击, 1 ,偷天换日,1 })
+channel_msg : "#G$PLAYER#n集齐了#R50颗仙元珠#n后在#Y#P仙元召唤大使#P#n处召唤到了$EX_PET的奖励，快去#P宠物尊者#P#n处参与吧！"
+
+
+

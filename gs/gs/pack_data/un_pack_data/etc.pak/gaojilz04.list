@@ -1,0 +1,77 @@
+#FORM2
+#jinnang.list
+#create by caijz 09/18/2006
+#奖励物品        概率
+
+[奖励等级]
+name$: 特等奖
+
+
+[特等奖]
+娃娃装备130-160  :1000
+
+
+[娃娃装备130-160]
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "宝玉金镯1" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "宝玉金镯2" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "宝玉金镯3" })
+bonus$:  ({ 0, 0, 100, "属性道具", 2, 2, "凤凰羽翼1" })
+bonus$:  ({ 0, 0, 100, "属性道具", 2, 2, "凤凰羽翼2" })
+bonus$:  ({ 0, 0, 100, "属性道具", 2, 2, "凤凰羽翼3" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "金丝良玉肚兜1" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "金丝良玉肚兜2" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "金丝良玉肚兜3" })
+
+[宝玉金镯1]
+name      : 宝玉金镯
+min_level : 130
+max_level : 130
+attribs      : ({ "prop/child_all_attrib", 26, "prop/child_str", 39, "prop/child_phy_damage", 3800 })
+
+[金丝良玉肚兜1]
+name      : 金丝良玉肚兜
+min_level : 130
+max_level : 130
+attribs      : ({ "prop/child_all_attrib", 26, "prop/child_str", 39, "prop/child_ignore_def", 20 })
+
+[凤凰羽翼1]
+name      : 凤凰羽翼
+min_level : 130
+max_level : 130
+attribs      : ({ "prop/child_all_attrib", 26, "prop/child_str", 39, "prop/child_phy_damage", 3800 })
+
+[宝玉金镯2]
+name      : 宝玉金镯
+min_level : 130
+max_level : 130
+attribs      : ({ "prop/child_all_attrib", 26, "prop/child_wisdom", 39, "prop/child_mag_damage", 3800 })
+
+[金丝良玉肚兜2]
+name      : 金丝良玉肚兜
+min_level : 130
+max_level : 130
+attribs      : ({ "prop/child_all_attrib", 26, "prop/child_wisdom", 39, "prop/child_ignore_def", 20 })
+
+[凤凰羽翼2]
+name      : 凤凰羽翼
+min_level : 130
+max_level : 130
+attribs      : ({ "prop/child_all_attrib", 26, "prop/child_wisdom", 39, "prop/child_mag_damage", 3800 })
+
+[宝玉金镯3]
+name      : 宝玉金镯
+min_level : 130
+max_level : 130
+attribs      : ({ "prop/child_all_attrib", 26, "prop/child_physique", 39, "prop/child_damage_reduce", 4200 })
+
+[金丝良玉肚兜3]
+name      : 金丝良玉肚兜
+min_level : 130
+max_level : 130
+attribs      : ({ "prop/child_all_attrib", 26, "prop/child_reduce_mag", 15, "prop/child_reduce_phy", 15 })
+
+[凤凰羽翼3]
+name      : 凤凰羽翼
+min_level : 130
+max_level : 130
+attribs      : ({ "prop/child_all_attrib", 26, "prop/child_physique", 39, "prop/child_damage_reduce", 4200 })

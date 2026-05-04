@@ -1,0 +1,161 @@
+#FORM2
+#zhuangb.list
+#create by caijz 09/18/2006
+#奖励物品        概率
+
+
+[奖励等级]
+name$: 特等奖
+
+
+[特等奖]
+武器黑水 : 1000
+
+[武器黑水]
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "武器忽视所有抗性" })
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "武器忽视所有抗异常" })
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "连击率" })
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "必杀率" })
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "反击率" })
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "准确率" })
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "武器伤害" })
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "所有技能" })
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "所有相性" })
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "金相性" })
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "木相性" })
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "水相性" })
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "火相性" })
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "土相性" })
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "武器敏捷" })
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "武器灵力" })
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "武器体质" })
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "武器力量" })
+
+[武器灵力]
+name      : 超级黑水晶
+min_level : 180
+max_level : 180
+attribs      : ({ "prop/wiz", 43 })
+upgrade_type : 1
+
+[武器体质]
+name      : 超级黑水晶
+min_level : 180
+max_level : 180
+attribs      : ({ "prop/con", 43 })
+upgrade_type : 1
+
+[武器力量]
+name      : 超级黑水晶
+min_level : 180
+max_level : 180
+attribs      : ({ "prop/str", 43 })
+upgrade_type : 1
+
+[武器敏捷]
+name      : 超级黑水晶
+min_level : 180
+max_level : 180
+attribs      : ({ "prop/dex", 43 })
+upgrade_type : 1
+
+[武器忽视所有抗性]
+name      : 超级黑水晶
+min_level : 180
+max_level : 180
+attribs      : ({ "prop/ignore_all_resist_polar", 20 })
+upgrade_type : 1
+
+[武器忽视所有抗异常]
+name      : 超级黑水晶
+min_level : 180
+max_level : 180
+attribs      : ({ "prop/ignore_all_resist_except", 20 })
+upgrade_type : 1
+
+[连击率]
+name      : 超级黑水晶
+min_level : 180
+max_level : 180
+attribs      : ({ "prop/double_hit_rate", 30 })
+upgrade_type : 1
+
+[必杀率]
+name      : 超级黑水晶
+min_level : 180
+max_level : 180
+attribs      : ({ "prop/stunt_rate", 30 })
+upgrade_type : 1
+
+[反击率]
+name      : 超级黑水晶
+min_level : 180
+max_level : 180
+attribs      : ({ "prop/counter_attack_rate", 30 })
+upgrade_type : 1
+
+[准确率]
+name      : 超级黑水晶
+min_level : 180
+max_level : 180
+attribs      : ({ "prop/accurate", 40 })
+upgrade_type : 1
+
+
+[武器伤害]
+name      : 超级黑水晶
+min_level : 180
+max_level : 180
+attribs      : ({ "prop/phy_power", 6600 })
+upgrade_type : 1
+
+[所有技能]
+name      : 超级黑水晶
+min_level : 180
+max_level : 180
+attribs      : ({ "prop/all_skill", 10 })
+upgrade_type : 1
+
+[所有相性]
+name      : 超级黑水晶
+min_level : 180
+max_level : 180
+attribs      : ({ "prop/all_polar", 5 })
+upgrade_type : 1
+
+[金相性]
+name      : 超级黑水晶
+min_level : 180
+max_level : 180
+attribs      : ({ "prop/metal", 5 })
+upgrade_type : 1
+
+[木相性]
+name      : 超级黑水晶
+min_level : 180
+max_level : 180
+attribs      : ({ "prop/wood", 5 })
+upgrade_type : 1
+
+[水相性]
+name      : 超级黑水晶
+min_level : 180
+max_level : 180
+attribs      : ({ "prop/water", 5 })
+upgrade_type : 1
+
+[火相性]
+name      : 超级黑水晶
+min_level : 180
+max_level : 180
+attribs      : ({ "prop/fire", 5 })
+upgrade_type : 1
+
+[土相性]
+name      : 超级黑水晶
+min_level : 180
+max_level : 180
+attribs      : ({ "prop/earth", 5 })
+upgrade_type : 1
+
+

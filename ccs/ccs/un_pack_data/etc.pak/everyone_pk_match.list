@@ -1,0 +1,340 @@
+#FORM2
+#注意：重开新的全民PK赛需要同步修改宏定义EVERYONE_PK_BRANCH
+
+[match_time]
+# 热身赛时间
+warmup_start_time : "2017-11-11-08:00:00"
+warmup_end_time   : "2017-11-19-02:00:00"
+warmup_time_list$ : ({ "08:00", "12:00" })
+warmup_time_list$ : ({ "16:00", "20:00" })
+warmup_time_list$ : ({ "22:00", "02:00" })
+
+# 热身赛每天持续时间
+warmup_interval : 14400
+
+# 报名开始时间
+sign_up_start_time : "2017-11-11-00:00:00"
+sign_up_end_time : "2017-11-19-23:59:59"
+
+# 小组赛第二轮时间
+group_2_start_time : "2017-11-24-18:00:00"
+
+# 128进32淘汰赛开始
+knockout_128_start_time : "2017-11-26-18:00:00"
+
+# 32进8淘汰赛开始
+knockout_32_start_time : "2017-11-27-18:00:00"
+
+# 8进2淘汰赛开始
+knockout_8_start_time : "2017-11-28-18:00:00"
+
+# 决赛时间
+knockout_2_start_time : "2017-11-30-18:00:00"
+
+# 比赛最终结束时间
+end_time : "2017-12-01-23:59:59"
+
+# csa上报名配额数据清除期限，可尽量设置的往后一点，因为期间可能有比赛要重开
+quota_end_time : "2017-12-01-23:59:59"
+
+# 下面之所以配置time1 至 time7是为了和策划文档保持一致
+# 比赛入场时间(以开始时间作为参考)(time5)
+login_to_start : -21600
+
+# 开始匹配队伍进行战斗(以开始时间作为参考)(time7)
+pk_to_start : 300
+
+# 小组赛第一轮时间配置，时间有先后顺序
+[all_group_1_time]
+start_time$ : "2017-11-21-18:00:00"
+start_time$ : "2017-11-22-18:00:00"
+start_time$ : "2017-11-23-18:00:00"
+
+# 最大报名人数限制
+[max_signed_no]
+max_signed_no : 300000
+
+# 各阶段需要的gs数量配置，这里只配置需要特别控制的阶段，其他阶段默认1条线
+[all_gs_num]
+stage_sign_up : 0
+stage_group_1 : 30
+stage_group_2 : 8
+
+# 各阶段晋级队伍数量
+[stage_rise_team_num]
+stage_group_1      : 16
+stage_group_2      : 16
+stage_knockout_128 : 64
+stage_knockout_64  : 32
+stage_knockout_32  : 16
+stage_knockout_16  : 8
+stage_knockout_8   : 4
+stage_knockout_4   : 2
+stage_knockout_2   : 1
+
+# 角色通用技能配置
+[common_skills]
+lipo-qianjun      : 330
+zhulian-bihe      : 264
+leiting-qianjun   : 264
+wanxiang-yuhua    : 130
+shibu-kedang      : 115
+gonggong-mieshi   : 115
+youchou-bibao     : 115
+dadao-lunhui      : 115
+fali-wubian       : 115
+yiya-huanya       : 115
+kexue-qishu       : 115
+xieling-futi      : 115
+yulu-huanyuan     : 115
+sanyuan-guiyi     : 115
+nujiao-lianzhan   : 115
+wuxing-xiangfu    : 115
+lingli-zengfu     : 115
+yaowang-shending  : 115
+wuxing-xiangsheng : 115
+tianjiang-xiafan  : 115
+liaodi-xianji     : 115
+tuiling-xuezhou   : 115
+shixue-kuangluan  : 115
+jingang-zhiqu     : 115
+tianji-shenjia    : 115
+jinshen-bumie     : 115
+ruhuan-simeng     : 115
+ruyou-shenzhu     : 115
+duhua-chengkong   : 115
+houfa-zhiren      : 115
+
+[family_skill_map_raw]
+1 : "family_skill_metal_raw"
+2 : "family_skill_wood_raw"
+3 : "family_skill_water_raw"
+4 : "family_skill_fire_raw"
+5 : "family_skill_earth_raw"
+
+[family_skill_map_new]
+1 : "family_skill_metal_new"
+2 : "family_skill_wood_new"
+3 : "family_skill_water_new"
+4 : "family_skill_fire_new"
+5 : "family_skill_earth_new"
+
+# 旧的金系门派技能
+[family_skill_metal_raw]
+deyi-wangxing     : 330
+ruchi-ruzui       : 330
+jiuniu-erhu       : 330
+tiansheng-shenli  : 330
+qichong-douniu    : 330
+daoguang-jianying : 330
+liuguang-yicai    : 330
+nitian-canren     : 330
+ruhu-tianyi       : 330
+liwan-kuanglan    : 330
+rumeng-chuxing    : 330
+jinguang-zhaxian  : 330
+jinhong-guanri    : 330
+huangruo-geshi    : 330
+liulian-wangfan   : 330
+jinbi-huihuang    : 264
+zhidao-huanglong  : 264
+jincheng-tangchi  : 264
+jinfa-fenghun     : 264
+
+# 新的金系门派技能
+[family_skill_metal_new]
+buzhi-suocuo     : 330
+zhenhun-suoxin   : 330
+jinghun-weiding  : 330
+jianba-nuzhang   : 330
+danzhan-xinjing  : 330
+shiru-pozhu      : 330
+dandao-zhiru     : 330
+duoshen-shepo    : 330
+lipi-xuanhuang   : 330
+qiguan-changhong : 330
+wandao-jinguang  : 330
+quanli-yifu      : 330
+ruibu-kedang     : 330
+fengmang-bilou   : 330
+qiandao-wanren   : 330
+jinbi-huihuang   : 264
+zhidao-huanglong : 264
+jincheng-tangchi : 264
+jinfa-fenghun    : 264
+
+# 旧的木系门派技能
+[family_skill_wood_raw]
+shuizhang-chuangao : 330
+luoying-binfen     : 330
+jinshang-tianhua   : 330
+huoshang-jiaoyou   : 330
+honghua-lvye       : 330
+wanyi-shixin       : 330
+guiwu-kuteng       : 330
+xiewei-shexian     : 330
+jianxie-fenghou    : 330
+feiliu-xianshi     : 330
+zhaiye-feihua      : 330
+bamiao-zhuzhang    : 330
+shekou-fengzhen    : 330
+pangen-cuojie      : 330
+heding-hongfen     : 330
+baidu-buqin        : 264
+luoye-xiaoxiao     : 264
+manwu-feitian      : 264
+judu-gongxin       : 264
+
+# 新的木系门派技能
+[family_skill_wood_new]
+jiusi-yisheng    : 330
+mangci-zaibei    : 330
+zhetian-biri     : 330
+duru-gusui       : 330
+huawu-yefei      : 330
+chunfeng-huayu   : 330
+tihu-guanding    : 330
+ganzhi-ruyi      : 330
+yiye-puti        : 330
+runwu-wusheng    : 330
+miaoshou-huichun : 330
+wufu-chongsheng  : 330
+tiannv-sanhua    : 330
+yanghua-feiliu   : 330
+qiufeng-saoye    : 330
+baidu-buqin      : 264
+luoye-xiaoxiao   : 264
+manwu-feitian    : 264
+judu-gongxin     : 264
+
+# 旧的水系门派技能
+[family_skill_water_raw]
+tiandi-hunyuan    : 330
+binglai-jiangdang : 330
+tiegu-zhengzheng  : 330
+jidi-binghan      : 330
+tongqiang-tiebi   : 330
+yuhen-yunchou     : 330
+dishui-chuanshi   : 330
+fangwei-dujian    : 330
+xuanhe-xieshui    : 330
+baoluo-wanxiang   : 330
+nubo-kuangtao     : 330
+sanjiu-yanhan     : 330
+bingdong-sanchi   : 330
+jiaohai-fanjiang  : 330
+tianhan-didong    : 330
+shuitian-yise     : 264
+tiema-binghe      : 264
+shuangjia-bingdun : 264
+xuepiao-wanli     : 264
+
+# 新的水系门派技能
+[family_skill_water_new]
+fengqi-shuiyong   : 330
+shuiliu-huaxie    : 330
+shuihuo-buqin     : 330
+fanghuan-weiran   : 330
+tugu-naxin        : 330
+jiaolong-deshui   : 330
+xueyao-bingtian   : 330
+yuxiao-yunsan     : 330
+dishui-bulou      : 330
+jinghua-shuiyue   : 330
+jixue-fengshuang  : 330
+jishui-chengyuan  : 330
+hunran-yiti       : 330
+riyue-hebi        : 330
+shengou-bilei     : 330
+shuitian-yise     : 264
+tiema-binghe      : 264
+shuangjia-bingdun : 264
+xuepiao-wanli     : 264
+
+# 旧的火系门派技能
+[family_skill_fire_raw]
+juhuo-fentian    : 330
+xiansheng-duoren : 330
+shiwan-huoji     : 330
+jiaojin-lishi    : 330
+shenhun-diandao  : 330
+lianyu-huohai    : 330
+hunqian-mengying : 330
+xinghuo-liaoyuan : 330
+yantian-huoyu    : 330
+hunbu-futi       : 330
+jifeng-xunlei    : 330
+fengchi-dianche  : 330
+binggui-shensu   : 330
+xinzui-shenmi    : 330
+hunbu-shoushe    : 330
+huoshu-yinhua    : 264
+huifei-yanmie    : 264
+sanmei-lianxin   : 264
+lihuo-duopo      : 264
+
+# 新的火系门派技能
+[family_skill_fire_new]
+nujian-lixian     : 330
+chongyuan-diesuo  : 330
+wanjian-chuanxin  : 330
+jianbu-xufa       : 330
+xingchi-dianzou   : 330
+feiyun-zhidian    : 330
+dianguang-shihuo  : 330
+xingfei-yunsan    : 330
+huxiao-fengchi    : 330
+yunmi-wusuo       : 330
+yijian-shuangdiao : 330
+kunling-suoxin    : 330
+xinsuo-shenfeng   : 330
+rufeng-sibi       : 330
+jiru-xinghuo      : 330
+huoshu-yinhua     : 264
+huifei-yanmie     : 264
+sanmei-lianxin    : 264
+lihuo-duopo       : 264
+
+# 旧的土系门派技能
+[family_skill_earth_raw]
+liushen-wuzhu   : 330
+luotu-feiyan    : 330
+bishi-jiuxu     : 330
+tumo-chenmai    : 330
+wangfeng-puying : 330
+guci-shibi      : 330
+bianchang-moji  : 330
+dishu-qipo      : 330
+tianta-dixian   : 330
+huaxian-weiyi   : 330
+shipo-tianjing  : 330
+yixing-huanying : 330
+shanbeng-dilie  : 330
+tianding-sanhun : 330
+youxin-wuli     : 330
+feisha-zoushi   : 264
+kaibei-lieshi   : 264
+xinru-panshi    : 264
+diwo-nanfen     : 264
+
+# 新的土系门派技能
+[family_skill_earth_new]
+didong-shanyao   : 330
+jingshen-podan   : 330
+xuwu-piaomiao    : 330
+qianyan-wanhe    : 330
+chentu-feiyang   : 330
+yangli-feisha    : 330
+xukong-huanying  : 330
+gunong-xuanxu    : 330
+konghuan-xushi   : 330
+xuxu-shishi      : 330
+shenhun-piaodang : 330
+shenyao-yiduo    : 330
+jinghuang-shicuo : 330
+ranshen-luanzhi  : 330
+tubeng-wajie     : 330
+feisha-zoushi    : 264
+kaibei-lieshi    : 264
+xinru-panshi     : 264
+diwo-nanfen      : 264

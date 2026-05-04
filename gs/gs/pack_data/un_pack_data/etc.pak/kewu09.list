@@ -1,0 +1,50 @@
+#FORM2
+#jinnang.list
+#create by caijz 09/18/2006
+#奖励物品        概率
+
+[奖励等级]
+name$: 特等奖
+
+[特等奖]
+可恶定制 : 2000
+
+[可恶定制]
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "岚金火链5"})
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "岚金火链6"})
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "岚金火链7"})
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "岚金火链8"})
+
+
+
+[岚金火链5]
+name      :负阴抱阳
+min_level :180
+max_level :180
+upgrade_type : 8
+attribs      : ({ "prop2/all_polar", 10, "prop2/con", 45,"prop2/dex", 45, "prop4/con", 45, "prop4/dex", 45,"prop2/all_skill", 10})
+
+
+[岚金火链6]
+name      :上善若水
+min_level :180
+max_level :180
+upgrade_type : 8
+attribs      : ({ "prop2/all_polar", 10, "prop2/con", 45,"prop2/dex", 45, "prop4/con", 45, "prop4/dex", 45,"prop2/all_skill", 10})
+
+
+[岚金火链7]
+name      :玄晖吐兰
+min_level :180
+max_level :180
+upgrade_type : 8
+attribs      : ({ "prop2/all_polar", 10, "prop2/con", 45,"prop2/dex", 45, "prop4/con", 45, "prop4/dex", 45,"prop2/all_skill", 10})
+
+
+[岚金火链8]
+name      :玄晖吐兰
+min_level :180
+max_level :180
+upgrade_type : 8
+attribs      : ({ "prop2/all_polar", 10, "prop2/con", 45,"prop2/dex", 45, "prop4/con", 45, "prop4/dex", 45,"prop2/all_skill", 10})
+

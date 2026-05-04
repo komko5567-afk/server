@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="GB2312" ?>
+
+<Root>
+	<ValueUnit>
+		<ViewValue>收费道具</ViewValue>
+		<RealValue>1</RealValue>
+	</ValueUnit>
+	<ValueUnit>
+		<ViewValue>银元宝</ViewValue>
+		<RealValue>2</RealValue>
+	</ValueUnit>
+</Root>

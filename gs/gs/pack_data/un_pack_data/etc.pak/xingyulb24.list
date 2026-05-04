@@ -1,0 +1,232 @@
+#FORM2
+#zhuangb.list
+#create by caijz 09/18/2006
+#奖励物品        概率
+
+
+[奖励等级]
+name$: 特等奖
+
+
+[特等奖]
+腰带黑水 : 1000
+
+[腰带黑水]
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "腰带所属" })
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "腰带防御" })
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "腰带气血" })
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "腰带法力" })
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "腰带闪避" })
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "腰带力量" })
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "腰带体质" })
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "腰带灵力" })
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "腰带敏捷" })
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "腰带抗性" })
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "腰带异常" })
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "腰带抗中毒" })
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "腰带抗冰冻" })
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "腰带抗昏睡" })
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "腰带抗遗忘" })
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "腰带抗混乱" })
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "腰带抗镇魂" })
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "腰带抗化功" })
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "腰带抗水牢" })
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "腰带抗锁灵" })
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "腰带抗迷心" })
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "腰带抗金" })
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "腰带抗木" })
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "腰带抗水" })
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "腰带抗火" })
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "腰带抗土" })
+
+
+
+[腰带抗金]
+name      : 超级黑水晶
+min_level : 180
+max_level : 180
+attribs      : ({ "prop/resist_metal", 15 })
+upgrade_type : 7
+
+
+[腰带抗木]
+name      : 超级黑水晶
+min_level : 180
+max_level : 180
+attribs      : ({ "prop/resist_wood", 15 })
+upgrade_type : 7
+
+
+[腰带抗水]
+name      : 超级黑水晶
+min_level : 180
+max_level : 180
+attribs      : ({ "prop/resist_water", 15 })
+upgrade_type : 7
+
+
+[腰带抗火]
+name      : 超级黑水晶
+min_level : 180
+max_level : 180
+attribs      : ({ "prop/resist_fire", 15 })
+upgrade_type : 7
+
+
+[腰带抗土]
+name      : 超级黑水晶
+min_level : 180
+max_level : 180
+attribs      : ({ "prop/resist_earth", 15 })
+upgrade_type : 7
+
+
+[腰带抗镇魂]
+name      : 超级黑水晶
+min_level : 180
+max_level : 180
+attribs      : ({ "prop/resist_repress", 20 })
+upgrade_type : 7
+
+[腰带抗化功]
+name      : 超级黑水晶
+min_level : 180
+max_level : 180
+attribs      : ({ "prop/resist_melt", 20 })
+upgrade_type : 7
+
+[腰带抗水牢]
+name      : 超级黑水晶
+min_level : 180
+max_level : 180
+attribs      : ({ "prop/resist_cage", 20 })
+upgrade_type : 7
+
+[腰带抗锁灵]
+name      : 超级黑水晶
+min_level : 180
+max_level : 180
+attribs      : ({ "prop/resist_lock", 20 })
+upgrade_type : 7
+
+[腰带抗迷心]
+name      : 超级黑水晶
+min_level : 180
+max_level : 180
+attribs      : ({ "prop/resist_lost", 20 })
+upgrade_type : 7
+
+
+[腰带抗中毒]
+name      : 超级黑水晶
+min_level : 180
+max_level : 180
+attribs      : ({ "prop/resist_poison", 20 })
+upgrade_type : 7
+
+[腰带抗冰冻]
+name      : 超级黑水晶
+min_level : 180
+max_level : 180
+attribs      : ({ "prop/resist_frozen", 20 })
+upgrade_type : 7
+
+[腰带抗昏睡]
+name      : 超级黑水晶
+min_level : 180
+max_level : 180
+attribs      : ({ "prop/resist_sleep", 20 })
+upgrade_type : 7
+
+[腰带抗遗忘]
+name      : 超级黑水晶
+min_level : 180
+max_level : 180
+attribs      : ({ "prop/resist_forgotten", 20 })
+upgrade_type : 7
+
+[腰带抗混乱]
+name      : 超级黑水晶
+min_level : 180
+max_level : 180
+attribs      : ({ "prop/resist_confusion", 20 })
+upgrade_type : 7
+
+
+
+[腰带所属]
+name      : 超级黑水晶
+min_level : 180
+max_level : 180
+attribs      : ({ "prop/all_attrib", 36 })
+upgrade_type : 7
+
+[腰带防御]
+name      : 超级黑水晶
+min_level : 180
+max_level : 180
+attribs      : ({ "prop/def", 4400 })
+upgrade_type : 7
+
+[腰带气血]
+name      : 超级黑水晶
+min_level : 180
+max_level : 180
+attribs      : ({ "prop/max_life", 12000 })
+upgrade_type : 7
+
+[腰带法力]
+name      : 超级黑水晶
+min_level : 180
+max_level : 180
+attribs      : ({ "prop/max_mana", 20000 })
+upgrade_type : 7
+
+[腰带闪避]
+name      : 超级黑水晶
+min_level : 180
+max_level : 180
+attribs      : ({ "prop/base_dodge", 240 })
+upgrade_type : 7
+
+[腰带力量]
+name      : 超级黑水晶
+min_level : 180
+max_level : 180
+attribs      : ({ "prop/str", 43 })
+upgrade_type : 7
+
+[腰带体质]
+name      : 超级黑水晶
+min_level : 180
+max_level : 180
+attribs      : ({ "prop/con", 43 })
+upgrade_type : 7
+
+[腰带灵力]
+name      : 超级黑水晶
+min_level : 180
+max_level : 180
+attribs      : ({ "prop/wiz", 43 })
+upgrade_type : 7
+
+[腰带敏捷]
+name      : 超级黑水晶
+min_level : 180
+max_level : 180
+attribs      : ({ "prop/dex", 43 })
+upgrade_type : 7
+
+[腰带抗性]
+name      : 超级黑水晶
+min_level : 180
+max_level : 180
+attribs      : ({ "prop/all_resist_polar", 15 })
+upgrade_type : 7
+
+[腰带异常]
+name      : 超级黑水晶
+min_level : 180
+max_level : 180
+attribs      : ({ "prop/all_resist_except", 15 })
+upgrade_type : 7

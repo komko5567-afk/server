@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="GB2312" ?>
+
+<Root>
+	<ValueUnit>
+		<ViewValue>发布订单</ViewValue>
+		<RealValue>0</RealValue>
+	</ValueUnit>
+	<ValueUnit>
+		<ViewValue>出售物品给订单</ViewValue>
+		<RealValue>1</RealValue>
+	</ValueUnit>
+	<ValueUnit>
+		<ViewValue>订单到期下架</ViewValue>
+		<RealValue>2</RealValue>
+	</ValueUnit>
+	<ValueUnit>
+		<ViewValue>订单条件满足下架</ViewValue>
+		<RealValue>3</RealValue>
+	</ValueUnit>
+	<ValueUnit>
+		<ViewValue>玩家主动撤单</ViewValue>
+		<RealValue>4</RealValue>
+	</ValueUnit>
+	<ValueUnit>
+		<ViewValue>从订单取出物品</ViewValue>
+		<RealValue>5</RealValue>
+	</ValueUnit>
+	<ValueUnit>
+		<ViewValue>从账户取出金钱</ViewValue>
+		<RealValue>6</RealValue>
+	</ValueUnit>
+</Root>

@@ -1,0 +1,37 @@
+#FORM2
+#注意：重开新的名人争霸赛需要同步修改宏定义CELEBRITY_BRANCH
+
+[match_time]
+# 报名开始时间
+sign_up_time : "2016-04-15-00:00:00"
+
+# 选拔赛开始时间
+trials_start_time : "2016-05-02-20:00:00"
+
+# 第一轮淘汰赛开始时间
+knockout_1_start_time : "2016-05-10-17:00:00"
+
+# 第二轮淘汰赛开始时间
+knockout_2_start_time : "2016-05-12-17:00:00"
+
+# 第三轮淘汰赛开始时间
+knockout_3_start_time : "2016-05-14-17:00:00"
+
+# 比赛最终结束时间
+end_time : "2016-05-15-23:59:59"
+
+# 下面之所以配置time0 至 time5是为了和策划文档保持一致
+# 开放登录时间和第一次公告时间(以开始时间作为参考)(time0)
+login_to_start : -28800
+
+# 比赛开始时间和源区组第一次公告时间(time1)
+first_broadcast_to_start : 0
+
+# 源区组第二次发布公告的时间(以开始时间作为参考)(time2)
+second_broadcast_to_start : -1800
+
+# 源区组第三次发布公告的时间(以开始时间作为参考)(time3)
+third_broadcast_to_start : -600
+
+# 名人争霸赛比赛进场截止时间(以开始时间作为参考)(time5)
+enter_zhanchang_to_start : 600

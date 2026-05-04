@@ -1,0 +1,26 @@
+#FORM2
+#zhuangb.list
+#create by caijz 09/22/2706
+#奖励物品        概率
+
+
+[奖励等级]
+name$: 末等奖
+
+[末等奖]
+指定变异 : 3000
+
+
+[指定变异]
+bonus$:  ({ 0, 0, 100, "宠物", 1, 1, "指定宠物"})
+
+
+[指定宠物]
+name$: ({ 溜溜马, 溜溜马 })
+rank$: 变异
+level: 60
+life_effect: ({ 65, 65 })
+mana_effect: ({ -10, -10 })
+speed_effect: ({ 25, 25 })
+phy_effect: ({ 50, 50 })
+mag_effect: ({ -30, -30 })

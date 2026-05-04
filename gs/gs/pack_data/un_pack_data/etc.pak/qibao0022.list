@@ -1,0 +1,57 @@
+#FORM2
+#zhuangb.list
+#create by caijz 09/22/2706
+#奖励物品        概率
+
+
+[奖励等级]
+name$: 特等奖
+
+
+[特等奖]
+仙器1 : 50
+仙器2 : 50
+
+
+
+
+
+[仙器1]
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "成品仙器1" })
+bonus_msg : #R仙器未打破九界枷锁，坠入六道轮回，仙器保留原品质#52
+
+
+[仙器2]
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "成品仙器2" })
+bonus_msg : #R仙器成功打破九界枷锁，仙器品质上升至#B蓝色品质#64
+
+
+[成品仙器1]
+name      : 混元幡①
+min_level : 80
+max_level : 80
+attribs      : ({ "prop/all_polar", 1,"prop/earth", 1, "prop/str", 5, "prop/stunt_rate", 10, "prop/all_skill", 2, "prop/accurate", 20,"color", 白色,"suit_polar", 16,"rebuild_level", 1,"prop_rebuild/all_attrib", 2,"suit_level", 80,"suit_name", 80级土系套装})
+
+[成品仙器2]
+name      : 混元幡②
+min_level : 80
+max_level : 80
+attribs      : ({ "prop/all_polar", 2,"prop/earth", 2, "prop/str", 10, "prop/stunt_rate", 20, "prop/all_skill", 4, "prop/accurate", 40,"color", 蓝色,"suit_polar", 16,"rebuild_level", 2,"prop_rebuild/all_attrib", 4,"suit_level", 80,"suit_name", 80级土系套装})
+
+[成品仙器3]
+name      : 混元幡③
+min_level : 80
+max_level : 80
+attribs      : ({ "prop/all_polar", 3,"prop/earth", 3, "prop/str", 15, "prop/stunt_rate", 30, "prop/all_skill", 6, "prop/accurate", 60,"color", 粉色,"suit_polar", 16,"rebuild_level", 3,"prop_rebuild/all_attrib", 8,"suit_level", 80,"suit_name", 80级土系套装})
+
+[成品仙器4]
+name      : 混元幡④
+min_level : 80
+max_level : 80
+attribs      : ({ "prop/all_polar", 4,"prop/earth", 4, "prop/str", 20, "prop/stunt_rate", 40, "prop/all_skill", 8, "prop/accurate", 80,"color", 金色,"suit_polar", 16,"rebuild_level", 4,"prop_rebuild/all_attrib", 16,"suit_level", 80,"suit_name", 80级土系套装})
+
+[成品仙器5]
+name      : 混元幡⑤
+min_level : 80
+max_level : 80
+attribs      : ({ "prop/all_polar", 5,"prop/earth", 5, "prop/str", 32, "prop/stunt_rate", 50, "prop/all_skill", 10, "prop/accurate", 100,"color", 绿色,"suit_polar", 16,"rebuild_level", 5,"prop_rebuild/all_attrib", 32,"suit_level", 80,"suit_name", 80级土系套装})

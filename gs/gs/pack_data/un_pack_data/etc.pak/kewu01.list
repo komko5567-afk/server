@@ -1,0 +1,144 @@
+#FORM2
+#jinnang.list
+#create by caijz 09/18/2006
+#奖励物品        概率
+
+
+[奖励等级]
+name$: 特等奖
+
+
+[特等奖]
+金系装备奖励 : 160
+
+
+
+
+
+[金系装备奖励]
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "龙冠2" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "凤冠2" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "连环甲2" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "蛟皮袄2" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "无影靴2" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "飞龙圈2" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "霜羽刃6" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "火蛇鞭6" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "霜菊法螺6" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "噬魂魔爪6" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "云龙枪6" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "刺骨惊堂鼓6" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "九黎剑6" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "蔽日扇6" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "撼地锤6"})
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "冰雪残月刀6" })
+
+
+
+[撼地锤6]
+name      : 紫电乌龙锤
+min_level : 180
+max_level : 180
+attribs      : ({ "prop/all_polar", 5, "prop/metal", 5, "prop/phy_power", 6600, "prop/mag_power", 6600, "prop2/all_polar", 5,"prop2_color",1, "prop_seal/chase",5, "prop_seal_base/mstunt_rate",5, "seal_flag",1, "prop4/phy_power", 6600, "prop4/mag_power", 6600, "prop3/enhanced_earth",10,"color", 绿色,"suit_polar", 1,"rebuild_level", 0,"prop_suit/mag_power",1559,"prop_resonance", "penetrate_rate","suit_level", 180,"suit_name", 180级金系套装})
+
+
+[霜羽刃6]
+name      : 混元开天斧
+min_level : 180
+max_level : 180
+attribs      : ({ "prop/all_polar", 5, "prop/metal", 5, "prop/phy_power", 6600, "prop/mag_power", 6600, "prop2/all_polar", 5,"prop2_color",1, "prop_seal/chase",5, "prop_seal_base/mstunt_rate",5, "seal_flag",1, "prop4/phy_power", 6600, "prop4/mag_power", 6600, "prop3/enhanced_earth",10,"color", 绿色,"suit_polar", 1,"rebuild_level", 0,"prop_suit/mag_power",1559,"prop_resonance", "penetrate_rate","suit_level", 180,"suit_name", 180级金系套装})
+
+
+[蔽日扇6]
+name      : 三昧神火扇
+min_level : 180
+max_level : 180
+attribs      : ({ "prop/all_polar", 5, "prop/metal", 5, "prop/phy_power", 6600, "prop/mag_power", 6600, "prop2/all_polar", 5,"prop2_color",1, "prop_seal/chase",5, "prop_seal_base/mstunt_rate",5, "seal_flag",1, "prop4/phy_power", 6600, "prop4/mag_power", 6600, "prop3/enhanced_fire",10,"color", 绿色,"suit_polar", 1,"rebuild_level", 0,"prop_suit/mag_power",1559,"prop_resonance", "penetrate_rate","suit_level", 180,"suit_name", 180级金系套装})
+
+
+[火蛇鞭6]
+name      : 射日乾坤弓
+min_level : 180
+max_level : 180
+attribs      : ({ "prop/all_polar", 5, "prop/metal", 5, "prop/phy_power", 6600, "prop/mag_power", 6600, "prop2/all_polar", 5,"prop2_color",1, "prop_seal/chase",5, "prop_seal_base/mstunt_rate",5, "seal_flag",1, "prop4/phy_power", 6600, "prop4/mag_power", 6600, "prop3/enhanced_fire",10,"color", 绿色,"suit_polar", 1,"rebuild_level", 0,"prop_suit/mag_power",1559,"prop_resonance", "penetrate_rate","suit_level", 180,"suit_name", 180级金系套装})
+
+
+[九黎剑6]
+name      : 莫邪青云剑
+min_level : 180
+max_level : 180
+attribs      : ({ "prop/all_polar", 5, "prop/metal", 5, "prop/phy_power", 6600, "prop/mag_power", 6600, "prop2/all_polar", 5,"prop2_color",1, "prop_seal/chase",5, "prop_seal_base/mstunt_rate",5, "seal_flag",1, "prop4/phy_power", 6600, "prop4/mag_power", 6600, "prop3/enhanced_water",10,"color", 绿色,"suit_polar", 1,"rebuild_level", 0,"prop_suit/mag_power",1559,"prop_resonance", "penetrate_rate","suit_level", 180,"suit_name", 180级金系套装})
+
+
+[霜菊法螺6]
+name      : 星海含光戟
+min_level : 180
+max_level : 180
+attribs      : ({ "prop/all_polar", 5, "prop/metal", 5, "prop/phy_power", 6600, "prop/mag_power", 6600, "prop2/all_polar", 5,"prop2_color",1, "prop_seal/chase",5, "prop_seal_base/mstunt_rate",5, "seal_flag",1, "prop4/phy_power", 6600, "prop4/mag_power", 6600, "prop3/enhanced_water",10,"color", 绿色,"suit_polar", 1,"rebuild_level", 0,"prop_suit/mag_power",1559,"prop_resonance", "penetrate_rate","suit_level", 180,"suit_name", 180级金系套装})
+
+[噬魂魔爪6]
+name      : 虎啸八荒爪
+min_level : 180
+max_level : 180
+attribs      : ({ "prop/all_polar", 5, "prop/metal", 5, "prop/phy_power", 6600, "prop/mag_power", 6600, "prop2/all_polar", 5,"prop2_color",1, "prop_seal/chase",5, "prop_seal_base/mstunt_rate",5, "seal_flag",1, "prop4/phy_power", 6600, "prop4/mag_power", 6600, "prop3/enhanced_wood",10,"color", 绿色,"suit_polar", 1,"rebuild_level", 0,"prop_suit/mag_power",1559,"prop_resonance", "penetrate_rate","suit_level", 180,"suit_name", 180级金系套装})
+
+
+[云龙枪6]
+name      : 天狼晦日枪
+min_level : 180
+max_level : 180
+attribs      : ({ "prop/all_polar", 5, "prop/metal", 5, "prop/phy_power", 6600, "prop/mag_power", 6600, "prop2/all_polar", 5,"prop2_color",1, "prop_seal/chase",5, "prop_seal_base/mstunt_rate",5, "seal_flag",1, "prop4/phy_power", 6600, "prop4/mag_power", 6600, "prop3/enhanced_metal",10,"color", 绿色,"suit_polar", 1,"rebuild_level", 0,"prop_suit/mag_power",1559,"prop_resonance", "penetrate_rate","suit_level", 180,"suit_name", 180级金系套装})
+
+[刺骨惊堂鼓6]
+name      : 血影攒心指
+min_level : 180
+max_level : 180
+attribs      : ({ "prop/all_polar", 5, "prop/metal", 5, "prop/phy_power", 6600, "prop/mag_power", 6600, "prop2/all_polar", 5,"prop2_color",1, "prop_seal/chase",5, "prop_seal_base/mstunt_rate",5, "seal_flag",1, "prop4/phy_power", 6600, "prop4/mag_power", 6600, "prop3/enhanced_wood",10,"color", 绿色,"suit_polar", 1,"rebuild_level", 0,"prop_suit/mag_power",1559,"prop_resonance", "penetrate_rate","suit_level", 180,"suit_name", 180级金系套装})
+
+
+[冰雪残月刀6]
+name      : 斩仙化血刀
+min_level : 180
+max_level : 180
+attribs      : ({ "prop/all_polar", 5, "prop/metal", 5, "prop/phy_power", 6600, "prop/mag_power", 6600, "prop2/all_polar", 5,"prop2_color",1, "prop_seal/chase",5, "prop_seal_base/mstunt_rate",5, "seal_flag",1, "prop4/phy_power", 6600, "prop4/mag_power", 6600, "prop3/enhanced_metal",10,"color", 绿色,"suit_polar", 1,"rebuild_level", 0,"prop_suit/mag_power",1559,"prop_resonance", "penetrate_rate","suit_level", 180,"suit_name", 180级金系套装})
+
+
+
+
+[龙冠2]
+name      : 太妙烟霞冠
+min_level : 180
+max_level : 180
+attribs      : ({ "prop/all_attrib", 34, "prop/wiz", 43, "prop/dex", 43, "prop2/all_attrib", 35,"prop2_color",1, "prop_seal/chase",5, "prop_seal_base/mstunt_rate",5, "seal_flag",1, "prop4/wiz", 43, "prop3/penetrate",15,"color", 绿色,"suit_polar", 1,"rebuild_level", 0,"prop_suit/mag_power",759,"prop_resonance", "super_excluse_wood","suit_level", 180,"suit_name",180级金系套装})
+
+[无影靴2]
+name      : 星斗伏尘履
+min_level : 180
+max_level : 180
+attribs      : ({ "prop/all_attrib", 34, "prop/wiz", 43, "prop/speed", 300, "prop2/all_attrib", 35,"prop2_color",1, "prop_seal/chase",5, "prop_seal_base/mstunt_rate",5, "seal_flag",1, "prop4/wiz", 43, "prop3/penetrate",15,"color", 绿色,"suit_polar", 1,"rebuild_level", 0,"prop_suit/mag_power",759,"prop_resonance", "super_excluse_water","suit_level", 180,"suit_name",180级金系套装})
+
+[凤冠2]
+name      : 上清逍遥冠
+min_level : 180
+max_level : 180
+attribs      : ({ "prop/all_attrib", 34, "prop/wiz", 43, "prop/dex", 43, "prop2/all_attrib", 35,"prop2_color",1, "prop_seal/chase",5, "prop_seal_base/mstunt_rate",5, "seal_flag",1, "prop4/wiz", 43, "prop3/penetrate",15,"color", 绿色,"suit_polar", 1,"rebuild_level", 0,"prop_suit/mag_power",759,"prop_resonance", "super_excluse_wood","suit_level", 180,"suit_name",180级金系套装})
+
+[连环甲2]
+name      : 如意玲珑甲
+min_level : 180
+max_level : 180
+attribs      : ({ "prop/all_attrib", 34, "prop/wiz", 43, "prop/dex", 43, "prop2/all_attrib", 35,"prop2_color",1, "prop_seal/chase",5, "prop_seal_base/mstunt_rate",5, "seal_flag",1, "prop4/wiz", 43, "prop3/penetrate",15,"color", 绿色,"suit_polar", 1,"rebuild_level", 0,"prop_suit/mag_power",759,"prop_resonance", "super_excluse_earth","suit_level", 180,"suit_name",180级金系套装})
+
+
+[蛟皮袄2]
+name      : 月影霓裳衣
+min_level : 180
+max_level : 180
+attribs      : ({ "prop/all_attrib", 34, "prop/wiz", 43, "prop/dex", 43, "prop2/all_attrib", 35,"prop2_color",1, "prop_seal/chase",5, "prop_seal_base/mstunt_rate",5, "seal_flag",1, "prop4/wiz", 43, "prop3/penetrate",15,"color", 绿色,"suit_polar", 1,"rebuild_level", 0,"prop_suit/mag_power",759,"prop_resonance", "super_excluse_earth","suit_level", 180,"suit_name",180级金系套装})
+
+[飞龙圈2]
+name      : 璎珞垂珠绦
+min_level : 180
+max_level : 180
+attribs      : ({ "prop/all_attrib", 34, "prop/wiz", 43, "prop/dex", 43, "prop2/all_attrib", 35,"prop2_color",1, "prop_seal/chase",5, "prop_seal_base/mstunt_rate",5, "seal_flag",1, "prop4/wiz", 43, "prop3/penetrate",15,"color", 绿色,"suit_polar", 1,"rebuild_level", 0,"prop_suit/mag_power",759,"prop_resonance", "super_excluse_fire","suit_level", 180,"suit_name",180级金系套装})
+

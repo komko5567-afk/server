@@ -1,0 +1,74 @@
+#FORM2
+#zhuangb.list
+#create by caijz 09/26/3506
+#奖励物品        概率
+
+[奖励等级]
+name$: 特等奖
+
+
+[特等奖]
+道具满耐久 : 130
+
+
+[道具满耐久]
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "特效仙风丹" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "宠风丹" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "仙灵卡" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "高级驯兽诀" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "特级藏宝图" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "高级如意战斗令" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "特级八卦阴阳令" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "强力驱魔香" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "火眼金睛" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "喇叭" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "黄金锄头" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "无忧" })
+
+
+
+[喇叭]
+name      : 喇叭
+attribs      : ({  "property_bind/attrib", 4 ,"max_durability", 2147483647 ,  "durability", 2147483647 , "extra_desc", #R#M无限耐久道具#n })
+
+[高级如意战斗令]
+name      : 高级如意战斗令
+attribs      : ({  "property_bind/attrib", 4 ,"max_durability", 2147483647 ,  "durability", 2147483647 , "extra_desc", #R#M无限耐久道具#n })
+
+[特效仙风丹]
+name      : 特效仙风丹
+attribs      : ({  "property_bind/attrib", 4 ,"max_durability", 2147483647 ,  "durability", 2147483647 , "extra_desc", #R#M无限耐久道具#n })
+
+[宠风丹]
+name      : 宠风丹
+attribs      : ({  "property_bind/attrib", 4 ,"max_durability", 2147483647 ,  "durability", 2147483647 , "extra_desc", #R#M无限耐久道具#n })
+
+
+[火眼金睛]
+name      : 火眼金睛
+attribs      : ({  "property_bind/attrib", 4 ,"max_durability", 2147483647 ,  "durability", 2147483647 , "extra_desc", #R#M无限耐久道具#n })
+
+[强力驱魔香]
+name      : 强力驱魔香
+attribs      : ({  "property_bind/attrib", 4 ,"max_durability", 2147483647 ,  "durability", 2147483647 , "extra_desc", #R#M无限耐久道具#n })
+
+[特级八卦阴阳令]
+name      : 特级八卦阴阳令
+attribs      : ({  "property_bind/attrib", 4 ,"max_durability", 2147483647 ,  "durability", 2147483647 , "extra_desc", #R#M无限耐久道具#n })
+
+[高级驯兽诀]
+name      : 高级驯兽诀
+attribs      : ({  "property_bind/attrib", 4 ,"max_durability", 2147483647 ,  "durability", 2147483647 , "extra_desc", #R#M无限耐久道具#n })
+
+[仙灵卡]
+name      : 仙灵卡
+attribs      : ({  "property_bind/attrib", 4 ,"max_durability", 2147483647 ,  "durability", 2147483647 , "extra_desc", #R#M无限耐久道具#n })
+
+[黄金锄头]
+name      : 特级血玲珑
+attribs      : ({  "property_bind/attrib", 4 ,"max_durability", 2147483647 ,  "durability", 2147483647 , "extra_desc", #R#M无限耐久道具#n })
+
+[无忧]
+name      : 特级法玲珑
+attribs      : ({  "property_bind/attrib", 4 ,"max_durability", 2147483647 ,  "durability", 2147483647 , "extra_desc", #R#M无限耐久道具#n })
+

@@ -1,0 +1,207 @@
+key_name,         no_float, show_in_combat, log_action, file_id,                       icon,  gender, unit, value, wedding_icon, wedding_dress
+龙凤呈祥服·新娘, 1,        0,              "zhuangb",  "wedding_dress/lfcx-xinniang", 9203,  2,      件,   500,   42102,        1
+爵卞玄端服·新娘, 1,        0,              "zhuangb",  "wedding_dress/jbxd-xinniang", 9204,  2,      件,   500,   42202,        1
+纯衣绛袡服·新娘, 1,        0,              "zhuangb",  "wedding_dress/cyjr-xinniang", 9205,  2,      件,   500,   42302,        1
+龙凤呈祥服·新郎, 1,        0,              "zhuangb",  "wedding_dress/lfcx-xinlang",  9206,  1,      件,   500,   42101,        1
+爵卞玄端服·新郎, 1,        0,              "zhuangb",  "wedding_dress/jbxd-xinlang",  9207,  1,      件,   500,   42201,        1
+纯衣绛袡服·新郎, 1,        0,              "zhuangb",  "wedding_dress/cyjr-xinlang",  9208,  1,      件,   500,   42301,        1
+清风沐雨装·男,   1,        0,              "qingfmy",  "wedding_dress/qfmy-nan",      8092,  1,      个,   500,   7022,         2
+清风沐雨装·女,   1,        0,              "qingfmy",  "wedding_dress/qfmy-nv",       8093,  2,      个,   500,   7023,         2
+万象明德套装·男, 1,        1,              "dress",    "wedding_dress/wxmd-nan2",     11012, 1,      件,   500,   21013,        2
+九天龙腾套装·男, 1,        1,              "dress",    "wedding_dress/jtlt-nan2",     11015, 1,      件,   500,   21016,        2
+万象婀娜套装·女, 1,        1,              "dress",    "wedding_dress/wxen-nv2",      12011, 2,      件,   500,   22014,        2
+九天凤舞套装·女, 1,        1,              "dress",    "wedding_dress/jtfw-nv2",      12014, 2,      件,   500,   22017,        2
+盛世非凡套装·男, 1,        1,              "dress",    "wedding_dress/ssff-nan2",     11014, 1,      件,   500,   21015,        2
+傲视斓彩套装·女, 1,        1,              "dress",    "wedding_dress/aslc-nv2",      12013, 2,      件,   500,   22016,        2
+万象明德套装(男), 1,        1,              "dress",    "wedding_dress/wxmd-nan",      11012, 1,      件,   500,   21013,        2
+九天龙腾套装(男), 1,        1,              "dress",    "wedding_dress/jtlt-nan",      11015, 1,      件,   500,   21016,        2
+万象婀娜套装(女), 1,        1,              "dress",    "wedding_dress/wxen-nv",       12011, 2,      件,   500,   22014,        2
+九天凤舞套装(女), 1,        1,              "dress",    "wedding_dress/jtfw-nv",       12014, 2,      件,   500,   22017,        2
+盛世非凡套装(男), 1,        1,              "dress",    "wedding_dress/ssff-nan",      11014, 1,      件,   500,   21015,        2
+傲视斓彩套装(女), 1,        1,              "dress",    "wedding_dress/aslc-nv",       12013, 2,      件,   500,   22016,        2
+吉祥如意套装·男, 1,        1,              "dress",    "wedding_dress/jxry-nan",      11011, 1,      件,   500,   21012,        2
+傲视双绝套装·男, 1,        1,              "dress",    "wedding_dress/assj-nan",      11024, 1,      件,   500,   21020,        2
+龙盘青云套装·男, 1,        1,              "dress",    "wedding_dress/lpqy-nan",      11013, 1,      件,   500,   21014,        2
+吉祥富贵套装·女, 1,        1,              "dress",    "wedding_dress/jxfg-nv",       12015, 2,      件,   500,   22018,        2
+盛世霓裳套装·女, 1,        1,              "dress",    "wedding_dress/ssns-nv",       12024, 2,      件,   500,   22020,        2
+龙盘五蕴套装·女, 1,        1,              "dress",    "wedding_dress/lpwy-nv",       12012, 2,      件,   500,   22015,        2
+轩辕战魂套装·男, 1,        1,              "dress",    "wedding_dress/xyzh-nan",      11018, 1,      件,   500,   21023,        2
+轩辕传奇套装·女, 1,        1,              "dress",    "wedding_dress/xycq-nv",       12018, 2,      件,   500,   22023,        2
+十年一梦套装·男, 1,        1,              "dress",    "wedding_dress/snym-nan",      8915,  1,      件,   500,   7028,         2
+十年一梦套装·女, 1,        1,              "dress",    "wedding_dress/snym-nv",       8916,  2,      件,   500,   7029,         2
+
+
+####怪物时装####
+猴子·时装, 1,        1,              "dress",    "wedding_dress/mfsz-shz1",      13236,  0,      件,   500,   6103,         2
+金头陀·时装, 1,      1,              "dress",    "wedding_dress/mfsz-shz2",      13236,  0,      件,   500,   6129,         2
+云兽·时装,   1,      1,              "dress",    "wedding_dress/mfsz-shz3",      13236,  0,      件,   500,   6174,         2
+剑魂·时装,   1,      1,              "dress",    "wedding_dress/mfsz-shz6",      13236,  0,      件,   500,   6272,         2
+火鸦·时装,   1,      1,              "dress",    "wedding_dress/mfsz-shz4",      13236,  0,      件,   500,   6130,         2
+火光鼠·时装, 1,      1,              "dress",    "wedding_dress/mfsz-shz5",      13236,  0,      件,   500,   6143,         2
+
+石魔·时装,   1,      1,              "dress",    "wedding_dress/mfsz-shz61",      8966,  0,      件,   500,   6142,         2
+粉衣仙子·时装,   1,      1,              "dress",    "wedding_dress/mfsz-shz62",      8966,  0,      件,   500,   6139,         2
+青衣仙子·时装,   1,      1,              "dress",    "wedding_dress/mfsz-shz63",      8966,  0,      件,   500,   6134,         2
+黄衣仙子·时装,   1,      1,              "dress",    "wedding_dress/mfsz-shz64",      8966,  0,      件,   500,   6133,         2
+红衣仙子·时装,   1,      1,              "dress",    "wedding_dress/mfsz-shz65",      8966,  0,      件,   500,   6136,         2
+紫衣仙子·时装,   1,      1,              "dress",    "wedding_dress/mfsz-shz66",      8966,  0,      件,   500,   6137,         2
+蓝衣仙子·时装,   1,      1,              "dress",    "wedding_dress/mfsz-shz67",      8966,  0,      件,   500,   6138,         2
+白衣仙子·时装,   1,      1,              "dress",    "wedding_dress/mfsz-shz68",      8966,  0,      件,   500,   6135,         2
+
+电精·时装,   1,      1,              "dress",    "wedding_dress/mfsz-shz69",      8966,  0,      件,   500,   6172,         2
+当康·时装,   1,      1,              "dress",    "wedding_dress/mfsz-sh1z69",      31035,  0,      件,   500,   31035,         2
+至尊伶俐鼠·时装,   1,      1,              "dress",    "wedding_dress/mfsz-shz71",      8966,  0,      件,   500,   35001,         2
+至尊笨笨牛·时装,   1,      1,              "dress",    "wedding_dress/mfsz-shz72",      8966,  0,      件,   500,   35002,         2
+至尊威威虎·时装,   1,      1,              "dress",    "wedding_dress/mfsz-shz73",      8966,  0,      件,   500,   35003,         2
+至尊跳跳兔·时装,   1,      1,              "dress",    "wedding_dress/mfsz-shz74",      8966,  0,      件,   500,   35004,         2
+至尊酷酷龙·时装,   1,      1,              "dress",    "wedding_dress/mfsz-shz75",      8966,  0,      件,   500,   35005,         2
+至尊花花蛇·时装,   1,      1,              "dress",    "wedding_dress/mfsz-shz76",      8966,  0,      件,   500,   35006,         2
+至尊溜溜马·时装,   1,      1,              "dress",    "wedding_dress/mfsz-shz77",      8966,  0,      件,   500,   35007,         2
+至尊咩咩羊·时装,   1,      1,              "dress",    "wedding_dress/mfsz-shz78",      8966,  0,      件,   500,   35008,         2
+至尊帅帅猴·时装,   1,      1,              "dress",    "wedding_dress/mfsz-shz79",      8966,  0,      件,   500,   35009,         2
+至尊蛋蛋鸡·时装,   1,      1,              "dress",    "wedding_dress/mfsz-shz90",      8966,  0,      件,   500,   35010,         2
+至尊乖乖狗·时装,   1,      1,              "dress",    "wedding_dress/mfsz-shz91",      8966,  0,      件,   500,   35011,         2
+至尊招财猪·时装,   1,      1,              "dress",    "wedding_dress/mfsz-shz9",       8966,  0,      件,   500,   35012,         2
+
+####老时装####
+九天龙腾套装·男, 1,        1,              "dress",    "wedding_dress/jtlt-nan2",     11015, 1,      件,   500,   21016,        2
+九天凤舞套装·女, 1,        1,              "dress",    "wedding_dress/jtfw-nv2",      12014, 2,      件,   500,   22017,        2
+
+吉祥如意套装·男, 1,        1,              "dress",    "wedding_dress/jxry-nan",      11011, 1,      件,   500,   21012,        2
+吉祥富贵套装·女, 1,        1,              "dress",    "wedding_dress/jxfg-nv",       12015, 2,      件,   500,   22018,        2
+
+傲视双绝套装·男, 1,        1,              "dress",    "wedding_dress/assj-nan",      11024, 1,      件,   500,   21020,        2
+盛世霓裳套装·女, 1,        1,              "dress",    "wedding_dress/ssns-nv",       12024, 2,      件,   500,   22020,        2
+
+龙盘青云套装·男, 1,        1,              "dress",    "wedding_dress/lpqy-nan",      11013, 1,      件,   500,   21014,        2
+龙盘五蕴套装·女, 1,        1,              "dress",    "wedding_dress/lpwy-nv",       12012, 2,      件,   500,   22015,        2
+
+轩辕战魂套装·男, 1,        1,              "dress",    "wedding_dress/xyzh-nan",      11018, 1,      件,   500,   21023,        2
+轩辕传奇套装·女, 1,        1,              "dress",    "wedding_dress/xycq-nv",       12018, 2,      件,   500,   22023,        2
+
+十年一梦套装·男, 1,        1,              "dress",    "wedding_dress/snym-nan",      8915,  1,      件,   500,   7028,         2
+十年一梦套装·女, 1,        1,              "dress",    "wedding_dress/snym-nv",       8916,  2,      件,   500,   7029,         2
+
+
+###新时装###
+
+
+
+荷影清涟套装·男,     1,        1,              "dress",    "wedding_dress/heyql_fd_nan",    12464,    1,      件,   500,   2116,         0
+荷影清涟套装·女,     1,        1,              "dress",    "wedding_dress/heyql_fd_nv",     12471,    2,      件,   500,   3116,         0
+
+鲤鱼娃娃套装·男,     1,        1,              "dress",    "wedding_dress/liyuwawa_nan",    12409,    1,      件,   500,   2091,         0
+鲤鱼娃娃套装·女,     1,        1,              "dress",    "wedding_dress/liyuwawa_nv",     12409,    2,      件,   500,   3091,         0
+
+福缘滚滚套装·男,     1,        1,              "dress",    "wedding_dress/fuygg_lj_nan",    12447,    1,      件,   500,   2113,         0
+福缘滚滚套装·女,     1,        1,              "dress",    "wedding_dress/fuygg_lj_nv",     12455,    2,      件,   500,   3113,         0
+
+春意鸢飞套装·男,     1,        1,              "dress",    "wedding_dress/chunyyf_lj_nan",  12414,    1,      件,   500,   2119,         0
+春意鸢飞套装·女,     1,        1,              "dress",    "wedding_dress/chunyyf_lj_nv",   12422,    2,      件,   500,   3119,         0
+
+招财纳福套装·男,     1,        1,              "dress",    "wedding_dress/zhaocnf_jx_nan",  12439,    1,      件,   500,   2110,         0
+招财纳福套装·女,     1,        1,              "dress",    "wedding_dress/zhaocnf_lj_nv",   12431,    2,      件,   500,   3110,         0
+
+殷商君王套装·男,     1,        1,              "dress",    "wedding_dress/yinsdw_cy_nan",   12338,    1,      件,   500,   2095,         0
+乱世妖妃套装·女,     1,        1,              "dress",    "wedding_dress/yinsdw_lj_nv",    12346,    2,      件,   500,   3095,         0
+
+梨园绮梦套装·男,     1,        1,              "dress",    "wedding_dress/liyqm_nan",       12401,    1,      件,   500,   2104,         0
+梨园绮梦套装·女,     1,        1,              "dress",    "wedding_dress/liyqm_nv",        12402,    2,      件,   500,   3104,         0
+
+龙吟天下套装·男,     1,        1,              "dress",    "wedding_dress/longytx_hc_nan",  12388,    1,      件,   500,   2098,         0
+龙吟天下套装·女,     1,        1,              "dress",    "wedding_dress/longytx_lj_nv",   12396,    2,      件,   500,   3098,         0
+
+锦绣龙鲤套装·男,     1,        1,              "dress",    "wedding_dress/jinxll_cy1_nan",  12355,    1,      件,   500,   2092,         0
+锦绣龙鲤套装·女,     1,        1,              "dress",    "wedding_dress/jinxll_lj_nv",    12364,    2,      件,   500,   3092,         0
+
+降妖伏魔套装·男,     1,        1,              "dress",    "wedding_dress/xiangyfm_hq_nan", 12322,    1,      件,   500,   2088,         0
+降妖伏魔套装·女,     1,        1,              "dress",    "wedding_dress/xiangyfm_lj_nv",  12330,    2,      件,   500,   3088,         0
+
+王者风范套装·男,     1,        1,              "dress",    "wedding_dress/wangzff_zc_nan",  12306,    1,      件,   500,   2073,         0
+王者风范套装·女,     1,        1,              "dress",    "wedding_dress/wangzff_lj_nv",   12313,    2,      件,   500,   3073,         0
+
+龙腾贺岁套装·男,     1,        1,              "dress",    "wedding_dress/longths_nan",     12284,    1,      件,   500,   2076,         0
+龙腾贺岁套装·女,     1,        1,              "dress",    "wedding_dress/longths_nv",      12276,    2,      件,   500,   3076,         0
+
+锦瑟华年套装·男,     1,        1,              "dress",    "wedding_dress/jinxhn_my_nan",   12262,    1,      件,   500,   2044,         0
+锦瑟华年套装·女,     1,        1,              "dress",    "wedding_dress/jinxhn_cy_nv",    12270,    2,      件,   500,   3044,         0
+
+九尾绛雪套装·女, 1,        1,              "dress",    "wedding_dress/jwxc_nv",        12039,     1,      件,   500,   3004,         2
+九尾绛雪套装·男, 1,        1,              "dress",    "wedding_dress/jwxc_nan",       12040,     2,      件,   500,   2004,         2
+
+雀羽惊鸿套装·男, 1,        1,              "dress",    "wedding_dress/queyftgh_nan",   12229,     1,      件,   500,   6410,         2
+月下飞天套装·女, 1,        1,              "dress",    "wedding_dress/yuexftgh_nan",   12236,     2,      件,   500,   6411,         2
+
+龙吟九霄套装·男, 1,        1,              "dress",    "wedding_dress/longyjsqy_nan",  12202,     1,      件,   500,   6416,         2
+仙霭莲裳套装·女, 1,        1,              "dress",    "wedding_dress/xianalsqy_nv",   12203,     2,      件,   500,   6417,         2
+
+繁华盛世套装·男, 1,        1,              "dress",    "wedding_dress/fanhss_xs_nan",  12184,     1,      件,   500,   2024,         2
+繁华盛世套装·女, 1,        1,              "dress",    "wedding_dress/fanhss_xs_nv",   12185,     2,      件,   500,   3024,         2
+
+傲雪霜梅套装·男, 1,        1,              "dress",    "wedding_dress/aoxsmxs_nan",    12206,     1,      件,   500,   2037,         2
+傲雪霜梅套装·女, 1,        1,              "dress",    "wedding_dress/aoxsmxs_nv",     12207,     2,      件,   500,   3037,         2
+
+纵横域外套装·男, 1,        1,              "dress",    "wedding_dress/zonghywxs_nan",  12246,     1,      件,   500,   2070,         2
+纵横域外套装·女, 1,        1,              "dress",    "wedding_dress/zonghywxs_nv",   12253,     2,      件,   500,   3070,         2
+
+福兔贺喜套装·男, 1,        1,              "dress",    "wedding_dress/futhx_hy_nan",   12214,     1,      件,   500,   2040,         2
+福兔贺喜套装·女, 1,        1,              "dress",    "wedding_dress/futhx_hy_nv",    12215,     2,      件,   500,   3040,         2
+
+掠影夺魂套装·男, 1,        1,              "dress",    "wedding_dress/lueydhxs_nan",   12085,     1,      件,   500,   2006,         2
+掠影夺魂套装·女, 1,        1,              "dress",    "wedding_dress/lueydhxs_nv",    12086,     2,      件,   500,   3006,         2
+
+虎啸生风套装·男, 1,        1,              "dress",    "wedding_dress/huxsfxs_nan",    12120,     1,      件,   500,   2017,         2
+虎啸生风套装·女, 1,        1,              "dress",    "wedding_dress/huxsfxs_nv",     12121,     2,      件,   500,   3017,         2
+
+星界神游套装·男, 1,        1,              "dress",    "wedding_dress/xingjsyxs_nan",  12136,     1,      件,   500,   2014,         2
+星界神游套装·女, 1,        1,              "dress",    "wedding_dress/xingjsyxs_nv",   12137,     2,      件,   500,   3014,         2
+
+域外魔魈套装·男, 1,        1,              "dress",    "wedding_dress/yuwmx_dl_nan",   12148,     1,      件,   500,   2020,         2
+域外魔魈套装·女, 1,        1,              "dress",    "wedding_dress/yuwmx_dl_nv",    12149,     2,      件,   500,   3020,         2
+
+月光幻影套装·男, 1,        1,              "dress",    "wedding_dress/yueghy_xs_nan",  12166,     1,      件,   500,   2029,         2
+月光幻影套装·女, 1,        1,              "dress",    "wedding_dress/yueghy_xs_nv",   12167,     2,      件,   500,   3029,         2
+透明·时装,        1,        1,               "dress",    "wedding_dress/cuxksz-tfwbszz01",   8966,  0,      件,   500,   0,         2
+
+
+
+##新版180套装全套#
+180套装新金男·时装,   1,      1,             "dress",    "wedding_dress/yxdtz-shiz1",      8966,  1,      件,   500,   841801,         2
+180套装新木男·时装,   1,      1,             "dress",    "wedding_dress/yxdtz-shiz2",      8966,  1,      件,   500,   841802,         2
+180套装新水男·时装,   1,      1,             "dress",    "wedding_dress/yxdtz-shiz3",      8966,  1,      件,   500,   841803,         2
+180套装新火男·时装,   1,      1,             "dress",    "wedding_dress/yxdtz-shiz4",      8966,  1,      件,   500,   841804,         2
+180套装新土男·时装,   1,      1,             "dress",    "wedding_dress/yxdtz-shiz5",      8966,  1,      件,   500,   841805,         2
+
+180套装新金女·时装,   1,      1,             "dress",    "wedding_dress/yxdtz-shiz6",      8966,  2,      件,   500,   851801,         2
+180套装新木女·时装,   1,      1,             "dress",    "wedding_dress/yxdtz-shiz7",      8966,  2,      件,   500,   851802,         2
+180套装新水女·时装,   1,      1,             "dress",    "wedding_dress/yxdtz-shiz8",      8966,  2,      件,   500,   851803,         2
+180套装新火女·时装,   1,      1,             "dress",    "wedding_dress/yxdtz-shiz9",      8966,  2,      件,   500,   851804,         2
+180套装新土女·时装,   1,      1,             "dress",    "wedding_dress/yxdtz-shi10",      8966,  2,      件,   500,   851805,         2
+
+180套装老金男·时装,   1,      1,             "dress",    "wedding_dress/yxdta-shiz1",      8966,  1,      件,   500,   861801,         2
+180套装老木男·时装,   1,      1,             "dress",    "wedding_dress/yxdta-shiz2",      8966,  1,      件,   500,   871802,         2
+180套装老水男·时装,   1,      1,             "dress",    "wedding_dress/yxdta-shiz3",      8966,  1,      件,   500,   871803,         2
+180套装老火男·时装,   1,      1,             "dress",    "wedding_dress/yxdta-shiz4",      8966,  1,      件,   500,   861804,         2
+180套装老土男·时装,   1,      1,             "dress",    "wedding_dress/yxdta-shiz5",      8966,  1,      件,   500,   861805,         2
+
+180套装老金女·时装,   1,      1,             "dress",    "wedding_dress/yxdta-shiz6",      8966,  2,      件,   500,   871801,         2
+180套装老木女·时装,   1,      1,             "dress",    "wedding_dress/yxdta-shiz7",      8966,  2,      件,   500,   861802,         2
+180套装老水女·时装,   1,      1,             "dress",    "wedding_dress/yxdta-shiz8",      8966,  2,      件,   500,   861803,         2
+180套装老火女·时装,   1,      1,             "dress",    "wedding_dress/yxdta-shiz9",      8966,  2,      件,   500,   871804,         2
+180套装老土女·时装,   1,      1,             "dress",    "wedding_dress/yxdta-shi10",      8966,  2,      件,   500,   871805,         2
+
+
+武圣·男, 1,        1,              "dress",    "wedding_dress/hwus_lj_nan", 12474,     1,      件,   500,   2079,         2
+洛神·女, 1,        1,              "dress",    "wedding_dress/luos_lj_nv",  12481,     2,      件,   500,   3079,         2
+皇帝的新装, 1,        1,                    "dress",    "wedding_dress/yix1iutm1",       20012,  0,      件,   500,   0,         2
+
+鹊影霜华·男,         1,        1,              "dress",    "wedding_dress/queysh_nan",      12502,    1,      件,   500,   2133,         2
+鹊影霜华·女,         1,        1,              "dress",    "wedding_dress/queysh_nv",       12503,    2,      件,   500,   3133,         2
+
+神农战魂时装·男,     1,        1,               "dress",     "wedding_dress/shennzh_nan",   13013, 1,     件,   500,   31117,       2
+神农战魂时装·女,     1,        1,               "dress",     "wedding_dress/shennzh_nv",    13014, 2,     件,   500,   31121,       2
+
+齐天大圣时装, 1,        1,              "dress",    "wedding_dress/0yix1iutm11",       13236,  0,      件,   500,   6341,         2
+
+蛇环云裳·男,     1,        1,              "dress",    "wedding_dress/shehys_lj_nan",   12504,    1,      件,   500,   2136,         2  
+蛇环云裳·女,     1,        1,              "dress",    "wedding_dress/shehys_lj_nv",    12511,    2,      件,   500,   3136,         2

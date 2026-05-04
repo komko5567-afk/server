@@ -1,0 +1,162 @@
+#FORM2
+
+#dujiachoujianghuodong.list
+#created by huangw2 Aug/25/2008
+#独家抽奖游戏活动
+#自己兑换自己想要的东西，我只加了个神兽估计都懂
+
+[task_time]
+start_time : "2008-11-13-12:00:00"
+maf_time$ :  ({ "2008-11-13-12:00:00", "2023-08-23-12:00:00" })
+
+
+[兑换奖励]
+rate : 1
+name$ : 兑换奖励
+log_to_db:  100
+free_pet:   ({ 1, "你携带的宠物数量已到最大，无法领取奖励。" })
+bonus$:  ({ 0, 0, 100, "宠物", 1, 1, "伶俐鼠", "笨笨牛", "威威虎", "跳跳兔", "酷酷龙", "花花蛇", "溜溜马", "咩咩羊", "帅帅猴", "蛋蛋鸡", "乖乖狗", "招财猪"})
+bonus_times : -1
+
+[招财猪]
+name$: ({ 招财猪, 招财猪 })
+rank$: 变异
+level: 60
+life_effect: ({ 75, 75 })
+mana_effect: ({ 35, 35 })
+speed_effect: ({ 5, 5 })
+phy_effect: ({ -40, -40 })
+mag_effect: ({ 25, 25 })
+channel_msg : "#G$PLAYER#n集齐了#R10颗变异珠#n后在#Y#P变异召唤大使#P#n处召唤到了$EX_PET的奖励，快去#P宠物尊者#P#n处参与吧！"
+
+
+[伶俐鼠]
+name$: ({ 伶俐鼠, 伶俐鼠 })
+rank$: 变异
+level: 60
+life_effect: ({ 60, 60 })
+mana_effect: ({ 10, 10 })
+speed_effect: ({ 40, 40 })
+phy_effect: ({ -40, -40 })
+mag_effect: ({ 30, 30 })
+channel_msg : "#G$PLAYER#n集齐了#R10颗变异珠#n后在#Y#P变异召唤大使#P#n处召唤到了$EX_PET的奖励，快去#P宠物尊者#P#n处参与吧！"
+
+
+[笨笨牛]
+name$: ({ 笨笨牛, 笨笨牛 })
+rank$: 变异
+level: 60
+life_effect: ({ 70, 70 })
+mana_effect: ({ -10, -10 })
+speed_effect: ({ 00, 00 })
+phy_effect: ({ 70, 70 })
+mag_effect: ({ -30, -30 })
+channel_msg : "#G$PLAYER#n集齐了#R10颗变异珠#n后在#Y#P变异召唤大使#P#n处召唤到了$EX_PET的奖励，快去#P宠物尊者#P#n处参与吧！"
+
+
+[威威虎]
+name$: ({ 威威虎, 威威虎 })
+rank$: 变异
+level: 60
+life_effect: ({ 50, 50 })
+mana_effect: ({ -10, -10 })
+speed_effect: ({ 10, 10 })
+phy_effect: ({ 80, 80 })
+mag_effect: ({ -30, -30 })
+channel_msg : "#G$PLAYER#n集齐了#R10颗变异珠#n后在#Y#P变异召唤大使#P#n处召唤到了$EX_PET的奖励，快去#P宠物尊者#P#n处参与吧！"
+
+
+[跳跳兔]
+name$: ({ 跳跳兔, 跳跳兔 })
+rank$: 变异
+level: 60
+life_effect: ({ 60, 60 })
+mana_effect: ({ 15, 15 })
+speed_effect: ({ 20, 20 })
+phy_effect: ({ -40, -40 })
+mag_effect: ({ 45, 45 })
+channel_msg : "#G$PLAYER#n集齐了#R10颗变异珠#n后在#Y#P变异召唤大使#P#n处召唤到了$EX_PET的奖励，快去#P宠物尊者#P#n处参与吧！"
+
+
+[酷酷龙]
+name$: ({ 酷酷龙, 酷酷龙 })
+rank$: 变异
+level: 60
+life_effect: ({ 60, 60 })
+mana_effect: ({ 15, 15 })
+speed_effect: ({ 20, 20 })
+phy_effect: ({ -40, -40 })
+mag_effect: ({ 45, 45 })
+channel_msg : "#G$PLAYER#n集齐了#R10颗变异珠#n后在#Y#P变异召唤大使#P#n处召唤到了$EX_PET的奖励，快去#P宠物尊者#P#n处参与吧！"
+
+
+[花花蛇]
+name$: ({ 花花蛇, 花花蛇 })
+rank$: 变异
+level: 60
+life_effect: ({ 60, 60 })
+mana_effect: ({ 20, 20 })
+speed_effect: ({ 25, 25 })
+phy_effect: ({ -40, -40 })
+mag_effect: ({ 35, 35 })
+channel_msg : "#G$PLAYER#n集齐了#R10颗变异珠#n后在#Y#P变异召唤大使#P#n处召唤到了$EX_PET的奖励，快去#P宠物尊者#P#n处参与吧！"
+
+
+[溜溜马]
+name$: ({ 溜溜马, 溜溜马 })
+rank$: 变异
+level: 60
+life_effect: ({ 65, 65 })
+mana_effect: ({ -10, -10 })
+speed_effect: ({ 25, 25 })
+phy_effect: ({ 50, 50 })
+mag_effect: ({ -30, -30 })
+channel_msg : "#G$PLAYER#n集齐了#R10颗变异珠#n后在#Y#P变异召唤大使#P#n处召唤到了$EX_PET的奖励，快去#P宠物尊者#P#n处参与吧！"
+
+
+[咩咩羊]
+name$: ({ 咩咩羊, 咩咩羊 })
+rank$: 变异
+level: 60
+life_effect: ({ 70, 70 })
+mana_effect: ({ 20, 20 })
+speed_effect: ({ 15, 15 })
+phy_effect: ({ -40, -40 })
+mag_effect: ({ 35, 35 })
+channel_msg : "#G$PLAYER#n集齐了#R10颗变异珠#n后在#Y#P变异召唤大使#P#n处召唤到了$EX_PET的奖励，快去#P宠物尊者#P#n处参与吧！"
+
+
+[帅帅猴]
+name$: ({ 帅帅猴, 帅帅猴 })
+rank$: 变异
+level: 60
+life_effect: ({ 55, 55 })
+mana_effect: ({ -10, -10 })
+speed_effect: ({ 35, 35 })
+phy_effect: ({ 50, 50 })
+mag_effect: ({ -30, -30 })
+channel_msg : "#G$PLAYER#n集齐了#R10颗变异珠#n后在#Y#P变异召唤大使#P#n处召唤到了$EX_PET的奖励，快去#P宠物尊者#P#n处参与吧！"
+
+
+[蛋蛋鸡]
+name$: ({ 蛋蛋鸡, 蛋蛋鸡 })
+rank$: 变异
+level: 60
+life_effect: ({ 65, 65 })
+mana_effect: ({ 10, 10 })
+speed_effect: ({ 35, 35 })
+phy_effect: ({ -40, -40 })
+mag_effect: ({ 30, 30 })
+channel_msg : "#G$PLAYER#n集齐了#R10颗变异珠#n后在#Y#P变异召唤大使#P#n处召唤到了$EX_PET的奖励，快去#P宠物尊者#P#n处参与吧！"
+
+
+[乖乖狗]
+name$: ({ 乖乖狗, 乖乖狗 })
+rank$: 变异
+level: 60
+life_effect: ({ 60, 60 })
+mana_effect: ({ -10, -10 })
+speed_effect: ({ 20, 20 })
+phy_effect: ({ 60, 60 })
+mag_effect: ({ -30, -30 })
+channel_msg : "#G$PLAYER#n集齐了#R10颗变异珠#n后在#Y#P变异召唤大使#P#n处召唤到了$EX_PET的奖励，快去#P宠物尊者#P#n处参与吧！"

@@ -1,0 +1,21 @@
+#FORM2
+#jinnang.list
+#create by caijz 09/18/2006
+#奖励物品        概率
+
+[奖励等级]
+name$: 特等奖
+
+[特等奖]
+奖励1 : 3000
+
+
+[奖励1]
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "法宝9"})
+
+
+[法宝9]
+name      : 阴阳镜
+min_level : 24
+max_level : 24
+attribs      : ({ "item_polar", 5,"extra_skill", "qinmi_wujian", "extra_skill_level", 24, "upgraded", 1, "icon", 1576,"prop/all_polar", 5,  "nimbus", 2100000000,"extra_desc", #G顶级法宝#r#B所有相性 5 增加 #n#r#Y注意：#R此法宝不可继承等级#r#O提示:继承后果自行承担 })

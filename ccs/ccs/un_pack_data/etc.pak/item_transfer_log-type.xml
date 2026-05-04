@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="GB2312" ?>
+
+<Root>
+	<ValueUnit>
+		<ViewValue>金钱转移</ViewValue>
+		<RealValue>1</RealValue>
+	</ValueUnit>
+	<ValueUnit>
+		<ViewValue>宠物转移</ViewValue>
+		<RealValue>2</RealValue>
+	</ValueUnit>
+	<ValueUnit>
+		<ViewValue>收费道具转移</ViewValue>
+		<RealValue>3</RealValue>
+	</ValueUnit>
+	<ValueUnit>
+		<ViewValue>普通道具转移</ViewValue>
+		<RealValue>4</RealValue>
+	</ValueUnit>
+	<ValueUnit>
+		<ViewValue>可叠加道具转移</ViewValue>
+		<RealValue>5</RealValue>
+	</ValueUnit>
+	<ValueUnit>
+		<ViewValue>其他转移</ViewValue>
+		<RealValue>0</RealValue>
+	</ValueUnit>
+</Root>

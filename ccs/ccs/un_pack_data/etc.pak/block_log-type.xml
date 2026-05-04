@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="GB2312" ?>
+
+<Root>
+	<ValueUnit>
+		<ViewValue>释放操作</ViewValue>
+		<RealValue>0</RealValue>
+	</ValueUnit>
+	<ValueUnit>
+		<ViewValue>限制操作</ViewValue>
+		<RealValue>1</RealValue>
+	</ValueUnit>
+	<ValueUnit>
+		<ViewValue>其它操作</ViewValue>
+		<RealValue>2</RealValue>
+	</ValueUnit>
+</Root>

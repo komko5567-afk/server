@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="GB2312" ?>
+
+<Root>
+	<ValueUnit>
+		<ViewValue>初次使用该道具</ViewValue>
+		<RealValue>0</RealValue>
+	</ValueUnit>
+	<ValueUnit>
+		<ViewValue>非初次或最后使用该道具</ViewValue>
+		<RealValue>1</RealValue>
+	</ValueUnit>
+	<ValueUnit>
+		<ViewValue>最后使用该道具</ViewValue>
+		<RealValue>2</RealValue>
+	</ValueUnit>
+</Root>

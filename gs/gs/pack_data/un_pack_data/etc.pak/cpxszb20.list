@@ -1,0 +1,22 @@
+#FORM2
+#zhuangb.list
+#create by caijz 09/22/2706
+#奖励物品        概率
+
+[奖励等级]
+name$: 特等奖
+
+[特等奖]
+吊坠 : 5
+
+
+[吊坠]
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "仙器01" })
+
+
+
+[仙器01]
+name      : 鸾凤宝玉
+min_level : 1
+max_level : 1
+attribs    : ({ "prop/all_polar", 5, "prop/all_attrib", 50, "prop/all_skill", 30, "extra_desc",#R独家定制#n#r此仙器玄妙无极、造化无穷。可以束缚妖魔、可辟邪})

@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<!--  说明文档
+################################################################################
+#
+# db       指该菜单将要访问的数据库
+# table    指该菜单将要访问的数据库表
+# type     指该查询的类型，该指将决定出现的查询结果窗口的特性或则是该菜单的特性
+# field    指该查询所属的字段类型
+# query    指该查询所带的查询器
+# fields   定义需要查询的字段，如果有此项则不会出现查询窗口，直接查询
+# where    定义查询的条件，只有当定义了 fields 时，此字段才有意义
+# rename   定义查询结果窗口的重命名信息
+#
+################################################################################
+-->
+
+<Root>
+    <Query>
+        <QueryGroup name="帐号查询类">
+            <QueryUnit name="帐号查询">
+                <db>adb</db>
+                <table>account</table>
+                <type>account</type>
+                <field>account</field>
+            </QueryUnit>
+            <QueryUnit name="南极仙翁处奖励查询">
+                <db>adb</db>
+                <table>encourage</table>
+                <type>encourage</type>
+                <field>encourage</field>
+            </QueryUnit>
+            <QueryUnit name="密保查询">
+                <db>adb</db>
+                <table>pwd_protect</table>
+                <type>pwd_protect</type>
+                <field>pwd_protect</field>
+            </QueryUnit>
+            <QueryUnit name="手机认证查询">
+                <db>adb</db>
+                <table>phone_auth</table>
+                <type>phone_auth</type>
+                <field>phone_auth</field>
+            </QueryUnit>
+            <QueryUnit name="VIP短信增值服务查询">
+                <db>adb</db>
+                <table>vip_sms_protect</table>
+                <type>vip_sms_protect</type>
+                <field>vip_sms_protect</field>
+            </QueryUnit>
+            <QueryUnit name="支付宝账户绑定查询">
+                <db>adb</db>
+                <table>alipay_account</table>
+                <type>alipay_account</type>
+                <field>alipay_account</field>
+            </QueryUnit>
+        </QueryGroup>
+        <QueryGroup name="角色查询类">
+            <QueryUnit name="角色查询">
+                <db>mdb</db>
+                <table>char_info</table>
+                <type>char</type>
+                <field>char</field>
+            </QueryUnit>
+        </QueryGroup>
+        <QueryGroup name="宠物查询类">
+            <QueryUnit name="宠物查询">
+                <db>mdb</db>
+                <table>pet_info</table>
+                <type>pet</type>
+                <field>pet</field>
+            </QueryUnit>
+            <QueryUnit name="封存宠物查询">
+                <db>ddb</db>
+                <table>pet_deposit</table>
+                <type>pet_deposit</type>
+                <field>pet_deposit</field>
+            </QueryUnit>
+        </QueryGroup>
+        <QueryGroup name="帮派查询类">
+            <QueryUnit name="帮派查询">
+                <db>mdb</db>
+                <table>party_basic_info</table>
+                <type>party_basic</type>
+                <field>party_basic</field>
+            </QueryUnit>
+            <QueryUnit name="帮派成员">
+                <db>mdb</db>
+                <table>party_members_info</table>
+                <type>party_members</type>
+                <field>party_members</field>
+            </QueryUnit>
+            <QueryUnit name="帮派技能">
+                <db>mdb</db>
+                <table>party_skills_info</table>
+                <type>party_skills</type>
+                <field>party_skills</field>
+            </QueryUnit>
+        </QueryGroup>
+        <QueryGroup name="道具查询类">
+            <QueryUnit name="道具查询">
+                <db>mdb</db>
+                <table>item_info</table>
+                <type>item</type>
+                <field>item</field>
+            </QueryUnit>
+            <QueryUnit name="封存道具查询">
+                <db>ddb</db>
+                <table>item_deposit</table>
+                <type>item_deposit</type>
+                <field>item_deposit</field>
+           </QueryUnit>
+        </QueryGroup>
+        <QueryGroup name="日志查询类">
+            <QueryUnit name="用户日志查询">
+                <db>ldb</db>
+                <table>user_log</table>
+                <type>user_log</type>
+                <field>user_log</field>
+                <query>user_log</query>
+            </QueryUnit>
+            <QueryUnit name="物品流向日志查询">
+                <db>ldb</db>
+                <table>item_transfer_log</table>
+                <type>item_transfer</type>
+                <field>item_transfer</field>
+            </QueryUnit>
+            <QueryUnit name="重要日志查询">
+                <db>ldb</db>
+                <table>important_log</table>
+                <type>important_log</type>
+                <field>important_log</field>
+                <query>important_log</query>
+            </QueryUnit>
+            <QueryUnit name="玩家登录日志查询">
+                <db>ldb</db>
+                <table>login_log</table>
+                <type>login_log</type>
+                <field>login_log</field>
+            </QueryUnit>
+            <QueryUnit name="元宝消费日志查询(ADB)">
+                <db>adb</db>
+                <table>cost_log</table>
+                <type>cost_log</type>
+                <field>cost_log</field>
+            </QueryUnit>
+            <QueryUnit name="元宝消费日志查询(LDB)">
+                <db>ldb</db>
+                <table>cost_coin_log</table>
+                <type>cost_coin_log</type>
+                <field>cost_coin_log</field>
+            </QueryUnit>
+            <QueryUnit name="元宝获得日志">
+                <db>adb</db>
+                <table>add_coin_log</table>
+                <type>add_coin_log</type>
+                <field>add_coin_log</field>
+            </QueryUnit>
+            <QueryUnit name="南极仙翁处奖励成功领取日志查询">
+                <db>ldb</db>
+                <table>encourage_detail_log</table>
+                <type>encourage_detail_log</type>
+                <field>encourage_detail_log</field>
+            </QueryUnit>
+            <QueryUnit name="debug日志查询">
+                <db>ldb</db>
+                <table>debug_log</table>
+                <type>debug_log</type>
+                <field>debug_log</field>
+            </QueryUnit>
+            <QueryUnit name="元宝交易日志查询">
+                <db>ldb</db>
+                <table>coin_order_log</table>
+                <type>coin_order_log</type>
+                <field>coin_order_log</field>
+            </QueryUnit>
+            <QueryUnit name="通用日志查询">
+                <db>ldb</db>
+                <table>common_log</table>
+                <type>common_log</type>
+                <field>common_log</field>
+                <query>common_log</query>
+            </QueryUnit>
+            <QueryUnit name="道具使用日志查询">
+                <db>ldb</db>
+                <table>apply_log</table>
+                <type>apply_log</type>
+                <field>apply_log</field>
+            </QueryUnit>
+            <QueryUnit name="活动日志查询">
+                <db>ldb</db>
+                <table>campaign_log</table>
+                <type>campaign_log</type>
+                <field>campaign_log</field>
+            </QueryUnit>
+            <QueryUnit name="任务日志查询">
+                <db>ldb</db>
+                <table>errand_log</table>
+                <type>errand_log</type>
+                <field>errand_log</field>
+            </QueryUnit>
+            <QueryUnit name="切换状态日志查询">
+                <db>ldb</db>
+                <table>switch_log</table>
+                <type>switch_log</type>
+                <field>switch_log</field>
+            </QueryUnit>
+            <QueryUnit name="安全操作日志查询">
+                <db>ldb</db>
+                <table>safe_log</table>
+                <type>safe_log</type>
+                <field>safe_log</field>
+            </QueryUnit>
+            <QueryUnit name="点卡日志查询">
+                <db>adb</db>
+                <table>ecard_log</table>
+                <type>ecard_log</type>
+                <field>ecard_log</field>
+            </QueryUnit>
+            <QueryUnit name="点卡成功交易日志查询">
+                <db>adb</db>
+                <table>ecard_business</table>
+                <type>ecard_business</type>
+                <field>ecard_business</field>
+            </QueryUnit>
+            <QueryUnit name="异常点卡交易查询">
+                <db>adb</db>
+                <table>ecard_log</table>
+                <type>ecard_error_log</type>
+                <field>ecard_error_log</field>
+            </QueryUnit>
+            <QueryUnit name="点卡重发日志查询">
+                <db>adb</db>
+                <table>ecard_need_to_resend</table>
+                <type>ecard_resend</type>
+                <field>ecard_resend</field>
+            </QueryUnit>
+            <QueryUnit name="玩家账户日志查询">
+                <db>adb</db>
+                <table>acc_log</table>
+                <type>acc_log</type>
+                <field>acc_log</field>
+            </QueryUnit>
+            <QueryUnit name="系统赠送收费道具日志">
+                <db>ldb</db>
+                <table>gift_log</table>
+                <type>gift_log</type>
+                <field>gift_log</field>
+            </QueryUnit>
+            <QueryUnit name="材料日志">
+                <db>ldb</db>
+                <table>material_log</table>
+                <type>material_log</type>
+                <field>material_log</field>
+            </QueryUnit>
+            <QueryUnit name="服战玩家战斗日志查询">
+                <db>ldb</db>
+                <table>csl_combat_log</table>
+                <type>csl_combat_log</type>
+                <field>csl_combat_log</field>
+            </QueryUnit>
+            <QueryUnit name="服战比赛日志查询">
+                <db>ldb</db>
+                <table>csl_match_log</table>
+                <type>csl_match_log</type>
+                <field>csl_match_log</field>
+            </QueryUnit>
+            <QueryUnit name="收购平台日志查询">
+                <db>ldb</db>
+                <table>purchase_platform_log</table>
+                <type>purchase_platform_log</type>
+                <field>purchase_platform_log</field>
+            </QueryUnit>
+            <QueryUnit name="宠物操作日志查询">
+                <db>ldb</db>
+                <table>pet_log</table>
+                <type>pet_log</type>
+                <field>pet_log</field>
+            </QueryUnit>
+            <QueryUnit name="宠物升级日志查询">
+                <db>ldb</db>
+                <table>pet_level_up_log</table>
+                <type>pet_level_up_log</type>
+                <field>pet_level_up_log</field>
+            </QueryUnit>
+            <QueryUnit name="装备操作日志查询">
+                <db>ldb</db>
+                <table>equipment_log</table>
+                <type>equipment_log</type>
+                <field>equipment_log</field>
+            </QueryUnit>
+            <QueryUnit name="金钱操作日志查询">
+                <db>ldb</db>
+                <table>money_log</table>
+                <type>money_log</type>
+                <field>money_log</field>
+            </QueryUnit>
+            <QueryUnit name="升级日志查询">
+                <db>ldb</db>
+                <table>level_up_log</table>
+                <type>level_up_log</type>
+                <field>level_up_log</field>
+            </QueryUnit>
+            <QueryUnit name="任务查询(task_log)">
+                <db>ldb</db>
+                <table>task_log</table>
+                <type>task_log</type>
+                <field>task_log</field>
+            </QueryUnit>
+            <QueryUnit name="行为日志查询(behavior_log)">
+                <db>ldb</db>
+                <table>behavior_log</table>
+                <type>behavior_log</type>
+                <field>behavior_log</field>
+            </QueryUnit>
+            <QueryUnit name="重要宠物日志查询(important_pet_log)">
+                <db>ldb</db>
+                <table>important_pet_log</table>
+                <type>important_pet_log</type>
+                <field>important_pet_log</field>
+            </QueryUnit>
+            <QueryUnit name="apex_log查询">
+                <db>ldb</db>
+                <table>apex_log</table>
+                <type>apex_log</type>
+                <field>apex_log</field>
+            </QueryUnit>
+            <QueryUnit name="anti_cheater_log查询">
+                <db>ldb</db>
+                <table>anti_cheater_log</table>
+                <type>anti_cheater_log</type>
+                <field>anti_cheater_log</field>
+            </QueryUnit>
+            <QueryUnit name="report_log查询">
+                <db>ldb</db>
+                <table>report_log</table>
+                <type>report_log</type>
+                <field>report_log</field>
+            </QueryUnit>
+        </QueryGroup>
+        <QueryGroup name="操作查询类">
+            <QueryUnit name="商店查询">
+                <db>ddb</db>
+                <table>data</table>
+                <type>shop_ex</type>
+                <field>shop_ex</field>
+            </QueryUnit>
+        </QueryGroup>
+        <QueryGroup name="封号记录">
+            <QueryUnit name="封号记录">
+                <db>ldb</db>
+                <table>block_log</table>
+                <type>block_log</type>
+                <field>block_log</field>
+            </QueryUnit>
+        </QueryGroup>
+        <QueryGroup name="查询绑定的物品或宠物">
+            <QueryUnit name="查询绑定的物品或宠物">
+                <db>ldb</db>
+                <table>property_bind_log</table>
+                <type>property_bind_log</type>
+                <field>property_bind_log</field>
+            </QueryUnit>
+        </QueryGroup>
+        <QueryGroup name="GM操作">
+            <QueryUnit name="GM操作">
+                <db>ldb</db>
+                <table>gm_log</table>
+                <type>gm_log</type>
+                <field>gm_log</field>
+            </QueryUnit>
+        </QueryGroup>
+        <QueryGroup name="奇宝斋日志">
+            <QueryUnit name="奇宝斋交易成功日志">
+                <db>tdb</db>
+                <table>trading_record</table>
+                <type>trading_record</type>
+                <field>trading_record</field>
+            </QueryUnit>
+            <QueryUnit name="奇宝斋订单数据">
+                <db>tdb</db>
+                <table>treasure_info</table>
+                <type>treasure_info</type>
+                <field>treasure_info</field>
+            </QueryUnit>
+            <QueryUnit name="奇宝斋订单操作日志">
+                <db>tdb</db>
+                <table>trading_platform_log</table>
+                <type>trading_platform_log</type>
+                <field>trading_platform_log</field>
+            </QueryUnit>
+            <QueryUnit name="跨服奇宝斋交易成功日志">
+                <db>ctdb</db>
+                <table>trading_record</table>
+                <type>trading_record_ex</type>
+                <field>trading_record</field>
+            </QueryUnit>
+            <QueryUnit name="跨服奇宝斋订单数据">
+                <db>ctdb</db>
+                <table>treasure_info</table>
+                <type>treasure_info_ex</type>
+                <field>treasure_info</field>
+            </QueryUnit>
+            <QueryUnit name="跨服奇宝斋订单操作日志">
+                <db>ctdb</db>
+                <table>trading_platform_log</table>
+                <type>trading_platform_log_ex</type>
+                <field>trading_platform_log</field>
+            </QueryUnit>
+        </QueryGroup>
+        <QueryGroup name="查询强制解除认主">
+            <QueryUnit name="查询强制解除认主">
+                <db>ddb</db>
+                <table>admin_recognize</table>
+                <type>admin_recognize</type>
+                <field>admin_recognize</field>
+            </QueryUnit>
+        </QueryGroup>
+        <QueryGroup name="找回物品查询">
+            <QueryUnit name="找回物品查询">
+                <db>ddb</db>
+                <table>transfer_data</table>
+                <type>transfer_data</type>
+                <field>transfer_data</field>
+            </QueryUnit>
+        </QueryGroup>
+    </Query>
+</Root>

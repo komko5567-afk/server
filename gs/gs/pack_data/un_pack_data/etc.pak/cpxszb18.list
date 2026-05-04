@@ -1,0 +1,24 @@
+#FORM2
+#zhuangb.list
+#create by caijz 09/22/2706
+#奖励物品        概率
+
+[奖励等级]
+name$: 二等奖
+
+
+[二等奖]
+成功 : 100
+
+
+
+[成功]
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "成功1" })
+
+
+
+
+[成功1]
+name       : 瑶池演武铭牌
+attribs    : ({ "prop/all_polar", 5,"prop/all_attrib", 50,"prop/accurate", 100,"color", 金色, "durability", 10000, "source", #O瑶池演武铭牌#r#R独家定制, "extra_desc", #B所有相信 5 增加#r所有属性 50 增加#r准确 100 增加  })
+

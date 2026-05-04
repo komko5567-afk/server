@@ -1,0 +1,579 @@
+Sun Apr 12 04:22:47 2026 Error: compete ccs number less than league num
+Sun Apr 12 04:22:47 2026 Object: /csa/daemons/partywar/summary.c
+Sun Apr 12 04:22:47 2026 Current thread: "t2"(1)
+Sun Apr 12 04:22:47 2026 At EFUN: error in /csa/daemons/partywar/summary.c
+Sun Apr 12 04:22:47 2026 Argument 1 = "compete ccs number less than league num
+"
+Sun Apr 12 04:22:47 2026 
+Sun Apr 12 04:22:47 2026 At /csa/daemons/partywar/summary.c:37(dispatch_compete_ccs) in /csa/daemons/partywar/summary.c
+Sun Apr 12 04:22:47 2026 Argument league_ids = ({ /* sizeof() == 3 */
+    "LEAGUE3",
+    "LEAGUE1",
+    "LEAGUE2",
+})
+Sun Apr 12 04:22:47 2026 
+Sun Apr 12 04:22:47 2026 Argument compete_ccs_list = ([ /* sizeof() == 1 */
+    "ccs_pk" : ([ /* sizeof() == 10 */
+        "role" : 2796074,
+        "port" : 8012,
+        "memo" : "",
+        "ccs" : "ccs_pk",
+        "ip" : "115.29.161.155",
+        "dist" : "pk",
+        "server_key" : "",
+        "privilege" : "*",
+        "name" : "ccs_pk",
+        "id" : 1,
+    ]),
+])
+Sun Apr 12 04:22:47 2026 
+Sun Apr 12 04:22:47 2026 Variable <loop_1> = (undefined)
+Sun Apr 12 04:22:47 2026 
+Sun Apr 12 04:22:47 2026 Variable compete_ccs_config = (undefined)
+Sun Apr 12 04:22:47 2026 
+Sun Apr 12 04:22:47 2026 Variable arr_ccs = (undefined)
+Sun Apr 12 04:22:47 2026 
+Sun Apr 12 04:22:47 2026 Variable i = (undefined)
+Sun Apr 12 04:22:47 2026 
+Sun Apr 12 04:22:47 2026 At /csa/daemons/partywar/summary.c:342(make_season_summary) in /csa/daemons/partywar/summary.c
+Sun Apr 12 04:22:47 2026 Argument season_no = 1
+Sun Apr 12 04:22:47 2026 
+Sun Apr 12 04:22:47 2026 Argument basic_info = ([ /* sizeof() == 6 */
+    "dist_list" : ({ /* sizeof() == 39 */
+        "群星聚会",
+        "奇门遁甲",
+        "物华天宝",
+        "避暑山庄",
+        "北京古都",
+        "黄埔风云",
+        "乐山大佛",
+        "蜀南竹海",
+        "钱塘观潮",
+        "长白天池",
+        "牡丹花城",
+        "华山论剑",
+        "武当雄风",
+        "逐鹿中原",
+        "林海雪原",
+        "橘子洲头",
+        "万里长城",
+        "天府情缘",
+        "黄鹤楼",
+        "雪山飞狐",
+        "千里婵娟",
+        "落英缤纷",
+        "月满西楼",
+        "无双倾城",
+        "2012",
+        "2013",
+        "混沌初开",
+        "2014",
+        "霸者无双",
+        "雪战到底",
+        "2015",
+        "九九归一",
+        "纵横八荒",
+        "2016",
+        "斗战胜佛",
+        "齐天大圣",
+        "不忘初心",
+        "普天同庆",
+        "三生三世",
+    }),
+    "league_relegation" : 10,
+    "max_login_users_per_party" : 300,
+    "league_size_arr" : ({ /* sizeof() == 3 */
+        16,
+        16,
+        16,
+    }),
+    "league_count" : 3,
+    "room_count_per_gs" : 2,
+])
+Sun Apr 12 04:22:47 2026 
+Sun Apr 12 04:22:47 2026 Argument compete_ccs_list = ([ /* sizeof() == 1 */
+    "ccs_pk" : ([ /* sizeof() == 10 */
+        "role" : 2796074,
+        "port" : 8012,
+        "memo" : "",
+        "ccs" : "ccs_pk",
+        "ip" : "115.29.161.155",
+        "dist" : "pk",
+        "server_key" : "",
+        "privilege" : "*",
+        "name" : "ccs_pk",
+        "id" : 1,
+    ]),
+])
+Sun Apr 12 04:22:47 2026 
+Sun Apr 12 04:22:47 2026 Argument last_season_summary = (undefined)/Missed
+Sun Apr 12 04:22:47 2026 
+Sun Apr 12 04:22:47 2026 Variable <loop_1> = (undefined)
+Sun Apr 12 04:22:47 2026 
+Sun Apr 12 04:22:47 2026 Variable compete_ccs_config = (undefined)
+Sun Apr 12 04:22:47 2026 
+Sun Apr 12 04:22:47 2026 Variable league_draw = ([ /* sizeof() == 3 */
+    "LEAGUE3" : ({ /* sizeof() == 7 */
+        "纵横八荒",
+        "2016",
+        "斗战胜佛",
+        "齐天大圣",
+        "不忘初心",
+        "普天同庆",
+        "三生三世",
+    }),
+    "LEAGUE1" : ({ /* sizeof() == 16 */
+        "群星聚会",
+        "奇门遁甲",
+        "物华天宝",
+        "避暑山庄",
+        "北京古都",
+        "黄埔风云",
+        "乐山大佛",
+        "蜀南竹海",
+        "钱塘观潮",
+        "长白天池",
+        "牡丹花城",
+        "华山论剑",
+        "武当雄风",
+        "逐鹿中原",
+        "林海雪原",
+        "橘子洲头",
+    }),
+    "LEAGUE2" : ({ /* sizeof() == 16 */
+        "万里长城",
+        "天府情缘",
+        "黄鹤楼",
+        "雪山飞狐",
+        "千里婵娟",
+        "落英缤纷",
+        "月满西楼",
+        "无双倾城",
+        "2012",
+        "2013",
+        "混沌初开",
+        "2014",
+        "霸者无双",
+        "雪战到底",
+        "2015",
+        "九九归一",
+    }),
+])
+Sun Apr 12 04:22:47 2026 
+Sun Apr 12 04:22:47 2026 Variable league_summary = (undefined)
+Sun Apr 12 04:22:47 2026 
+Sun Apr 12 04:22:47 2026 Variable season_summary = ([ /* sizeof() == 7 */
+    "season_id" : "SEASON1",
+    "status" : "in_progress",
+    "league_count" : 3,
+    "league_size_arr" : ({ /* sizeof() == 3 */
+        16,
+        16,
+        16,
+    }),
+    "season_no" : 1,
+    "start_ranking" : ({ /* sizeof() == 39 */
+        "群星聚会",
+        "奇门遁甲",
+        "物华天宝",
+        "避暑山庄",
+        "北京古都",
+        "黄埔风云",
+        "乐山大佛",
+        "蜀南竹海",
+        "钱塘观潮",
+        "长白天池",
+        "牡丹花城",
+        "华山论剑",
+        "武当雄风",
+        "逐鹿中原",
+        "林海雪原",
+        "橘子洲头",
+        "万里长城",
+        "天府情缘",
+        "黄鹤楼",
+        "雪山飞狐",
+        "千里婵娟",
+        "落英缤纷",
+        "月满西楼",
+        "无双倾城",
+        "2012",
+        "2013",
+        "混沌初开",
+        "2014",
+        "霸者无双",
+        "雪战到底",
+        "2015",
+        "九九归一",
+        "纵横八荒",
+        "2016",
+        "斗战胜佛",
+        "齐天大圣",
+        "不忘初心",
+        "普天同庆",
+        "三生三世",
+    }),
+    "version" : 1,
+])
+Sun Apr 12 04:22:47 2026 
+Sun Apr 12 04:22:47 2026 Variable league_id = (undefined)
+Sun Apr 12 04:22:47 2026 
+Sun Apr 12 04:22:47 2026 Variable new_dist_list = ({ /* sizeof() == 39 */
+    "群星聚会",
+    "奇门遁甲",
+    "物华天宝",
+    "避暑山庄",
+    "北京古都",
+    "黄埔风云",
+    "乐山大佛",
+    "蜀南竹海",
+    "钱塘观潮",
+    "长白天池",
+    "牡丹花城",
+    "华山论剑",
+    "武当雄风",
+    "逐鹿中原",
+    "林海雪原",
+    "橘子洲头",
+    "万里长城",
+    "天府情缘",
+    "黄鹤楼",
+    "雪山飞狐",
+    "千里婵娟",
+    "落英缤纷",
+    "月满西楼",
+    "无双倾城",
+    "2012",
+    "2013",
+    "混沌初开",
+    "2014",
+    "霸者无双",
+    "雪战到底",
+    "2015",
+    "九九归一",
+    "纵横八荒",
+    "2016",
+    "斗战胜佛",
+    "齐天大圣",
+    "不忘初心",
+    "普天同庆",
+    "三生三世",
+})
+Sun Apr 12 04:22:47 2026 
+Sun Apr 12 04:22:47 2026 Variable start_ranking = ({ /* sizeof() == 39 */
+    "群星聚会",
+    "奇门遁甲",
+    "物华天宝",
+    "避暑山庄",
+    "北京古都",
+    "黄埔风云",
+    "乐山大佛",
+    "蜀南竹海",
+    "钱塘观潮",
+    "长白天池",
+    "牡丹花城",
+    "华山论剑",
+    "武当雄风",
+    "逐鹿中原",
+    "林海雪原",
+    "橘子洲头",
+    "万里长城",
+    "天府情缘",
+    "黄鹤楼",
+    "雪山飞狐",
+    "千里婵娟",
+    "落英缤纷",
+    "月满西楼",
+    "无双倾城",
+    "2012",
+    "2013",
+    "混沌初开",
+    "2014",
+    "霸者无双",
+    "雪战到底",
+    "2015",
+    "九九归一",
+    "纵横八荒",
+    "2016",
+    "斗战胜佛",
+    "齐天大圣",
+    "不忘初心",
+    "普天同庆",
+    "三生三世",
+})
+Sun Apr 12 04:22:47 2026 
+Sun Apr 12 04:22:47 2026 At /csa/daemons/partyward.c:638(set_cur_season_summary) in /csa/daemons/partyward.c
+Sun Apr 12 04:22:47 2026 Variable season_summary = (undefined)
+Sun Apr 12 04:22:47 2026 
+Sun Apr 12 04:22:47 2026 Variable content = (undefined)
+Sun Apr 12 04:22:47 2026 
+Sun Apr 12 04:22:47 2026 Variable name = (undefined)
+Sun Apr 12 04:22:47 2026 
+Sun Apr 12 04:22:47 2026 Variable new_season_no = 1
+Sun Apr 12 04:22:47 2026 
+Sun Apr 12 04:22:47 2026 Variable latest_season_no = 0
+Sun Apr 12 04:22:47 2026 
+Sun Apr 12 04:22:47 2026 Variable ret = (undefined)
+Sun Apr 12 04:22:47 2026 
+Sun Apr 12 04:22:47 2026 /csa/daemons/partyward.c::config_list = ([ /* sizeof() == 2 */
+    "basic" : ([ /* sizeof() == 6 */
+        "dist_list" : ({ /* sizeof() == 39 */
+            "群星聚会",
+            "奇门遁甲",
+            "物华天宝",
+            "避暑山庄",
+            "北京古都",
+            "黄埔风云",
+            "乐山大佛",
+            "蜀南竹海",
+            "钱塘观潮",
+            "长白天池",
+            "牡丹花城",
+            "华山论剑",
+            "武当雄风",
+            "逐鹿中原",
+            "林海雪原",
+            "橘子洲头",
+            "万里长城",
+            "天府情缘",
+            "黄鹤楼",
+            "雪山飞狐",
+            "千里婵娟",
+            "落英缤纷",
+            "月满西楼",
+            "无双倾城",
+            "2012",
+            "2013",
+            "混沌初开",
+            "2014",
+            "霸者无双",
+            "雪战到底",
+            "2015",
+            "九九归一",
+            "纵横八荒",
+            "2016",
+            "斗战胜佛",
+            "齐天大圣",
+            "不忘初心",
+            "普天同庆",
+            "三生三世",
+        }),
+        "league_relegation" : 10,
+        "max_login_users_per_party" : 300,
+        "league_size_arr" : ({ /* sizeof() == 3 */
+            16,
+            16,
+            16,
+        }),
+        "league_count" : 3,
+        "room_count_per_gs" : 2,
+    ]),
+    "time" : ([ /* sizeof() == 33 */
+        "interval_for_pre_end" : 60,
+        "notice_time_for_pre_start_w_p" : 900,
+        "start_time" : "2015-10-05-21:00:00",
+        "interval_for_login" : 900,
+        "interval_for_pre_start_w_p" : 180,
+        "end_to_close" : 900,
+        "interval_for_pre_start_w" : 300,
+        "notice_time_for_end_w" : 60,
+        "match_duration" : 7200,
+        "interval_for_end" : 15,
+        "notice_time_for_pre_end_w" : 300,
+        "notice_time_for_close" : 300,
+        "interval_for_end_w" : 15,
+        "notice_time_for_pre_end" : 300,
+        "notice_time_for_game_on" : 7200,
+        "interval_for_game_on" : 600,
+        "season_period" : 2,
+        "interval_for_pre_st
+Sun Apr 12 04:22:47 2026 
+Sun Apr 12 04:22:47 2026 /csa/daemons/partyward.c::cur_season_summary = ([ ])
+Sun Apr 12 04:22:47 2026 
+Sun Apr 12 04:22:47 2026 At /csa/daemons/partyward.c:400(go_forward) in /csa/daemons/partyward.c
+Sun Apr 12 04:22:47 2026 /csa/daemons/partyward.c::cur_season_summary = ([ ])
+Sun Apr 12 04:22:47 2026 
+Sun Apr 12 04:22:47 2026 /csa/daemons/partyward.c::cur_season_fixtures = ([ ])
+Sun Apr 12 04:22:47 2026 
+Sun Apr 12 04:22:47 2026 /csa/daemons/partyward.c::cur_season_matches = ([ ])
+Sun Apr 12 04:22:47 2026 
+Sun Apr 12 04:22:47 2026 At /csa/daemons/partyward.c:246(do_init) in /csa/daemons/partyward.c
+Sun Apr 12 04:22:47 2026 Variable config = ([ /* sizeof() == 2 */
+    "basic" : ([ /* sizeof() == 6 */
+        "dist_list" : ({ /* sizeof() == 39 */
+            "群星聚会",
+            "奇门遁甲",
+            "物华天宝",
+            "避暑山庄",
+            "北京古都",
+            "黄埔风云",
+            "乐山大佛",
+            "蜀南竹海",
+            "钱塘观潮",
+            "长白天池",
+            "牡丹花城",
+            "华山论剑",
+            "武当雄风",
+            "逐鹿中原",
+            "林海雪原",
+            "橘子洲头",
+            "万里长城",
+            "天府情缘",
+            "黄鹤楼",
+            "雪山飞狐",
+            "千里婵娟",
+            "落英缤纷",
+            "月满西楼",
+            "无双倾城",
+            "2012",
+            "2013",
+            "混沌初开",
+            "2014",
+            "霸者无双",
+            "雪战到底",
+            "2015",
+            "九九归一",
+            "纵横八荒",
+            "2016",
+            "斗战胜佛",
+            "齐天大圣",
+            "不忘初心",
+            "普天同庆",
+            "三生三世",
+        }),
+        "league_relegation" : 10,
+        "max_login_users_per_party" : 300,
+        "league_size_arr" : ({ /* sizeof() == 3 */
+            16,
+            16,
+            16,
+        }),
+        "league_count" : 3,
+        "room_count_per_gs" : 2,
+    ]),
+    "time" : ([ /* sizeof() == 33 */
+        "interval_for_pre_end" : 60,
+        "notice_time_for_pre_start_w_p" : 900,
+        "start_time" : "2015-10-05-21:00:00",
+        "interval_for_login" : 900,
+        "interval_for_pre_start_w_p" : 180,
+        "end_to_close" : 900,
+        "interval_for_pre_start_w" : 300,
+        "notice_time_for_end_w" : 60,
+        "match_duration" : 7200,
+        "interval_for_end" : 15,
+        "notice_time_for_pre_end_w" : 300,
+        "notice_time_for_close" : 300,
+        "interval_for_end_w" : 15,
+        "notice_time_for_pre_end" : 300,
+        "notice_time_for_game_on" : 7200,
+        "interval_for_game_on" : 600,
+        "season_period" : 2,
+        "interval_for_pre_start" : 300,
+        "i
+Sun Apr 12 04:22:47 2026 
+Sun Apr 12 04:22:47 2026 /csa/daemons/partyward.c::config_list = ([ /* sizeof() == 2 */
+    "basic" : ([ /* sizeof() == 6 */
+        "dist_list" : ({ /* sizeof() == 39 */
+            "群星聚会",
+            "奇门遁甲",
+            "物华天宝",
+            "避暑山庄",
+            "北京古都",
+            "黄埔风云",
+            "乐山大佛",
+            "蜀南竹海",
+            "钱塘观潮",
+            "长白天池",
+            "牡丹花城",
+            "华山论剑",
+            "武当雄风",
+            "逐鹿中原",
+            "林海雪原",
+            "橘子洲头",
+            "万里长城",
+            "天府情缘",
+            "黄鹤楼",
+            "雪山飞狐",
+            "千里婵娟",
+            "落英缤纷",
+            "月满西楼",
+            "无双倾城",
+            "2012",
+            "2013",
+            "混沌初开",
+            "2014",
+            "霸者无双",
+            "雪战到底",
+            "2015",
+            "九九归一",
+            "纵横八荒",
+            "2016",
+            "斗战胜佛",
+            "齐天大圣",
+            "不忘初心",
+            "普天同庆",
+            "三生三世",
+        }),
+        "league_relegation" : 10,
+        "max_login_users_per_party" : 300,
+        "league_size_arr" : ({ /* sizeof() == 3 */
+            16,
+            16,
+            16,
+        }),
+        "league_count" : 3,
+        "room_count_per_gs" : 2,
+    ]),
+    "time" : ([ /* sizeof() == 33 */
+        "interval_for_pre_end" : 60,
+        "notice_time_for_pre_start_w_p" : 900,
+        "start_time" : "2015-10-05-21:00:00",
+        "interval_for_login" : 900,
+        "interval_for_pre_start_w_p" : 180,
+        "end_to_close" : 900,
+        "interval_for_pre_start_w" : 300,
+        "notice_time_for_end_w" : 60,
+        "match_duration" : 7200,
+        "interval_for_end" : 15,
+        "notice_time_for_pre_end_w" : 300,
+        "notice_time_for_close" : 300,
+        "interval_for_end_w" : 15,
+        "notice_time_for_pre_end" : 300,
+        "notice_time_for_game_on" : 7200,
+        "interval_for_game_on" : 600,
+        "season_period" : 2,
+        "interval_for_pre_st
+Sun Apr 12 04:22:47 2026 
+Sun Apr 12 04:22:47 2026 At /util/global_init.c:233(post_init) in global
+Sun Apr 12 04:22:47 2026 Variable <loop_1> = <LoopCtrl>
+Sun Apr 12 04:22:47 2026 
+Sun Apr 12 04:22:47 2026 Variable funcs = ({ /* sizeof() == 20 */
+    (: do_init_after_loaded@/feature/common/module_maintain.c :),
+    (: init@/daemons/ctacommandd.c :),
+    (: init@/daemons/scheduled.c :),
+    (: do_init_after_loaded@/daemons/mmd.c :),
+    (: init@/daemons/logd.c :),
+    (: do_init@/csa/daemons/score_wishingd.c :),
+    (: do_init@/csa/daemons/lottery_ticketd.c :),
+    (: do_init@/csa/daemons/commond.c :),
+    (: do_init@/csa/daemons/share_datad.c :),
+    (: do_init@/csa/daemons/activity/login.c :),
+    (: do_init@/csa/daemons/share_sortd.c :),
+    (: do_init@/csa/daemons/shidao_dahuid.c :),
+    (: do_init@/csa/daemons/draftd.c :),
+    (: do_init@/csa/daemons/citywar/login.c :),
+    (: do_init@/csa/daemons/cityward.c :),
+    (: do_init@/csa/daemons/melt_elixird.c :),
+    (: do_init@/csa/daemons/leagued.c :),
+    (: do_init@/csa/daemons/serverd.c :),
+    (: do_init@/csa/daemons/partyward.c :),
+    (: do_init_after_loaded@/csa/daemons/configd.c :),
+})
+Sun Apr 12 04:22:47 2026 
+Sun Apr 12 04:22:47 2026 Variable f = (: do_init@/csa/daemons/partyward.c :)
+Sun Apr 12 04:22:47 2026 
+Sun Apr 12 04:22:47 2026 global::_post_init_funcs = ({ })
+Sun Apr 12 04:22:47 2026 
+Sun Apr 12 04:22:47 2026 Call from /csa/start_csa.c:129
+Sun Apr 12 04:22:47 2026 Driver startup

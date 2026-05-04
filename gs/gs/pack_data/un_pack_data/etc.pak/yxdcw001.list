@@ -1,0 +1,147 @@
+#FORM2
+#jinnang.list
+#create by caijz 09/18/2006
+#½±ÀøÎïÆ·        ¸ÅÂÊ
+
+[½±ÀøµÈ¼¶]
+name$: Ä©µÈ½±
+
+[Ä©µÈ½±]
+Ëæ»ú±äÒì : 3000
+
+
+[Ëæ»ú±äÒì]
+bonus$:  ({ 0, 0, 100, "³èÎï", 1, 1, "ÁæÀşÊó", "±¿±¿Å£", "ÍşÍş»¢", "ÌøÌøÍÃ", "¿á¿áÁú", "»¨»¨Éß", "ÁïÁïÂí", "ßãßãÑò", "Ë§Ë§ºï", "µ°µ°¼¦", "¹Ô¹Ô¹·", "ÕĞ²ÆÖí"})
+
+[ÕĞ²ÆÖí]
+name$: ({ ÕĞ²ÆÖí, ÕĞ²ÆÖí })
+rank$: ±äÒì
+level: 60
+life_effect: ({ 75, 75 })
+mana_effect: ({ 35, 35 })
+speed_effect: ({ 5, 5 })
+phy_effect: ({ -40, -40 })
+mag_effect: ({ 25, 25 })
+
+
+[ÁæÀşÊó]
+name$: ({ ÁæÀşÊó, ÁæÀşÊó })
+rank$: ±äÒì
+level: 60
+life_effect: ({ 60, 60 })
+mana_effect: ({ 10, 10 })
+speed_effect: ({ 40, 40 })
+phy_effect: ({ -40, -40 })
+mag_effect: ({ 30, 30 })
+
+
+[±¿±¿Å£]
+name$: ({ ±¿±¿Å£, ±¿±¿Å£ })
+rank$: ±äÒì
+level: 60
+life_effect: ({ 70, 70 })
+mana_effect: ({ -10, -10 })
+speed_effect: ({ 00, 00 })
+phy_effect: ({ 70, 70 })
+mag_effect: ({ -30, -30 })
+
+
+[ÍşÍş»¢]
+name$: ({ ÍşÍş»¢, ÍşÍş»¢ })
+rank$: ±äÒì
+level: 60
+life_effect: ({ 50, 50 })
+mana_effect: ({ -10, -10 })
+speed_effect: ({ 10, 10 })
+phy_effect: ({ 80, 80 })
+mag_effect: ({ -30, -30 })
+
+
+[ÌøÌøÍÃ]
+name$: ({ ÌøÌøÍÃ, ÌøÌøÍÃ })
+rank$: ±äÒì
+level: 60
+life_effect: ({ 60, 60 })
+mana_effect: ({ 15, 15 })
+speed_effect: ({ 20, 20 })
+phy_effect: ({ -40, -40 })
+mag_effect: ({ 45, 45 })
+
+
+[¿á¿áÁú]
+name$: ({ ¿á¿áÁú, ¿á¿áÁú })
+rank$: ±äÒì
+level: 60
+life_effect: ({ 60, 60 })
+mana_effect: ({ 15, 15 })
+speed_effect: ({ 20, 20 })
+phy_effect: ({ -40, -40 })
+mag_effect: ({ 45, 45 })
+
+
+[»¨»¨Éß]
+name$: ({ »¨»¨Éß, »¨»¨Éß })
+rank$: ±äÒì
+level: 60
+life_effect: ({ 60, 60 })
+mana_effect: ({ 20, 20 })
+speed_effect: ({ 25, 25 })
+phy_effect: ({ -40, -40 })
+mag_effect: ({ 35, 35 })
+
+
+[ÁïÁïÂí]
+name$: ({ ÁïÁïÂí, ÁïÁïÂí })
+rank$: ±äÒì
+level: 60
+life_effect: ({ 65, 65 })
+mana_effect: ({ -10, -10 })
+speed_effect: ({ 25, 25 })
+phy_effect: ({ 50, 50 })
+mag_effect: ({ -30, -30 })
+
+
+[ßãßãÑò]
+name$: ({ ßãßãÑò, ßãßãÑò })
+rank$: ±äÒì
+level: 60
+life_effect: ({ 70, 70 })
+mana_effect: ({ 20, 20 })
+speed_effect: ({ 15, 15 })
+phy_effect: ({ -40, -40 })
+mag_effect: ({ 35, 35 })
+
+
+[Ë§Ë§ºï]
+name$: ({ Ë§Ë§ºï, Ë§Ë§ºï })
+rank$: ±äÒì
+level: 60
+life_effect: ({ 55, 55 })
+mana_effect: ({ -10, -10 })
+speed_effect: ({ 35, 35 })
+phy_effect: ({ 50, 50 })
+mag_effect: ({ -30, -30 })
+
+
+[µ°µ°¼¦]
+name$: ({ µ°µ°¼¦, µ°µ°¼¦ })
+rank$: ±äÒì
+level: 60
+life_effect: ({ 65, 65 })
+mana_effect: ({ 10, 10 })
+speed_effect: ({ 35, 35 })
+phy_effect: ({ -40, -40 })
+mag_effect: ({ 30, 30 })
+
+
+[¹Ô¹Ô¹·]
+name$: ({ ¹Ô¹Ô¹·, ¹Ô¹Ô¹· })
+rank$: ±äÒì
+level: 60
+life_effect: ({ 60, 60 })
+mana_effect: ({ -10, -10 })
+speed_effect: ({ 20, 20 })
+phy_effect: ({ 60, 60 })
+mag_effect: ({ -30, -30 })
+
+

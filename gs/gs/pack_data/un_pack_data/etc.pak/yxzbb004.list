@@ -1,0 +1,132 @@
+#FORM2
+#zhuangb.list
+#create by caijz 09/18/2006
+#奖励物品        概率
+
+[奖励等级]
+name$: 特等奖
+
+
+[特等奖]
+金系装备奖励 : 100
+
+
+[金系装备奖励]
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "白玉冠2" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "凤尾钗2" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "金丝甲2" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "水合袍2" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "亮银靴2" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "锁紫圈2" })
+
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "霹雳锤5"})
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "百花扇5" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "昆吾剑5" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "骷髅爪5" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "寒风枪5" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "黑煞斧5" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "鬼符寒弓5" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "断首双戟5" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "玄冥拳套5" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "毒匕寒月刃5" })
+
+[黑煞斧5]
+name      : 黑煞斧
+min_level : 60
+max_level : 60
+attribs      : ({ "prop/all_polar", 5, "prop/all_skill", 10, "prop/ignore_all_resist_except", 20, "prop2/ignore_all_resist_except", 20, "prop2/all_skill", 10, "prop_seal/super_obstruct",15, "prop_seal_base/max_life", 1194, "seal_flag", 1 ,"color", 金色,"rebuild_level", 0  })
+
+[鬼符寒弓5]
+name      : 鬼符寒弓
+min_level : 60
+max_level : 60
+attribs      : ({ "prop/all_polar", 5, "prop/all_skill", 10, "prop/ignore_all_resist_except", 20, "prop2/ignore_all_resist_except", 20, "prop2/all_skill", 10, "prop_seal/super_obstruct",15, "prop_seal_base/max_life", 1194, "seal_flag", 1 ,"color", 金色,"rebuild_level", 0  })
+
+[断首双戟5]
+name      : 断首双戟
+min_level : 60
+max_level : 60
+attribs      : ({ "prop/all_polar", 5, "prop/all_skill", 10, "prop/ignore_all_resist_except", 20, "prop2/ignore_all_resist_except", 20, "prop2/all_skill", 10, "prop_seal/super_obstruct",15, "prop_seal_base/max_life", 1194, "seal_flag", 1 ,"color", 金色,"rebuild_level", 0  })
+
+[玄冥拳套5]
+name      : 玄冥拳套
+min_level : 60
+max_level : 60
+attribs      : ({ "prop/all_polar", 5, "prop/all_skill", 10, "prop/ignore_all_resist_except", 20, "prop2/ignore_all_resist_except", 20, "prop2/all_skill", 10, "prop_seal/super_obstruct",15, "prop_seal_base/max_life", 1194, "seal_flag", 1 ,"color", 金色,"rebuild_level", 0  })
+
+[毒匕寒月刃5]
+name      : 毒匕寒月刃
+min_level : 60
+max_level : 60
+attribs      : ({ "prop/all_polar", 5, "prop/all_skill", 10, "prop/ignore_all_resist_except", 20, "prop2/ignore_all_resist_except", 20, "prop2/all_skill", 10, "prop_seal/super_obstruct",15, "prop_seal_base/max_life", 1194, "seal_flag", 1 ,"color", 金色,"rebuild_level", 0  })
+
+[霹雳锤5]
+name      : 霹雳锤
+min_level : 60
+max_level : 60
+attribs      : ({ "prop/all_polar", 5, "prop/all_skill", 10, "prop/ignore_all_resist_except", 20, "prop2/ignore_all_resist_except", 20, "prop2/all_skill", 10, "prop_seal/super_obstruct",15, "prop_seal_base/max_life", 1194, "seal_flag", 1 ,"color", 金色,"rebuild_level", 0  })
+
+[百花扇5]
+name      : 百花扇
+min_level : 60
+max_level : 60
+attribs      : ({ "prop/all_polar", 5, "prop/all_skill", 10, "prop/ignore_all_resist_except", 20, "prop2/ignore_all_resist_except", 20, "prop2/all_skill", 10, "prop_seal/super_obstruct",15, "prop_seal_base/max_life", 1194, "seal_flag", 1 ,"color", 金色,"rebuild_level", 0  })
+
+[昆吾剑5]
+name      : 昆吾剑
+min_level : 60
+max_level : 60
+attribs      : ({ "prop/all_polar", 5, "prop/all_skill", 10, "prop/ignore_all_resist_except", 20, "prop2/ignore_all_resist_except", 20, "prop2/all_skill", 10, "prop_seal/super_obstruct",15, "prop_seal_base/max_life", 1194, "seal_flag", 1 ,"color", 金色,"rebuild_level", 0  })
+
+[骷髅爪5]
+name      : 骷髅爪
+min_level : 60
+max_level : 60
+attribs      : ({ "prop/all_polar", 5, "prop/all_skill", 10, "prop/ignore_all_resist_except", 20, "prop2/ignore_all_resist_except", 20, "prop2/all_skill", 10, "prop_seal/super_obstruct",15, "prop_seal_base/max_life", 1194, "seal_flag", 1 ,"color", 金色,"rebuild_level", 0  })
+
+[寒风枪5]
+name      : 寒风枪
+min_level : 60
+max_level : 60
+attribs      : ({ "prop/all_polar", 5, "prop/all_skill", 10, "prop/ignore_all_resist_except", 20, "prop2/ignore_all_resist_except", 20, "prop2/all_skill", 10, "prop_seal/super_obstruct",15, "prop_seal_base/max_life", 1194, "seal_flag", 1 ,"color", 金色,"rebuild_level", 0  })
+
+
+
+
+[白玉冠2]
+name      : 白玉冠
+min_level : 60
+max_level : 60
+attribs      : ({ "prop/all_attrib", 12, "prop/dex", 15, "prop/all_resist_except", 15, "prop2/all_attrib", 12, "prop2/dex", 15, "prop_seal/super_obstruct",15, "prop_seal_base/max_life", 1194,  "seal_flag", 1 ,"color", 金色,"rebuild_level", 0  })
+
+[亮银靴2]
+name      : 亮银靴
+min_level : 60
+max_level : 60
+attribs      : ({ "prop/all_attrib", 12, "prop/dex", 15, "prop/speed", 80, "prop2/all_attrib", 12, "prop2/dex", 15, "prop_seal/super_obstruct",15, "prop_seal_base/max_life", 1194,  "seal_flag", 1 ,"color", 金色,"rebuild_level", 0  })
+
+[凤尾钗2]
+name      : 凤尾钗
+min_level : 60
+max_level : 60
+attribs      : ({ "prop/all_attrib", 12, "prop/dex", 15, "prop/all_resist_except", 15, "prop2/all_attrib", 12, "prop2/dex", 15, "prop_seal/super_obstruct",15, "prop_seal_base/max_life", 1194,  "seal_flag", 1 ,"color", 金色,"rebuild_level", 0  })
+
+[金丝甲2]
+name      : 金丝甲
+min_level : 60
+max_level : 60
+attribs      : ({ "prop/all_attrib", 12, "prop/dex", 15, "prop/all_resist_except", 15, "prop2/all_attrib", 12, "prop2/dex", 15, "prop_seal/super_obstruct",15, "prop_seal_base/max_life", 1194,  "seal_flag", 1 ,"color", 金色,"rebuild_level", 0  })
+
+[水合袍2]
+name      : 水合袍
+min_level : 60
+max_level : 60
+attribs      : ({ "prop/all_attrib", 12, "prop/dex", 15, "prop/all_resist_except", 15, "prop2/all_attrib", 12, "prop2/dex", 15, "prop_seal/super_obstruct",15, "prop_seal_base/max_life", 1194,  "seal_flag", 1 ,"color", 金色,"rebuild_level", 0  })
+
+
+[锁紫圈2]
+name      : 锁紫圈
+min_level : 60
+max_level : 60
+attribs      : ({ "prop/all_attrib", 12, "prop/dex", 15, "prop/base_dodge", 80, "prop2/all_attrib", 12, "prop2/dex", 15, "prop_seal/super_obstruct",15, "prop_seal_base/max_life", 1194,  "seal_flag", 1 ,"color", 金色,"rebuild_level", 0  })
+

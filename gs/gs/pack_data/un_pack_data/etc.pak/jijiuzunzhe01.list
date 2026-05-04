@@ -1,0 +1,22 @@
+#FORM2
+
+#dujiachoujianghuodong.list
+#created by huangw2 Aug/25/2008
+#独家抽奖游戏活动
+#自己兑换自己想要的东西，我只加了个神兽估计都懂
+
+[task_time]
+start_time : "2008-11-13-12:00:00"
+maf_time$ :  ({ "2008-11-13-12:00:00", "2023-08-23-12:00:00" })
+
+
+[兑换奖励]
+rate : 1
+name$ : 兑换奖励
+log_to_db:  100
+free_pet:   ({ 1, "你携带的宠物数量已到最大，无法领取奖励。" })
+bonus$ : ({ 0, 0, 100, "祭酒称谓#非卖品", 1, 1 })
+bonus$ :  ({ 0, 0, 100, "潜能", 1, 1, "channel_system: #G$PLAYER#n提交了20瓶#R祭酒#n给与#Y#P祭酒尊者#P#n后获得了#R强力属性称号#n。" })
+bonus_times : -1
+
+

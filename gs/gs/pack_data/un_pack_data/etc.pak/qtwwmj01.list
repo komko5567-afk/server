@@ -1,0 +1,155 @@
+#FORM2
+#jinnang.list
+#create by caijz 09/18/2006
+#奖励物品        概率
+
+[奖励等级]
+name$: 特等奖
+
+
+[特等奖]
+娃娃秘籍奖励1 : 100
+
+
+[娃娃秘籍奖励1]
+bonus$ : ({ 0, 0, 100, "属性道具", 1, 1, "秘笈1"})
+bonus$ : ({ 0, 0, 100, "属性道具", 1, 1, "秘笈2"})
+bonus$ : ({ 0, 0, 100, "属性道具", 1, 1, "秘笈3"})
+bonus$ : ({ 0, 0, 100, "属性道具", 1, 1, "秘笈4"})
+bonus$ : ({ 0, 0, 100, "属性道具", 1, 1, "秘笈5"})
+bonus$ : ({ 0, 0, 100, "属性道具", 1, 1, "秘笈6"})
+bonus$ : ({ 0, 0, 100, "属性道具", 1, 1, "秘笈7"})
+bonus$ : ({ 0, 0, 100, "属性道具", 1, 1, "秘笈8"})
+bonus$ : ({ 0, 0, 100, "属性道具", 1, 1, "秘笈9"})
+bonus$ : ({ 0, 0, 100, "属性道具", 1, 1, "秘笈10"})
+bonus$ : ({ 0, 0, 100, "属性道具", 1, 1, "秘笈11"})
+bonus$ : ({ 0, 0, 100, "属性道具", 1, 1, "秘笈12"})
+bonus$ : ({ 0, 0, 100, "属性道具", 1, 1, "秘笈13"})
+bonus$ : ({ 0, 0, 100, "属性道具", 1, 1, "秘笈14"})
+bonus$ : ({ 0, 0, 100, "属性道具", 1, 1, "秘笈15"})
+bonus$ : ({ 0, 0, 100, "属性道具", 1, 1, "秘笈16"})
+bonus$ : ({ 0, 0, 100, "属性道具", 1, 1, "秘笈17"})
+bonus$ : ({ 0, 0, 100, "属性道具", 1, 1, "秘笈18"})
+bonus$ : ({ 0, 0, 100, "属性道具", 1, 1, "秘笈19"})
+bonus$ : ({ 0, 0, 100, "属性道具", 1, 1, "秘笈20"})
+bonus$ : ({ 0, 0, 100, "属性道具", 1, 1, "秘笈21"})
+bonus$ : ({ 0, 0, 100, "属性道具", 1, 1, "秘笈22"})
+bonus$ : ({ 0, 0, 100, "属性道具", 1, 1, "秘笈23"})
+bonus$ : ({ 0, 0, 100, "属性道具", 1, 1, "秘笈24"})
+bonus$ : ({ 0, 0, 100, "属性道具", 1, 1, "秘笈25"})
+bonus$ : ({ 0, 0, 100, "属性道具", 1, 1, "秘笈26"})
+bonus$ : ({ 0, 0, 100, "属性道具", 1, 1, "秘笈27"})
+bonus$ : ({ 0, 0, 100, "属性道具", 1, 1, "秘笈28"})
+
+
+[秘笈1]
+name      : 秘笈·忽视金系抗性
+attribs      : ({ "prop/child_ir_metal", 30,"color", 金色 })
+
+[秘笈2]
+name      : 秘笈·忽视木系抗性
+attribs      : ({ "prop/child_ir_wood", 30,"color", 金色 })
+
+[秘笈3]
+name      : 秘笈·忽视水系抗性
+attribs      : ({ "prop/child_ir_water", 30,"color", 金色 })
+
+[秘笈4]
+name      : 秘笈·忽视火系抗性
+attribs      : ({ "prop/child_ir_fire", 30,"color", 金色 })
+
+[秘笈5]
+name      : 秘笈·忽视土系抗性
+attribs      : ({ "prop/child_ir_earth", 30,"color", 金色 })
+
+[秘笈6]
+name      : 秘笈·忽视防御
+attribs      : ({ "prop/child_ignore_def", 40,"color", 金色 })
+
+[秘笈7]
+name      : 秘笈·力气
+attribs      : ({ "prop/child_str", 30,"color", 金色 })
+
+[秘笈8]
+name      : 秘笈·智慧
+attribs      : ({ "prop/child_wisdom", 30,"color", 金色 })
+
+[秘笈9]
+name      : 秘笈·物理必杀
+attribs      : ({ "prop/child_phy_stunt", 30,"color", 金色 })
+
+[秘笈10]
+name      : 秘笈·法术必杀
+attribs      : ({ "prop/child_mag_stunt", 30,"color", 金色 })
+
+[秘笈11]
+name      : 秘笈·怒气要求减少
+attribs      : ({ "prop/child_rr_anger", 15,"color", 金色 })
+
+[秘笈12]
+name      : 秘笈·怒气获得增加
+attribs      : ({ "prop/child_ig_anger", 5,"color", 金色 })
+
+[秘笈13]
+name      : 秘笈·化解金系伤害
+attribs      : ({ "prop/child_ir_metal", 30,"color", 金色 })
+
+[秘笈14]
+name      : 秘笈·化解木系伤害
+attribs      : ({ "prop/child_ir_metal", 30,"color", 金色 })
+
+[秘笈15]
+name      : 秘笈·化解水系伤害
+attribs      : ({ "prop/child_ir_metal", 30,"color", 金色 })
+
+[秘笈16]
+name      : 秘笈·化解火系伤害
+attribs      : ({ "prop/child_ir_metal", 30,"color", 金色 })
+
+[秘笈17]
+name      : 秘笈·化解土系伤害
+attribs      : ({ "prop/child_ir_metal", 30,"color", 金色 })
+
+[秘笈18]
+name      : 秘笈·体魄
+attribs      : ({ "color", 金色 })
+
+[秘笈19]
+name      : 秘笈·灵敏
+attribs      : ({ "color", 金色 })
+
+[秘笈20]
+name      : 绝技·道法归宗
+attribs      : ({ "color", 金色 })
+
+[秘笈21]
+name      : 绝技·裂地
+attribs      : ({ "color", 金色 })
+
+[秘笈22]
+name      : 绝技·销声匿迹
+attribs      : ({ "color", 金色 })
+
+[秘笈23]
+name      : 绝技·中流砥柱
+attribs      : ({ "color", 金色 })
+
+[秘笈24]
+name      : 绝技·回生
+attribs      : ({ "color", 金色 })
+
+[秘笈25]
+name      : 变身绝技·以己渡人
+attribs      : ({ "color", 金色 })
+
+[秘笈26]
+name      : 变身绝技·合力破敌
+attribs      : ({ "color", 金色 })
+
+[秘笈27]
+name      : 变身绝技·急速舍身
+attribs      : ({ "color", 金色 })
+
+[秘笈28]
+name      : 变身绝技·天道合一
+attribs      : ({ "color", 金色 })

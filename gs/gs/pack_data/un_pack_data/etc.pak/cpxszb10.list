@@ -1,0 +1,62 @@
+#FORM2
+#jinnang.list
+#create by caijz 09/18/2006
+#奖励物品        概率
+
+[奖励等级]
+name$: 特等奖
+
+[特等奖]
+奖励1 : 3000
+
+
+[奖励1]
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "法宝1"})
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "法宝2"})
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "法宝3"})
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "法宝4"})
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "法宝5"})
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "法宝6"})
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "法宝7"})
+
+[法宝1]
+name      : 混元金斗
+min_level : 24
+max_level : 24
+attribs      : ({ "item_polar", 5,"extra_skill", "qinmi_wujian", "extra_skill_level", 24, "upgraded", 1, "icon", 1436,"prop/all_polar", 5,  "nimbus", 2100000000,"extra_desc", #G顶级法宝#r#B所有相性 5 增加 #n#r#Y注意：#R此法宝不可继承等级#r#O提示:继承后果自行承担 })
+
+[法宝2]
+name      : 定海珠
+min_level : 24
+max_level : 24
+attribs      : ({"item_polar", 3, "extra_skill", "qinmi_wujian", "extra_skill_level", 24, "upgraded", 1, "icon", 1435,"prop/all_polar", 5,  "nimbus", 2100000000,"extra_desc", #G顶级法宝#r#B所有相性 5 增加 #n#r#Y注意：#R此法宝不可继承等级#r#O提示:继承后果自行承担 })
+
+[法宝3]
+name      : 金蛟剪
+min_level : 24
+max_level : 24
+attribs      : ({ "item_polar", 5,"extra_skill", "qinmi_wujian", "extra_skill_level", 24, "upgraded", 1, "icon", 1437,"prop/all_polar", 5,  "nimbus", 2100000000,"extra_desc", #G顶级法宝#r#B所有相性 5 增加 #n#r#Y注意：#R此法宝不可继承等级#r#O提示:继承后果自行承担 })
+
+[法宝4]
+name      : 卸甲金葫
+min_level : 24
+max_level : 24
+attribs      : ({ "item_polar", 4,"extra_skill", "qinmi_wujian", "extra_skill_level", 24, "upgraded", 1, "icon", 1439,"prop/all_polar", 5,  "nimbus", 2100000000,"extra_desc", #G顶级法宝#r#B所有相性 5 增加 #n#r#Y注意：#R此法宝不可继承等级#r#O提示:继承后果自行承担 })
+
+[法宝5]
+name      : 番天印
+min_level : 24
+max_level : 24
+attribs      : ({"item_polar", 1, "extra_skill", "qinmi_wujian", "extra_skill_level", 24, "upgraded", 1, "icon", 1441,"prop/all_polar", 5,  "nimbus", 2100000000,"extra_desc", #G顶级法宝#r#B所有相性 5 增加 #n#r#Y注意：#R此法宝不可继承等级#r#O提示:继承后果自行承担  })
+
+[法宝6]
+name      : 混沌钟
+min_level : 24
+max_level : 24
+attribs      : ({ "item_polar", 1,"extra_skill", "qinmi_wujian", "extra_skill_level", 24, "upgraded", 1, "icon", 1448,"prop/all_polar", 5,  "nimbus", 2100000000,"extra_desc", #G顶级法宝#r#B所有相性 5 增加 #n#r#Y注意：#R此法宝不可继承等级#r#O提示:继承后果自行承担 })
+
+[法宝7]
+name      : 阴阳镜
+min_level : 24
+max_level : 24
+attribs      : ({ "item_polar", 5,"extra_skill", "qinmi_wujian", "extra_skill_level", 24, "upgraded", 1, "icon", 1576,"prop/all_polar", 5,  "nimbus", 2100000000,"extra_desc", #G顶级法宝#r#B所有相性 5 增加 #n#r#Y注意：#R此法宝不可继承等级#r#O提示:继承后果自行承担 })

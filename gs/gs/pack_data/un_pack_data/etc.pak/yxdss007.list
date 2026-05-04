@@ -1,0 +1,119 @@
+#FORM2
+#jinnang.list
+#create by caijz 09/18/2006
+#奖励物品        概率
+
+[奖励等级]
+name$: 特等奖
+
+[特等奖]
+所相1首饰 : 300
+所相2首饰 : 100
+所相3首饰 : 10
+所相4首饰 : 2
+所相5首饰 : 1
+
+[所相1首饰]
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "天机锁链1", "七龙珠1", "闭月双环1" }) 
+
+[所相2首饰]
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "天机锁链2", "七龙珠2", "闭月双环2" }) 
+
+[所相3首饰]
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "天机锁链3", "七龙珠3", "闭月双环3" }) 
+
+[所相4首饰]
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "天机锁链4", "七龙珠4", "闭月双环4" }) 
+
+[所相5首饰]
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "天机锁链5", "七龙珠5", "闭月双环5" }) 
+
+[天机锁链1]
+name      : 天机锁链
+min_level : 80
+max_level : 80
+attribs      : ({ "prop2/all_polar", 1 })
+
+[七龙珠1]
+name      : 七龙珠
+min_level : 80
+max_level : 80
+attribs      : ({ "prop2/all_polar", 1 })
+
+[闭月双环1]
+name      : 闭月双环
+min_level : 80
+max_level : 80
+attribs      : ({ "prop2/all_polar", 1 })
+
+[天机锁链2]
+name      : 天机锁链
+min_level : 80
+max_level : 80
+attribs      : ({ "prop2/all_polar", 2 })
+
+[七龙珠2]
+name      : 七龙珠
+min_level : 80
+max_level : 80
+attribs      : ({ "prop2/all_polar", 2 })
+
+[闭月双环2]
+name      : 闭月双环
+min_level : 80
+max_level : 80
+attribs      : ({ "prop2/all_polar", 2 })
+
+[天机锁链3]
+name      : 天机锁链
+min_level : 80
+max_level : 80
+attribs      : ({ "prop2/all_polar", 3 })
+
+[七龙珠3]
+name      : 七龙珠
+min_level : 80
+max_level : 80
+attribs      : ({ "prop2/all_polar", 3 })
+
+[闭月双环3]
+name      : 闭月双环
+min_level : 80
+max_level : 80
+attribs      : ({ "prop2/all_polar", 3 })
+
+[天机锁链4]
+name      : 天机锁链
+min_level : 80
+max_level : 80
+attribs      : ({ "prop2/all_polar", 4 })
+
+[七龙珠4]
+name      : 七龙珠
+min_level : 80
+max_level : 80
+attribs      : ({ "prop2/all_polar", 4 })
+
+[闭月双环4]
+name      : 闭月双环
+min_level : 80
+max_level : 80
+attribs      : ({ "prop2/all_polar", 4 })
+
+[天机锁链5]
+name      : 天机锁链
+min_level : 80
+max_level : 80
+attribs      : ({ "prop2/all_polar", 5 })
+
+[七龙珠5]
+name      : 七龙珠
+min_level : 80
+max_level : 80
+attribs      : ({ "prop2/all_polar", 5 })
+
+[闭月双环5]
+name      : 闭月双环
+min_level : 80
+max_level : 80
+attribs      : ({ "prop2/all_polar", 5 })

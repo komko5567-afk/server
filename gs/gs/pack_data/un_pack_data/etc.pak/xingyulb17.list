@@ -1,0 +1,315 @@
+#FORM2
+#zhuangb.list
+#create by caijz 09/18/2006
+#奖励物品        概率
+
+
+[奖励等级]
+name$: 特等奖
+
+[特等奖]
+武器一阶属性 : 300
+头盔一阶属性 : 300
+衣服一阶属性 : 300
+鞋子一阶属性 : 300
+腰带一阶属性 : 300
+
+
+[武器一阶属性]
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "武器一阶敏捷", "武器一阶所有技能", "武器一阶忽视所有抗性", "武器一阶忽视所有抗异常", "武器一阶伤害", "武器一阶金相性", "武器一阶木相性", "武器一阶水相性", "武器一阶火相性", "武器一阶土相性", "武器一阶所有相性" })
+
+[头盔一阶属性]
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "头盔一阶防御", "头盔一阶气血", "头盔一阶力量", "头盔一阶敏捷", "头盔一阶体质", "头盔一阶灵力", "头盔一阶所有属性" })
+
+[衣服一阶属性]
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "衣服一阶防御", "衣服一阶气血", "衣服一阶力量", "衣服一阶敏捷", "衣服一阶体质", "衣服一阶灵力", "衣服一阶所有属性", "衣服一阶抗金", "衣服一阶抗木", "衣服一阶抗水", "衣服一阶抗火", "衣服一阶抗土", "衣服一阶所有抗性", "衣服一阶所有抗异常" })
+
+[鞋子一阶属性]
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "鞋子一阶防御", "鞋子一阶速度", "鞋子一阶力量", "鞋子一阶敏捷", "鞋子一阶体质", "鞋子一阶灵力", "鞋子一阶所有属性" })
+
+[腰带一阶属性]
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "腰带一阶所有抗性", "腰带一阶所有抗异常", "腰带一阶闪避", "腰带一阶防御", "腰带一阶气血", "腰带一阶灵力", "腰带一阶力量", "腰带一阶敏捷", "腰带一阶体质", "腰带一阶所有属性", "腰带一阶防御", "腰带一阶抗金", "腰带一阶抗木", "腰带一阶抗水", "腰带一阶抗火", "腰带一阶抗土" })
+
+
+[武器一阶敏捷]
+name:黄水晶
+upgrade_type : 1
+attribs : ({ "prop/dex", 48,"min_req_level",180,"max_req_level",189, "extra_desc",#B黄水晶品质：蓝 })
+
+[腰带一阶气血]
+name:黄水晶
+upgrade_type : 7
+attribs : ({ "prop/max_life", 13000,"min_req_level",180,"max_req_level",189, "extra_desc",#B黄水晶品质：蓝 })
+
+[腰带一阶防御]
+name:黄水晶
+upgrade_type : 7
+attribs : ({ "prop/def", 5200,"min_req_level",180,"max_req_level",189, "extra_desc",#B黄水晶品质：蓝 })
+
+[腰带一阶闪避]
+name:黄水晶
+upgrade_type : 7
+attribs : ({ "prop/base_dodge", 250,"min_req_level",180,"max_req_level",189, "extra_desc",#B黄水晶品质：蓝 })
+
+
+[腰带一阶所有抗异常]
+name:黄水晶
+upgrade_type : 7
+attribs : ({ "prop/all_resist_except", 17,"min_req_level",180,"max_req_level",189, "extra_desc",#B黄水晶品质：蓝 })
+
+[腰带一阶所有抗性]
+name:黄水晶
+upgrade_type : 7
+attribs : ({ "prop/all_resist_polar", 17,"min_req_level",180,"max_req_level",189, "extra_desc",#B黄水晶品质：蓝 })
+
+
+[腰带一阶抗金]
+name:黄水晶
+upgrade_type : 7
+attribs : ({ "prop/resist_metal", 17,"min_req_level",180,"max_req_level",189, "extra_desc",#B黄水晶品质：蓝 })
+
+[腰带一阶抗木]
+name:黄水晶
+upgrade_type : 7
+attribs : ({ "prop/resist_wood", 17,"min_req_level",180,"max_req_level",189, "extra_desc",#B黄水晶品质：蓝 })
+
+[腰带一阶抗水]
+name:黄水晶
+upgrade_type : 7
+attribs : ({ "prop/resist_water", 17,"min_req_level",180,"max_req_level",189, "extra_desc",#B黄水晶品质：蓝 })
+
+[腰带一阶抗火]
+name:黄水晶
+upgrade_type : 7
+attribs : ({ "prop/resist_fire", 17,"min_req_level",180,"max_req_level",189, "extra_desc",#B黄水晶品质：蓝 })
+
+[腰带一阶抗土]
+name:黄水晶
+upgrade_type : 7
+attribs : ({ "prop/resist_earth", 17,"min_req_level",180,"max_req_level",189, "extra_desc",#B黄水晶品质：蓝 })
+
+
+[腰带一阶力量]
+name:黄水晶
+upgrade_type : 7
+attribs : ({ "prop/str", 48,"min_req_level",180,"max_req_level",189, "extra_desc",#B黄水晶品质：蓝 })
+
+[腰带一阶敏捷]
+name:黄水晶
+upgrade_type : 7
+attribs : ({ "prop/dex", 48,"min_req_level",180,"max_req_level",189, "extra_desc",#B黄水晶品质：蓝 })
+
+[腰带一阶体质]
+name:黄水晶
+upgrade_type : 7
+attribs : ({ "prop/con", 48,"min_req_level",180,"max_req_level",189, "extra_desc",#B黄水晶品质：蓝 })
+
+[腰带一阶灵力]
+name:黄水晶
+upgrade_type : 7
+attribs : ({ "prop/wiz", 48,"min_req_level",180,"max_req_level",189, "extra_desc",#B黄水晶品质：蓝 })
+
+[腰带一阶所有属性]
+name:黄水晶
+upgrade_type : 7
+attribs : ({ "prop/all_attrib", 40,"min_req_level",180,"max_req_level",189, "extra_desc",#B黄水晶品质：蓝 })
+
+[武器一阶所有技能]
+name:黄水晶
+upgrade_type : 1
+attribs : ({ "prop/all_skill", 12,"min_req_level",180,"max_req_level",189, "extra_desc",#B黄水晶品质：蓝 })
+
+[武器一阶忽视所有抗性]
+name:黄水晶
+upgrade_type : 1
+attribs : ({ "prop/ignore_all_resist_polar", 22,"min_req_level",180,"max_req_level",189, "extra_desc",#B黄水晶品质：蓝 })
+
+[武器一阶忽视所有抗异常]
+name:黄水晶
+upgrade_type : 1
+attribs : ({ "prop/ignore_all_resist_except", 22,"min_req_level",180,"max_req_level",189, "extra_desc",#B黄水晶品质：蓝 })
+
+
+[武器一阶伤害]
+name:黄水晶
+upgrade_type : 1
+attribs : ({ "prop/phy_power", 7400,"min_req_level",180,"max_req_level",189, "extra_desc",#B黄水晶品质：蓝 })
+
+[武器一阶金相性]
+name:黄水晶
+upgrade_type : 1
+attribs : ({ "prop/metal", 6,"min_req_level",180,"max_req_level",189, "extra_desc",#B黄水晶品质：蓝 })
+
+[武器一阶木相性]
+name:黄水晶
+upgrade_type : 1
+attribs : ({ "prop/wood", 6,"min_req_level",180,"max_req_level",189, "extra_desc",#B黄水晶品质：蓝 })
+
+[武器一阶水相性]
+name:黄水晶
+upgrade_type : 1
+attribs : ({ "prop/water", 6,"min_req_level",180,"max_req_level",189, "extra_desc",#B黄水晶品质：蓝 })
+
+[武器一阶火相性]
+name:黄水晶
+upgrade_type : 1
+attribs : ({ "prop/fire", 6,"min_req_level",180,"max_req_level",189, "extra_desc",#B黄水晶品质：蓝 })
+
+[武器一阶土相性]
+name:黄水晶
+upgrade_type : 1
+attribs : ({ "prop/earth", 6,"min_req_level",180,"max_req_level",189, "extra_desc",#B黄水晶品质：蓝 })
+
+[武器一阶所有相性]
+name:黄水晶
+upgrade_type : 1
+attribs : ({ "prop/all_polar", 6,"min_req_level",180,"max_req_level",189, "extra_desc",#B黄水晶品质：蓝 })
+
+
+
+
+
+
+
+[头盔一阶防御]
+name:黄水晶
+upgrade_type : 2
+attribs : ({ "prop/def", 2800,"min_req_level",180,"max_req_level",189, "extra_desc",#B黄水晶品质：蓝 })
+
+[头盔一阶气血]
+name:黄水晶
+upgrade_type : 2
+attribs : ({ "prop/max_life", 8000,"min_req_level",180,"max_req_level",189, "extra_desc",#B黄水晶品质：蓝 })
+
+[头盔一阶力量]
+name:黄水晶
+upgrade_type : 2
+attribs : ({ "prop/str", 48,"min_req_level",180,"max_req_level",189, "extra_desc",#B黄水晶品质：蓝 })
+
+[头盔一阶敏捷]
+name:黄水晶
+upgrade_type : 2
+attribs : ({ "prop/dex", 48,"min_req_level",180,"max_req_level",189, "extra_desc",#B黄水晶品质：蓝 })
+
+[头盔一阶体质]
+name:黄水晶
+upgrade_type : 2
+attribs : ({ "prop/con", 48,"min_req_level",180,"max_req_level",189, "extra_desc",#B黄水晶品质：蓝 })
+
+[头盔一阶灵力]
+name:黄水晶
+upgrade_type : 2
+attribs : ({ "prop/wiz", 48,"min_req_level",180,"max_req_level",189, "extra_desc",#B黄水晶品质：蓝 })
+
+[头盔一阶所有属性]
+name:黄水晶
+upgrade_type : 2
+attribs : ({ "prop/all_attrib", 40,"min_req_level",180,"max_req_level",189, "extra_desc",#B黄水晶品质：蓝 })
+
+
+
+[衣服一阶所有抗异常]
+name:黄水晶
+upgrade_type : 3
+attribs : ({ "prop/all_resist_except", 17,"min_req_level",180,"max_req_level",189, "extra_desc",#B黄水晶品质：蓝 })
+
+[衣服一阶所有抗性]
+name:黄水晶
+upgrade_type : 3
+attribs : ({ "prop/all_resist_polar", 17,"min_req_level",180,"max_req_level",189, "extra_desc",#B黄水晶品质：蓝 })
+
+[衣服一阶抗金]
+name:黄水晶
+upgrade_type : 3
+attribs : ({ "prop/resist_metal", 17,"min_req_level",180,"max_req_level",189, "extra_desc",#B黄水晶品质：蓝 })
+
+[衣服一阶抗木]
+name:黄水晶
+upgrade_type : 3
+attribs : ({ "prop/resist_wood", 17,"min_req_level",180,"max_req_level",189, "extra_desc",#B黄水晶品质：蓝 })
+
+[衣服一阶抗水]
+name:黄水晶
+upgrade_type : 3
+attribs : ({ "prop/resist_water", 17,"min_req_level",180,"max_req_level",189, "extra_desc",#B黄水晶品质：蓝 })
+
+[衣服一阶抗火]
+name:黄水晶
+upgrade_type : 3
+attribs : ({ "prop/resist_fire", 17,"min_req_level",180,"max_req_level",189, "extra_desc",#B黄水晶品质：蓝 })
+
+[衣服一阶抗土]
+name:黄水晶
+upgrade_type : 3
+attribs : ({ "prop/resist_earth", 17,"min_req_level",180,"max_req_level",189, "extra_desc",#B黄水晶品质：蓝 })
+
+[衣服一阶防御]
+name:黄水晶
+upgrade_type : 3
+attribs : ({ "prop/def", 5200,"min_req_level",180,"max_req_level",189,#B黄水晶品质：蓝 })
+
+[衣服一阶气血]
+name:黄水晶
+upgrade_type : 3
+attribs : ({ "prop/max_life", 13000,"min_req_level",180,"max_req_level",189,#B黄水晶品质：蓝 })
+
+[衣服一阶力量]
+name:黄水晶
+upgrade_type : 3
+attribs : ({ "prop/str", 48,"min_req_level",180,"max_req_level",189, "extra_desc",#B黄水晶品质：蓝 })
+
+[衣服一阶敏捷]
+name:黄水晶
+upgrade_type : 3
+attribs : ({ "prop/dex", 48,"min_req_level",180,"max_req_level",189, "extra_desc",#B黄水晶品质：蓝 })
+
+[衣服一阶体质]
+name:黄水晶
+upgrade_type : 3
+attribs : ({ "prop/con", 48,"min_req_level",180,"max_req_level",189, "extra_desc",#B黄水晶品质：蓝 })
+
+[衣服一阶灵力]
+name:黄水晶
+upgrade_type : 3
+attribs : ({ "prop/wiz", 48,"min_req_level",180,"max_req_level",189, "extra_desc",#B黄水晶品质：蓝 })
+
+[衣服一阶所有属性]
+name:黄水晶
+upgrade_type : 3
+attribs : ({ "prop/all_attrib", 40,"min_req_level",180,"max_req_level",189, "extra_desc",#B黄水晶品质：蓝 })
+
+
+[鞋子一阶力量]
+name:黄水晶
+upgrade_type : 10
+attribs : ({ "prop/str", 48,"min_req_level",180,"max_req_level",189, "extra_desc",#B黄水晶品质：蓝 })
+
+[鞋子一阶敏捷]
+name:黄水晶
+upgrade_type : 10
+attribs : ({ "prop/dex", 48,"min_req_level",180,"max_req_level",189, "extra_desc",#B黄水晶品质：蓝 })
+
+[鞋子一阶体质]
+name:黄水晶
+upgrade_type : 10
+attribs : ({ "prop/con", 48,"min_req_level",180,"max_req_level",189, "extra_desc",#B黄水晶品质：蓝 })
+
+[鞋子一阶灵力]
+name:黄水晶
+upgrade_type : 10
+attribs : ({ "prop/wiz", 48,"min_req_level",180,"max_req_level",189, "extra_desc",#B黄水晶品质：蓝 })
+
+[鞋子一阶所有属性]
+name:黄水晶
+upgrade_type : 10
+attribs : ({ "prop/all_attrib", 40,"min_req_level",180,"max_req_level",189, "extra_desc",#B黄水晶品质：蓝 })
+
+[鞋子一阶速度]
+name:黄水晶
+upgrade_type : 10
+attribs : ({ "prop/speed", 260,"min_req_level",180,"max_req_level",189, "extra_desc",#B黄水晶品质：蓝 })
+
+[鞋子一阶防御]
+name:黄水晶
+upgrade_type : 10
+attribs : ({ "prop/def", 2800,"min_req_level",180,"max_req_level",189, "extra_desc",#B黄水晶品质：蓝 })

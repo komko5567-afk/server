@@ -1,0 +1,32 @@
+#FORM2
+#zhuangb.list
+#create by caijz 09/22/2706
+#奖励物品        概率
+
+
+[奖励等级]
+name$: 末等奖
+
+[末等奖]
+指定变异 : 3000
+
+
+[指定变异]
+bonus$:  ({ 0, 0, 100, "宠物", 1, 1, "指定宠物"})
+
+
+[指定宠物]
+name$: ({ 净坛使者, 净坛使者 })
+rank$: 元灵
+level: 1
+life_effect: ({ 70, 70 })
+mana_effect: ({ -30, -30 })
+speed_effect: ({ 45, 45 })
+phy_effect: ({ 110, 110 })
+mag_effect: ({ -55, -55 })
+special_skill$: ({ 3, 乾坤罩, 1, 游说之舌, 1, 神圣之光, 1})
+channel_msg : "恭喜#R$PLAYER#n开启#G锁麟囊·净坛使者#n时获得#Y$EX_PET#n宠物，#L特此公告！"
+
+
+
+

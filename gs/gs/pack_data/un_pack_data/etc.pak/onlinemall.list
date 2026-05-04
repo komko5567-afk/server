@@ -1,0 +1,2550 @@
+#FORM2
+
+#[124132]:  括号中为条形码
+#for_sale:    是否出售(1出售,0不出售)
+#show_pos:    显示位置
+#coin:        元宝价格
+#coin_type:   1表示只有金元宝都可以买，3表示金银都能买，2表示只有银元宝能买
+#recommend:   是否为推荐道具
+#name:        必须为物品的导入名称（不能是显示名称）
+
+#可选配置——配置商城道具描述
+#mall_desc : "\n#W#l#Yxxx#Wxxxx\n#W#l#Yxxx#Wxxxx\n#W#l#Yxxx#Wxxxx\n#W#l#Yxxx#wxxxx\n#W#l#Yxxx#Wxxxx"
+#xxx分别为："使用效果："、"适用等级："、"使用方法："、"配合玩法："、"最佳组合："
+#xxxx为：各自对应的描述
+
+##################道具类型对应表####################
+[道具类型对应表]
+推荐专区 : 1
+练功道具 : 2
+功能道具 : 3
+装备打造 : 4
+宠物坐骑 : 5
+时装 : 6
+铭牌 : 7
+
+[show_pos_map]
+推荐专区$ : "T00000000"
+推荐专区$ : "T00000001"
+推荐专区$ : "T00000002"
+推荐专区$ : "T00000003"
+推荐专区$ : "T00000004"
+推荐专区$ : "T00000005"
+推荐专区$ : "T00000006"
+推荐专区$ : "T00000007"
+推荐专区$ : "T00000008"
+推荐专区$ : "T00000009"
+推荐专区$ : "T00000010"
+推荐专区$ : "T00000011"
+推荐专区$ : "T00000012"
+推荐专区$ : "T00000013"
+推荐专区$ : "T00000014"
+推荐专区$ : "T00000015"
+推荐专区$ : "T00000016"
+推荐专区$ : "T00000017"
+推荐专区$ : "T00000018"
+推荐专区$ : "T00000019"
+推荐专区$ : "T00000020"
+推荐专区$ : "T00000021"
+推荐专区$ : "T00000022"
+推荐专区$ : "T00000023"
+推荐专区$ : "T00000024"
+推荐专区$ : "T00000025"
+推荐专区$ : "T00000026"
+推荐专区$ : "T00000027"
+推荐专区$ : "T00000028"
+推荐专区$ : "T00000029"
+推荐专区$ : "T00000030"
+推荐专区$ : "T00000031"
+推荐专区$ : "T00000032"
+推荐专区$ : "T00000033"
+推荐专区$ : "T00000034"
+推荐专区$ : "T00000035"
+推荐专区$ : "T00000036"
+推荐专区$ : "T00000037"
+推荐专区$ : "T00000038"
+推荐专区$ : "T00000039"
+推荐专区$ : "T00000040"
+推荐专区$ : "T00000041"
+推荐专区$ : "T00000042"
+推荐专区$ : "T00000043"
+推荐专区$ : "T00000044"
+推荐专区$ : "T00000045"
+推荐专区$ : "T00000046"
+推荐专区$ : "T00000047"
+推荐专区$ : "T00000048"
+推荐专区$ : "T00000049"
+推荐专区$ : "T00000050"
+推荐专区$ : "T00000051"
+推荐专区$ : "T00000052"
+推荐专区$ : "T00000053"
+推荐专区$ : "T00000054"
+推荐专区$ : "T00000055"
+推荐专区$ : "T00000056"
+推荐专区$ : "T00000057"
+推荐专区$ : "T00000058"
+推荐专区$ : "T00000059"
+推荐专区$ : "T00000060"
+推荐专区$ : "T00000061"
+练功道具$ : "L00000000"
+练功道具$ : "L00000001"
+练功道具$ : "L00000002"
+练功道具$ : "L00000003"
+练功道具$ : "L00000004"
+练功道具$ : "L00000005"
+练功道具$ : "L00000006"
+练功道具$ : "L00000007"
+练功道具$ : "L00000008"
+练功道具$ : "L00000009"
+练功道具$ : "L00000010"
+练功道具$ : "L00000011"
+练功道具$ : "L00000012"
+练功道具$ : "L00000013"
+练功道具$ : "L00000014"
+练功道具$ : "L00000015"
+练功道具$ : "L00000016"
+练功道具$ : "L00000017"
+练功道具$ : "L00000018"
+练功道具$ : "L00000019"
+练功道具$ : "L00000020"
+练功道具$ : "L00000021"
+练功道具$ : "L00000022"
+练功道具$ : "L00000023"
+练功道具$ : "L00000024"
+练功道具$ : "L00000025"
+练功道具$ : "L00000026"
+练功道具$ : "L00000027"
+练功道具$ : "L00000028"
+练功道具$ : "L00000029"
+练功道具$ : "L00000030"
+练功道具$ : "L00000031"
+练功道具$ : "L00000032"
+练功道具$ : "L00000033"
+练功道具$ : "L00000034"
+练功道具$ : "L00000035"
+练功道具$ : "L00000036"
+练功道具$ : "L00000037"
+练功道具$ : "L00000038"
+练功道具$ : "L00000039"
+练功道具$ : "L00000040"
+练功道具$ : "L00000041"
+练功道具$ : "L00000042"
+练功道具$ : "L00000043"
+练功道具$ : "L00000044"
+练功道具$ : "L00000045"
+练功道具$ : "L00000046"
+练功道具$ : "L00000047"
+练功道具$ : "L00000048"
+练功道具$ : "L00000049"
+练功道具$ : "L00000050"
+练功道具$ : "L00000051"
+练功道具$ : "L00000052"
+练功道具$ : "L00000053"
+练功道具$ : "L00000054"
+功能道具$ : "G00000000"
+功能道具$ : "G00000001"
+功能道具$ : "G00000002"
+功能道具$ : "G00000003"
+功能道具$ : "G00000004"
+功能道具$ : "G00000005"
+功能道具$ : "G00000006"
+功能道具$ : "G00000007"
+功能道具$ : "G00000008"
+功能道具$ : "G00000009"
+功能道具$ : "G00000010"
+功能道具$ : "G00000011"
+功能道具$ : "G00000012"
+功能道具$ : "G00000013"
+功能道具$ : "G00000014"
+功能道具$ : "G00000015"
+功能道具$ : "G00000016"
+功能道具$ : "G00000017"
+功能道具$ : "G00000018"
+功能道具$ : "G00000019"
+功能道具$ : "G00000020"
+功能道具$ : "G00000021"
+功能道具$ : "G00000022"
+功能道具$ : "G00000023"
+功能道具$ : "G00000024"
+功能道具$ : "G00000025"
+功能道具$ : "G00000026"
+功能道具$ : "G00000027"
+功能道具$ : "G00000028"
+功能道具$ : "G00000029"
+功能道具$ : "G00000030"
+功能道具$ : "G00000031"
+功能道具$ : "G00000032"
+功能道具$ : "G00000033"
+功能道具$ : "G00000034"
+功能道具$ : "G00000035"
+功能道具$ : "G00000036"
+功能道具$ : "G00000037"
+功能道具$ : "G00000038"
+功能道具$ : "G00000039"
+功能道具$ : "G00000040"
+功能道具$ : "G00000041"
+功能道具$ : "G00000042"
+功能道具$ : "G00000043"
+功能道具$ : "G00000044"
+功能道具$ : "G00000045"
+功能道具$ : "G00000046"
+功能道具$ : "G00000047"
+功能道具$ : "G00000048"
+功能道具$ : "G00000049"
+功能道具$ : "G00000050"
+功能道具$ : "G00000051"
+功能道具$ : "G00000052"
+功能道具$ : "G00000053"
+功能道具$ : "G00000054"
+功能道具$ : "G00000055"
+装备打造$ : "E00000000"
+装备打造$ : "E00000001"
+装备打造$ : "E00000002"
+装备打造$ : "E00000003"
+装备打造$ : "E00000004"
+装备打造$ : "E00000005"
+装备打造$ : "E00000006"
+装备打造$ : "E00000007"
+装备打造$ : "E00000008"
+装备打造$ : "E00000009"
+装备打造$ : "E00000010"
+装备打造$ : "E00000011"
+装备打造$ : "E00000012"
+装备打造$ : "E00000013"
+装备打造$ : "E00000014"
+装备打造$ : "E00000015"
+装备打造$ : "E00000016"
+装备打造$ : "E00000017"
+装备打造$ : "E00000018"
+装备打造$ : "E00000019"
+装备打造$ : "E00000020"
+装备打造$ : "E00000021"
+装备打造$ : "E00000022"
+装备打造$ : "E00000023"
+装备打造$ : "E00000024"
+装备打造$ : "E00000025"
+装备打造$ : "E00000026"
+装备打造$ : "E00000027"
+装备打造$ : "E00000028"
+装备打造$ : "E00000029"
+装备打造$ : "E00000030"
+装备打造$ : "E00000031"
+装备打造$ : "E00000032"
+装备打造$ : "E00000033"
+装备打造$ : "E00000034"
+装备打造$ : "E00000035"
+装备打造$ : "E00000036"
+装备打造$ : "E00000037"
+装备打造$ : "E00000038"
+装备打造$ : "E00000039"
+装备打造$ : "E00000040"
+装备打造$ : "E00000041"
+装备打造$ : "E00000042"
+装备打造$ : "E00000043"
+装备打造$ : "E00000044"
+装备打造$ : "E00000045"
+装备打造$ : "E00000046"
+装备打造$ : "E00000047"
+装备打造$ : "E00000048"
+装备打造$ : "E00000049"
+装备打造$ : "E00000050"
+装备打造$ : "E00000051"
+装备打造$ : "E00000052"
+装备打造$ : "E00000053"
+装备打造$ : "E00000054"
+装备打造$ : "E00000055"
+装备打造$ : "E00000056"
+宠物坐骑$ : "F00000000"
+宠物坐骑$ : "F00000001"
+宠物坐骑$ : "F00000002"
+宠物坐骑$ : "F00000003"
+宠物坐骑$ : "F00000004"
+宠物坐骑$ : "F00000005"
+宠物坐骑$ : "F00000006"
+宠物坐骑$ : "F00000007"
+宠物坐骑$ : "F00000008"
+宠物坐骑$ : "F00000009"
+宠物坐骑$ : "F00000010"
+宠物坐骑$ : "F00000011"
+宠物坐骑$ : "F00000012"
+宠物坐骑$ : "F00000013"
+宠物坐骑$ : "F00000014"
+宠物坐骑$ : "F00000015"
+宠物坐骑$ : "F00000016"
+宠物坐骑$ : "F00000017"
+宠物坐骑$ : "F00000018"
+宠物坐骑$ : "F00000019"
+宠物坐骑$ : "F00000020"
+宠物坐骑$ : "F00000021"
+宠物坐骑$ : "F00000022"
+宠物坐骑$ : "F00000023"
+宠物坐骑$ : "F00000024"
+宠物坐骑$ : "F00000025"
+宠物坐骑$ : "F00000026"
+宠物坐骑$ : "F00000027"
+宠物坐骑$ : "F00000028"
+宠物坐骑$ : "F00000029"
+宠物坐骑$ : "F00000030"
+宠物坐骑$ : "F00000031"
+宠物坐骑$ : "F00000032"
+宠物坐骑$ : "F00000033"
+宠物坐骑$ : "F00000034"
+宠物坐骑$ : "F00000035"
+宠物坐骑$ : "F00000036"
+宠物坐骑$ : "F00000037"
+宠物坐骑$ : "F00000038"
+宠物坐骑$ : "F00000039"
+宠物坐骑$ : "F00000040"
+宠物坐骑$ : "F00000041"
+宠物坐骑$ : "F00000042"
+宠物坐骑$ : "F00000043"
+宠物坐骑$ : "F00000044"
+宠物坐骑$ : "F00000045"
+宠物坐骑$ : "F00000046"
+宠物坐骑$ : "F00000047"
+宠物坐骑$ : "F00000048"
+宠物坐骑$ : "F00000049"
+宠物坐骑$ : "F00000050"
+宠物坐骑$ : "F00000051"
+宠物坐骑$ : "F00000052"
+宠物坐骑$ : "F00000053"
+宠物坐骑$ : "F00000054"
+时装$ : "H00000000"
+时装$ : "H00000001"
+时装$ : "H00000002"
+时装$ : "H00000003"
+时装$ : "H00000004"
+时装$ : "H00000005"
+时装$ : "H00000006"
+时装$ : "H00000007"
+时装$ : "H00000008"
+时装$ : "H00000009"
+时装$ : "H00000010"
+时装$ : "H00000011"
+时装$ : "H00000012"
+时装$ : "H00000013"
+时装$ : "H00000014"
+时装$ : "H00000015"
+时装$ : "H00000016"
+时装$ : "H00000017"
+时装$ : "H00000018"
+时装$ : "H00000019"
+时装$ : "H00000020"
+时装$ : "H00000021"
+时装$ : "H00000022"
+时装$ : "H00000023"
+时装$ : "H00000024"
+时装$ : "H00000025"
+时装$ : "H00000026"
+时装$ : "H00000027"
+时装$ : "H00000028"
+时装$ : "H00000029"
+时装$ : "H00000030"
+时装$ : "H00000031"
+时装$ : "H00000032"
+时装$ : "H00000033"
+时装$ : "H00000034"
+时装$ : "H00000035"
+时装$ : "H00000036"
+时装$ : "H00000037"
+时装$ : "H00000038"
+时装$ : "H00000039"
+时装$ : "H00000040"
+时装$ : "H00000041"
+时装$ : "H00000042"
+时装$ : "H00000043"
+时装$ : "H00000044"
+时装$ : "H00000045"
+时装$ : "H00000046"
+时装$ : "H00000047"
+时装$ : "H00000048"
+时装$ : "H00000049"
+时装$ : "H00000050"
+时装$ : "H00000051"
+时装$ : "H00000052"
+时装$ : "H00000053"
+时装$ : "H00000054"
+时装$ : "H00000055"
+时装$ : "H00000056"
+时装$ : "H00000057"
+时装$ : "H00000058"
+时装$ : "H00000059"
+时装$ : "H00000060"
+时装$ : "H00000061"
+时装$ : "H00000062"
+时装$ : "H00000063"
+时装$ : "H00000064"
+时装$ : "H00000065"
+时装$ : "H00000066"
+时装$ : "H00000067"
+时装$ : "H00000068"
+时装$ : "H00000069"
+时装$ : "H00000070"
+铭牌$ : "M00000000"
+铭牌$ : "M00000001"
+铭牌$ : "M00000002"
+铭牌$ : "M00000003"
+铭牌$ : "M00000004"
+铭牌$ : "M00000005"
+铭牌$ : "M00000006"
+铭牌$ : "M00000007"
+铭牌$ : "M00000008"
+铭牌$ : "M00000009"
+铭牌$ : "M00000010"
+铭牌$ : "M00000011"
+铭牌$ : "M00000012"
+铭牌$ : "M00000013"
+铭牌$ : "M00000014"
+铭牌$ : "M00000015"
+铭牌$ : "M00000016"
+铭牌$ : "M00000017"
+铭牌$ : "M00000018"
+铭牌$ : "M00000019"
+
+
+####################推荐专区########################
+[T00000001]
+name: "130级天然金装备"
+for_sale: 1
+coin: 1000
+coin_type: 1
+level : 130
+recommend: 推荐专区
+
+[T00000002]
+name: "130级天然木装备"
+for_sale: 1
+coin: 1000
+coin_type: 1
+level : 130
+recommend: 推荐专区
+
+[T00000003]
+name: "130级天然水装备"
+for_sale: 1
+coin: 1000
+coin_type: 1
+level : 130
+recommend: 推荐专区
+
+[T00000004]
+name: "130级天然火装备"
+for_sale: 1
+coin: 1000
+coin_type: 1
+level : 130
+recommend: 推荐专区
+
+[T00000005]
+name: "130级天然土装备"
+for_sale: 1
+coin: 1000
+coin_type: 1
+level : 130
+recommend: 推荐专区
+
+[T00000006]
+name: "130级满属性黑水晶"
+for_sale: 1
+coin: 1000
+coin_type: 1
+level : 130
+recommend: 推荐专区
+
+
+[T00000007]
+name: "130级满属封印装备"
+for_sale: 1
+coin: 1000
+coin_type: 1
+level : 130
+recommend: 推荐专区
+
+
+[T00000008]
+name : "六级镶嵌令"
+for_sale : 1
+coin: 1000
+coin_type: 1
+level : 6
+recommend: 推荐专区
+
+[T00000009]
+name : "7级装备改造令"
+for_sale : 1
+coin: 1000
+coin_type: 1
+level : 7
+recommend: 推荐专区
+
+[T00000010]
+name: "等级继承宠"
+for_sale: 1
+coin: 1000
+coin_type: 1
+level : 100
+recommend: 推荐专区
+
+[T00000011]
+name: "满级继承宠"
+for_sale: 1
+coin: 1000
+coin_type: 1
+level : 204
+recommend: 推荐专区
+
+[T00000012]
+name: "常用道具礼包"
+for_sale: 1
+coin: 10000
+coin_type: 1
+recommend: 推荐专区
+
+[T00000013]
+name: "便携御天梭"
+for_sale: 1
+coin: 1
+coin_type: 1
+recommend: 推荐专区
+
+[T00000014]
+name: "人物潜能"
+for_sale: 1
+coin: 1000
+coin_type: 1
+recommend: 推荐专区
+
+[T00000015]
+name: "宠物经验"
+for_sale: 1
+coin: 1000
+coin_type: 1
+recommend: 推荐专区
+
+[T00000016]
+name: "娃娃经验"
+for_sale: 1
+coin: 1000
+coin_type: 1
+recommend: 推荐专区
+
+[T00000017]
+name: "宠物天技礼包"
+for_sale: 1
+coin: 1000
+coin_type: 1
+recommend: 推荐专区
+
+[T00000018]
+name: "青木"
+for_sale: 1
+coin: 1000
+coin_type: 1
+level : 100
+recommend: 推荐专区
+
+[T00000019]
+name : "青木"
+for_sale : 1
+coin: 1000
+coin_type : 1
+level : 246
+recommend: 推荐专区
+
+[T00000020]
+name : "青木"
+for_sale : 1
+coin: 1000
+coin_type : 1
+level : 326
+recommend: 推荐专区
+
+[T00000021]
+name : "变异精魄"
+for_sale : 1
+coin: 100000
+coin_type : 1
+recommend: 推荐专区
+
+[T00000022]
+name : "紫微命格卡"
+for_sale : 1
+coin: 1
+coin_type : 1
+recommend: 推荐专区
+
+[T00000023]
+name : "金元宝包裹"
+for_sale : 1
+coin: 10000
+coin_type : 1
+recommend: 推荐专区
+
+[T00000024]
+name : "七宝金莲"
+for_sale : 1
+coin: 10000
+coin_type : 1
+recommend: 推荐专区
+
+[T00000025]
+name : "乾坤尺"
+for_sale : 1
+coin: 10000
+coin_type : 1
+recommend: 推荐专区
+
+
+[T00000026]
+name : "清净琉璃瓶"
+for_sale : 1
+coin: 10000
+coin_type : 1
+recommend: 推荐专区
+
+[T00000027]
+name : "龙虎如意"
+for_sale : 1
+coin: 10000
+coin_type : 1
+recommend: 推荐专区
+
+[T00000028]
+name : "混元幡"
+for_sale : 1
+coin: 10000
+coin_type : 1
+recommend: 推荐专区
+
+[T00000029]
+name : "道具套餐卡"
+for_sale : 1
+coin: 68000
+coin_type: 2
+recommend: 推荐专区
+
+[T00000030]
+name : "特级藏宝图礼包"
+for_sale : 1
+coin: 300000
+coin_type: 2
+recommend: 推荐专区
+
+[T00000031]
+name : "改头换面卡"
+for_sale : 1
+coin: 1000000
+coin_type: 2
+recommend: 推荐专区
+
+[T00000032]
+name : "180天年费会员卡"
+for_sale : 1
+coin: 1000
+coin_type: 1
+recommend: 推荐专区
+
+[T00000033]
+name : "140黑水【全套】"
+for_sale: 1
+coin: 1000
+coin_type: 1
+level : 140
+recommend: 推荐专区
+
+[T00000034]
+name : "150黑水【全套】"
+for_sale: 1
+coin: 1000
+coin_type: 1
+level : 150
+recommend: 推荐专区
+
+[T00000035]
+name : "160黑水【全套】"
+for_sale: 1
+coin: 1000
+coin_type: 1
+level : 160
+recommend: 推荐专区
+
+[T00000036]
+name : "170黑水【全套】"
+for_sale: 1
+coin: 1000
+coin_type: 1
+level : 170
+recommend: 推荐专区
+
+[T00000037]
+name : "大粑粑"
+for_sale: 1
+coin: 1000
+coin_type: 1
+level : 170
+recommend: 推荐专区
+
+####################练功道具########################
+[L00000000]
+name: "特效仙风散"
+for_sale: 1
+coin: 1
+coin_type: 1
+recommend: 练功道具
+
+[L00000001]
+name: "超级仙风散"
+for_sale: 1
+coin: 1
+coin_type: 1
+recommend: 练功道具
+
+[L00000002]
+name: "宠风散"
+for_sale: 1
+coin: 1
+coin_type: 1
+recommend: 练功道具
+
+[L00000003]
+name: "急急如律令"
+for_sale: 1
+coin: 1
+coin_type: 1
+recommend: 练功道具
+
+[L00000004]
+name: "惊妖铃"
+for_sale: 1
+coin: 1
+coin_type: 1
+recommend: 练功道具
+
+[L00000005]
+name: "止妖铃"
+for_sale: 1
+coin: 1
+coin_type: 1
+recommend: 练功道具
+
+[L00000006]
+name: "引路蜂"
+for_sale: 1
+coin: 1
+coin_type: 1
+recommend: 练功道具
+
+[L00000007]
+name: "驯兽诀"
+for_sale: 1
+coin: 108
+coin_type: 1
+recommend: 练功道具
+
+[L00000008]
+name: "高级驯兽诀"
+for_sale: 1
+coin: 1
+coin_type: 1
+recommend: 练功道具
+
+[L00000009]
+name: "飞行符"
+for_sale: 1
+coin: 1
+coin_type: 1
+recommend: 练功道具
+
+[L00000010]
+name: "特级血玲珑"
+for_sale: 1
+coin: 1600
+coin_type: 1
+recommend: 练功道具
+
+[L00000011]
+name: "特级法玲珑"
+for_sale: 1
+coin: 1
+coin_type: 1
+recommend: 练功道具
+
+[L00000017]
+name: "高级血池"
+for_sale: 1
+coin: 1
+coin_type: 1
+recommend: 练功道具
+
+[L00000018]
+name: "高级灵池"
+for_sale: 1
+coin: 1
+coin_type: 1
+recommend: 练功道具
+
+[L00000019]
+name: "血池"
+for_sale: 1
+coin: 1
+coin_type: 1
+recommend: 练功道具
+
+[L00000020]
+name: "灵池"
+for_sale: 1
+coin: 1
+coin_type: 1
+recommend: 练功道具
+
+[L00000023]
+name: "天神护佑"
+for_sale: 1
+coin: 1
+coin_type: 1
+recommend: 练功道具
+
+[L00000024]
+name: "金蝉脱壳"
+for_sale: 1
+coin: 1
+coin_type: 1
+recommend: 练功道具
+
+[L00000025]
+name: "无量1心经"
+for_sale: 1
+coin: 216
+coin_type: 1
+recommend: 练功道具
+
+[L00000026]
+name: "神木鼎"
+for_sale: 1
+coin: 1
+coin_type: 1
+recommend: 练功道具
+
+[L00000027]
+name: "天技召唤卡"
+for_sale: 1
+coin: 1
+coin_type: 1
+recommend: 练功道具
+
+[L00000028]
+name: "炼魂丹"
+for_sale: 1
+coin: 1
+coin_type: 1
+recommend: 练功道具
+
+[L00000029]
+name: "天道神符"
+for_sale: 1
+coin: 1000
+coin_type: 1
+recommend: 练功道具
+
+[L00000030]
+name: "八卦神符"
+for_sale: 1
+coin: 1
+coin_type: 1
+recommend: 练功道具
+
+[L00000031]
+name: "五雷令"
+for_sale: 1
+coin: 1
+coin_type: 1
+recommend: 练功道具
+
+[L00000034]
+name: "特效仙风丹"
+for_sale: 1
+coin: 32472
+coin_type: 1
+recommend: 练功道具
+
+[L00000035]
+name: "超级仙风丹"
+for_sale: 1
+coin: 10692
+coin_type: 1
+recommend: 练功道具
+
+[L00000036]
+name: "宠风丹"
+for_sale: 1
+coin: 21384
+coin_type: 1
+recommend: 练功道具
+
+[L00000037]
+name: "高级如意战斗令"
+for_sale: 1
+coin: 21384
+coin_type: 1
+recommend: 练功道具
+
+[L00000038]
+name: "紫气鸿蒙"
+for_sale: 1
+coin: 418
+coin_type: 1
+recommend: 练功道具
+
+####################功能道具########################
+
+[G00000002]
+name: "超级八卦阴阳令"
+for_sale: 1
+coin: 109
+coin_type: 1
+recommend: 功能道具
+
+[G00000003]
+name: "易经洗髓丹"
+for_sale: 1
+coin: 216
+coin_type: 1
+recommend: 功能道具
+
+[G00000004]
+name: "五行合缘露"
+for_sale: 1
+coin: 1
+coin_type: 1
+recommend: 功能道具
+
+[G00000005]
+name: "仙魔散"
+for_sale: 1
+coin: 1
+coin_type: 1
+recommend: 功能道具
+
+[G00000006]
+name: "火眼金睛"
+for_sale: 1
+coin: 216
+coin_type: 1
+recommend: 功能道具
+
+[G00000007]
+name: "强力驱魔香"
+for_sale: 1
+coin: 108
+coin_type: 1
+recommend: 功能道具
+
+[G00000008]
+name: "经营许可证"
+for_sale: 1
+coin: 1
+coin_type: 1
+recommend: 功能道具
+
+[G00000009]
+name: "仙灵卡"
+for_sale: 1
+coin: 216
+coin_type: 1
+recommend: 功能道具
+
+[G00000010]
+name: "老1酒"
+for_sale: 1
+coin: 50
+coin_type: 1
+recommend: 功能道具
+
+[G00000011]
+name: "卡套"
+for_sale: 1
+coin: 1000
+coin_type: 1
+recommend: 功能道具
+need_apply_log : 1
+
+[G00000012]
+name: "情缘盒"
+for_sale: 1
+coin: 108
+coin_type: 1
+recommend: 功能道具
+
+[G00000013]
+name : "图案摆放卡"
+for_sale : 1
+coin: 1
+coin_type: 1
+recommend: 功能道具
+
+[G00000014]
+name: "烟花1筒"
+for_sale: 1
+coin: 108
+coin_type: 1
+recommend: 功能道具
+
+[G00000015]
+name: "定时烟花"
+for_sale: 1
+coin: 216
+coin_type: 1
+recommend: 功能道具
+
+[G00000017]
+name: "离线摆1摊卡"
+for_sale: 1
+coin: 108
+coin_type: 1
+recommend: 功能道具
+
+[G00000018]
+name: "鲜花卡"
+for_sale: 1
+coin: 50
+coin_type: 1
+recommend: 功能道具
+
+[G00000019]
+name: "水果卡"
+for_sale: 1
+coin: 50
+coin_type: 1
+recommend: 功能道具
+
+[G00000020]
+name: "BOSS卡"
+for_sale: 1
+coin: 108
+coin_type: 1
+recommend: 功能道具
+
+[G00000021]
+name: "改头换1面卡"
+for_sale: 1
+coin: 18000
+coin_type: 1
+recommend: 功能道具
+
+[G00000022]
+name: "锦囊"
+for_sale: 1
+coin: 50
+coin_type: 1
+recommend: 功能道具
+
+[G00000023]
+name: "老酒"
+for_sale: 1
+coin: 50
+coin_type: 1
+recommend: 功能道具
+
+[G00000024]
+name: "丹药盒"
+for_sale: 1
+coin: 50
+coin_type: 1
+recommend: 功能道具
+
+[G00000025]
+name: "材料箱"
+for_sale: 1
+coin: 50
+coin_type: 1
+recommend: 功能道具
+
+[G00000026]
+name: "钥1匙串"
+for_sale: 1
+coin: 108
+coin_type: 1
+recommend: 功能道具
+
+[G00000027]
+name: "工匠宝箱"
+for_sale: 1
+coin: 108
+coin_type: 1
+recommend: 功能道具
+
+[G00000028]
+name : "特级八卦阴阳令"
+for_sale : 1
+coin: 1
+coin_type: 1
+recommend: 功能道具
+
+[G00000029]
+name : "喇叭"
+for_sale : 1
+coin: 1
+coin_type: 1
+recommend: 功能道具
+
+[G00000030]
+name : "自动摆摊1卡"
+for_sale : 1
+coin: 216
+coin_type: 1
+recommend: 功能道具
+
+[G00000031]
+name : "秘笈合成卡"
+for_sale : 1
+coin: 1000
+coin_type: 1
+recommend: 功能道具
+
+[G00000032]
+name : "易经洗髓便捷卡"
+for_sale : 1
+coin: 1
+coin_type: 1
+recommend: 功能道具
+
+[G00000033]
+name : "兽魂便捷卡"
+for_sale : 1
+coin: 1
+coin_type: 1
+recommend: 功能道具
+
+[G00000034]
+name : "风灵便捷卡"
+for_sale : 1
+coin: 1
+coin_type: 1
+recommend: 功能道具
+
+[G00000035]
+name: 果仁糖葫芦
+for_sale: 1
+coin: 216
+coin_type: 1
+recommend: 功能道具
+
+[G00000036]
+name: 纸鸢
+for_sale: 1
+coin: 216
+coin_type: 1
+recommend: 功能道具
+
+[G00000037]
+name: 糖浆
+for_sale: 1
+coin: 108
+coin_type: 1
+recommend: 功能道具
+
+[G00000038]
+name: 宝宝圣水
+for_sale: 1
+coin: 216
+coin_type: 1
+recommend: 功能道具
+
+[G00000039]
+name: "百变盒"
+for_sale: 1
+coin: 50
+coin_type: 1
+recommend: 功能道具
+
+[G00000040]
+name: "元气丹"
+for_sale: 1
+coin: 108
+coin_type: 1
+recommend: 功能道具
+
+[G00000041]
+name : "新手勋章"
+for_sale : 1
+coin: 1
+coin_type: 1
+recommend: 功能道具
+
+[G00000042]
+name : "紫檀百宝笔筒"
+for_sale : 1
+coin: 1
+coin_type: 1
+recommend: 功能道具
+
+[G00000043]
+name : "超值家具礼包·幽雅小居"
+for_sale : 1
+coin: 3999
+coin_type: 1
+recommend: 功能道具
+
+[G00000044]
+name : "超值家具礼包·豪华居所"
+for_sale : 1
+coin: 6999
+coin_type: 1
+recommend: 功能道具
+
+[G00000045]
+name : "超值家具礼包·花园别墅"
+for_sale : 1
+coin: 9999
+coin_type: 1
+recommend: 功能道具
+
+[G00000046]
+name : "豪华家具礼包·翡翠庄园"
+for_sale : 1
+coin: 12999
+coin_type: 1
+recommend: 功能道具
+
+####################装备打造########################
+[E00000000]
+name: "超级绿水晶"
+for_sale: 1
+coin: 1
+coin_type: 3
+recommend: 装备打造
+
+[E00000001]
+name: "圣水晶"
+for_sale: 1
+coin: 1
+coin_type: 3
+recommend: 装备打造
+
+[E00000002]
+name: "超级圣水晶"
+for_sale: 1
+coin: 1
+coin_type: 3
+recommend: 装备打造
+
+[E00000003]
+name: "超级黑水晶"
+for_sale: 1
+coin: 328
+coin_type: 3
+recommend: 装备打造
+
+[E00000004]
+name: "绿水晶"
+for_sale: 1
+coin: 1
+coin_type: 3
+recommend: 装备打造
+
+[E00000005]
+name: "粉水晶"
+for_sale: 1
+coin: 328
+coin_type: 3
+recommend: 装备打造
+
+[E00000006]
+name: "黄水晶"
+for_sale: 1
+coin: 1
+coin_type: 3
+recommend: 装备打造
+
+[E00000007]
+name: "天换石"
+for_sale: 1
+coin: 328
+coin_type: 3
+recommend: 装备打造
+
+[E00000008]
+name: "混沌玉"
+for_sale: 1
+coin: 1
+coin_type: 3
+recommend: 装备打造
+
+[E00000009]
+name: "封印石"
+for_sale: 1
+coin: 328
+coin_type: 3
+recommend: 装备打造
+
+[E00000010]
+name: "灵晶盒"
+for_sale: 1
+coin: 1
+coin_type: 3
+recommend: 装备打造
+
+[E00000011]
+name: "超级灵石"
+for_sale: 1
+coin: 398
+coin_type: 3
+recommend: 装备打造
+
+[E00000012]
+name: "超级晶石"
+for_sale: 1
+coin: 1
+coin_type: 3
+recommend: 装备打造
+
+[E00000013]
+name: "气象石"
+for_sale: 1
+coin: 1
+coin_type: 3
+recommend: 装备打造
+
+[E00000015]
+name: "装备共鸣石"
+for_sale: 1
+coin: 328
+coin_type: 3
+recommend: 装备打造
+
+[E00000016]
+name: "符文宝石·羊脂1玉"
+for_sale: 1
+coin: 328
+coin_type: 3
+level : 2
+recommend: 装备打造
+
+[E00000017]
+name: "符文宝石·蓝玉1髓"
+for_sale: 1
+coin: 328
+coin_type: 3
+level : 2
+recommend: 装备打造
+
+[E00000018]
+name: "符文宝石·红玛1瑙"
+for_sale: 1
+coin: 328
+coin_type: 3
+level : 2
+recommend: 装备打造
+
+[E00000019]
+name: "符文宝石·黄龙1石"
+for_sale: 1
+coin: 328
+coin_type: 3
+level : 2
+recommend: 装备打造
+
+[E00000020]
+name: "符文宝石·祖母1绿"
+for_sale: 1
+coin: 328
+coin_type: 3
+level : 2
+recommend: 装备打造
+
+[E00000021]
+name: "符文宝石·紫袍1玉"
+for_sale: 1
+coin: 328
+coin_type: 3
+level : 2
+recommend: 装备打造
+
+[E00000022]
+name : "天1空石"
+for_sale : 1
+coin: 3000
+coin_type: 3
+recommend: 装备打造
+
+[E00000023]
+name : "天星石"
+for_sale : 1
+coin: 10
+coin_type: 3
+recommend: 装备打造
+
+[E00000024]
+name : "娃娃装备合成石"
+for_sale : 1
+coin: 100
+coin_type: 3
+recommend: 装备打造
+
+[E00000036]
+name: "娃娃装备百宝箱"
+for_sale: 1
+coin: 108
+coin_type: 3
+recommend: 装备打造
+
+[E00000037]
+name: "娃娃秘1笈宝箱"
+for_sale: 1
+coin: 1
+coin_type: 3
+recommend: 装备打造
+
+[E00000038]
+name: "闭月双环"
+for_sale: 1
+coin: 1
+coin_type: 3
+recommend: 装备打造
+
+[E00000039]
+name: "一阶引灵幡"
+for_sale: 1
+coin: 1
+coin_type: 3
+recommend: 装备打造
+
+[E00000040]
+name: "二阶引灵幡"
+for_sale: 1
+coin: 1
+coin_type: 3
+recommend: 装备打造
+
+[E00000041]
+name: "三阶引灵幡"
+for_sale: 1
+coin: 1
+coin_type: 3
+recommend: 装备打造
+
+[E00000042]
+name: "四阶引灵幡"
+for_sale: 1
+coin: 1
+coin_type: 3
+recommend: 装备打造
+
+[E00000043]
+name: "番天印"
+for_sale: 1
+coin: 1000
+coin_type: 1
+level : 1
+recommend: 装备打造
+
+[E00000044]
+name: "混沌钟"
+for_sale: 1
+coin: 1000
+coin_type: 1
+level : 1
+recommend: 装备打造
+
+[E00000045]
+name: "混元金斗"
+for_sale: 1
+coin: 1000
+coin_type: 1
+level : 1
+recommend: 装备打造
+
+[E00000046]
+name: "金蛟剪"
+for_sale: 1
+coin: 1000
+coin_type: 1
+level : 1
+recommend: 装备打造
+
+[E00000047]
+name: "定海珠"
+for_sale: 1
+coin: 1000
+coin_type: 1
+level : 1
+recommend: 装备打造
+
+[E00000048]
+name: "卸甲金葫"
+for_sale: 1
+coin: 1000
+coin_type: 1
+level : 1
+recommend: 装备打造
+
+[E00000049]
+name: "九龙神火罩"
+for_sale: 1
+coin: 1000
+coin_type: 1
+level : 1
+recommend: 装备打造
+
+[E00000050]
+name: "阴阳镜"
+for_sale: 1
+coin: 1000
+coin_type: 1
+level : 1
+recommend: 装备打造
+
+[E00000051]
+name: "七宝妙树"
+for_sale: 1
+coin: 1000
+coin_type: 1
+level : 1
+recommend: 装备打造
+
+[E00000052]
+name: "十二品莲台"
+for_sale: 1
+coin: 1000
+coin_type: 1
+level : 1
+recommend: 装备打造
+
+
+
+####################宠物坐骑########################
+
+[F00000000]
+name: "水韵剑"
+mount_type : 1
+coin_type  : 1
+for_sale: 1
+coin: 5000
+recommend: 宠物坐骑
+
+[F00000001]
+name: "圣檀剑"
+mount_type : 1
+coin_type  : 1
+for_sale: 1
+coin: 2000
+recommend: 宠物坐骑
+
+[F00000002]
+name: "仙阳剑"
+mount_type : 1
+coin_type  : 1
+for_sale: 1
+coin: 1000
+recommend: 宠物坐骑
+
+[F00000003]
+name: "幻鹿"
+mount_type : 1
+coin_type  : 1
+for_sale: 1
+coin: 7500
+recommend: 宠物坐骑
+
+[F00000004]
+name: "雅鹿"
+mount_type : 1
+coin_type  : 1
+for_sale: 1
+coin: 3000
+recommend: 宠物坐骑
+
+[F00000005]
+name: "云鹿"
+mount_type : 1
+coin_type  : 1
+for_sale: 1
+coin: 1200
+recommend: 宠物坐骑
+
+[F00000006]
+name: "水晶豹"
+mount_type : 1
+coin_type  : 1
+for_sale: 1
+coin: 5000
+recommend: 宠物坐骑
+
+[F00000007]
+name: "凌岩豹"
+mount_type : 1
+coin_type  : 1
+for_sale: 1
+coin: 2000
+recommend: 宠物坐骑
+
+[F00000008]
+name: "雪豹"
+mount_type : 1
+coin_type  : 1
+for_sale: 1
+coin: 1000
+recommend: 宠物坐骑
+
+[F00000009]
+name: "赤锦熊"
+mount_type : 1
+coin_type  : 1
+for_sale: 1
+coin: 10
+recommend: 宠物坐骑
+
+[F00000010]
+name: "棕茸熊"
+mount_type : 1
+coin_type  : 1
+for_sale: 1
+coin: 3000
+recommend: 宠物坐骑
+
+[F00000011]
+name: "赤焰葫芦"
+mount_type : 1
+coin_type  : 1
+for_sale: 1
+coin: 5000
+recommend: 宠物坐骑
+
+[F00000012]
+name: "紫藤葫芦"
+mount_type : 1
+coin_type  : 1
+for_sale: 1
+coin: 2000
+recommend: 宠物坐骑
+
+[F00000013]
+name: "灵葫芦"
+mount_type : 1
+coin_type  : 1
+for_sale: 1
+coin: 1000
+recommend: 宠物坐骑
+
+[F00000018]
+name: "灵物囊"
+for_sale: 1
+coin: 398
+coin_type: 3
+recommend: 宠物坐骑
+
+[F00000019]
+name: "御灵1粮袋"
+for_sale: 1
+coin: 1000
+coin_type: 3
+recommend: 宠物坐骑
+
+[F00000022]
+name: "风灵丸"
+for_sale: 1
+coin: 418
+coin_type: 3
+recommend: 宠物坐骑
+
+[F00000025]
+name: "超级归元露"
+for_sale: 1
+coin: 216
+coin_type: 3
+recommend: 宠物坐骑
+
+[F00000026]
+name: "天书"
+for_sale: 1
+coin: 318
+coin_type: 3
+recommend: 宠物坐骑
+
+[F00000027]
+name: "兽魂散"
+for_sale: 1
+coin: 108
+coin_type: 3
+recommend: 宠物坐骑
+
+[F00000028]
+name: "兽灵散"
+for_sale: 1
+coin: 108
+coin_type: 3
+recommend: 宠物坐骑
+
+[F00000029]
+name: "超级神1兽丹"
+for_sale: 1
+coin: 108
+coin_type: 3
+recommend: 宠物坐骑
+
+[F00000030]
+name : "点化丹"
+for_sale : 1
+coin: 1
+coin_type: 3
+recommend: 宠物坐骑
+
+[F00000031]
+name: "羽化丹"
+for_sale: 1
+coin: 1
+coin_type: 3
+recommend: 宠物坐骑
+
+[F00000032]
+name: "宠物顿悟丹"
+for_sale: 1
+coin: 1
+coin_type: 3
+recommend: 宠物坐骑
+
+[F00000033]
+name : "宠物成长丹"
+for_sale : 1
+coin: 1
+coin_type: 3
+recommend: 宠物坐骑
+
+[F00000034]
+name : "兽魂便捷卡"
+for_sale : 1
+coin: 1
+coin_type: 3
+recommend: 宠物坐骑
+
+[F00000035]
+name: "御魂·孔雀翎"
+for_sale: 1
+coin: 2666
+coin_type: 3
+recommend: 宠物坐骑
+
+[F00000036]
+name: "御魂·轩辕神剑"
+for_sale: 1
+coin: 3666
+coin_type: 3
+recommend: 宠物坐骑
+
+[F00000037]
+name: "御魂·霸天玉瑶"
+for_sale: 1
+coin: 4666
+coin_type: 3
+recommend: 宠物坐骑
+
+[F00000038]
+name: "御魂·九天玄龟"
+for_sale: 1
+coin: 5666
+coin_type: 3
+recommend: 宠物坐骑
+
+[F00000039]
+name: "御魂·烛龙降世"
+for_sale: 1
+coin: 1
+coin_type: 3
+recommend: 宠物坐骑
+
+[F00000040]
+name: "超级天书"
+for_sale: 1
+coin: 1800
+coin_type: 3
+recommend: 宠物坐骑
+
+[F00000041]
+name: "天技召唤卡"
+for_sale: 1
+coin: 1
+coin_type: 3
+recommend: 宠物坐骑
+
+[F00000042]
+name: "梦荷"
+for_sale: 1
+coin: 1
+coin_type: 3
+recommend: 宠物坐骑
+
+[F00000043]
+name: "特级点化丹"
+for_sale: 1
+coin: 1
+coin_type: 3
+recommend: 宠物坐骑
+
+[F00000044]
+name: "特级归元露"
+for_sale: 1
+coin: 1
+coin_type: 3
+recommend: 宠物坐骑
+
+[F00000045]
+name: "特级羽化丹"
+for_sale: 1
+coin: 1
+coin_type: 3
+recommend: 宠物坐骑
+
+[F00000046]
+name: "心法宝典"
+for_sale: 1
+coin: 1
+coin_type: 3
+recommend: 宠物坐骑
+
+[F00000047]
+name: "特级心法宝典"
+for_sale: 1
+coin: 1
+coin_type: 3
+recommend: 宠物坐骑
+
+[F00000048]
+name: "太极熊幻化笔"
+for_sale: 1
+coin: 1
+coin_type: 1
+recommend: 宠物坐骑
+
+[F00000049]
+name: "翠灵剑幻化笔"
+for_sale: 1
+coin: 1
+coin_type: 1
+recommend: 宠物坐骑
+
+
+####################时装########################
+
+[H00000001]
+name : "幻兽玦"
+for_sale : 1
+coin: 6888
+coin_type : 3
+recommend : 时装
+detail_info : 1
+
+[H00000002]
+name : "绫罗幻形镜"
+for_sale : 1
+coin: 6888
+coin_type : 3
+recommend : 时装
+limit_day : 90
+detail_info : 1
+
+[H00000003]
+name : "猴子·时装"
+for_sale : 1
+coin: 6888
+coin_type : 3
+recommend : 时装
+limit_day : 90
+detail_info : 1
+
+[H00000004]
+name : "金头陀·时装"
+for_sale : 1
+coin: 6888
+coin_type : 3
+recommend : 时装
+limit_day : 90
+detail_info : 1
+
+[H00000005]
+name : "云兽·时装"
+for_sale : 1
+coin: 6888
+coin_type : 3
+recommend : 时装
+limit_day : 90
+detail_info : 1
+
+[H00000006]
+name : "剑魂·时装"
+for_sale : 1
+coin: 6888
+coin_type : 3
+recommend : 时装
+limit_day : 90
+detail_info : 1
+
+[H00000007]
+name : "齐天大圣时装"
+for_sale : 1
+coin: 6888
+coin_type : 3
+recommend : 时装
+limit_day : 90
+detail_info : 1
+
+[H00000008]
+name : "蛇环云裳·男"
+for_sale : 1
+coin: 6888
+coin_type : 3
+recommend : 时装
+limit_day : 90
+detail_info : 1
+
+[H00000009]
+name : "蛇环云裳·女"
+for_sale : 1
+coin: 6888
+coin_type : 3
+recommend : 时装
+limit_day : 90
+detail_info : 1
+
+[H00000010]
+name : "鹊影霜华·男"
+for_sale : 1
+coin: 6888
+coin_type : 3
+recommend : 时装
+limit_day : 90
+detail_info : 1
+
+[H00000011]
+name : "鹊影霜华·女"
+for_sale : 1
+coin: 6888
+coin_type : 3
+recommend : 时装
+limit_day : 90
+detail_info : 1
+
+[H00000012]
+name : "神农战魂时装·男"
+for_sale : 1
+coin: 6888
+coin_type : 3
+recommend : 时装
+limit_day : 90
+detail_info : 1
+
+[H00000013]
+name : "神农战魂时装·女"
+for_sale : 1
+coin: 6888
+coin_type : 3
+recommend : 时装
+limit_day : 90
+detail_info : 1
+
+[H00000014]
+name : "皇帝的新装"
+for_sale : 1
+coin: 6888
+coin_type : 3
+recommend : 时装
+limit_day : 90
+detail_info : 1
+
+[H00000015]
+name : "武圣·男"
+for_sale : 1
+coin: 6888
+coin_type : 3
+recommend : 时装
+limit_day : 90
+detail_info : 1
+
+[H00000016]
+name : "洛神·女"
+for_sale : 1
+coin: 6888
+coin_type : 3
+recommend : 时装
+limit_day : 90
+detail_info : 1
+
+[H00000017]
+name : "荷影清涟套装·男"
+for_sale : 1
+coin: 6888
+coin_type : 3
+recommend : 时装
+limit_day : 90
+detail_info : 1
+
+[H00000018]
+name : "荷影清涟套装·女"
+for_sale : 1
+coin: 6888
+coin_type : 3
+recommend : 时装
+limit_day : 90
+detail_info : 1
+
+[H00000019]
+name : "福缘滚滚套装·男"
+for_sale : 1
+coin: 6888
+coin_type : 3
+recommend : 时装
+limit_day : 90
+detail_info : 1
+
+[H00000020]
+name : "福缘滚滚套装·女"
+for_sale : 1
+coin: 6888
+coin_type : 3
+recommend : 时装
+limit_day : 90
+detail_info : 1
+
+[H00000021]
+name : "春意鸢飞套装·男"
+for_sale : 1
+coin: 6888
+coin_type : 3
+recommend : 时装
+limit_day : 90
+detail_info : 1
+
+[H00000022]
+name : "春意鸢飞套装·女"
+for_sale : 1
+coin: 6888
+coin_type : 3
+recommend : 时装
+limit_day : 90
+detail_info : 1
+
+[H00000023]
+name : "招财纳福套装·男"
+for_sale : 1
+coin: 6888
+coin_type : 3
+recommend : 时装
+limit_day : 90
+detail_info : 1
+
+[H00000024]
+name : "招财纳福套装·女"
+for_sale : 1
+coin: 6888
+coin_type : 3
+recommend : 时装
+limit_day : 90
+detail_info : 1
+
+[H00000025]
+name : "殷商君王套装·男"
+for_sale : 1
+coin: 6888
+coin_type : 3
+recommend : 时装
+limit_day : 90
+detail_info : 1
+
+[H00000026]
+name : "乱世妖妃套装·女"
+for_sale : 1
+coin: 6888
+coin_type : 3
+recommend : 时装
+limit_day : 90
+detail_info : 1
+
+[H00000027]
+name : "梨园绮梦套装·男"
+for_sale : 1
+coin: 6888
+coin_type : 3
+recommend : 时装
+limit_day : 90
+detail_info : 1
+
+[H00000028]
+name : "梨园绮梦套装·女"
+for_sale : 1
+coin: 6888
+coin_type : 3
+recommend : 时装
+limit_day : 90
+detail_info : 1
+
+[H00000029]
+name : "龙吟天下套装·男"
+for_sale : 1
+coin: 6888
+coin_type : 3
+recommend : 时装
+limit_day : 90
+detail_info : 1
+
+[H00000030]
+name : "龙吟天下套装·女"
+for_sale : 1
+coin: 6888
+coin_type : 3
+recommend : 时装
+limit_day : 90
+detail_info : 1
+
+[H00000031]
+name : "锦绣龙鲤套装·男"
+for_sale : 1
+coin: 6888
+coin_type : 3
+recommend : 时装
+limit_day : 90
+detail_info : 1
+
+[H00000032]
+name : "锦绣龙鲤套装·女"
+for_sale : 1
+coin: 1
+coin_type : 3
+recommend : 时装
+limit_day : 90
+detail_info : 1
+
+[H00000033]
+name : "降妖伏魔套装·男"
+for_sale : 1
+coin: 1
+coin_type : 3
+recommend : 时装
+limit_day : 90
+detail_info : 1
+
+[H00000034]
+name : "降妖伏魔套装·女"
+for_sale : 1
+coin: 1
+coin_type : 3
+recommend : 时装
+limit_day : 90
+detail_info : 1
+
+[H00000035]
+name : "王者风范套装·男"
+for_sale : 1
+coin: 1
+coin_type : 3
+recommend : 时装
+limit_day : 90
+detail_info : 1
+
+[H00000036]
+name : "王者风范套装·女"
+for_sale : 1
+coin: 6888
+coin_type : 3
+recommend : 时装
+limit_day : 90
+detail_info : 1
+
+[H00000037]
+name : "龙腾贺岁套装·男"
+for_sale : 1
+coin: 6888
+coin_type : 3
+recommend : 时装
+limit_day : 90
+detail_info : 1
+
+[H00000038]
+name : "龙腾贺岁套装·女"
+for_sale : 1
+coin: 6888
+coin_type : 3
+recommend : 时装
+limit_day : 90
+detail_info : 1
+
+[H00000039]
+name : "锦瑟华年套装·男"
+for_sale : 1
+coin: 1
+coin_type : 3
+recommend : 时装
+limit_day : 90
+detail_info : 1
+
+[H00000040]
+name : "锦瑟华年套装·女"
+for_sale : 1
+coin: 6888
+coin_type : 3
+recommend : 时装
+limit_day : 90
+detail_info : 1
+
+[H00000041]
+name : "雀羽惊鸿套装·男"
+for_sale : 1
+coin: 6888
+coin_type : 3
+recommend : 时装
+limit_day : 90
+detail_info : 1
+
+[H00000042]
+name : "月下飞天套装·女"
+for_sale : 1
+coin: 6888
+coin_type : 3
+recommend : 时装
+limit_day : 90
+detail_info : 1
+
+[H00000043]
+name : "龙吟九霄套装·男"
+for_sale : 1
+coin: 6888
+coin_type : 3
+recommend : 时装
+limit_day : 90
+detail_info : 1
+
+[H00000044]
+name : "仙霭莲裳套装·女"
+for_sale : 1
+coin: 6888
+coin_type : 3
+recommend : 时装
+limit_day : 90
+detail_info : 1
+
+[H00000045]
+name : "繁华盛世套装·男"
+for_sale : 1
+coin: 6888
+coin_type : 3
+recommend : 时装
+limit_day : 90
+detail_info : 1
+
+[H00000046]
+name : "繁华盛世套装·女"
+for_sale : 1
+coin: 6888
+coin_type : 3
+recommend : 时装
+limit_day : 90
+detail_info : 1
+
+[H00000047]
+name : "傲雪霜梅套装·男"
+for_sale : 1
+coin: 6888
+coin_type : 3
+recommend : 时装
+limit_day : 90
+detail_info : 1
+
+[H00000048]
+name : "傲雪霜梅套装·女"
+for_sale : 1
+coin: 6888
+coin_type : 3
+recommend : 时装
+limit_day : 90
+detail_info : 1
+
+[H00000049]
+name : "纵横域外套装·男"
+for_sale : 1
+coin: 6888
+coin_type : 3
+recommend : 时装
+limit_day : 90
+detail_info : 1
+
+[H00000050]
+name : "纵横域外套装·女"
+for_sale : 1
+coin: 6888
+coin_type : 3
+recommend : 时装
+limit_day : 90
+detail_info : 1
+
+[H00000051]
+name : "福兔贺喜套装·男"
+for_sale : 1
+coin: 6888
+coin_type : 3
+recommend : 时装
+limit_day : 90
+detail_info : 1
+
+[H00000052]
+name : "福兔贺喜套装·女"
+for_sale : 1
+coin: 6888
+coin_type : 3
+recommend : 时装
+limit_day : 90
+detail_info : 1
+
+[H00000053]
+name : "掠影夺魂套装·男"
+for_sale : 1
+coin: 6888
+coin_type : 3
+recommend : 时装
+limit_day : 90
+detail_info : 1
+
+[H00000054]
+name : "掠影夺魂套装·女"
+for_sale : 1
+coin: 6888
+coin_type : 3
+recommend : 时装
+limit_day : 90
+detail_info : 1
+
+
+
+[H00000055]
+name : "虎啸生风套装·男"
+for_sale : 1
+coin: 6888
+coin_type : 3
+recommend : 时装
+limit_day : 90
+detail_info : 1
+
+[H00000056]
+name : "虎啸生风套装·女"
+for_sale : 1
+coin: 6888
+coin_type : 3
+recommend : 时装
+limit_day : 90
+detail_info : 1
+
+[H00000057]
+name : "星界神游套装·男"
+for_sale : 1
+coin: 6888
+coin_type : 3
+recommend : 时装
+limit_day : 90
+detail_info : 1
+
+[H00000058]
+name : "星界神游套装·女"
+for_sale : 1
+coin: 6888
+coin_type : 3
+recommend : 时装
+limit_day : 90
+detail_info : 1
+
+[H00000059]
+name : "域外魔魈套装·男"
+for_sale : 1
+coin: 6888
+coin_type : 3
+recommend : 时装
+limit_day : 90
+detail_info : 1
+
+[H00000060]
+name : "域外魔魈套装·女"
+for_sale : 1
+coin: 6888
+coin_type : 3
+recommend : 时装
+limit_day : 90
+detail_info : 1
+
+[H00000061]
+name : "月光幻影套装·男"
+for_sale : 1
+coin: 6888
+coin_type : 3
+recommend : 时装
+limit_day : 90
+detail_info : 1
+
+[H00000062]
+name : "月光幻影套装·女"
+for_sale : 1
+coin: 6888
+coin_type : 3
+recommend : 时装
+limit_day : 90
+detail_info : 1
+
+[H00000063]
+name : "九尾绛雪套装·女"
+for_sale : 1
+coin: 6888
+coin_type : 3
+recommend : 时装
+limit_day : 90
+detail_info : 1
+
+[H00000064]
+name : "九尾绛雪套装·男"
+for_sale : 1
+coin: 6888
+coin_type : 3
+recommend : 时装
+limit_day : 90
+detail_info : 1
+
+####################铭牌########################
+
+[M00000001]
+name : "真灵献瑞铭牌"
+for_sale : 1
+coin: 2888
+coin_type : 3
+recommend : 铭牌
+limit_day : 90
+detail_info : 1
+
+[M00000002]
+name : "巫火燎燃铭牌"
+for_sale : 1
+coin: 2888
+coin_type : 3
+recommend : 铭牌
+limit_day : 90
+detail_info : 1
+
+[M00000003]
+name : "鱼戏莲间铭牌"
+for_sale : 1
+coin: 1
+coin_type : 3
+recommend : 铭牌
+limit_day : 90
+detail_info : 1
+
+[M00000004]
+name : "萌龙赐福铭牌"
+for_sale : 1
+coin: 1
+coin_type : 3
+recommend : 铭牌
+limit_day : 90
+detail_info : 1
+
+[M00000005]
+name : "兽面纹觥铭牌"
+for_sale : 1
+coin: 1
+coin_type : 3
+recommend : 铭牌
+limit_day : 90
+detail_info : 1
+
+[M00000006]
+name : "古木回春铭牌"
+for_sale : 1
+coin: 1
+coin_type : 3
+recommend : 铭牌
+limit_day : 90
+detail_info : 1
+
+[M00000007]
+name : "道法自然铭牌"
+for_sale : 1
+coin: 2888
+coin_type : 3
+recommend : 铭牌
+limit_day : 90
+detail_info : 1
+
+[M00000008]
+name : "梨园绮梦铭牌"
+for_sale : 1
+coin: 2888
+coin_type : 3
+recommend : 铭牌
+limit_day : 90
+detail_info : 1
+
+[M00000009]
+name : "玄苍仙域铭牌"
+for_sale : 1
+coin: 2888
+coin_type : 3
+recommend : 铭牌
+limit_day : 90
+detail_info : 1
+
+[M00000010]
+name : "青春礼赞铭牌"
+for_sale : 1
+coin: 2888
+coin_type : 3
+recommend : 铭牌
+limit_day : 90
+detail_info : 1
+
+[M00000011]
+name : "烽火燃金戈铭牌"
+for_sale : 1
+coin: 2888
+coin_type : 3
+recommend : 铭牌
+limit_day : 90
+detail_info : 1
+
+[M00000012]
+name : "龙吟四海铭牌"
+for_sale : 1
+coin: 2888
+coin_type : 3
+recommend : 铭牌
+limit_day : 90
+detail_info : 1
+
+[M00000013]
+name : "砥砺奋进铭牌"
+for_sale : 1
+coin: 2888
+coin_type : 3
+recommend : 铭牌
+limit_day : 90
+detail_info : 1
+
+[M00000014]
+name : "万里流沙铭牌"
+for_sale : 1
+coin: 2888
+coin_type : 3
+recommend : 铭牌
+limit_day : 90
+detail_info : 1
+
+[M00000015]
+name : "瑶池演武铭牌"
+for_sale : 1
+coin: 2888
+coin_type : 3
+recommend : 铭牌
+limit_day : 90
+detail_info : 1
+
+[M00000016]
+name : "十九华章铭牌"
+for_sale : 1
+coin: 2888
+coin_type : 3
+recommend : 铭牌
+limit_day : 90
+detail_info : 1
+

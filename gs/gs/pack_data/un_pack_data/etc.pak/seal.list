@@ -1,0 +1,108 @@
+#FORM2
+#base_attrib 为1表示生成的属性随机，2表示气血，3表示法力
+#4表示忽视连击，5表示忽视必杀，6表示连击率，7表示必杀率
+#super_obstruct表示强力障碍宠物，obstruct_level为支持的
+#装备最低等级，其他效果目前不支持
+
+
+
+[招财猪]
+base_attrib : 1
+
+[伶俐鼠]
+base_attrib : 1
+
+[笨笨牛]
+base_attrib : 1
+
+[威威虎]
+base_attrib : 1
+
+[跳跳兔]
+base_attrib : 1
+
+[酷酷龙]
+base_attrib : 1
+
+[花花蛇]
+base_attrib : 1
+
+[溜溜马]
+base_attrib : 1
+
+[咩咩羊]
+base_attrib : 1
+
+[帅帅猴]
+base_attrib : 1
+
+[蛋蛋鸡]
+base_attrib : 1
+
+[乖乖狗]
+base_attrib : 1
+
+
+
+
+
+
+[姑射仙子]
+base_attrib : 1
+chase : 1
+chase_level : 60
+
+[疆良]
+base_attrib : 1
+chase : 1
+chase_level : 60
+
+[玄武]
+base_attrib : 1
+super_obstruct : 1
+obstruct_level : 60
+
+[东山神灵]
+base_attrib : 1
+super_obstruct : 1
+obstruct_level : 60
+
+[朱雀]
+base_attrib : 1
+super_obstruct : 1
+obstruct_level : 60
+
+[九尾狐]
+base_attrib : 1
+chase : 1
+chase_level : 60
+
+[嫦娥]
+base_attrib : 1
+super_obstruct : 1
+obstruct_level : 60
+
+[蓐收]
+base_attrib : 1
+super_obstruct : 1
+obstruct_level : 60
+
+[句芒]
+base_attrib : 1
+super_obstruct : 1
+obstruct_level : 60
+
+[玄冥]
+base_attrib : 1
+super_obstruct : 1
+obstruct_level : 60
+
+[祝融]
+base_attrib : 1
+super_obstruct : 1
+obstruct_level : 60
+
+[后土]
+base_attrib : 1
+chase : 1
+chase_level : 60

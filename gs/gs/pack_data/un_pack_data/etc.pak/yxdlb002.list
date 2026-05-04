@@ -1,0 +1,76 @@
+#FORM2
+#zhuangb.list
+#create by caijz 09/22/2706
+#奖励物品        概率
+
+
+[奖励等级]
+name$: 末等奖
+
+[末等奖]
+随机宠物 : 3000
+
+
+[随机宠物]
+bonus$:  ({ 0, 0, 100, "宠物", 1, 1, "鲁道夫", "九霄玄兔", "神机贯勇" })
+
+[北极熊]
+name$: ({北极熊, 北极熊})
+rank$: 精怪
+mount$: 御灵
+level: 60
+enchant_flag : 1
+life_effect: ({ 65, 65 })
+mana_effect: ({ 35, 35 })
+speed_effect: ({ 10, 10 })
+phy_effect: ({ -30, -30 })
+mag_effect: ({ 40, 40 })
+ 
+[翡翠葫芦]
+name$: ({翡翠葫芦, 翡翠葫芦})
+rank$: 精怪
+mount$: 御灵
+level: 60
+enchant_flag : 1
+life_effect: ({ 65, 65 })
+mana_effect: ({ 35, 35 })
+speed_effect: ({ 10, 10 })
+phy_effect: ({ -30, -30 })
+mag_effect: ({ 40, 40 })
+ 
+[九霄玄兔]
+name$: ({九霄玄兔, 九霄玄兔})
+rank$: 精怪
+mount$: 御灵
+level: 60
+enchant_flag : 1
+life_effect: ({ 65, 65 })
+mana_effect: ({ 35, 35 })
+speed_effect: ({ 10, 10 })
+phy_effect: ({ -30, -30 })
+mag_effect: ({ 40, 40 })
+ 
+[神机贯勇]
+name$: ({神机贯勇, 神机贯勇})
+rank$: 精怪
+mount$: 御灵
+level: 60
+enchant_flag : 1
+life_effect: ({ 65, 65 })
+mana_effect: ({ 35, 35 })
+speed_effect: ({ 10, 10 })
+phy_effect: ({ -30, -30 })
+mag_effect: ({ 40, 40 })
+ 
+[鲁道夫]
+name$: ({鲁道夫, 鲁道夫})
+rank$: 精怪
+mount$: 御灵
+level: 60
+enchant_flag : 1
+life_effect: ({ 65, 65 })
+mana_effect: ({ 35, 35 })
+speed_effect: ({ 10, 10 })
+phy_effect: ({ -30, -30 })
+mag_effect: ({ 40, 40 })
+ 

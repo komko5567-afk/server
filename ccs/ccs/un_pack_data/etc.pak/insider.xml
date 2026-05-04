@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="GB2312" ?>
+
+<Root>
+	<ValueUnit>
+		<ViewValue>非会员</ViewValue>
+		<RealValue>0</RealValue>
+	</ValueUnit>
+	<ValueUnit>
+		<ViewValue>会员</ViewValue>
+		<RealValue>1</RealValue>
+	</ValueUnit>
+	<ValueUnit>
+		<ViewValue>非会员 - 血婴</ViewValue>
+		<RealValue>11</RealValue>
+	</ValueUnit>
+	<ValueUnit>
+		<ViewValue>非会员 - 元婴</ViewValue>
+		<RealValue>12</RealValue>
+	</ValueUnit>
+	<ValueUnit>
+		<ViewValue>非会员 - 真身</ViewValue>
+		<RealValue>13</RealValue>
+	</ValueUnit>
+	<ValueUnit>
+		<ViewValue>会员 - 血婴</ViewValue>
+		<RealValue>14</RealValue>
+	</ValueUnit>
+	<ValueUnit>
+		<ViewValue>会员 - 元婴</ViewValue>
+		<RealValue>15</RealValue>
+	</ValueUnit>
+	<ValueUnit>
+		<ViewValue>会员 - 真身</ViewValue>
+		<RealValue>16</RealValue>
+	</ValueUnit>
+</Root>
